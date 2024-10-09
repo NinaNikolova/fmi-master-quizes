@@ -1,5 +1,5 @@
 
-export const quest11 = [
+export const mysql1 = [
   {
     index: 1,
     question: "What does the acronym SQL stand for?",

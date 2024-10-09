@@ -5,13 +5,13 @@ import Result from "../Result";
 import Question from "../Question";
 import { getQuestions } from "../../utils/getQuestions";
 import { calculateResult } from "../../utils/calculateResult";
-import { mysql1 } from "../../data/quiz1";
-import { mysql2 } from "../../data/quiz2";
-import { mysql3 } from "../../data/quiz3";
-import { mysql4 } from "../../data/quiz4";
-import { mysql5 } from "../../data/quiz5";
-import { mysql6 } from "../../data/quiz6";
-import { mysql7 } from "../../data/quiz7";
+import { mysql1 } from "../../data2/quiz1";
+import { mysql2 } from "../../data2/quiz2";
+import { mysql3 } from "../../data2/quiz3";
+import { mysql4 } from "../../data2/quiz4";
+import { mysql5 } from "../../data2/quiz5";
+import { mysql6 } from "../../data2/quiz6";
+import { mysql7 } from "../../data2/quiz7";
 
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
