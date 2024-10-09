@@ -1,0 +1,159 @@
+$primary: #150080;
+$accent: #d08642;
+$bg: #ffffff;
+$bg-accent: #e7e8e9;
+$disabled: #9c9c9c;
+$foreground: #2d264b;
+
+body {
+  font-family: monospace;
+  background: url('./assets/background.jpg');
+  background-size: cover; /* Ensures the image covers the whole viewport */
+  background-position: center; /* Centers the background image */
+  color: $foreground;
+  display: flex;
+  justify-content: center; 
+  margin: 0 auto; /* Reset browser default margins */
+  margin-top: 20px;
+  padding: 20px; /* Add some padding to the body */
+  height: 100vh; /* Take full viewport height */
+  box-sizing: border-box;
+
+}
+
+.quiz-container {
+  width: 90%;
+  max-width: 600px;
+  background: $bg;
+  border-radius: 4px;
+  padding: 20px; /* Add padding inside the container */
+  margin: 0 auto; /* Center the container with auto margin */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  justify-content: center;
+  
+  .active-question-no {
+    font-size: 32px;
+    font-weight: 500;
+    color: $primary;
+    margin: 20px;
+  }
+
+  .total-question {
+    font-size: 16px;
+    font-weight: 500;
+    color: $disabled;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+  }
+
+  ul {
+    margin-top: 20px;
+    margin-left: -20px;
+
+    li {
+      text-decoration: none;
+      list-style: none;
+      color: $foreground;
+      font-size: 16px;
+      background: $bg;
+      border: 1px solid $disabled;
+      border-radius: 16px;
+      padding: 11px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    .selected-answer {
+      background: $primary;
+      border: 1px solid $accent;
+      color: $bg;
+      margin: 0 auto;
+      
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  button {
+    background: linear-gradient(0deg, $primary 0.03%, $accent);
+    border-radius: 9px;
+    font-size: 18px;
+    color: $bg;
+    padding: 10px 42px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+
+    &:disabled {
+      background: $bg-accent;
+      color: $disabled;
+      cursor: not-allowed;
+    }
+  }
+
+  .result {
+    text-align: center;
+
+    h3 {
+      font-size: 24px;
+      letter-spacing: 1.4px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+
+      span {
+        color: $primary;
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+.quiz-selector, .subject-selector {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  font-family: Arial, sans-serif;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-selector label, .subject-selector label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.quiz-selector select, .subject-selector select{
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.quiz-selector select:focus, .subject-selector:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.question-image {
+  width: auto;
+  height: 160px;
+  object-fit: contain; 
+  margin: 10px 0;
+}
