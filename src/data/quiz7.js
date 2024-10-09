@@ -1,4 +1,4 @@
-export const quest7 = [
+export const mysql7 = [
   {
     index: 1,
     question: "What is the purpose of a stored procedure in MySQL?",

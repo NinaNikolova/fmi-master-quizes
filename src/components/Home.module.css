@@ -1,0 +1,64 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Full viewport height */
+    background-color: #f0f4f8;
+    /* Light background color */
+    color: #333;
+    /* Dark text color */
+    font-family: 'Arial', sans-serif;
+    /* Font style */
+}
+
+.home-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.home-nav {
+    background-color: #007bff;
+    /* Blue background for the nav */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 15px 20px;
+    /* Padding around the nav */
+}
+
+.nav-list {
+    list-style-type: none;
+    /* Remove default list styling */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+    display: flex;
+    gap: 15px;
+    /* Space between items */
+}
+
+.nav-item {
+    /* Optional styling for the nav items */
+}
+
+.nav-link {
+    color: white;
+    /* White text for links */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Bold text */
+    transition: background-color 0.3s;
+    /* Smooth background transition */
+    padding: 10px 15px;
+    /* Padding around the link */
+    border-radius: 5px;
+    /* Rounded corners for links */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    /* Light hover effect */
+}

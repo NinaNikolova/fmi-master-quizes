@@ -1,4 +1,4 @@
-export const quest2 = [
+export const mysql2 = [
   {
     index: 1,
     question: "What does CRUD stand for in the context of databases?",

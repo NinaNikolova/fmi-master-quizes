@@ -1,19 +1,19 @@
 export const getQuestions = (selectedQuiz, quizzes) => {
     switch (selectedQuiz) {
-        case 'quest1':
-            return quizzes.quest1;
-        case 'quest2':
-            return quizzes.quest2;
-        case 'quest3':
-            return quizzes.quest3;
-        case 'quest4':
-            return quizzes.quest4;
-        case 'quest5':
-            return quizzes.quest5;
-        case 'quest6':
-            return quizzes.quest6;
-        case 'quest7':
-            return quizzes.quest7;
+        case 'mysql1':
+            return quizzes.mysql1;
+        case 'mysql2':
+            return quizzes.mysql2;
+        case 'mysql3':
+            return quizzes.mysql3;
+        case 'mysql4':
+            return quizzes.mysql4;
+        case 'mysql5':
+            return quizzes.mysql5;
+        case 'mysql6':
+            return quizzes.mysql6;
+        case 'mysql7':
+            return quizzes.mysql7;
         default:
             return [];
     }
