@@ -1,4 +1,4 @@
-export const mysql4 = [
+export const quest4 = [
   {
     index: 1,
     question: "Which SQL function is used to calculate the average value of a numeric column?",

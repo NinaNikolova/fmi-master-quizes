@@ -1,4 +1,4 @@
-export const mysql5 = [
+export const quest5 = [
   {
     index: 1,
     question: "What is a primary key in a MySQL table?",

@@ -5,13 +5,13 @@ import Result from "./Result";
 import Question from "./Question";
 import { getQuestions } from "../utils/getQuestions";
 import { calculateResult } from "../utils/calculateResult";
-import { mysql1 } from "../data/quiz1";
-import { mysql2 } from "../data/quiz2";
-import { mysql3 } from "../data/quiz3";
-import { mysql4 } from "../data/quiz4";
-import { mysql5 } from "../data/quiz5";
-import { mysql6 } from "../data/quiz6";
-import { mysql7 } from "../data/quiz7";
+import { quest1 } from "../data/quiz1";
+import { quest2 } from "../data/quiz2";
+import { quest3 } from "../data/quiz3";
+import { quest4 } from "../data/quiz4";
+import { quest5 } from "../data/quiz5";
+import { quest6 } from "../data/quiz6";
+import { quest7 } from "../data/quiz7";
 
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -19,12 +19,12 @@ const Quiz = () => {
   const [answer, setAnswer] = useState(null);
   const [result, setResult] = useState(resultInitalState);
   const [showResult, setShowResult] = useState(false);
-  const [selectedQuiz, setSelectedQuiz] = useState("mysql1");
-  const [selectedSubject, setSelectedSubject] = useState("MySQL");
+  const [selectedQuiz, setSelectedQuiz] = useState("quest1");
+  const [selectedSubject, setSelectedSubject] = useState("quest");
   const [wrongQuestions, setWrongQuestions] = useState([]);
   const [quizData, setQuizData] = useState(null);
 
-  const questions = getQuestions(selectedQuiz, { mysql1, mysql2, mysql3, mysql4, mysql5, mysql6, mysql7 });
+  const questions = getQuestions(selectedQuiz, { quest1, quest2, quest3, quest4, quest5, quest6, quest7 });
 
 
   const { question, choices, correctAnswer, imageURL } = questions[currentQuestion];
@@ -48,7 +48,7 @@ const Quiz = () => {
   };
   const handleSubjectChange = (event) => {
     setSelectedSubject(event.target.value);
-    setSelectedQuiz("mysql1"); // Reset quiz selection when subject changes
+    setSelectedQuiz("quest1"); // Reset quiz selection when subject changes
   };
 
   const onClickNext = () => {
@@ -74,8 +74,8 @@ const Quiz = () => {
   };
   const loadQuizData = async (subject) => {
     let data;
-    if (subject === "MySQL") {
-      data = await import(`../data/quiz${selectedQuiz.slice(-1)}`); // For MySQL quizzes
+    if (subject === "quest") {
+      data = await import(`../data/quiz${selectedQuiz.slice(-1)}`); // For quest quizzes
     } else if (subject === "Subject2") {
       data = await import(`../data1/quiz${selectedQuiz.slice(-1)}`); // For Subject 2 quizzes
     }
@@ -91,13 +91,13 @@ const Quiz = () => {
 
   return (
     <div className="quiz-container">
-      <h2> {selectedSubject} quiz</h2>
+
       {/* Subject Selector Dropdown */}
       <div className="subject-selector">
-        <label>Select Subject: </label>
+
         <select value={selectedSubject} onChange={handleSubjectChange}>
-          <option value="MySQL">MySQL</option>
-          <option value="Subject2">Subject 2</option>
+          <option value="quest">OO анализ и проектиране на софтуерни с-ми</option>
+          <option value="Subject2">Модели на софтуерни системи</option>
           {/* Add more subjects here */}
         </select>
       </div>
