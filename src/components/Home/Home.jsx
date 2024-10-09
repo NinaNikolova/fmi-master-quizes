@@ -8,7 +8,7 @@ export default function Home() {
             <nav className="home-nav">
                 <ul className="nav-list">
                     <li className="nav-item">
-                        <Link className="nav-link" to="/quiz">Обектно-ориентиран анализ и проектиране на софтуерни системи</Link>
+                        <Link className="nav-link" to="/quiz">Object-Oriented Modeling and Software</Link>
                     </li>
 
                     <li className="nav-item">
