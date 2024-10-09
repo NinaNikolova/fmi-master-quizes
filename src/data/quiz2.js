@@ -217,16 +217,26 @@ export const mysql2 = [
 	},
 	{
 		index: 19,
-		question: "What is NOT a goal of UML?",
+		question: "What are the four levels of UML meta-modeling architecture?",
 		choices: [
-			"To support specifications that are independent on particular programming languages and development processes.",
-			"To provide a formal basis for understanding the modeling language.",
-			"To encourage the growth of the object tools market.",
-			"To support higher-level development concepts such as components, collaborations, frameworks, and patterns.",
-			"Integrate best practices.",
-			"To generate code of software app."
+			"Platform Model, Implementation Model, User Model, and Business Model.",
+			"User Objects, System Model, Meta-Model, and Meta-Meta-Model.",
+			"Conceptual Model, Logical Model, Physical Model, and Meta-Model.",
+			"User Model, Design Model, Code Model, and Deployment Model."
 		],
-		correctAnswer: "To generate code of software app.",
+		correctAnswer: "User Objects, System Model, Meta-Model, and Meta-Meta-Model.",
+		imageURL: null
+	},
+	{
+		index: 20,
+		question: "What is UML?",
+		choices: [
+			"A programming language used for developing distributed systems.",
+			"A specification defining a graphical language for visualizing, specifying, constructing, and documenting the artifacts of distributed object systems.",
+			"A database management system for object-oriented programming.",
+			"A tool for managing software development processes."
+		],
+		correctAnswer: "A specification defining a graphical language for visualizing, specifying, constructing, and documenting the artifacts of distributed object systems.",
 		imageURL: null
 	}
 ];
