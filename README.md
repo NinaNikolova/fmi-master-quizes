@@ -10,4 +10,4 @@ To get started with this project, follow these steps:
 
 ## Live Demo
 
-You can view the live application [here](https://react-quiz-app-gq9s.onrender.com/).
+You can view the live application [here](https://fmi-master-quizes.vercel.app/).
