@@ -10,7 +10,7 @@ export default function Home() {
                     <li className="nav-item">
                         <Link className="nav-link" to="/quiz">
                             <img src="/uml.png" alt="uml" className="nav-icon" />
-                            <span > Object-Oriented Modeling and Software</span>
+                            <span > OO Modeling and Software</span>
 
                         </Link>
                     </li>
