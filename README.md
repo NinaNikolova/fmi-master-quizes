@@ -1,4 +1,4 @@
-# React App with Vite `MySQL quiz`
+# React App with Vite `FMI Master Degree Software Techn. quiz`
 
 ## Installation
 
