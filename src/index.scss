@@ -165,7 +165,7 @@ body {
 .home-link-container {
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   color: green;
 }
 
@@ -195,4 +195,10 @@ body {
 .home-link-container:hover .tooltip {
   visibility: visible;
   opacity: 1; /* Show tooltip on hover */
+}
+.nav-icon {
+  width: 60px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 8px; /* Add space between image and text */
+  vertical-align: middle; /* Align the image vertically */
 }

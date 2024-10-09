@@ -69,7 +69,7 @@ const Quiz = () => {
   return (
     <div className="quiz-container">
       <div className="heading">
-        <h2>MySQL quiz</h2>
+        <h2>Модели на софтуерни системи</h2>
         <HomeLink />
       </div>
       <QuizSelector selectedQuiz={selectedQuiz} handleQuizChange={handleQuizChange} />

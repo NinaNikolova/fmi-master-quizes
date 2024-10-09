@@ -58,7 +58,13 @@
     /* Rounded corners for links */
 }
 
-.nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-    /* Light hover effect */
+.nav-icon {
+    width: 60px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 8px;
+    /* Add space between image and text */
+    vertical-align: middle;
+    /* Align the image vertically */
 }

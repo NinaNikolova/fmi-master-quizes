@@ -2,269 +2,100 @@
 export const mysql1 = [
   {
     index: 1,
-    question: "What does the acronym SQL stand for?",
+    question: "What are formal methods in software engineering?",
     choices: [
-      "Structured Query Language",
-      "System Query Language",
-      "Structured Quick Language",
-      "Sequential Query Language",
+      "Techniques for writing documentation",
+      "Mathematical approaches used to specify and verify software and systems",
+      "Tools for debugging code",
+      "User interface design principles"
     ],
-    correctAnswer: "Structured Query Language",
-    imageURL: null,
+    correctAnswer: "Mathematical approaches used to specify and verify software and systems",
+    imageURL: null
   },
   {
     index: 2,
-    question: "What is the primary purpose of a database?",
+    question: "Which of the following best describes a formal system?",
     choices: [
-      "To organize and manage related information",
-      "To store data indefinitely",
-      "To perform mathematical calculations",
-      "To replace file storage systems",
+      "A set of symbols and rules for manipulating those symbols",
+      "A collection of software libraries",
+      "A programming language for developing applications",
+      "A graphical user interface design"
     ],
-    correctAnswer: "To organize and manage related information",
-    imageURL: null,
+    correctAnswer: "A set of symbols and rules for manipulating those symbols",
+    imageURL: null
   },
   {
     index: 3,
-    question: "Which of the following is not a valid SQL data type?",
+    question: "What is the primary goal of using formal methods?",
     choices: [
-      "VARCHAR",
-      "INT",
-      "BOOLEAN",
-      "ARRAY",
+      "To improve code readability",
+      "To increase the speed of software development",
+      "To ensure correctness and reliability of software systems",
+      "To reduce software licensing costs"
     ],
-    correctAnswer: "ARRAY",
-    imageURL: null,
+    correctAnswer: "To ensure correctness and reliability of software systems",
+    imageURL: null
   },
   {
     index: 4,
-    question: "What command is used to create a new database in MySQL?",
+    question: "Which of the following is a common technique in formal methods?",
     choices: [
-      "CREATE DATABASE",
-      "NEW DATABASE",
-      "ADD DATABASE",
-      "MAKE DATABASE",
+      "Prototyping",
+      "Formal specification",
+      "Agile development",
+      "Pair programming"
     ],
-    correctAnswer: "CREATE DATABASE",
-    imageURL: null,
+    correctAnswer: "Formal specification",
+    imageURL: null
   },
   {
     index: 5,
-    question: "Which data type is used to store large amounts of text in MySQL?",
+    question: "What role do axioms play in a formal system?",
     choices: [
-      "VARCHAR",
-      "INT",
-      "BLOB",
-      "TEXT",
+      "They are assumptions that are accepted without proof",
+      "They represent the final output of a formal proof",
+      "They define the structure of a programming language",
+      "They are examples of incorrect software implementations"
     ],
-    correctAnswer: "TEXT",
-    imageURL: null,
+    correctAnswer: "They are assumptions that are accepted without proof",
+    imageURL: null
   },
   {
     index: 6,
-    question: "What is the maximum length of a VARCHAR in MySQL?",
+    question: "Which of the following is NOT a characteristic of formal methods?",
     choices: [
-      "255 characters",
-      "65535 characters",
-      "1000 characters",
-      "1024 characters",
+      "Precision in specification",
+      "Rigorous verification",
+      "Subjective interpretation",
+      "Mathematical foundation"
     ],
-    correctAnswer: "65535 characters",
-    imageURL: null,
+    correctAnswer: "Subjective interpretation",
+    imageURL: null
   },
   {
     index: 7,
-    question: "What MySQL data type should you use to store a date?",
+    question: "What is a formal proof?",
     choices: [
-      "DATETIME",
-      "TIMESTAMP",
-      "TIME",
-      "DATE",
+      "An informal review of software code",
+      "A logical demonstration that a proposition follows from axioms and previously proven theorems",
+      "A graphical representation of system behavior",
+      "A checklist for software testing"
     ],
-    correctAnswer: "DATE",
-    imageURL: null,
+    correctAnswer: "A logical demonstration that a proposition follows from axioms and previously proven theorems",
+    imageURL: null
   },
   {
     index: 8,
-    question: "Which command is used to remove a table from a MySQL database?",
+    question: "Which formal method is commonly used for specifying and verifying concurrent systems?",
     choices: [
-      "DELETE TABLE",
-      "DROP TABLE",
-      "REMOVE TABLE",
-      "CLEAR TABLE",
+      "B method",
+      "Z notation",
+      "Alloy",
+      "Petri nets"
     ],
-    correctAnswer: "DROP TABLE",
-    imageURL: null,
-  },
-  {
-    index: 9,
-    question: "Which of the following is not a DDL (Data Definition Language) command in MySQL?",
-    choices: [
-      "CREATE",
-      "ALTER",
-      "DROP",
-      "SELECT",
-    ],
-    correctAnswer: "SELECT",
-    imageURL: null,
-  },
-  {
-    index: 10,
-    question: "What is the default port number for MySQL?",
-    choices: [
-      "3306",
-      "8080",
-      "1433",
-      "1521",
-    ],
-    correctAnswer: "3306",
-    imageURL: null,
-  },
-  {
-    index: 11,
-    question: "Which MySQL data type is used to store decimal numbers?",
-    choices: [
-      "FLOAT",
-      "DECIMAL",
-      "DOUBLE",
-      "NUMERIC",
-    ],
-    correctAnswer: "DECIMAL",
-    imageURL: null,
-  },
-  {
-    index: 12,
-    question: "Which section of SQL is used to describe the structure of data?",
-    choices: [
-      "Data Definition",
-      "Data Manipulation",
-      "Data Control",
-      "Transaction Control",
-    ],
-    correctAnswer: "Data Definition",
-    imageURL: null,
-  },
-  {
-    index: 13,
-    question: "Which SQL section allows you to store and retrieve data?",
-    choices: [
-      "Data Manipulation",
-      "Data Definition",
-      "Data Control",
-      "Transaction Control",
-    ],
-    correctAnswer: "Data Manipulation",
-    imageURL: null,
-  },
-  {
-    index: 14,
-    question: "Which SQL statement is used to add a new column to a table?",
-    choices: [
-      "ALTER TABLE ... ADD COLUMN",
-      "INSERT INTO ... COLUMN",
-      "UPDATE TABLE ... ADD",
-      "CREATE COLUMN ... IN TABLE",
-    ],
-    correctAnswer: "ALTER TABLE ... ADD COLUMN",
-    imageURL: null,
-  },
-  {
-    index: 15,
-    question: "What is a foreign key in a database?",
-    choices: [
-      "A key that uniquely identifies a record within a table",
-      "A key that links records in one table to records in another table",
-      "A key used to encrypt data",
-      "A key used to sort data",
-    ],
-    correctAnswer: "A key that links records in one table to records in another table",
-    imageURL: null,
-  },
-  {
-    index: 16,
-    question: "What does the `VARCHAR(M)` data type represent?",
-    choices: [
-      "A variable-length character type with a maximum length of M characters",
-      "A fixed-length character type with a maximum length of M characters",
-      "A numeric data type with a maximum value of M",
-      "A binary data type with a maximum size of M",
-    ],
-    correctAnswer: "A variable-length character type with a maximum length of M characters",
-    imageURL: null,
-  },
-  {
-    index: 17,
-    question: "What is the difference between `CHAR` and `VARCHAR`?",
-    choices: [
-      "CHAR is used for numbers; VARCHAR is used for text",
-      "CHAR is fixed-length; VARCHAR is variable-length",
-      "CHAR can be longer than VARCHAR; VARCHAR is limited to 255 characters",
-      "CHAR is for dates; VARCHAR is for times",
-    ],
-    correctAnswer: "CHAR is fixed-length; VARCHAR is variable-length",
-    imageURL: null,
-  },
-  {
-    index: 18,
-    question: "Which SQL statement is used to create a new database?",
-    choices: [
-      "NEW DATABASE",
-      "CREATE DATABASE",
-      "ADD DATABASE",
-      "MAKE DATABASE",
-    ],
-    correctAnswer: "CREATE DATABASE",
-    imageURL: null,
-  },
-  {
-    index: 19,
-    question: "Which SQL statement is used to update data in a table?",
-    choices: [
-      "INSERT",
-      "DELETE",
-      "SELECT",
-      "UPDATE",
-
-    ],
-    correctAnswer: "UPDATE",
-    imageURL: null,
-  },
-  {
-    index: 20,
-    question: "In SQL, what does the `AUTO_INCREMENT` property do?",
-    choices: [
-      "Automatically sets a default value for a column",
-      "Automatically deletes old records",
-      "Automatically generates a unique value for a column",
-      "Automatically sorts data in ascending order",
-    ],
-    correctAnswer: "Automatically generates a unique value for a column",
-    imageURL: null,
-  },
-  {
-    index: 21,
-    question: "What is the purpose of triggers in SQL?",
-    choices: [
-      "To react to specific changes in the database",
-      "To retrieve data from a database",
-      "To define the structure of a database",
-      "To manage user permissions",
-    ],
-    correctAnswer: "To react to specific changes in the database",
-    imageURL: null,
-  },
-  {
-    index: 22,
-    question: "Which SQL data type can store both date and time values?",
-    choices: [
-      "DATETIME",
-      "DATE",
-      "TIME",
-      "TIMESTAMP",
-    ],
-    correctAnswer: "DATETIME",
-    imageURL: null,
-  },
+    correctAnswer: "Petri nets",
+    imageURL: null
+  }
 
 ]
 

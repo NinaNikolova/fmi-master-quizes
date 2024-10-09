@@ -8,11 +8,17 @@ export default function Home() {
             <nav className="home-nav">
                 <ul className="nav-list">
                     <li className="nav-item">
-                        <Link className="nav-link" to="/quiz">Object-Oriented Modeling and Software</Link>
-                    </li>
+                        <Link className="nav-link" to="/quiz">
+                            <img src="/public/uml.png" alt="uml" className="nav-icon" />
+                            <span > Object-Oriented Modeling and Software</span>
 
+                        </Link>
+                    </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/quiz2">Модели на софтуерни системи</Link>
+                        <Link className="nav-link" to="/quiz2">
+                            <img src="/public/sm.png" alt="Quiz Icon" className="nav-icon" />
+                            <span >  Модели на софтуерни системи </span>
+                        </Link>
                     </li>
                 </ul>
             </nav>

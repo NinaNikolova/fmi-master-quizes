@@ -1,220 +1,99 @@
 export const mysql6 = [
   {
     index: 1,
-    question: "Which SQL clause is used to combine rows from two or more tables based on a related column?",
+    question: "What is a state machine?",
     choices: [
-      "JOIN",
-      "MERGE",
-      "UNION",
-      "COMBINE",
+      "A program that executes in a linear sequence",
+      "A computational model consisting of states and transitions",
+      "A data structure used for storing information",
+      "An algorithm for sorting data"
     ],
-    correctAnswer: "JOIN",
-    imageURL: 'https://www.w3schools.com/sql/img_inner_join.png',
+    correctAnswer: "A computational model consisting of states and transitions",
+    imageURL: null
   },
   {
     index: 2,
-    question: "What type of join returns all rows from the left table and matching rows from the right table?",
+    question: "In a state machine, what does a 'state' represent?",
     choices: [
-      "INNER JOIN",
-      "LEFT JOIN",
-      "RIGHT JOIN",
-      "FULL JOIN",
+      "A specific condition or situation at a given time",
+      "The sequence of operations performed",
+      "The starting point of the program",
+      "A type of user input"
     ],
-    correctAnswer: "LEFT JOIN",
-    imageURL: 'https://www.dofactory.com/img/sql/sql-left-join.png',
+    correctAnswer: "A specific condition or situation at a given time",
+    imageURL: null
   },
   {
     index: 3,
-    question: "Which SQL clause is used to filter records in a subquery?",
+    question: "What is the purpose of a transition in a state machine?",
     choices: [
-      "WHERE",
-      "HAVING",
-      "FILTER",
-      "SELECT",
+      "To represent a change in state due to an event",
+      "To define the final output of the machine",
+      "To initialize the machine's variables",
+      "To store the history of states"
     ],
-    correctAnswer: "WHERE",
-    imageURL: null,
+    correctAnswer: "To represent a change in state due to an event",
+    imageURL: null
   },
   {
     index: 4,
-    question: "What is an index in a MySQL database?",
+    question: "What are the two main types of state machines?",
     choices: [
-      "A function used to aggregate data",
-      "A clause used to limit the number of rows returned",
-      "A data structure that improves the speed of data retrieval operations",
-      "A type of join used to combine tables",
+      "Deterministic and Non-deterministic",
+      "Sequential and Parallel",
+      "Synchronous and Asynchronous",
+      "Linear and Non-linear"
     ],
-    correctAnswer: "A data structure that improves the speed of data retrieval operations",
-    imageURL: null,
+    correctAnswer: "Deterministic and Non-deterministic",
+    imageURL: null
   },
   {
     index: 5,
-    question: "How do you perform an INNER JOIN between two tables 'employees' and 'departments' on the 'department_id' column?",
+    question: "In a state machine diagram, how is a state typically represented?",
     choices: [
-      "SELECT * FROM employees AS e JOIN departments AS d ON e.department_id = d.department_id;",
-      "SELECT * FROM employees JOIN departments WHERE employees.department_id = departments.department_id;",
-      "SELECT * FROM employees LEFT JOIN departments ON employees.department_id = departments.department_id;",
-      "SELECT * FROM employees, departments WHERE employees.department_id = departments.department_id;",
+      "As a rectangle",
+      "As a circle",
+      "As an oval",
+      "As a diamond"
     ],
-    correctAnswer: "SELECT * FROM employees AS e JOIN departments AS d ON e.department_id = d.department_id;",
-    imageURL: null,
+    correctAnswer: "As a rectangle",
+    imageURL: null
   },
   {
     index: 6,
-    question: "What is a subquery in SQL?",
+    question: "What is an initial state in a state machine?",
     choices: [
-      "A query that modifies table structure",
-      "A query nested inside another query",
-      "A query that performs a join operation",
-      "A query that creates an index",
-
+      "The state where the machine starts executing",
+      "The state that can never be reached",
+      "The state before a transition occurs",
+      "The final state of the machine"
     ],
-    correctAnswer: "A query nested inside another query",
-    imageURL: null,
+    correctAnswer: "The state where the machine starts executing",
+    imageURL: null
   },
   {
     index: 7,
-    question: "How do you create an index on a column named 'username' in a table 'users'?",
+    question: "Which of the following best describes a 'final state' in a state machine?",
     choices: [
-      "CREATE INDEX users(username);",
-      "INDEX username ON users;",
-      "CREATE INDEX idx_username ON users(username);",
-      "ADD INDEX idx_username ON users(username);",
+      "A state that indicates the completion of processing",
+      "A temporary state before a transition",
+      "A state that can only be reached from another final state",
+      "A state that loops back to itself"
     ],
-    correctAnswer: "CREATE INDEX idx_username ON users(username);",
-    imageURL: null,
+    correctAnswer: "A state that indicates the completion of processing",
+    imageURL: null
   },
   {
     index: 8,
-    question: "Which type of join returns all rows from both tables, with matching rows from both sides where available?",
+    question: "Which of the following is a common application of state machines?",
     choices: [
-      "LEFT JOIN",
-      "FULL JOIN(OUTER JOIN)",
-      "RIGHT JOIN",
-      "INNER JOIN",
+      "User authentication processes",
+      "Data storage and retrieval",
+      "Sorting algorithms",
+      "Database queries"
     ],
-    correctAnswer: "FULL JOIN(OUTER JOIN)",
-    imageURL: 'https://fthiella.github.io/images/full-outer-join.gif',
-  },
-  {
-    index: 9,
-    question: "How can you use a subquery to find employees who earn more than the average salary?",
-    choices: [
-      "SELECT * FROM employees WHERE salary > AVG(salary);",
-      "SELECT * FROM employees WHERE salary > MAX(salary);",
-      "SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
-      "SELECT * FROM employees WHERE salary > (SELECT SUM(salary) FROM employees);",
-    ],
-    correctAnswer: "SELECT * FROM employees WHERE salary > (SELECT AVG(salary) FROM employees);",
-    imageURL: null,
-  },
-  {
-    index: 10,
-    question: "What is the result of performing a Cartesian product between two tables- example: SELECT e.name, d.depatment FROM employees AS e, depatments AS d?",
-    choices: [
-      "It combines rows from two tables based on a matching condition",
-      "It returns the common rows between two tables",
-      "It pairs every row from the first table with every row from the second table",
-      "It filters rows from two tables using a WHERE clause"
-    ],
-    correctAnswer: "It pairs every row from the first table with every row from the second table",
-    imageURL: 'https://d2jdgazzki9vjm.cloudfront.net/mysql/images/mysql-cross-join.png',
-  },
-  {
-    index: 11,
-    question: "Are INNER JOIN and JOIN equivalent in SQL?",
-    choices: [
-      "No, JOIN returns all rows from both tables, while INNER JOIN returns only matching rows",
-      "Yes, JOIN is the default and performs an INNER JOIN by default",
-      "No, JOIN combines tables without any condition, while INNER JOIN requires a condition",
-      "Yes, but JOIN is faster than INNER JOIN"
-    ],
-    correctAnswer: "Yes, JOIN is the default and performs an INNER JOIN by default",
-    imageURL: 'https://www.w3schools.com/sql/img_inner_join.png',
-  },
-  {
-    index: 12,
-    question: "What does it mean when FULL JOIN is not implemented in MySQL?",
-    choices: [
-      "It means FULL JOIN is faster in MySQL compared to other databases",
-      "It means MySQL does not natively support a FULL JOIN to combine matching and non-matching rows from two tables",
-      "It means MySQL supports FULL JOIN only for specific data types",
-      "It means FULL JOIN can be used in MySQL without any limitations"
-    ],
-    correctAnswer: "It means MySQL does not natively support a FULL JOIN to combine matching and non-matching rows from two tables",
-    imageURL: 'https://fthiella.github.io/images/full-outer-join.gif',
-  },
-  {
-    index: 13,
-    question: "What type of JOIN is used in the following SQL query?\nSELECT e.name, m.name FROM employees e JOIN employees m ON e.manager_id=m.employee_id;",
-    choices: [
-      "INNER JOIN",
-      "LEFT JOIN",
-      "FULL JOIN",
-      "CROSS JOIN"
-    ],
-    correctAnswer: "INNER JOIN",
-    imageURL: 'https://www.w3schools.com/sql/img_inner_join.png',
-  },
-  {
-    index: 14,
-    question: "How can you simulate a FULL JOIN in MySQL since it is not natively supported?",
-    choices: [
-      "By using only a LEFT JOIN",
-      "By using a UNION of LEFT JOIN and RIGHT JOIN",
-      "By using a CROSS JOIN with a condition",
-      "By using an INNER JOIN followed by a WHERE clause"
-    ],
-    correctAnswer: "By using a UNION of LEFT JOIN and RIGHT JOIN",
-    imageURL: 'https://www.w3schools.com/Sql/img_full_outer_join.png',
-  },
-  {
-    index: 15,
-    question: "What is a CROSS JOIN in SQL?",
-    choices: [
-      "It returns only the matching rows from two tables based on a condition",
-      "It returns rows from the first table that have corresponding rows in the second table",
-      "It pairs every row from the first table with every row from the second table, creating a Cartesian product. This is equivalent to a JOIN without an ON condition",
-      "It combines rows from two tables based on a primary key"
-    ],
-    correctAnswer: "It pairs every row from the first table with every row from the second table, creating a Cartesian product. This is equivalent to a JOIN without an ON condition",
-    imageURL: 'https://d2jdgazzki9vjm.cloudfront.net/mysql/images/mysql-cross-join.png',
-  },
-  {
-    index: 16,
-    question: "What is a clustered index in a MySQL database?",
-    choices: [
-      "An index that defines the physical order in which data is stored in a table.",
-      "An index that stores data separately from the index structure.",
-      "An index that allows multiple indices on a table.",
-      "An index used only with foreign keys.",
-    ],
-    correctAnswer: "An index that defines the physical order in which data is stored in a table.",
-    imageURL: null,
-  },
-  {
-    index: 17,
-    question: "What is a non-clustered index in a MySQL database?",
-    choices: [
-      "An index that defines the physical order of the data in the table.",
-      "An index stored separately from the table data, with pointers to the actual rows.",
-      "An index that can only be applied to primary keys.",
-      "An index that modifies the physical storage order of the data.",
-    ],
-    correctAnswer: "An index stored separately from the table data, with pointers to the actual rows.",
-    imageURL: null,
-  },
-  {
-    index: 18,
-    question: "Which of the following is a downside of using non-clustered indexes in MySQL?",
-    choices: [
-      "They can only be used on primary key columns.",
-      "They store data in the same physical order as the table, slowing down updates.",
-      "They take up additional storage space and can slow down insert, update, and delete operations.",
-      "A table can have only one non-clustered index, which limits flexibility.",
-    ],
-    correctAnswer: "They take up additional storage space and can slow down insert, update, and delete operations.",
-    imageURL: null,
-  },
+    correctAnswer: "User authentication processes",
+    imageURL: null
+  }
 
 ];
