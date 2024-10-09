@@ -1,4 +1,4 @@
-# React App with Vite `FMI Master Degree Software Techn. quiz`
+# React App with Vite `FMI Master Degree Software Technologies quiz`
 
 ## Installation
 
