@@ -88,7 +88,7 @@ export const mysql1 = [
     {
         index: 8,
         question: "In which disciplines are scientific models commonly used?",
-        choice: [
+        choices: [
             "Only in physics and chemistry",
             "In a variety of scientific disciplines including ecology and Earth sciences",
             "Exclusively in engineering fields",
