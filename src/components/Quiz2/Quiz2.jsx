@@ -12,6 +12,7 @@ import { mysql4 } from "../../data2/quiz4";
 import { mysql5 } from "../../data2/quiz5";
 import { mysql6 } from "../../data2/quiz6";
 import { mysql7 } from "../../data2/quiz7";
+import HomeLink from "../HomeLink/HomeLink";
 
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -67,8 +68,10 @@ const Quiz = () => {
 
   return (
     <div className="quiz-container">
-      <h2>MySQL quiz</h2>
-
+      <div className="heading">
+        <h2>MySQL quiz</h2>
+        <HomeLink />
+      </div>
       <QuizSelector selectedQuiz={selectedQuiz} handleQuizChange={handleQuizChange} />
       {!showResult ? (
         <>

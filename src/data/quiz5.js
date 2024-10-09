@@ -1,220 +1,98 @@
 export const mysql5 = [
   {
     index: 1,
-    question: "What is a primary key in a MySQL table?",
+    question: "What is the primary difference between aggregation and composition in object-oriented design?",
     choices: [
-      "A foreign key from another table",
-      "An index used to speed up queries",
-      "A unique identifier for each row in the table",
-      "A column that can have duplicate values",
+      "Aggregation implies a whole-part relationship, while composition implies a strong ownership relationship.",
+      "Aggregation is a form of inheritance, while composition is not.",
+      "Aggregation is a static relationship, while composition is dynamic.",
+      "Aggregation is used for classes, while composition is used for objects."
     ],
-    correctAnswer: "A unique identifier for each row in the table",
-    imageURL: null,
+    correctAnswer: "Aggregation implies a whole-part relationship, while composition implies a strong ownership relationship.",
+    imageURL: null
   },
   {
     index: 2,
-    question: "Which SQL keyword is used to define a foreign key relationship between two tables?",
+    question: "Which of the following statements accurately describes inheritance in object-oriented design?",
     choices: [
-      "REFERENCES",
-      "LINK",
-      "FOREIGN KEY",
-      "JOIN",
+      "Inheritance allows a class to inherit properties and behaviors from another class.",
+      "Inheritance creates a new instance of an object.",
+      "Inheritance is a method of combining two or more classes.",
+      "Inheritance is used exclusively for interface definitions."
     ],
-    correctAnswer: "FOREIGN KEY",
-    imageURL: null,
+    correctAnswer: "Inheritance allows a class to inherit properties and behaviors from another class.",
+    imageURL: null
   },
   {
     index: 3,
-    question: "What is the purpose of normalization in database design?",
+    question: "In the context of composition, what happens when the parent object is deleted?",
     choices: [
-      "To simplify the database structure",
-      "To combine multiple tables into one",
-      "To reduce data redundancy and improve data integrity",
-      "To increase the speed of data retrieval",
-
+      "The child objects remain intact.",
+      "The child objects are also deleted.",
+      "The child objects become independent.",
+      "The child objects are archived."
     ],
-    correctAnswer: "To reduce data redundancy and improve data integrity",
-    imageURL: null,
+    correctAnswer: "The child objects are also deleted.",
+    imageURL: null
   },
   {
     index: 4,
-    question: "Which type of relationship is represented by a 'many-to-many' cardinality?",
+    question: "Which UML notation is commonly used to represent composition?",
     choices: [
-      "A relationship where one record in one table relates to multiple records in another table",
-      "A relationship where multiple records in one table relate to multiple records in another table",
-      "A relationship where multiple records in one table relate to one record in another table",
-      "A relationship where one record in one table relates to one record in another table",
+      "A solid line with a diamond at the parent end.",
+      "A dashed line with a triangle at the parent end.",
+      "A solid line with an arrow pointing to the child.",
+      "A dotted line with a circle at the child end."
     ],
-    correctAnswer: "A relationship where multiple records in one table relate to multiple records in another table",
-    imageURL: null,
+    correctAnswer: "A solid line with a diamond at the parent end.",
+    imageURL: null
   },
   {
     index: 5,
-    question: "How do you ensure that a column in a table cannot have NULL values?",
+    question: "What is a key advantage of using inheritance in object-oriented design?",
     choices: [
-      "By defining the column with a default value",
-      "By creating an index on the column",
-      "By specifying the column as UNIQUE",
-      "By setting the column as NOT NULL",
-
+      "It allows for tight coupling between classes.",
+      "It promotes code reusability and organization.",
+      "It eliminates the need for polymorphism.",
+      "It reduces the number of classes in a system."
     ],
-    correctAnswer: "By setting the column as NOT NULL",
-    imageURL: null,
+    correctAnswer: "It promotes code reusability and organization.",
+    imageURL: null
   },
   {
     index: 6,
-    question: "What does the 'ON DELETE CASCADE' rule do in a foreign key relationship?",
+    question: "Which of the following describes a 'has-a' relationship in object-oriented design?",
     choices: [
-      "Requires manual deletion of related rows in the child table",
-      "Automatically deletes related rows in the child table when a row in the parent table is deleted",
-      "Prevents deletion of rows in the parent table if there are related rows in the child table",
-      "Updates related rows in the child table when a row in the parent table is deleted",
-
+      "Inheritance",
+      "Aggregation",
+      "Composition",
+      "Polymorphism"
     ],
-    correctAnswer: "Automatically deletes related rows in the child table when a row in the parent table is deleted",
-    imageURL: null,
+    correctAnswer: "Aggregation",
+    imageURL: null
   },
   {
     index: 7,
-    question: "Which SQL statement would you use to add a foreign key constraint to an existing table?",
+    question: "In which scenario would composition be the preferred design choice?",
     choices: [
-      "ALTER TABLE table_name ADD CONSTRAINT fk_name FOREIGN KEY (column_name) REFERENCES other_table(column_name);",
-      "ALTER TABLE table_name ADD FOREIGN KEY (column_name) REFERENCES other_table(column_name);",
-      "ADD FOREIGN KEY (column_name) TO table_name REFERENCES other_table(column_name);",
-      "ALTER TABLE table_name ADD fk_name FOREIGN KEY (column_name) REFERENCES other_table(column_name);",
+      "When the lifetime of the child objects is independent of the parent.",
+      "When the parent object must control the lifecycle of the child objects.",
+      "When multiple child objects can exist independently.",
+      "When a class needs to inherit from multiple classes."
     ],
-    correctAnswer: "ALTER TABLE table_name ADD CONSTRAINT fk_name FOREIGN KEY (column_name) REFERENCES other_table(column_name);",
-    imageURL: null,
+    correctAnswer: "When the parent object must control the lifecycle of the child objects.",
+    imageURL: null
   },
   {
     index: 8,
-    question: "What is an example of a 'one-to-many' relationship in a database?",
+    question: "What type of inheritance allows a class to inherit from multiple parent classes?",
     choices: [
-      "Two authors can write multiple books",
-      "A single customer can place multiple orders",
-      "Three products can be purchased by three customers",
-      "Many categories can have different products"
+      "Single inheritance",
+      "Multiple inheritance",
+      "Hierarchical inheritance",
+      "Multilevel inheritance"
     ],
-    correctAnswer: "A single customer can place multiple orders",
-    imageURL: null,
-  },
-  {
-    index: 9,
-    question: "What does the 'UNIQUE' constraint do in a MySQL table?",
-    choices: [
-      "Allows NULL values in a column",
-      "Ensures that all values in a column are distinct",
-      "Provides a default value for the column",
-      "Automatically indexes the column"
-    ],
-    correctAnswer: "Ensures that all values in a column are distinct",
-    imageURL: null,
-  },
-  {
-    index: 10,
-    question: "Which of the following steps are involved in designing and setting up a relational database?",
-    choices: [
-      "Identifying entities, defining table columns, and modeling relationships",
-      "Defining table columns, filling test data, and setting up primary keys",
-      "Identification of entities, defining table columns, primary keys, modeling relationships, defining constraints, and filling test data",
-      "Modeling relationships, filling test data, and defining constraints"
-    ],
-    correctAnswer: "Identification of entities, defining table columns, primary keys, modeling relationships, defining constraints, and filling test data",
-    imageURL: null,
-  },
-  {
-    index: 11,
-    question: "How does using a primary key-foreign key relationship help in a database?",
-    choices: [
-      "It allows storing duplicate data across tables",
-      "It ensures data integrity by avoiding repeating data across related tables",
-      "It creates a backup of the data in case of loss",
-      "It automatically indexes all the columns in the database"
-    ],
-    correctAnswer: "It ensures data integrity by avoiding repeating data across related tables",
-    imageURL: null,
-  },
-  {
-    index: 12,
-    question: "What does cascading allow in relational databases?",
-    choices: [
-      "It prevents changes to related entities",
-      "It allows changes in one entity to cascade to all related entities",
-      "It ensures that changes are only applied to the current entity",
-      "It enables a backup of all related entities",
-    ],
-    correctAnswer: "It allows changes in one entity to cascade to all related entities",
-    imageURL: null,
-  },
-  {
-    index: 13,
-    question: "What does a relational schema (E/R Diagrams) of a database include?",
-    choices: [
-      "Only the data stored in the tables",
-      "Schemas of tables, relationships, and other objects like constraints",
-      "Only relationships between tables",
-      "Indexes and triggers used by the database",
-    ],
-    correctAnswer: "Schemas of tables, relationships, and other objects like constraints",
-    imageURL: null,
-  },
-  {
-    index: 14,
-    question: "What is a composite primary key in a join mapping table?",
-    choices: [
-      "A primary key that consists of a single column",
-      "A primary key that is auto-incremented by the database",
-      "A primary key made up of two or more columns",
-      "A primary key that automatically creates indexes for foreign keys",
-    ],
-    correctAnswer: "A primary key made up of two or more columns",
-    imageURL: null,
-  },
-  {
-    index: 15,
-    question: "In a one-to-one relationship, why must the foreign key be unique?",
-    choices: [
-      "To ensure multiple rows can be linked to the same foreign key",
-      "To prevent duplicate values in the primary key",
-      "To enforce a strict one-to-one relationship between two tables",
-      "To automatically create indexes for both keys"
-    ],
-    correctAnswer: "To enforce a strict one-to-one relationship between two tables",
-    imageURL: null,
-  },
-  {
-    index: 16,
-    question: "In a one-to-many relationship, what additional column is necessary?",
-    choices: [
-      "An auto-incremented primary key",
-      "A composite primary key",
-      "A foreign key column in the 'many' table",
-      "A foreign key column in the 'one' table"
-    ],
-    correctAnswer: "A foreign key column in the 'many' table",
-    imageURL: null,
-  },
-  {
-    index: 17,
-    question: "In a many-to-many relationship, what is required to link the two tables?",
-    choices: [
-      "A composite key in the first table",
-      "A junction (associate) table with foreign keys from both tables",
-      "A primary key made of two columns",
-      "A unique foreign key in both tables"
-    ],
-    correctAnswer: "A junction (associate) table with foreign keys from both tables",
-    imageURL: null,
-  },
-  {
-    index: 18,
-    question: "In a one-to-one self-relation, what does the foreign key reference?",
-    choices: [
-      "The primary key of a different table.",
-      "A foreign key from another table.",
-      "The primary key of the same table.",
-      "A composite key from the same table."
-    ],
-    correctAnswer: "The primary key of the same table."
+    correctAnswer: "Multiple inheritance",
+    imageURL: null
   }
 ];

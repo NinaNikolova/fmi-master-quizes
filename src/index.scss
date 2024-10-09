@@ -157,3 +157,42 @@ body {
   object-fit: contain; 
   margin: 10px 0;
 }
+.heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.home-link-container {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: green;
+}
+
+.home-link {
+  text-decoration: none;
+  color: inherit; /* Use the inherited color for the text */
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 120px;
+  // background-color: lightgray;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%; /* Position above the link */
+  left: 50%;
+  margin-left: -60px; /* Center the tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.home-link-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1; /* Show tooltip on hover */
+}

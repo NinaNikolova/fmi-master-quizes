@@ -1,157 +1,98 @@
 export const mysql4 = [
   {
     index: 1,
-    question: "Which SQL function is used to calculate the average value of a numeric column?",
+    question: "What is the main purpose of class diagrams in object-oriented analysis?",
     choices: [
-      "SUM()",
-      "COUNT()",
-      "AVG()",
-      "MEDIAN()",
+      "To describe the behavior of a system over time",
+      "To represent the static structure of a system by showing classes and their relationships",
+      "To visualize user interactions with the system",
+      "To define the system's data flow"
     ],
-    correctAnswer: "AVG()",
-    imageURL: null,
+    correctAnswer: "To represent the static structure of a system by showing classes and their relationships",
+    imageURL: null
   },
   {
     index: 2,
-    question: "Which function would you use to find the highest value in a column?",
+    question: "In a class diagram, what does a class represent?",
     choices: [
-      "MAX()",
-      "MIN()",
-      "SUM()",
-      "AVG()",
+      "An instance of an object",
+      "A blueprint for creating objects, containing attributes and methods",
+      "A relationship between two objects",
+      "A visual representation of system behavior"
     ],
-    correctAnswer: "MAX()",
-    imageURL: null,
+    correctAnswer: "A blueprint for creating objects, containing attributes and methods",
+    imageURL: null
   },
   {
     index: 3,
-    question: "What does the HAVING clause do in MySQL?",
+    question: "What type of diagram shows the actual instances of classes and their relationships at a specific time?",
     choices: [
-      "Sorts the result set",
-      "Limits the number of rows returned",
-      "Joins tables based on a condition",
-      "Filters groups of rows after GROUP BY is applied",
+      "Class diagram",
+      "Use case diagram",
+      "Object diagram",
+      "Sequence diagram"
     ],
-    correctAnswer: "Filters groups of rows after GROUP BY is applied",
-    imageURL: null,
+    correctAnswer: "Object diagram",
+    imageURL: null
   },
   {
     index: 4,
-    question: "How would you get the number of orders placed by each customer from a table named 'orders'?",
+    question: "Which of the following best describes a profile diagram?",
     choices: [
-      "SELECT customer_id, SUM(*) FROM orders GROUP BY customer_id;",
-      "SELECT customer_id, COUNT(*) FROM orders GROUP BY customer_id;",
-      "SELECT customer_id, MAX(*) FROM orders GROUP BY customer_id;",
-      "SELECT customer_id, AVG(*) FROM orders GROUP BY customer_id;",
+      "It represents the dynamic behavior of a system.",
+      "It extends the UML metamodel with stereotypes and tagged values.",
+      "It shows the interaction between users and the system.",
+      "It focuses on the physical deployment of software components."
     ],
-    correctAnswer: "SELECT customer_id, COUNT(*) FROM orders GROUP BY customer_id;",
-    imageURL: null,
+    correctAnswer: "It extends the UML metamodel with stereotypes and tagged values.",
+    imageURL: null
   },
   {
     index: 5,
-    question: "Which function returns the lowest value in a column?",
+    question: "What is the significance of relationships in class diagrams?",
     choices: [
-      "SUM()",
-      "MIN()",
-      "MAX()",
-      "AVG()",
+      "They define the behavior of classes.",
+      "They indicate how objects are created.",
+      "They represent associations, dependencies, and generalizations between classes.",
+      "They show how to implement the code."
     ],
-    correctAnswer: "MIN()",
-    imageURL: null,
+    correctAnswer: "They represent associations, dependencies, and generalizations between classes.",
+    imageURL: null
   },
   {
     index: 6,
-    question: "What does the SUM() function calculate in MySQL?",
+    question: "What notation is used to indicate a public attribute in a class diagram?",
     choices: [
-      "The number of rows in a table",
-      "The highest value in a numeric column",
-      "The total sum of a numeric column",
-      "The average value of a numeric column",
+      "- attributeName",
+      "# attributeName",
+      "+ attributeName",
+      "~ attributeName"
     ],
-    correctAnswer: "The total sum of a numeric column",
-    imageURL: null,
+    correctAnswer: "+ attributeName",
+    imageURL: null
   },
   {
     index: 7,
-    question: "How can you find the average salary of employees in a table named 'employees'?",
+    question: "How can class diagrams improve the understanding of a system?",
     choices: [
-      "SELECT MEAN(salary) FROM employees;",
-      "SELECT AVG(salary) FROM employees;",
-      "SELECT AVERAGE(salary) FROM employees;",
-      "SELECT MEDIAN(salary) FROM employees;",
+      "By providing detailed programming instructions",
+      "By clarifying the structure and relationships of classes in the system",
+      "By eliminating the need for documentation",
+      "By focusing solely on user interfaces"
     ],
-    correctAnswer: "SELECT AVG(salary) FROM employees;",
-    imageURL: null,
+    correctAnswer: "By clarifying the structure and relationships of classes in the system",
+    imageURL: null
   },
   {
     index: 8,
-    question: "What is the purpose of using the DISTINCT keyword with aggregate functions?",
+    question: "Which of the following best describes the role of stereotypes in profile diagrams?",
     choices: [
-      "To ensure unique values are considered in the aggregation",
-      "To sort the results in ascending order",
-      "To combine multiple tables into one",
-      "To update existing records",
+      "They represent the physical components of the system.",
+      "They define specific variations or extensions of UML elements.",
+      "They illustrate the interactions between objects.",
+      "They provide a historical perspective on the system's development."
     ],
-    correctAnswer: "To ensure unique values are considered in the aggregation",
-    imageURL: null,
-  },
-  {
-    index: 9,
-    question: "What does the term 'grouping' refer to in MySQL?",
-    choices: [
-      "Grouping allows taking data into separate groups based on a common property.",
-      "Sorting rows in a particular order.",
-      "Filtering rows based on certain conditions.",
-      "Creating a new table from existing tables."
-    ],
-    correctAnswer: "Grouping allows taking data into separate groups based on a common property.",
-    imageURL: null,
-  },
-  {
-    index: 10,
-    question: "Does the `COUNT` function in MySQL include `NULL` values when counting rows?",
-    choices: [
-      "Yes, `COUNT` includes `NULL` values.",
-      "No, `COUNT` ignores `NULL` values.",
-      "`COUNT` counts `NULL` values only in certain cases.",
-      "`COUNT` throws an error if there are `NULL` values."
-    ],
-    correctAnswer: "No, `COUNT` ignores `NULL` values.",
-    imageURL: null,
-  },
-  {
-    index: 11,
-    question: "What is the main difference between the `HAVING` and `WHERE` clauses in MySQL?",
-    choices: [
-      "`HAVING` filters rows before grouping, while `WHERE` filters groups after aggregation.",
-      "`WHERE` is only used with aggregate functions, while `HAVING` is used for any condition.",
-      "`HAVING` and `WHERE` perform the same function and can be used interchangeably.",
-      "`WHERE` filters rows before grouping, while `HAVING` filters groups after aggregation.",
-    ],
-    correctAnswer: "`WHERE` filters rows before grouping, while `HAVING` filters groups after aggregation.",
-    imageURL: null,
-  },
-  {
-    index: 12,
-    question: "In which clauses can you use an alias in MySQL?",
-    choices: [
-      "Aliases can be used in the WHERE clause, HAVING clause, ORDER BY clause, and GROUP BY clause.",
-      "Aliases can be used in the HAVING clause, ORDER BY clause, and GROUP BY clause, but not in the WHERE clause.",
-      "Aliases can be used in the WHERE clause and ORDER BY clause, but not in the HAVING clause or GROUP BY clause.",
-      "Aliases can only be used in the ORDER BY clause.",
-    ],
-    correctAnswer: "Aliases can be used in the HAVING clause, ORDER BY clause, and GROUP BY clause, but not in the WHERE clause.",
-    imageURL: null,
-  },
-  {
-    index: 13,
-    question: "What is the correct order in which SQL clauses should be written in a MySQL query?",
-    choices: [
-      "SELECT, FROM, JOIN, WHERE, LIMIT, GROUP BY, HAVING, ORDER BY",
-      "SELECT, FROM, WHERE, JOIN, GROUP BY, HAVING, ORDER BY, LIMIT",
-      "SELECT, FROM, JOIN, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT",
-      "SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT, JOIN",
-    ],
-    correctAnswer: "SELECT, FROM, JOIN, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT"
+    correctAnswer: "They define specific variations or extensions of UML elements.",
+    imageURL: null
   }
 ];
