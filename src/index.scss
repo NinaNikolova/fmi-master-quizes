@@ -14,11 +14,13 @@ body {
   margin-top: 20px;
   height: 100vh; /* Take full viewport height */
   box-sizing: border-box;
-
+padding:10px;
 }
 
 .quiz-container {
-  width: 100%;
+  display:flex;
+  justify-content:center;
+  width: 90%;
   max-width: 500px;
   background: $bg;
   border-radius: 4px;
