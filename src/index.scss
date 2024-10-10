@@ -199,16 +199,5 @@ padding-left:10px;
   vertical-align: middle; /* Align the image vertically */
 }
 
-/* Default style */
-div {
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
-}
 
-/* Apply zoom effect for smaller screens */
-@media screen and (max-width: 500px) {
-  body {
-    transform: scale(0.9); /* Zoom effect */
-  }
-}
+
