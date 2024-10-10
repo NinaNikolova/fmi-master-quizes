@@ -208,7 +208,7 @@ div {
 
 /* Apply zoom effect for smaller screens */
 @media screen and (max-width: 500px) {
-  div {
+  body {
     transform: scale(0.9); /* Zoom effect */
   }
 }
