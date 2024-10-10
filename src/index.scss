@@ -19,7 +19,7 @@ padding-left:10px;
 }
 
 .quiz-container {
-  max-width: 90%;
+  max-width: 96%;
   background: $bg;
   border-radius: 4px;
   padding:10px; /* Add padding inside the container */
@@ -198,38 +198,17 @@ padding-left:10px;
   margin-right: 8px; /* Add space between image and text */
   vertical-align: middle; /* Align the image vertically */
 }
-@media screen and (max-width: 460px) {
-  body {
-    padding-left: 5px; /* Reduce padding for smaller screens */
-    margin-top: 10px; /* Adjust margin for better layout */
-  }
 
-  .quiz-container {
-    width: 100%; /* Ensure the container takes full width */
-    max-width: 100%; /* Allow container to be responsive */
-    padding: 5px; /* Adjust padding for smaller screens */
-  }
+/* Default style */
+div {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+}
 
-  ul {
-    margin-left: 0; /* Remove margins for better fit */
-    padding-left: 10px; /* Reduce padding for better spacing */
-  }
-
-  li {
-    font-size: 14px; /* Adjust font size for readability */
-    padding: 8px; /* Reduce padding inside list items */
-  }
-
-  button {
-    font-size: 16px; /* Adjust button font size */
-    padding: 8px 30px; /* Reduce padding for buttons */
-  }
-
-  h2 {
-    font-size: 18px; /* Reduce heading size */
-  }
-
-  .active-question-no {
-    font-size: 28px; /* Reduce question number size */
+/* Apply zoom effect for smaller screens */
+@media screen and (max-width: 500px) {
+  div {
+    transform: scale(1.5); /* Zoom effect */
   }
 }
