@@ -12,14 +12,13 @@ body {
   justify-content: center; 
   margin: 0 auto; /* Reset browser default margins */
   margin-top: 20px;
-  padding: 10px; /* Add some padding to the body */
   height: 100vh; /* Take full viewport height */
   box-sizing: border-box;
 
 }
 
 .quiz-container {
-  width: 90%;
+  width: 100%;
   max-width: 500px;
   background: $bg;
   border-radius: 4px;
