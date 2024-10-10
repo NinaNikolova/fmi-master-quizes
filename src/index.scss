@@ -27,7 +27,7 @@ padding-left:10px;
   box-sizing: border-box; /* Ensure padding doesn't affect width */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
   justify-content: center;
-  
+  box-sizing: border-box;
   .active-question-no {
     font-size: 32px;
     font-weight: 500;
