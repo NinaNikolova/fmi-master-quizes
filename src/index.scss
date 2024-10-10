@@ -6,6 +6,7 @@ $disabled: #9c9c9c;
 $foreground: #2d264b;
 
 body {
+  width:100%;
   font-family: monospace;
   color: $foreground;
   display: flex;
@@ -18,7 +19,7 @@ padding-left:10px;
 }
 
 .quiz-container {
-  max-width: 500px;
+  max-width: 90%;
   background: $bg;
   border-radius: 4px;
   padding:10px; /* Add padding inside the container */
