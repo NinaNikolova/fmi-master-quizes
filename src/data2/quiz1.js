@@ -224,7 +224,86 @@ export const mysql1 = [
         ],
         correctAnswer: "Повишава качеството и осигурява индустриалното приложение на софтуера",
         imageURL: null
+    },
+    {
+        index: 21,
+        question: "Oтнася ли се следното за абстракцията: `Remove detail (simplify) and focus (selection based on purpose). Generalisation (core or essence)`?",
+        choices: [
+            "Да",
+            "Не",
+        ],
+        correctAnswer: "Да",
+        imageURL: null
+    },
+    {
+        index: 22,
+        question: "Формалните методи включват математически синтаксис и семантика.Примери са Z, B, VDM, LOTOS, CSP. Вярно ли е?",
+        choices: [
+            "Да",
+            "Не",
+        ],
+        correctAnswer: "Да",
+        imageURL: null
+    },
+    {
+        index: 23,
+        question: "Полуформалните методи включват естествен език, диаграми, таблици и нотация. Използват: Structured analysis; Оbject-oriented analysis. Вярно ли е?",
+        choices: [
+            "Да",
+            "Не"
+        ],
+        correctAnswer: "Да",
+        imageURL: null
+    },
+    {
+        index: 24,
+        question: "Кое от следните НЕ е предимство на формалните методи (ФМ) за целите на разработването на качествен (удобен, разбираем, надежден) софтуер?",
+        choices: [
+            "Намаляват неточността",
+            "Осигуряват строгост в описанията на ранни етапи от разработката",
+            "Могат да намалят грешките и с това цената и ресурсите за разработването",
+            "Могат да проверят коректността и точността, непълнотата и неконсистентността на спецификацията",
+            "Увеличават сложността на софтуера"
+        ],
+        correctAnswer: "Увеличават сложността на софтуера",
+        imageURL: null
+    },
+    {
+        index: 25,
+        question: "ФМ не са широко разпространени, защото: Трудно е да бъде разбрана спецификацията /неразбираема за клиентите/; Трудна формализация на отделни аспекти на системата; Трудна  възвръщаемост на инвестицията/консерватизъм и нежелание/",
+        choices: [
+            "Да",
+            "Не"
+        ],
+        correctAnswer: "Да",
+        imageURL: null
+    },
+    {
+        index: 26,
+        question: "Основни видове формални методи за спецификация на софтуер са: 1/Model-based notations-Z, Vienna Development Method, B method; 2/Process algebras-based notations- Communicating Sequential Processes, CCS and LOTOS",
+        choices: [
+            "Да",
+            "Не"
+        ],
+        correctAnswer: "Да",
+        imageURL: null
+    },
+    {
+        index: 27,
+        question: "Кое от следните НЕ е компонент на формалните спецификации (ФС)?",
+        choices: [
+            "Синтаксис (Syntax)",
+            "Връзки (Relations)",
+            "Семантика (Semantics)",
+            "Деплой",
+
+        ],
+        correctAnswer: "",
+        imageURL: null
     }
+
+
+
 
 ]
 
