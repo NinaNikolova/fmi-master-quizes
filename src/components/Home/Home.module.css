@@ -39,11 +39,9 @@
     /* Space between items */
 }
 
-.nav-item {
-    /* Optional styling for the nav items */
-}
 
 .nav-link {
+    display: flex;
     color: white;
     /* White text for links */
     text-decoration: none;
@@ -67,4 +65,56 @@
     /* Add space between image and text */
     vertical-align: middle;
     /* Align the image vertically */
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+li {
+    margin-block: 2rem;
+}
+
+article {
+    width: 90%;
+    height: 70px;
+    border-radius: 30px 0px 30px 0px;
+    background-color: red;
+    position: relative;
+    animation: myfirst 10s linear 2s infinite alternate;
+    padding-inline: 10px;
+    padding-top: 10px;
+}
+
+@keyframes myfirst {
+    0% {
+        background: linear-gradient(90deg, red, yellow);
+    }
+
+    20% {
+        background: linear-gradient(90deg, yellow, orange);
+    }
+
+    40% {
+        background: linear-gradient(90deg, orange, green);
+    }
+
+    60% {
+        background: linear-gradient(90deg, green, lightblue);
+    }
+
+    80% {
+        background: linear-gradient(90deg, lightblue, purple);
+    }
+
+    100% {
+        background: linear-gradient(90deg, purple, red);
+    }
+
 }

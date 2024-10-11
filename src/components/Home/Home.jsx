@@ -9,15 +9,15 @@ export default function Home() {
                 <ul className="nav-list">
                     <li className="nav-item">
                         <Link className="nav-link" to="/quiz">
-                            <img src="/uml.png" alt="uml" className="nav-icon" />
-                            <span > OO Modeling and Software</span>
+
+                            <article className='changing-color'> <img src="/uml.png" alt="uml" className="nav-icon" /> OO Modeling and Software</article>
 
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/quiz2">
-                            <img src="/sm.png" alt="Quiz Icon" className="nav-icon" />
-                            <span >  Модели на софтуерни системи </span>
+
+                            <article className='changing-color'>  <img src="/sm.png" alt="Quiz Icon" className="nav-icon" /> Модели на софтуерни системи </article>
                         </Link>
                     </li>
                 </ul>
