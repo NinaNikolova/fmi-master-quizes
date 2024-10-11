@@ -47,7 +47,6 @@ body {
   }
 
   ul {
-    margin-top: 20px;
     margin-left: 0; 
     padding-left:20px;
 
@@ -60,10 +59,8 @@ body {
       border: 1px solid $disabled;
       border-radius: 16px;
       padding: 11px;
-      margin-top: 15px;
+      margin-block: 12px;
       cursor: pointer;
- 
-
       
     }
 
@@ -72,7 +69,7 @@ body {
       border: 1px solid $accent;
       color: $bg;
       margin: 0 auto;
-      margin-top: 15px;
+      margin-block: 12px;
     }
   }
 
