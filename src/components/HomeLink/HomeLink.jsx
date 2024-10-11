@@ -6,7 +6,7 @@ export default function HomeLink() {
         <div className="home-link-container">
             <Link to="/" className="home-link">
                 <FaHome />
-                <span className="tooltip">Home page</span>
+                <span className="tooltip">Home</span>
             </Link>
         </div>
     )
