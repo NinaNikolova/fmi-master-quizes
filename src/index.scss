@@ -22,12 +22,12 @@ padding-left:10px;
   max-width: 90%;
   background: $bg;
   border-radius: 4px;
-  padding:10px; /* Add padding inside the container */
-  margin: 0 auto; /* Center the container with auto margin */
-  box-sizing: border-box; /* Ensure padding doesn't affect width */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  padding:10px; 
+  margin: 0 auto; 
+  box-sizing: border-box; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   justify-content: center;
-  box-sizing: border-box;
+
   .active-question-no {
     font-size: 32px;
     font-weight: 500;
@@ -49,7 +49,7 @@ padding-left:10px;
 
   ul {
     margin-top: 20px;
-    margin-left: 20px;
+
 
     li {
       text-decoration: none;
@@ -60,7 +60,7 @@ padding-left:10px;
       border: 1px solid $disabled;
       border-radius: 16px;
       padding: 11px;
-      margin-top: 15px;
+      margin-top: 10px;
       cursor: pointer;
     }
 
@@ -69,7 +69,7 @@ padding-left:10px;
       border: 1px solid $accent;
       color: $bg;
       margin: 0 auto;
-      margin-top: 15px;
+      margin-top: 10px;
     }
   }
 
@@ -117,22 +117,22 @@ padding-left:10px;
   }
 }
 
-.quiz-selector, .subject-selector {
+.quiz-selector {
   display: flex;
   flex-direction: column;
-  margin: 2rem;
+  margin-inline: 2rem;
   font-family: Arial, sans-serif;
   width: 90%;
   justify-content: center;
   align-items: center;
 }
 
-.quiz-selector label, .subject-selector label {
+.quiz-selector label{
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
 
-.quiz-selector select, .subject-selector select{
+.quiz-selector select{
   padding: 0.5rem;
   font-size: 1rem;
   border: 1px solid #ccc;
@@ -142,9 +142,8 @@ padding-left:10px;
   transition: border-color 0.3s ease;
 }
 
-.quiz-selector select:focus, .subject-selector:focus {
+.quiz-selector select:focus {
   outline: none;
-  border-color: #007BFF;
 }
 
 .question-image {
@@ -198,6 +197,10 @@ padding-left:10px;
   margin-right: 8px; /* Add space between image and text */
   vertical-align: middle; /* Align the image vertically */
 }
-
+@media only screen and (max-width: 500px) {
+  body {
+    zoom: 90%;
+  }
+}
 
 

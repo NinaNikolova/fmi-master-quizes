@@ -8,7 +8,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql4">OO analysis - class, object and profile diagrams</option>
                 <option value="mysql5">OO Design: Aggregation, Composition, Inheritance...</option>
                 <option value="mysql6">Interaction diagrams</option>
-                <option value="mysql7">Behavior and structure. Activity/State Machine Diagrams</option>
+                <option value="mysql7">Behavior.Structure.Activity/State Machine Diagrams</option>
             </select>
         </div>
     )
