@@ -57,9 +57,9 @@
 }
 
 .nav-icon {
-    width: 60px;
+    width: auto;
     /* Adjust the width as needed */
-    height: auto;
+    height: 50px;
     /* Maintain aspect ratio */
     margin-right: 8px;
     /* Add space between image and text */
@@ -92,6 +92,16 @@ article {
     padding-top: 10px;
 }
 
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 @keyframes myfirst {
     0% {
         background: linear-gradient(90deg, red, yellow);
@@ -117,4 +127,20 @@ article {
         background: linear-gradient(90deg, purple, red);
     }
 
+}
+
+
+
+h1 div {
+    animation: rotate 3s linear infinite;
+    z-index: 10;
+    width: 80px;
+    height: 100px;
+    padding-bottom: 20px;
+    color: purple;
+}
+
+h1 {
+    width: 90%;
+    padding: 30px;
 }

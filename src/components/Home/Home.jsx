@@ -4,7 +4,7 @@ import './Home.module.css';
 export default function Home() {
     return (
         <div className="home-container">
-            <h1 className="home-title">Welcome to the Software Technologies Quiz App</h1>
+            <h1 className="home-title"><div>Welcome</div> to the Software Technologies Quiz App</h1>
             <nav className="home-nav">
                 <ul className="nav-list">
                     <li className="nav-item">
