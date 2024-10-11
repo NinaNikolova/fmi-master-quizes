@@ -137,6 +137,7 @@ h1 div {
     width: 80px;
     height: 100px;
     padding-bottom: 20px;
+    padding-inline: 30px;
     color: purple;
 }
 
