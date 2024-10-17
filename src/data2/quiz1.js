@@ -298,7 +298,7 @@ export const mysql1 = [
             "Деплой",
 
         ],
-        correctAnswer: "",
+        correctAnswer: "Деплой",
         imageURL: null
     },
     {
