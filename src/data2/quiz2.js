@@ -697,9 +697,4 @@ export const mysql2 = [
         imageURL: null
     },
 
-
-
-
-
-
 ];
