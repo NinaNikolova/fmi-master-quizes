@@ -8,6 +8,7 @@ To get started with this project, follow these steps:
 
 - Start the Development Server: npm run dev
 
+
 ## Live Demo
 
 You can view the live application [here](https://fmi-master-quizes.vercel.app/).
