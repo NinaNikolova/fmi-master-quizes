@@ -3,12 +3,13 @@ export const mysql2 = [
 		index: 1,
 		question: "What is an object in Object-Oriented Modeling?",
 		choices: [
-			"An atomic unit formed from the union of a state and behavior",
+
 			"A collection of data without behavior",
 			"A class definition in programming",
-			"A system without structure"
+			"An atomic unit formed from the union of an identity, state and behavior",
+			"A system without structure but with class definition and behavior"
 		],
-		correctAnswer: "An atomic unit formed from the union of a state and behavior",
+		correctAnswer: "An atomic unit formed from the union of an identity, state and behavior",
 		imageURL: null
 	},
 	{
@@ -17,10 +18,11 @@ export const mysql2 = [
 		choices: [
 			"A collection of unrelated elements",
 			"A single object with no relationships",
-			"Only a visual representation of data",
-			"A group of objects cooperating to achieve a specific goal",
+			"A group of objects connected and organized in order to achieve a specific goal",
+			"Only a visual representation of a single object with no relationships",
+
 		],
-		correctAnswer: "A group of objects cooperating to achieve a specific goal",
+		correctAnswer: "A group of objects connected and organized in order to achieve a specific goal",
 		imageURL: null
 	},
 	{
@@ -157,14 +159,14 @@ export const mysql2 = [
 	},
 	{
 		index: 14,
-		question: "What defines a system in the context of object-oriented modeling?",
+		question: "Which of the following best defines a model in system description?",
 		choices: [
-			"A single object with no internal structure.",
-			"A random collection of unrelated units.",
-			"A group of cooperating objects organized to achieve a specific goal.",
-			"An abstract concept without physical components."
+			"A model is a complete description of a system from all viewpoints.",
+			"A model represents a specific view of part of the system, is formalized with construction rules, is based on a certain number of concepts and may be shown graphically.",
+			"A model is always an informal description and does not follow specific construction rules.",
+			"A model represents the system entirely in verbal form and is  based on a certain number of concepts graphically and teoretically."
 		],
-		correctAnswer: "A group of cooperating objects organized to achieve a specific goal.",
+		correctAnswer: "A model represents a specific view of part of the system, is formalized with construction rules, is based on a certain number of concepts and may be shown graphically.",
 		imageURL: null
 	},
 	{
@@ -195,12 +197,13 @@ export const mysql2 = [
 		index: 17,
 		question: "What are the key components included in UML as a modeling language?",
 		choices: [
-			"Model elements, visual rendering, and usage guidelines.",
+
 			"Programming languages, database management, and UI design.",
+			"Model elements, notation - visual rendering, and usage guidelines.",
 			"Only visual representations of system architecture.",
 			"Frameworks for building software applications."
 		],
-		correctAnswer: "Model elements, visual rendering, and usage guidelines.",
+		correctAnswer: "Model elements, notation - visual rendering, and usage guidelines.",
 		imageURL: null
 	},
 	{
@@ -237,6 +240,79 @@ export const mysql2 = [
 			"A tool for managing software development processes."
 		],
 		correctAnswer: "A specification defining a graphical language for visualizing, specifying, constructing, and documenting the artifacts of distributed object systems.",
+		imageURL: null
+	},
+	{
+		index: 21,
+		question: "Which of the following correctly describes the scope of UML?",
+		choices: [
+			"UML is a combination of concepts from Booch, OMT, and OOSE, providing a common and widely usable modeling language.",
+			"UML focuses solely on the Booch method and does not incorporate concepts from other methodologies.",
+			"UML is a process-oriented language, rather than a standard modeling language.",
+			"UML limits its use to small-scale, non-concurrent systems."
+		],
+		correctAnswer: "UML is a combination of concepts from Booch, OMT, and OOSE, providing a common and widely usable modeling language.",
+		imageURL: null
+	},
+
+	{
+		index: 22,
+		question: "Which of the following is NOT an objective of the UML authors?",
+		choices: [
+			"To create a language useful for both humans and machines.",
+			"To represent whole systems using object-oriented concepts.",
+			"To develop a process standard for system development.",
+			"To account for scale factors inherent in complex systems.",
+			"Establish an explicit link between concepts and executables."
+		],
+		correctAnswer: "To develop a process standard for system development.",
+		imageURL: null
+	},
+	{
+		index: 23,
+		question: "Which of the following is NOT true about UML?",
+		choices: [
+			"UML provides guidance on the order of a team's activities.",
+			"UML specifies what artifacts should be developed.",
+			"UML directs the tasks of individual developers and the team as a whole.",
+			"UML is process-independent",
+			"UML doesn't offer criteria for monitoring and measuring a project’s products and activities."
+		],
+		correctAnswer: "UML doesn't offer criteria for monitoring and measuring a project’s products and activities.",
+		imageURL: null
+	},
+	{
+		index: 24,
+		question: "Which of the following is NOT a UML-compliant diagram?",
+		choices: [
+			"Use case diagram",
+			"State diagram",
+			"Component & deployment diagram",
+			"Map-Flowchart diagram",
+			"Activity diagram",
+			"Component diagram",
+			"Package diagram",
+			"Class diagram",
+			"Object diagram",
+			"Deployment diagram",
+			"Collaboration diagram",
+			"Sequence diagram"
+		],
+		correctAnswer: "Map-Flowchart diagram",
+		imageURL: null
+	},
+	{
+		index: 25,
+		question: "Which of the following is NOT an architectural view in UML?",
+		choices: [
+			"User model view (use cases, scenario view)",
+			"Structural model view (class diagram)",
+			"Behavioral model view (statechart/activity/interactions diagrams)",
+			"Data flow model view",
+			"Implementation model view (realization structure component diagram)",
+			"Environment model view (deployment)"
+		],
+		correctAnswer: "Data flow model view",
 		imageURL: null
 	}
 ];
