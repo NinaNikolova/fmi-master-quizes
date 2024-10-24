@@ -1,15 +1,148 @@
+// Object, Class, and Profile Diagrams. Class Stereotypes and Associations.
 export const mysql4 = [
-  {
-    index: 1,
-    question: "What is the main purpose of class diagrams in object-oriented analysis?",
-    choices: [
-      "To describe the behavior of a system over time",
-      "To represent the static structure of a system by showing classes and their relationships",
-      "To visualize user interactions with the system",
-      "To define the system's data flow"
-    ],
-    correctAnswer: "To represent the static structure of a system by showing classes and their relationships",
-    imageURL: null
-  },
+	{
+		index: 1,
+		question: "Which of the following is basic UML 2.x diagrams?",
+		choices: [
+			"Behaviour and structure",
+			"Communication Plan",
+			"Flowchart Diagram",
+			"Relationship Model"
+		],
+		correctAnswer: "Behaviour and structure",
+		imageURL: null
+	},
+	{
+		index: 2,
+		question: "Which of the following isn't behaviour diagram?",
+		choices: [
+			"Activity",
+			"Interaction",
+			"Class",
+			"State machine",
+			"Use case"
+		],
+		correctAnswer: "Class",
+		imageURL: null
+	},
+	{
+		index: 3,
+		question: "Which of the following isn't structure diagram?",
+		choices: [
+			"Activity",
+			"Component",
+			"Class",
+			"Object",
+			"Composite structure",
+			"Deployment",
+			"Package",
+			"Profile"
+		],
+		correctAnswer: "Activity",
+		imageURL: null
+	},
+	{
+		index: 4,
+		question: "Which of the following isn't interaction diagram?",
+		choices: [
+			"Communication",
+			"Interaction overview",
+			"Class",
+			"Sequence",
+			"Timing",
+
+		],
+		correctAnswer: "Class",
+		imageURL: null
+	},
+	{
+		index: 5,
+		question: "User requirements are statements in natural language plus diagrams of the services the system provides and its operational constraints. They are written for customers?",
+		choices: [
+			"Yes",
+			"No"
+		],
+		correctAnswer: "Yes",
+		imageURL: null
+	},
+	{
+		index: 6,
+		question: "System requirements - a structured document setting out detailed descriptions of the system’s functions, services and operational constraints. Defines what should be implemented so may be part of a contract between client and contractor. Written for dev-op’s?",
+		choices: [
+			"Yes",
+			"No"
+		],
+		correctAnswer: "Yes",
+		imageURL: null
+	},
+	{
+		index: 7,
+		question: "Who aren't user requirements important for? ",
+		choices: [
+			"Client managers",
+			"System end-users",
+			"Client engineers",
+			"Contractor managers",
+			"System architects",
+			"Software developers"
+		],
+		correctAnswer: "Software developers",
+		imageURL: null
+	},
+	{
+		index: 8,
+		question: "Who aren't system requirements important for? ",
+		choices: [
+			"System end-users",
+			"Client engineers",
+			"Contractor managers",
+			"System architects",
+			"Software developers"
+		],
+		correctAnswer: "Contractor managers",
+		imageURL: null
+	},
+	{
+		index: 9,
+		question: "Which of the following statements isn't true regarding non-functional requirements?",
+		choices: [
+			"Constraints on the services or functions offered by the system such as timing constraints, constraints on the development process, standards, etc.",
+			"Often apply to the system as a whole rather than individual features or services.",
+			"Statements of services the system should provide",
+			"Non-functional requirements may be more critical than functional requirements. If these are not met, the system may be useless.",
+			"Process requirements may also be specified mandating a particular IDE, programming language or development method."
+		],
+		correctAnswer: "Statements of services the system should provide",
+		imageURL: null
+	},
+	{
+		index: 10,
+		question: "What don't functional requirements include?",
+		choices: [
+			"Statements of services the system should provide, how the system should react to particular inputs and how the system should behave in particular situations.",
+			"May state what the system should not do",
+			"Domain requirements -  a subset of the functional req’s",
+			"Timing constraints",
+			"Describe functionality or system services",
+			"May be highlevel statements of what the system should do",
+			"Functional system requirements should describe the system services in detail"
+		],
+		correctAnswer: "Timing constraints",
+		imageURL: null
+	},
+	{
+		index: 10,
+		question: "What doesn't non-functional classfication include?",
+		choices: [
+			"Product requirements",
+			"Organisational requirements",
+			"External requirements",
+			"Domains",
+
+		],
+		correctAnswer: "Domains",
+		imageURL: null
+	}
+
 
 ];
