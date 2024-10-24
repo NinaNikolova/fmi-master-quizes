@@ -91,10 +91,10 @@ export const mysql3 = [
         choices: [
             "Functional requirements state the services the system should provide.",
             "Functional requirements describe how the system should react to particular inputs.",
-            "Functional requirements are constraints on the system's overall performance.",
+            "Functional requirements are constraints on the system performance.",
             "Functional requirements may also state what the system should not do."
         ],
-        correctAnswer: "Functional requirements are constraints on the system's overall performance.",
+        correctAnswer: "Functional requirements are constraints on the system performance.",
         imageURL: null
     },
     {
@@ -104,9 +104,9 @@ export const mysql3 = [
             "Non-functional requirements impose constraints on the services offered by the system.",
             "Non-functional requirements often apply to the system as a whole rather than individual features.",
             "Non-functional requirements may include timing constraints and standards.",
-            "Non-functional requirements are solely focused on what the system should do."
+            "Non-functional requirements are focused only on what the system should do."
         ],
-        correctAnswer: "Non-functional requirements are solely focused on what the system should do.",
+        correctAnswer: "Non-functional requirements are focused only on what the system should do.",
         imageURL: null
     },
     {
@@ -136,25 +136,14 @@ export const mysql3 = [
     },
     {
         index: 12,
-        question: "Which of the following is NOT a characteristic of requirements completeness and consistency?",
+        question: "Which of the following is NOT a characteristic of requirements?",
         choices: [
-            "Requirements should include descriptions of all necessary facilities - Complete",
-            "Requirements should be free of conflicts or contradictions- Consistent",
+            "Complete - requirements should include descriptions of all necessary facilities",
+            "Consistent - requirements should be free of conflicts or contradictions",
             "Requirements should not be both - complete and consistent.",
 
         ],
         correctAnswer: "Requirements should not be both - complete and consistent.",
-        imageURL: null
-    },
-    {
-        index: 13,
-        question: "Which of the following is NOT true regarding the consistency of requirements?",
-        choices: [
-            "There should be no conflicts or contradictions in the descriptions of system facilities.",
-            "There should be conflicts or contradictions in the descriptions of system facilities.",
-
-        ],
-        correctAnswer: "There should be conflicts or contradictions in the descriptions of system facilities.",
         imageURL: null
     },
     {
@@ -275,12 +264,12 @@ export const mysql3 = [
         choices: [
             "A description of the starting situation.",
             "A description of the normal flow of events.",
-            "A list of system requirements and their priorities.",
+            "A text list of computer requirements",
             "A description of what can go wrong.",
             "Information about other concurrent activities",
             "A description of the finish state"
         ],
-        correctAnswer: "A list of system requirements and their priorities.",
+        correctAnswer: "A text list of computer requirements",
         imageURL: null
     },
     {
@@ -300,11 +289,11 @@ export const mysql3 = [
         question: "Which of the following is NOT true about UML use case diagrams?",
         choices: [
             "UML use case diagrams provide an overview of usage requirements for a system.",
-            "Use case diagrams are text lists of techologies/Java, C++/.",
+            "Use case diagrams are paintings.",
             "They describe actual system/software requirements.",
             "Use case diagrams are useful for simple presentations to management and project stakeholders."
         ],
-        correctAnswer: "Use case diagrams are primarily intended for detailed technical specifications of the system.",
+        correctAnswer: "Use case diagrams are paintings.",
         imageURL: null
     },
     {
@@ -352,7 +341,7 @@ export const mysql3 = [
             "An actor instance is someone or something outside the system that interacts with it.",
             "An actor class defines a set of actor instances that play the same role in relation to the system.",
             "Actors have to be people only.",
-            "An actor is anythingthat exchanges data with the system - user, external hardware, or another system",
+            "An actor is anything that exchanges data with the system - user, external hardware, or another system",
             "Actors Help Define System Boundaries",
             "Only those who directly communicate with the system need to be considered as actors."
         ],
@@ -396,7 +385,7 @@ export const mysql3 = [
             "Does the actor need to be informed about certain occurrences in the system?",
             "Can all features be performed by the use cases you have identified?"
         ],
-        correctAnswer: "What is the programming language used to develop the system.",
+        correctAnswer: "What is the programming language used to develop the system?",
         imageURL: null
     },
     {
