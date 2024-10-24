@@ -142,6 +142,125 @@ export const mysql4 = [
 		],
 		correctAnswer: "Domains",
 		imageURL: null
+	},
+	{
+		index: 11,
+		question: "Which of the following is NOT a focus of Object-Oriented Analysis (OOA)?",
+		choices: [
+			"Defining the problem in terms of real-world objects",
+			"Identifying candidate software objects",
+			"Designing the system architecture",
+			"Exploring solution alternatives"
+		],
+		correctAnswer: "Designing the system architecture",
+		imageURL: null
+	},
+	{
+		index: 12,
+		question: "Which of the following is NOT a primary focus of Object-Oriented Design (OOD)?",
+		choices: [
+			"Defining the solution to the problem",
+			"Creating the system requirements",
+			"Defining components, classes, and interfaces",
+			"Refining candidate objects from analysis",
+		],
+		correctAnswer: "Creating the system requirements",
+		imageURL: null
+	},
+	{
+		index: 13,
+		question: "Which of the following correctly identifies the two scales of Object-Oriented Design (OOD)?",
+		choices: [
+			"Architectural design and component design",
+			"System design and environment design",			
+		],
+		correctAnswer: "Architectural design and component design",
+		imageURL: null
+	},
+	{
+		index: 14,
+		question: "Which of the following statements is NOT true about objects?",
+		choices: [
+			"An object represents an entity, either real-world or conceptual.",
+			"Identity: Each object has a unique identity.",
+			"State: An object's state includes its properties and relationships.",
+			"Behavior: An object cannot have behavior or operations."
+		],
+		correctAnswer: "Behavior: An object cannot have behavior or operations.",
+		imageURL: null
+	},
+	{
+		index: 15,
+		question: "Which of the following statements about classes is NOT true?",
+		choices: [
+			"A class is a description of a set of objects with common properties, behavior, and responsibilities.",
+			"Classes are mainly used by designers, implementers, and testers.",
+			"Worker: Analyst and mainly Designer",
+			"Using stereotypes like «entity», «boundary», and «control» is mandatory for all classes.",
+			"A class can have reports containing information regarding a specific class within the design model."
+		],
+		correctAnswer: "Using stereotypes like «entity», «boundary», and «control» is mandatory for all classes.",
+		imageURL: null
+	},
+	{
+		index: 16,
+		question: "Which of the following statements about objects and classes is NOT true?",
+		choices: [
+			"A class is a template used to create objects.",
+			"Each object is an instance of some class.",
+			"An object can be an instance of multiple classes.",
+			"A class defines the properties and behavior shared by all its instances."
+		],
+		correctAnswer: "An object can be an instance of multiple classes.",
+		imageURL: null
+	},
+	{
+		index: 17,
+		question: "Which of the following is NOT a typical part of defining a class?",
+		choices: [
+			"Name",
+			"Brief description",
+			"Responsibility",
+			"The number of instances the class can create"
+		],
+		correctAnswer: "The number of instances the class can create",
+		imageURL: null
+	},
+	{
+		index: 18,
+		question: "Which of the following is NOT considered a property of a class?",
+		choices: [
+			"Attributes",
+			"Operations",
+			"Relationships",
+			"Object instances"
+		],
+		correctAnswer: "Object instances",
+		imageURL: null
+	},
+	{
+		index: 19,
+		question: "Which of the following is a Conceptual Level Definition in Object-Oriented Programming?",
+		choices: [
+			"Class",
+			"Object",
+			"Inheritance",
+			"Abstraction"
+		],
+		correctAnswer: "Abstraction",
+		imageURL: null
+	},
+	{
+		index: 20,
+		question: "Which of the following is NOT a Language Level Definition in Object-Oriented Programming?",
+		choices: [
+			"Class",
+			"Object",
+			"Delegation",
+			"Inheritance"
+		],
+		correctAnswer: "Delegation",
+		imageURL: null
 	}
 
 
