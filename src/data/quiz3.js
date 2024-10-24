@@ -147,7 +147,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 14,
+        index: 13,
         question: "Which of the following is NOT true regarding non-functional requirements?",
         choices: [
             "Non-functional requirements define system properties and constraints such as reliability and response time.",
@@ -159,7 +159,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 15,
+        index: 14,
         question: "Which of the following is NOT a non-functional requirement classification?",
         choices: [
             "Product requirements, which specify how the delivered product must behave (e.g., execution speed, reliability).",
@@ -171,7 +171,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 16,
+        index: 15,
         question: "Which of the following is NOT a correct metric for specifying non-functional requirements?",
         choices: [
             "Speed: Processed transactions per second, user/event response time, screen refresh time.",
@@ -187,7 +187,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 17,
+        index: 16,
         question: "Which of the following is NOT true about the software requirements document?",
         choices: [
             "It is the official statement of what is required of the system developers.",
@@ -199,7 +199,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 18,
+        index: 17,
         question: "Which of the following is NOT typically a user of a requirements document?",
         choices: [
             "System engineers, who use the document to understand what is required for system implementation.",
@@ -214,7 +214,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 19,
+        index: 18,
         question: "Which of the following is NOT typically a part of a requirements document structure?",
         choices: [
             "Preface",
@@ -233,7 +233,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 20,
+        index: 19,
         question: "Which of the following is NOT true about the requirements specification process?",
         choices: [
             "It involves writing both user and system requirements in a requirements document.",
@@ -245,7 +245,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 21,
+        index: 20,
         question: "Which of the following is NOT a commonly used way of writing a system requirements specification?",
         choices: [
             "Natural language: Requirements are written as numbered sentences in natural language, with each sentence expressing one requirement.",
@@ -259,7 +259,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 22,
+        index: 21,
         question: "Scenarios are real-life examples of how a system can be used. Which of the following is NOT typically included in a scenario description?",
         choices: [
             "A description of the starting situation.",
@@ -273,7 +273,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 23,
+        index: 22,
         question: "Which of the following is NOT true about Use cases in UML?",
         choices: [
             "Use cases are a scenario-based technique that identifies the actors in an interaction and interaction itself.",
@@ -285,7 +285,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 24,
+        index: 23,
         question: "Which of the following is NOT true about UML use case diagrams?",
         choices: [
             "UML use case diagrams provide an overview of usage requirements for a system.",
@@ -297,7 +297,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 25,
+        index: 24,
         question: "Which of the following is NOT true about the history of use cases?",
         choices: [
             "In 1986, Ivar Jacobson formulated textual, structural, and visual modeling techniques for specifying use cases.",
@@ -310,7 +310,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 26,
+        index: 25,
         question: "Which of the following is NOT typically considered an element of use case diagrams?",
         choices: [
             "Actors, which are individuals or systems that interact with the system.",
@@ -325,7 +325,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 27,
+        index: 26,
         question: "Is an instance a specific object created from a particular class?",
         choices: [
             "Yes",
@@ -335,7 +335,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 28,
+        index: 27,
         question: "Which of the following is NOT true about actors in a system?",
         choices: [
             "An actor instance is someone or something outside the system that interacts with it.",
@@ -349,7 +349,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 29,
+        index: 28,
         question: "Which of the following is NOT typically considered when documenting actor characteristics?",
         choices: [
             "What or who the actor represents.",
@@ -364,7 +364,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 30,
+        index: 29,
         question: "Which of the following is NOT true about use cases?",
         choices: [
             "A use case instance(scenario) is a sequence of actions a system performs that yields an observable result of value for one or more particular actors or other stakeholders of the system.",
@@ -375,7 +375,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 31,
+        index: 30,
         question: "Which of the following is NOT a question to consider when finding use cases?",
         choices: [
             "What are the system tasks for each actor you have identified?",
@@ -389,7 +389,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 32,
+        index: 31,
         question: "Which of the following is NOT considered a type of use case?",
         choices: [
             "System start and stop.",
@@ -402,7 +402,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 33,
+        index: 32,
         question: "Which of the following is NOT a guideline for documenting the flow of events in a use case?",
         choices: [
             "Describe how the use case starts and ends.",
@@ -417,7 +417,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 34,
+        index: 33,
         question: "Which of the following is NOT a component of the flow of events in a use case?",
         choices: [
             "Basic flows represented by a straight arrow.",
@@ -429,7 +429,7 @@ export const mysql3 = [
         imageURL: 'https://www.qatutorial.com/pics/usecase.JPG'
     },
     {
-        index: 35,
+        index: 34,
         question: "While a use case is an abstraction that describes all possible scenarios, a scenario is an use case instance with concrete set of actions. Which of the following is NOT a field in the template for describing a use case scenario?",
         choices: [
             "Name – unambiguous and underlined.",
@@ -441,7 +441,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 36,
+        index: 35,
         question: "Which of the following is NOT a field in the template for describing a use case?",
         choices: [
             "Name – unambiguous and unique across the system.",
@@ -456,34 +456,33 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 37,
+        index: 36,
         question: "Which of the following statements about concrete and abstract use cases is NOT true?",
         choices: [
             "A concrete use case is initiated by an actor and constitutes a complete flow of events.",
             "An abstract use case is instantiated and performs operations on its own.",
             "Abstract use cases are included in, extended into, or generalize other use cases.",
             "No separate instances are created from abstract use cases.",
-            "Abstract use cases are included in, extended into, or generalizing other use cases.",
-            " When a concrete use case is initiated, an instance of the use case is created."
+            "When a concrete use case is initiated, an instance of the use case is created."
         ],
         correctAnswer: "An abstract use case is instantiated and performs operations on its own.",
         imageURL: null
     },
     {
-        index: 38,
+        index: 37,
         question: "Which of the following is NOT an attribute of a use case?",
         choices: [
             "ID – a unique value for identifying the use case.",
             "Rank – describes the importance of the use case.",
             "Leaf – indicates whether it is possible to further specialize a use case. If the value is true, then it is not possible to further specialize the use case.",
-            "Node – indicates the data type of the use case.",
+            "Node - indicates the data type of the use case.",
             "Root - indicates whether the use case has no ancestors (true for no ancestors)"
         ],
-        correctAnswer: "Node – indicates the data type of the use case.",
+        correctAnswer: "Node - indicates the data type of the use case.",
         imageURL: null
     },
     {
-        index: 39,
+        index: 38,
         question: "Which of the following statements about associations in use case diagrams is NOT true?",
         choices: [
             "Associations are indicated by solid lines between actors and use cases.",
@@ -495,7 +494,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 40,
+        index: 39,
         question: "Which of the following statements about UML 2.0 new terms is NOT true?",
         choices: [
             "Use Case Multiplicities lie on the association between actors and use cases.",
@@ -508,7 +507,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 41,
+        index: 40,
         question: "Which of the following statements about the <<Include>> relationship is NOT true?",
         choices: [
             "Including use case includes the “addition” and owns the include relationship.",
@@ -521,7 +520,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 42,
+        index: 41,
         question: "Which of the following statements about the relationship between base use cases and inclusion use cases is NOT true?",
         choices: [
             "The base use case has control of the relationship to the inclusion use case and can depend on the result of performing the inclusion",
@@ -533,7 +532,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 44,
+        index: 42,
         question: "Which of the following statements about the extend-relationship in use cases is NOT true?",
         choices: [
             "The extend-relationship specifies how the behavior of the extension use case can be inserted into the base use case.",
@@ -545,22 +544,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 46,
-        question: "Which of the following statements about the extend relationship in use cases is NOT true?",
-        choices: [
-            "The extending use case defines behavior that is independently of the extended use case.",
-            "This relationship specifies that the behavior of a use case may be extended by the behavior of another (supplementary) use case.",
-            "The extended use case is defined independently of the extending use case and and is meaningful independently of the extending use case.",
-            "The behavior of a use case may be extended by the behavior of another supplementary use case.",
-            "The extending use case defines modular behavior that increments that increase an execution of the extended use case under specific conditions.",
-            "The extension is conditional- it is dependent on what has happened while executing the base use case.",
-            "The base use case does not control the conditions for executing the extension - the conditions The base use case does not control the conditions for executing the extension"
-        ],
-        correctAnswer: "The extending use case defines behavior that is independently of the extended use case.",
-        imageURL: null
-    },
-    {
-        index: 47,
+        index: 43,
         question: "Which of the following statements about extension points in UML 2.0 is NOT true?",
         choices: [
             "An extension point identifies the location in the base use case where the behavior of an extension use case can be inserted.",
@@ -572,7 +556,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 49,
+        index: 44,
         question: "Which of the following statements about dependency relationships in modeling is NOT true?",
         choices: [
             "A dependency signifies that a single element requires other model elements for its specification.",
@@ -584,7 +568,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 50,
+        index: 45,
         question: "Which of the following statements about supplier and client elements in dependency relationships is NOT true?",
         choices: [
             "The supplier element(s) are independent of the client element(s) in the same dependency relationship.",
@@ -596,7 +580,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 51,
+        index: 46,
         question: "Which of the following statements about use-case generalization is NOT true?",
         choices: [
             "Defines a relationship from a child use case to a parent use case.",
@@ -612,7 +596,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 52,
+        index: 47,
         question: "Which of the following statements about collaboration in system design is NOT true?",
         choices: [
             "A collaboration describes a container of collaborating elements, each performing a specialized function.",
@@ -625,7 +609,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 53,
+        index: 48,
         question: "Which of the following statements about use case realization is NOT true?",
         choices: [
             "A realization is a relationship between a specification and its implementation.",
@@ -637,7 +621,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 54,
+        index: 49,
         question: "Which of the following statements about system boundary boxes isn't true? System boundary box are:",
         choices: [
             "System boundary box (optional)- a rectangle around the use cases to indicates the scope of your sub-system",
@@ -649,7 +633,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 55,
+        index: 50,
         question: "Which of the following statements about business use case diagrams isn't true?",
         choices: [
             " UML specification provides no notation specific to business needs.",
@@ -662,7 +646,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 56,
+        index: 51,
         question: "Which of the following statements about use-case packages is NOT true?",
         choices: [
             "A use-case package is used to structure the use-case model by dividing it into smaller parts.",
@@ -674,7 +658,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 57,
+        index: 52,
         question: "Which of the following statements about use cases and requirements capturing is NOT true?",
         choices: [
             "Requirements capturing /улавяне/ is focused on the purpose of the system.",
@@ -689,7 +673,7 @@ export const mysql3 = [
         imageURL: null
     },
     {
-        index: 58,
+        index: 53,
         question: "Which of the following is NOT a requirement capturing activity?",
         choices: [
             "Identifying Actors",
@@ -704,6 +688,5 @@ export const mysql3 = [
         correctAnswer: "Identifying Relationships among Use Cases and Diagrams",
         imageURL: null
     }
-
 
 ];
