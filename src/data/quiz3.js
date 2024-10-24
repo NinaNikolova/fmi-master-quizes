@@ -369,9 +369,7 @@ export const mysql3 = [
             "The physical environment in which the actor will be using the system.",
             "Why the actor is needed?",
             "The actor's scope of responsibility.",
-            "The number of users represented by this actor.",
-            "The physical environment in which the actor will be using the system."
-
+            "The number of users represented by this actor."
         ],
         correctAnswer: "The specific coding standards to be followed during development.",
         imageURL: null
@@ -528,8 +526,7 @@ export const mysql3 = [
             "Addition is use case that is to be included.",
             "The including use case can depend on the input parameters of the included use case.",
             "The including use case may depend only on the result of the included use case.",
-            "This value is obtained as a result of the execution of the included use case.",
-            ""
+            "This value is obtained as a result of the execution of the included use case."
         ],
         correctAnswer: "The including use case can depend on the input parameters of the included use case.",
         imageURL: null
