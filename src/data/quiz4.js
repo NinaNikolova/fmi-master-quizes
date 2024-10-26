@@ -172,7 +172,7 @@ export const mysql4 = [
 		question: "Which of the following correctly identifies the two scales of Object-Oriented Design (OOD)?",
 		choices: [
 			"Architectural design and component design",
-			"System design and environment design",			
+			"System design and environment design",
 		],
 		correctAnswer: "Architectural design and component design",
 		imageURL: null
@@ -261,7 +261,106 @@ export const mysql4 = [
 		],
 		correctAnswer: "Delegation",
 		imageURL: null
-	}
+	},
+	{
+		index: 21,
+		question: "Which of the following is NOT a Conceptual Level Definition in Object-Oriented Programming?",
+		choices: [
+			"Abstraction",
+			"Object",
+			"Delegation",
+			"Encapsulation",
+			"Information Hiding",
+			"Hierarchy"
+		],
+		correctAnswer: "Object",
+		imageURL: null
+	},
 
+	{
+		index: 22,
+		question: "Which type of inheritance is also known as 'interface inheritance'?",
+		choices: [
+			"Sub-typing",
+			"Implementation inheritance",
+			"Polymorphism",
+			"Encapsulation"
+		],
+		correctAnswer: "Sub-typing",
+		imageURL: null
+	},
+	{
+		index: 23,
+		question: "In sub-typing, a subtype relationship is typically described using which of the following arguments?",
+		choices: [
+			"has-a",
+			"is-a",
+			"uses-a",
+			"contains-a"
+		],
+		correctAnswer: "is-a",
+		imageURL: null
+	},
+
+	{
+		index: 24,
+		question: "Which of the following is NOT a characteristic of sub-typing?",
+		choices: [
+			"A logical classification of B as a subtype of A.",
+			"Called interface inheritance.",
+			"Only some operations of the supertype are applicable",
+			"A is usually abstract class (or an interface in Java)",
+			"All (or almost all) operations of A are applicable to B."
+		],
+		correctAnswer: "Only some operations of the supertype are applicable",
+		imageURL: null
+	},
+	{
+		index: 25,
+		question: "Which type of inheritance is often controversial in object-oriented design?",
+		choices: [
+			"Sub-typing",
+			"Implementation inheritance",
+			"Interface inheritance",
+			"Polymorphic inheritance"
+		],
+		correctAnswer: "Implementation inheritance",
+		imageURL: null
+	},
+	{
+		index: 26,
+		question: "Using the implementation of A for convenience in B. A is often concrete. Only some the operations of the operations of A are applicable to B. We probably won't use Bs in place of As. What is this?",
+		choices: [
+			"Sub-typing",
+			"Implementation inheritance",
+			"Composition",
+			"Encapsulation"
+		],
+		correctAnswer: "Implementation inheritance",
+		imageURL: null
+	},
+	{
+		index: 27,
+		question: "What isn't abstraction?",
+		choices: [
+			"Extracting the essential details about an item or group of items, while ignoring the unessential details.",
+			"Providing detailed implementation of items",
+			"The process of identifying common patterns that have systematic variationss; an abstraction represents the common pattern and provides a means for specifying which variation to use.",
+		],
+		correctAnswer: "Providing detailed implementation of items",
+		imageURL: null
+	},
+	{
+		index: 28,
+		question: "Which of the following is NOT a way to reuse classes?",
+		choices: [
+			"Generalizing a class through parameterization",
+			"Create a new class B which delegates operations to A, usually by having an object of class A as an instance variable and calling methods on that object. B is then a client of A.",
+			"Creating a new class as a subclass",
+			"Eliminating the superclass entirely"
+		],
+		correctAnswer: "Eliminating the superclass entirely",
+		imageURL: null
+	},
 
 ];
