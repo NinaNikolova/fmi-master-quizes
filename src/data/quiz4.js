@@ -362,5 +362,29 @@ export const mysql4 = [
 		correctAnswer: "Eliminating the superclass entirely",
 		imageURL: null
 	},
+	{
+		index: 29,
+		question: "Which of these is NOT a purpose of encapsulation in object-oriented programming?",
+		choices: [
+			"To enclose all parts of an abstraction within a class",
+			"To allow direct access to an object's internal state",
+			"To improve code modularity",
+			"To hide implementation details from other classes"
+		],
+		correctAnswer: "To allow direct access to an object's internal state",
+		imageURL: null
+	},
+	{
+		index: 30,
+		question: "Which of these is NOT a benefit of information hiding?",
+		choices: [
+			"Hiding implementation details to reduce interdependencies",
+			"Allowing classes to be modified directly by external entities",
+			"Increasing modularity in code",
+			"Enhancing security by restricting access to data"
+		],
+		correctAnswer: "Allowing classes to be modified directly by external entities",
+		imageURL: null
+	}
 
 ];
