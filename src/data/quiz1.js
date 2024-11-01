@@ -464,7 +464,6 @@ export const mysql1 = [
         correctAnswer: "A family of systems through patterns for structural organization, component types, restrictions, and semantic models",
         imageURL: null
     }
-
 ]
 
 
