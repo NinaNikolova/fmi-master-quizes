@@ -387,167 +387,167 @@ export const mysql4 = [
 		imageURL: null
 	},
 	{
-        index: 31,
-        question: "What is the primary purpose of organizing abstractions into a hierarchy?",
-        choices: [
-            "To allow unrelated classes to share methods",
-            "To rank abstractions based on their rank or level",
-            "To limit the number of objects in a program",
-            "To hide implementation details from other classes"
-        ],
-        correctAnswer: "To rank abstractions based on their rank or level",
-        imageURL: null
-    },
-    {
-        index: 32,
-        question: "In object-oriented programming, what is an object hierarchy?",
-        choices: [
-            "A sequence of objects based on their runtime states",
-            "An arrangement of objects organized by their relationships and interactions",
-            "A collection of unrelated objects",
-            "A list of object names used in a program"
-        ],
-        correctAnswer: "An arrangement of objects organized by their relationships and interactions",
-        imageURL: null
-    },
-    {
-        index: 33,
-        question: "Which of the following is NOT true about class hierarchy?",
-        choices: [
-            "It organizes classes by inheritance relationships",
-            "It arranges classes by their level of abstraction",
-            "It groups objects based on their current state",
-            "It shows the parent-child relationships among classes"
-        ],
-        correctAnswer: "It groups objects based on their current state",
-        imageURL: null
-    },
+		index: 31,
+		question: "What is the primary purpose of organizing abstractions into a hierarchy?",
+		choices: [
+			"To allow unrelated classes to share methods",
+			"To rank abstractions based on their rank or level",
+			"To limit the number of objects in a program",
+			"To hide implementation details from other classes"
+		],
+		correctAnswer: "To rank abstractions based on their rank or level",
+		imageURL: null
+	},
 	{
-        index: 34,
-        question: "Which of the following is NOT a stereotype of analysis classes?",
-        choices: [
-            "Boundary classes",
-            "Control classes",
-            "Entity classes",
-            "Attribute classes"
-        ],
-        correctAnswer: "Attribute classes",
-        imageURL: null
-    },
+		index: 32,
+		question: "In object-oriented programming, what is an object hierarchy?",
+		choices: [
+			"A sequence of objects based on their runtime states",
+			"An arrangement of objects organized by their relationships and interactions",
+			"A collection of unrelated objects",
+			"A list of object names used in a program"
+		],
+		correctAnswer: "An arrangement of objects organized by their relationships and interactions",
+		imageURL: null
+	},
 	{
-        index: 35,
-        question: "What is the primary purpose of using stereotypes in analysis classes?",
-        choices: [       
-            "To simplify code structure by combining similar classes",
+		index: 33,
+		question: "Which of the following is NOT true about class hierarchy?",
+		choices: [
+			"It organizes classes by inheritance relationships",
+			"It arranges classes by their level of abstraction",
+			"It groups objects based on their current state",
+			"It shows the parent-child relationships among classes"
+		],
+		correctAnswer: "It groups objects based on their current state",
+		imageURL: null
+	},
+	{
+		index: 34,
+		question: "Which of the following is NOT a stereotype of analysis classes?",
+		choices: [
+			"Boundary classes",
+			"Control classes",
+			"Entity classes",
+			"Attribute classes"
+		],
+		correctAnswer: "Attribute classes",
+		imageURL: null
+	},
+	{
+		index: 35,
+		question: "What is the primary purpose of using stereotypes in analysis classes?",
+		choices: [
+			"To simplify code structure by combining similar classes",
 			"To categorize classes into specific types based on their function",
-            "To allow classes to directly access each other's methods",
-            "To create identical objects in different locations"
-        ],
-        correctAnswer: "To categorize classes into specific types based on their function",
-        imageURL: null
-    },
-    {
-        index: 36,
-        question: "Which type of analysis class is responsible for managing interactions between the user and the system?",
-        choices: [
-            "Boundary class",
-            "Control class",
-            "Entity class",
-            "Attribute class"
-        ],
-        correctAnswer: "Boundary class",
-        imageURL: null
-    },
-    {
-        index: 37,
-        question: "What role do control classes play in an object model?",
-        choices: [
-            "They handle data storage and persistence",
-            "They facilitate interactions between boundary and entity classes",
-            "They serve as data entry points from external sources",
-            "They store static methods only"
-        ],
-        correctAnswer: "They facilitate interactions between boundary and entity classes",
-        imageURL: null
-    },
-    {
-        index: 38,
-        question: "How does stereotyping analysis classes contribute to a robust object model?",
-        choices: [
-            "It eliminates the need for data encapsulation",
-            "It ensures that changes in one area of the model do not impact unrelated areas",
-            "It removes the dependency of boundary classes on the user interface",
-            "It allows control classes to bypass interactions with other classes"
-        ],
-        correctAnswer: "It ensures that changes in one area of the model do not impact unrelated areas",
-        imageURL: null
-    },
+			"To allow classes to directly access each other's methods",
+			"To create identical objects in different locations"
+		],
+		correctAnswer: "To categorize classes into specific types based on their function",
+		imageURL: null
+	},
 	{
-        index: 39,
-        question: "What is the main role of boundary classes in a system?",
-        choices: [
-            "Managing data storage within the system",
-            "Coordinating the actor's interactions with the system's internals",
-            "Calculating and deriving results based on system data",
-            "Handling communication solely between internal system components"
-        ],
-        correctAnswer: "Coordinating the actor's interactions with the system's internals",
-        imageURL: "https://i.sstatic.net/rQPvd.gif"
-    },
-    {
-        index: 40,
-        question: "Which of the following tasks is NOT a responsibility of a boundary class?",
-        choices: [
+		index: 36,
+		question: "Which type of analysis class is responsible for managing interactions between the user and the system?",
+		choices: [
+			"Boundary class",
+			"Control class",
+			"Entity class",
+			"Attribute class"
+		],
+		correctAnswer: "Boundary class",
+		imageURL: null
+	},
+	{
+		index: 37,
+		question: "What role do control classes play in an object model?",
+		choices: [
+			"They handle data storage and persistence",
+			"They facilitate interactions between boundary and entity classes",
+			"They serve as data entry points from external sources",
+			"They store static methods only"
+		],
+		correctAnswer: "They facilitate interactions between boundary and entity classes",
+		imageURL: null
+	},
+	{
+		index: 38,
+		question: "How does stereotyping analysis classes contribute to a robust object model?",
+		choices: [
+			"It eliminates the need for data encapsulation",
+			"It ensures that changes in one area of the model do not impact unrelated areas",
+			"It removes the dependency of boundary classes on the user interface",
+			"It allows control classes to bypass interactions with other classes"
+		],
+		correctAnswer: "It ensures that changes in one area of the model do not impact unrelated areas",
+		imageURL: null
+	},
+	{
+		index: 39,
+		question: "What is the main role of boundary classes in a system?",
+		choices: [
+			"Managing data storage within the system",
+			"Coordinating the actor's interactions with the system's internals",
+			"Calculating and deriving results based on system data",
+			"Handling communication solely between internal system components"
+		],
+		correctAnswer: "Coordinating the actor's interactions with the system's internals",
+		imageURL: "https://i.sstatic.net/rQPvd.gif"
+	},
+	{
+		index: 40,
+		question: "Which of the following tasks is NOT a responsibility of a boundary class?",
+		choices: [
 			"coordinating the actor's behavior with the 'internals' of the system (primary windows)",
-            "Receiving input from the actor to the system",
-            "Providing output from the system to the actor",
-            "Facilitating direct interactions between entity classes",
-            "Capturing UI requirements such as primary windows"
-        ],
-        correctAnswer: "Facilitating direct interactions between entity classes",
-        imageURL: "https://i.sstatic.net/rQPvd.gif"
-    },
+			"Receiving input from the actor to the system",
+			"Providing output from the system to the actor",
+			"Facilitating direct interactions between entity classes",
+			"Capturing UI requirements such as primary windows"
+		],
+		correctAnswer: "Facilitating direct interactions between entity classes",
+		imageURL: "https://i.sstatic.net/rQPvd.gif"
+	},
 	{
-        index: 41,
-        question: "What is the primary function of a control class in a system?",
-        choices: [
-            "To store and manage system data",
-            "To model control behavior specific to one or a few use cases and encapsulate use-case specific behavior.",
-            "To handle all user interactions within the system",
-            "To encapsulate data for all system-wide use cases"
-        ],
-        correctAnswer: "To model control behavior specific to one or a few use cases and encapsulate use-case specific behavior.",
-        imageURL: "https://i.sstatic.net/rQPvd.gif"
-    },
-    {
-        index: 42,
-        question: "Which of the following best describes an entity class?",
-        choices: [
-            "A class used to manage user interface elements",
-            "A class that holds and updates information about specific phenomena- an event, a person...",
-            "A class that only manages temporary data",
-            "A class that handles use-case specific control behavior"
-        ],
-        correctAnswer: "A class that holds and updates information about specific phenomena- an event, a person...",
-        imageURL: "https://i.sstatic.net/rQPvd.gif"
-    },
+		index: 41,
+		question: "What is the primary function of a control class in a system?",
+		choices: [
+			"To store and manage system data",
+			"To model control behavior specific to one or a few use cases and encapsulate use-case specific behavior.",
+			"To handle all user interactions within the system",
+			"To encapsulate data for all system-wide use cases"
+		],
+		correctAnswer: "To model control behavior specific to one or a few use cases and encapsulate use-case specific behavior.",
+		imageURL: "https://i.sstatic.net/rQPvd.gif"
+	},
 	{
-        index: 42,
-        question: "Which of the following is NOT an activity typically involved in analysis?",
-        choices: [
-            "Finding entity, boundary, and control objects",
-            "Mapping use cases to objects with sequence diagrams",
-            "Modeling interaction among objects with CRC cards",
-            "Creating UI layouts for user interfaces",
-            "Identifying attributes and associations",
-            "Modeling state-dependent behavior of individual objects",
-            "Building inheritance relationships",
-            "Reviewing the analysis model"
-        ],
-        correctAnswer: "Creating UI layouts for user interfaces",
-        imageURL: null
-    }
-]
+		index: 42,
+		question: "Which of the following best describes an entity class?",
+		choices: [
+			"A class used to manage user interface elements",
+			"A class that holds and updates information about specific phenomena- an event, a person...",
+			"A class that only manages temporary data",
+			"A class that handles use-case specific control behavior"
+		],
+		correctAnswer: "A class that holds and updates information about specific phenomena- an event, a person...",
+		imageURL: "https://i.sstatic.net/rQPvd.gif"
+	},
+	{
+		index: 42,
+		question: "Which of the following is NOT an activity typically involved in analysis?",
+		choices: [
+			"Finding entity, boundary, and control objects",
+			"Mapping use cases to objects with sequence diagrams",
+			"Modeling interaction among objects with CRC cards",
+			"Creating UI layouts for user interfaces",
+			"Identifying attributes and associations",
+			"Modeling state-dependent behavior of individual objects",
+			"Building inheritance relationships",
+			"Reviewing the analysis model"
+		],
+		correctAnswer: "Creating UI layouts for user interfaces",
+		imageURL: null
+	}
+
 
 
 
