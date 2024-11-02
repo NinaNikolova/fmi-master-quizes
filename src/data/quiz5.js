@@ -588,13 +588,4 @@ export const mysql5 = [
         imageURL: null
     }
 
-
-
-
-]
-    
-
-
-
-
 ];
