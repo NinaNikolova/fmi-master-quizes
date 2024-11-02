@@ -311,7 +311,290 @@ export const mysql5 = [
         ],
         correctAnswer: "None of the above",
         imageURL: null
+    },
+    {
+        index: 25,
+        question: "Which of the following statements about super and sub-classes is NOT correct?",
+        choices: [
+            "A super class contains features that are common to two or more classes.",
+            "A sub class includes at least the features of its super class(es).",
+            "A class cannot be both a super class and a sub class simultaneously.",
+            "A class may be a sub class and a super class at the same time."
+        ],
+        correctAnswer: "A class cannot be both a super class and a sub class simultaneously.",
+        imageURL: null
+    },
+    {
+        index: 26,
+        question: "Which of the following statements about generalization is NOT correct?",
+        choices: [
+            "Generalization is a process of organizing features of objects with a shared purpose.",
+            "Generalization is equivalent to a 'kind of' or 'type of' relationship.",
+            "Specialization is the same as generalization.",
+            "Generalization enables inheritance.",
+            "Specialization is the opposite of generalization",
+            "Generalization is not an association."
+
+        ],
+        correctAnswer: "Specialization is the same as generalization.",
+        imageURL: null
+    },
+    {
+        index: 27,
+        question: "Which of the following statements about generalization and specialization is INCORRECT?",
+        choices: [
+            "Generalization involves identifying abstract concepts from lower-level, concrete ones.",
+            "Class inheritance enables organizing concepts into hierarchies.",
+            "Specialization identifies specific concepts from a higher-level concept.",
+            "Inheritance is related to generalization or specialization.",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 28,
+        question: "Which statement about single and multiple inheritance is CORRECT?",
+        choices: [
+            "A class can only inherit from one other class, never multiple classes.",
+            "A class can inherit from several other classes through multiple inheritance, although generally it will inherit from only one.",
+        ],
+        correctAnswer: "A class can inherit from several other classes through multiple inheritance, although generally it will inherit from only one.",
+        imageURL: null
+    },
+    {
+        index: 29,
+        question: "Which of the following is INCORRECT?",
+        choices: [
+            "You must handle naming conflicts if multiple ancestors have the same attribute or operation name.",
+            "There is no need to qualify attribute names when they appear in multiple ancestors /предци/.",
+        ],
+        correctAnswer: "You must handle naming conflicts if multiple ancestors have the same attribute or operation name.",
+        imageURL: null
+    },
+    {
+        index: 30,
+        question: "What is a repeated inheritance problem in multiple inheritance?",
+        choices: [
+            "Multiple copies of an ancestor's attributes may exist in a descendant due to repeated inheritance.",
+            "Repeated inheritance allows only one instance of each attribute in the descendant.",
+        ],
+        correctAnswer: "Multiple copies of an ancestor's attributes may exist in a descendant due to repeated inheritance.",
+        imageURL: null
+    },
+    {
+        index: 31,
+        question: "Which of the following statements about abstract and concrete classes is NOT TRUE?",
+        choices: [
+            "A class that is not instantiated and exists only for other classes to inherit it, is an abstract class.",
+            "Classes that are actually instantiated are concrete classes",
+            "An abstract class must have at least one descendant to be useful",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 32,
+        question: "In an object-oriented system, what is the purpose of an abstract class?",
+        choices: [
+            "To provide a blueprint that concrete classes can inherit.",
+            "To automatically instantiate child classes.",
+        ],
+        correctAnswer: "To provide a blueprint that concrete classes can inherit.",
+        imageURL: null
+    },
+    {
+        index: 33,
+        question: "Which of the following statements is NOT TRUE?",
+        choices: [
+            "An abstract class is a class that lacks a complete implementation; cannot be used to create objects; cannot be instantiated; a concrete sub-class must provide methods for unimplemented operations",
+            "Concrete class has methods for all operations; can be instantiated; methods may be defined in the class or inherited from a super-class",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 34,
+        question: "Which of the following statement about different types of classes is INCORRECT?",
+        choices: [
+            "An abstract class cannot have direct instances and the name is written in italics.",
+            "A root class cannot be a sub-class and is written with a 'root' stereotype.",
+            "A leaf class cannot be a superclass and is written with a 'leaf' stereotype.",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 35,
+        question: "Which of the following statements about polymorphism is NOT TRUE?",
+        choices: [
+            "Polymorphism is the ability to dynamically choose the method for an operation choose the method for an operation at run-time and service-time.",
+            "Encapsulation and generalization are facilitating polymorphism.",
+            "Polymorphism allows operations to be defined in the superclass, with re-implemented methods in unique subclasses.",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 36,
+        question: "What is not true about Subtyping like inheritance to support polymorphism?",
+        choices: [
+            "Subtyping means that the descendant is a subtype that can fill in for all its ancestors in any situation.",
+            "Subtyping is a special case of polymorphism.",
+            "It ensures that the system will tolerate changes in the set of subtypes",
+            "You should use generalizations only between classes of the same stereotype",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 37,
+        question: "What is not true about Subclassing like Inheritance to support implementation reuse?",
+        choices: [
+            "Subclassing is the reuse aspect of generalization.",
+            "It promotes code reuse by inheriting properties defined by other classes.",
+            "Subclassing saves labor and lets you reuse code when implementing a particular class.",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 38,
+        question: "What is not true about Delegation?",
+        choices: [
+            "Delegation is the alternative to implementation inheritance that should be used whe reuse is desired.",
+            "It is a prefarable to implementation interface.",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 39,
+        question: "Which statement about interfaces is NOT TRUE?",
+        choices: [
+            "A model element which defines a set of behaviors offered by a classifier model element.",
+            "A classifier may realize one or more interfaces.",
+            "An interface may be realized by one or more classifiers.",
+            "Any classifiers which realize the same interfaces may be substituted for one another in the system.",
+            "Each interface should provide an unique and well defined set of operations.",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 40,
+        question: "Which of the following statements about types of interfaces is NOT true?",
+        choices: [
+            "Naming and Describing Interfaces",
+            "Defining Operations",
+            "Documenting Interfaces",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 41,
+        question: "Which of the following statements about interfaces is NOT true?",
+        choices: [
+            "An interface provides a complete implementation of a class or component.",
+            "Interfaces can be represented in both class and component diagrams.",
+            "Suppressing sections of an interface does not imply the absence of operations.",
+            "Drawing an empty section indicates that there are no elements in that part."
+        ],
+        correctAnswer: "An interface provides a complete implementation of a class or component.",
+        imageURL: null
+    },
+    {
+        index: 42,
+        question: "Which of the following statements about realization is NOT correct?",
+        choices: [
+            "A class can inherit from an interface class without being a subclass of that interface.",
+            "Realization allows a class to inherit attributes from the interface.",
+            "Realization only allows the inheritance of operations.",
+            "If attributes need to be inherited, an abstract base class should be used instead of an interface."
+        ],
+        correctAnswer: "Realization allows a class to inherit attributes from the interface.",
+        imageURL: null
+    },
+    {
+        index: 43,
+        question: "Which of the following statements about realization is NOT true?",
+        choices: [
+            "Realization represents a semantic relationship where one element specifies a contract and another guarantees to carry out this contract.",
+            "Realization is relevant to: 1/interfaces versus realizing classes/components 2/uses cases versus diagrams realizing collaborations",
+            "Realization can also apply to use cases and diagrams realizing collaborations.",
+            "Realization is graphically depicted as a dashed /пунктирана/ arrow with a hollow /кух/ head.",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: null
+    },
+    {
+        index: 44,
+        question: "Which of the following statements about dependency in UML is NOT true?",
+        choices: [
+            "A dependency relationship indicates that one element, the client, uses another element, the supplier.",
+            "Dependency relationships have specific names associated with them.",
+            "A change to the supplier may require a change to the client.",
+            "Dependency is shown as an open arrow pointing from the client to the supplier.",
+            "Dependency is weak association."
+        ],
+        correctAnswer: "Dependency relationships have specific names associated with them.",
+        imageURL: null
+    },
+    {
+        index: 45,
+        question: "Which of the following statements about using dependency relationships is NOT true?",
+        choices: [
+            "A dependency relationship connects two packages to indicate that at least one element in the client package is dependent on an element in the supplier package.",
+            "A dependency relationship indicates that all elements in the client package are dependent on the supplier package.",
+            "A dependency relationship can connect two classes to show a higher level of abstraction than an association relationship.",
+            "A client class can temporarily use a supplier class as a parameter or local variable in its operations."
+        ],
+        correctAnswer: "A dependency relationship indicates that all elements in the client package are dependent on the supplier package.",
+        imageURL: null
+    },
+    {
+        index: 46,
+        question: "Which of the following statements about dependency and package diagrams is NOT correct?",
+        choices: [
+            "Package diagrams show the arrangement and organization of model elements in middle to large scale projects.",
+            "A package diagram can show both the structure and dependencies between subsystems or modules.",
+            "Package diagrams provide different views of a system, such as a multi-layered application model.",
+            "Package diagrams are a type of structural diagram in UML 2.*.",
+            "None of the above"
+        ],
+        correctAnswer: "None of the above",
+        imageURL: "https://online.visual-paradigm.com/repository/images/df73c422-ed3f-4397-8da2-37197c0b5067/package-diagram-design/uml-package-diagram-example-stocks-trading-system.png"
+    },
+    {
+        index: 47,
+        question: "Which of the following statements about the SOLID design principles is NOT correct?",
+        choices: [
+            "SRP stands for the Single Responsibility Principle.",
+            "OCP refers to the Open/Closed Principle.",
+            "LSP means the Liskov Substitution Principle.",
+            "ISP indicates the Interface Implementation Principle.",
+            "DIP represents the Dependency Inversion Principle."
+        ],
+        correctAnswer: "ISP indicates the Interface Implementation Principle.",
+        imageURL: null
     }
+
+
+
+
+]
+    
 
 
 
