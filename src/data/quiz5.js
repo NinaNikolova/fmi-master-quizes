@@ -114,31 +114,30 @@ export const mysql5 = [
     },
     {
         index: 9,
-        question: "Which of the following statements is NOT true about aggregation (събиране, съвкъпност, общност)?",
+        question: "Which of the following statements is NOT true about aggregation?",
         choices: [
             "An aggregation is a association that models a whole part relationship between an aggregate (the whole) and its parts.",
-            "Aggregation models a compositional relationship between model elements",
             "Aggregation doesn't model a compositional relationship between model elements",
             "Containment /задържане/ in aggregation is by reference to the aggregated class"
         ],
         correctAnswer: "Aggregation doesn't model a compositional relationship between model elements",
-        imageURL: null
+        imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/07-relationships-between-classes.png"
     },
     {
         index: 10,
         question: "Which of the following is NOT true about aggregation?",
         choices: [
-            "Aggregation  is a restrictive /ограничителна/ form of 'part of' association /връзка/",
+            "Aggregation  is a restrictive /ограничителна/ form of 'part of' association",
             "Оbjects are assembled to create a more complex object",
             "The aggregate object coordinates its parts",
             "Аssembly may be physical or logical",
             "The aggregation link doesn’t state that ClassA owns ClassB nor that there’s a parent child relationship between them.",
             "None of the above",
             "Objects in an aggregation are assembled to create a more complex object",
-            "When the aggregate /ClassA/ is deleted, its parts are not automatically deleted /ClassB?"
+            "When the aggregate /ClassA/ is deleted, its parts are not automatically deleted /ClassB/?"
         ],
         correctAnswer: "None of the above",
-        imageURL: null
+        imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/07-relationships-between-classes.png"
     },
     {
         index: 11,
@@ -166,7 +165,7 @@ export const mysql5 = [
     },
     {
         index: 13,
-        question: "Which of the following statements is NOT true about shared aggregation?",
+        question: "Which of the following statements isn't true about shared aggregation?",
         choices: [
             "Shared aggregation allows the same instance to participate in two different aggregations",
             "In shared aggregation, the parts can exist independently of the aggregate",
