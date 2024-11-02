@@ -71,7 +71,7 @@ export const mysql5 = [
     },
     {
         index: 6,
-        question: "Which of the following is NOT true about association (retrospection) in OOA and OOD?",
+        question: "Which of the following is NOT true about association?",
         choices: [
             "It is the simplest form of relation between classes",
             "It represents peer-to-peer/връстник кък връстник/ relations",
@@ -133,7 +133,6 @@ export const mysql5 = [
             "Аssembly may be physical or logical",
             "The aggregation link doesn’t state that ClassA owns ClassB nor that there’s a parent child relationship between them.",
             "None of the above",
-            "Objects in an aggregation are assembled to create a more complex object",
             "When the aggregate /ClassA/ is deleted, its parts are not automatically deleted /ClassB/?"
         ],
         correctAnswer: "None of the above",
@@ -156,7 +155,7 @@ export const mysql5 = [
         question: "Which of the following statements is NOT true about shared aggregation?",
         choices: [
             "Shared aggregation allows for a multiplicity /множество/ greater than one (e.g., 1..N)",
-            "Destroying the aggregate necessarily /непремено/ destroys its parts",
+            "Destroying the aggregate destroys its parts",
             "Shared aggregation forms a graph or a tree with many roots",
             "In shared aggregation, the parts can exist independently of the aggregate"
         ],
