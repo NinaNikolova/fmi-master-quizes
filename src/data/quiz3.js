@@ -18,8 +18,6 @@ export const mysql3 = [
         choices: [
             "The software architecture, the user interface, and component-level details that help practitioners construct the software effectively.",
             "Customer requirements across the information, functional, and behavioral domains.",
-            "Only the user interface of the software system.",
-            "The deployment process of the software on different environments."
         ],
         correctAnswer: "The software architecture, the user interface, and component-level details that help practitioners construct the software effectively.",
         imageURL: null
@@ -138,8 +136,8 @@ export const mysql3 = [
         index: 12,
         question: "Which of the following is NOT a characteristic of requirements?",
         choices: [
-            "Complete - requirements should include descriptions of all necessary facilities",
-            "Consistent - requirements should be free of conflicts or contradictions",
+            "Complete",
+            "Consistent - free of conflicts or contradictions",
             "Requirements should not be both - complete and consistent.",
 
         ],
@@ -150,7 +148,7 @@ export const mysql3 = [
         index: 13,
         question: "Which of the following is NOT true regarding non-functional requirements?",
         choices: [
-            "Non-functional requirements define system properties and constraints such as reliability and response time.",
+            "Non-functional requirements define system properties and constraints such as reliability /надеждност/ and response time.",
             "Non-functional requirements are always less critical than functional requirements.",
             "Constraints like I/O device capability and system representations are part of non-functional requirements.",
             "Non-functional requirements may include process requirements like the use of a specific programming language or IDE."
@@ -162,9 +160,9 @@ export const mysql3 = [
         index: 14,
         question: "Which of the following is NOT a non-functional requirement classification?",
         choices: [
-            "Product requirements, which specify how the delivered product must behave (e.g., execution speed, reliability).",
-            "Organisational requirements, which arise from organisational policies and procedures (e.g., process standards, implementation requirements).",
-            "External requirements, which arise from external factors (e.g., interoperability, legislative requirements).",
+            "Product requirements, which specify how the delivered product must behave (execution speed, reliability).",
+            "Organisational requirements, which arise from organisational policies and procedures (process standards, implementation requirements).",
+            "External requirements, which arise from external factors (legislative requirements).",
             "Design requirements, which specify the visual and aesthetic aspects of the system."
         ],
         correctAnswer: "Design requirements, which specify the visual and aesthetic aspects of the system.",
@@ -202,15 +200,15 @@ export const mysql3 = [
         index: 17,
         question: "Which of the following is NOT typically a user of a requirements document?",
         choices: [
-            "System engineers, who use the document to understand what is required for system implementation.",
+            "System engineers",
             "Managers",
-            "Test engineers, who use the document to derive system tests and verify system functionality.",
-            "End users, who design the architecture and technical specifications of the system.",
+            "Test engineers",
+            "End users",
             "System customers",
             "System test engineers",
             "System maintenance engineers"
         ],
-        correctAnswer: "End users, who design the architecture and technical specifications of the system.",
+        correctAnswer: "End users",
         imageURL: null
     },
     {
@@ -248,14 +246,14 @@ export const mysql3 = [
         index: 20,
         question: "Which of the following is NOT a commonly used way of writing a system requirements specification?",
         choices: [
-            "Natural language: Requirements are written as numbered sentences in natural language, with each sentence expressing one requirement.",
-            "Structured natural language: astandard formor template",
-            "Design description languages: rarely used",
-            "Code-based specifications: The system requirements are directly written in code to demonstrate functionality to the customer.",
-            "Graphical notations - UML use case and sequence diagramsarecommonlyused.",
-            "Mathematical specifications - most customers don’t understand a formal specification"
+            "Natural language",
+            "Structured natural language",
+            "Design description languages",
+            "Code",
+            "Graphical notations - UML use case and sequence diagramsare commonly used.",
+            "Mathematical specifications"
         ],
-        correctAnswer: "Code-based specifications: The system requirements are directly written in code to demonstrate functionality to the customer.",
+        correctAnswer: "Code",
         imageURL: null
     },
     {
@@ -288,7 +286,7 @@ export const mysql3 = [
         index: 23,
         question: "Which of the following is NOT true about UML use case diagrams?",
         choices: [
-            "UML use case diagrams provide an overview of usage requirements for a system.",
+            "Use case diagrams provide an overview of usage requirements for a system.",
             "Use case diagrams are paintings.",
             "They describe actual system/software requirements.",
             "Use case diagrams are useful for simple presentations to management and project stakeholders."
@@ -322,16 +320,6 @@ export const mysql3 = [
             "Packages (optional) - UML constructs that enable you to organize model elements (such as use cases) into groups."
         ],
         correctAnswer: "Data models, which define the database structure for the system.",
-        imageURL: null
-    },
-    {
-        index: 26,
-        question: "Is an instance a specific object created from a particular class?",
-        choices: [
-            "Yes",
-            "No"
-        ],
-        correctAnswer: "Yes",
         imageURL: null
     },
     {
@@ -393,7 +381,7 @@ export const mysql3 = [
         question: "Which of the following is NOT considered a type of use case?",
         choices: [
             "System start and stop.",
-            "Maintenance of the system (e.g., adding a user).",
+            "Maintenance of the system (adding a user).",
             "Maintenance of data stored in the system.",
             "Functionality needed to modify behavior in the system.",
             "User interface design specifications."
@@ -429,23 +417,11 @@ export const mysql3 = [
         imageURL: 'https://www.qatutorial.com/pics/usecase.JPG'
     },
     {
-        index: 34,
-        question: "While a use case is an abstraction that describes all possible scenarios, a scenario is an use case instance with concrete set of actions. Which of the following is NOT a field in the template for describing a use case scenario?",
-        choices: [
-            "Name – unambiguous and underlined.",
-            "Participating actors – underlined with names.",
-            "Flow of events – a sequence of numbered interactions for the use case.",
-            "Entry and exit conditions – describing the conditions under which the use case is invoked."
-        ],
-        correctAnswer: "Entry and exit conditions – describing the conditions under which the use case is invoked.",
-        imageURL: null
-    },
-    {
         index: 35,
         question: "Which of the following is NOT a field in the template for describing a use case?",
         choices: [
             "Name – unambiguous and unique across the system.",
-            "Participating actors.",
+            "Actors",
             "Flow of events – a sequence of numbered interactions for the use case; accomplished either by the actor (left column) or by the system (right);",
             "Exit conditions – need to be TRUE after use case completion.",
             "Entry conditions – need to be TRUE before use case initiation",
@@ -499,11 +475,11 @@ export const mysql3 = [
         choices: [
             "Use Case Multiplicities lie on the association between actors and use cases.",
             "The definition of multiplicities in the use case diagram is the same as in a class diagram.",
-            "The definition of multiplicities- – it shows the number of instances associated each other.",
-            "An include-relationship specify how the behavior defined for the inclusion use case is optionally, not inserted into the behavior defined for the base use case",
-            "An include-relationship is a directed relationship from a base use case to an inclusion use case."
+            "The definition of multiplicities- it shows the number of instances associated each other.",
+            "An include-relationship is a directed relationship from a base use case to an inclusion use case.",
+            "None of the above"
         ],
-        correctAnswer: "An include-relationship specify how the behavior defined for the inclusion use case is optionally, not inserted into the behavior defined for the base use case",
+        correctAnswer: "None of the above",
         imageURL: null
     },
     {
@@ -548,11 +524,11 @@ export const mysql3 = [
         question: "Which of the following statements about extension points in UML 2.0 is NOT true?",
         choices: [
             "An extension point identifies the location in the base use case where the behavior of an extension use case can be inserted.",
-            "Extension points are specified for the extension use case.",
             "The extension point is referenced by an extend relationship between the extension use case and the base use case.",
-            "Extension points show the actual logic necessary for one use case to extend another."
+            "Extension points show the actual logic necessary for one use case to extend another.",
+            "None of the above"
         ],
-        correctAnswer: "Extension points are specified for the extension use case.",
+        correctAnswer: "None of the above",
         imageURL: null
     },
     {
@@ -571,12 +547,12 @@ export const mysql3 = [
         index: 45,
         question: "Which of the following statements about supplier and client elements in dependency relationships is NOT true?",
         choices: [
-            "The supplier element(s) are independent of the client element(s) in the same dependency relationship.",
-            "The client element(s) are dependent on the supplier element(s).",
-            "In directed dependency relationships, the more abstract element is always designated as the client.",
+            "The supplier element is independent of the client element.",
+            "The client element are dependent on the supplier element.",
+            "In directed dependency relationships, the more abstract element is the client.",
             "In some cases, the assignment of direction for client and supplier elements is at the discretion of the modeler/преценка на моделиста/."
         ],
-        correctAnswer: "In directed dependency relationships, the more abstract element is always designated as the client.",
+        correctAnswer: "In directed dependency relationships, the more abstract element is the client.",
         imageURL: null
     },
     {
@@ -597,11 +573,11 @@ export const mysql3 = [
     },
     {
         index: 47,
-        question: "Which of the following statements about collaboration in system design is NOT true?",
+        question: "Which of the following statements about collaboration (сътрудничество) in system design is NOT true?",
         choices: [
             "A collaboration describes a container of collaborating elements, each performing a specialized function.",
-            "Its primary purpose is to explain how a system works and, therefore, it typically only incorporates those aspects of reality that are deemed relevant to the explanation.",
-            "Details such as the identity or precise class of the actual participating instances are often suppressed.",
+            "Its primary purpose is to explain how a system works. It only incorporates those aspects of reality that are relevant to the explanation.",
+            "Details like identity or class are often not included.",
             "The primary purpose of collaboration is to collectively accomplish desired functionality.",
             "Nothing of above is true"
         ],
@@ -627,7 +603,7 @@ export const mysql3 = [
             "System boundary box (optional)- a rectangle around the use cases to indicates the scope of your sub-system",
             "Anything within the box represents functionality that is in scope and anything outside the box is not",
             "System boundary boxes are allways used in all types of UML diagrams.",
-            "Rarely used – i.e., to identify which use cases will be delivered in each major release of a system"
+            "Rarely used – to identify which use cases will be delivered in each major release of a system"
         ],
         correctAnswer: "System boundary boxes are allways used in all types of UML diagrams.",
         imageURL: null
@@ -636,7 +612,7 @@ export const mysql3 = [
         index: 50,
         question: "Which of the following statements about business use case diagrams isn't true?",
         choices: [
-            " UML specification provides no notation specific to business needs.",
+            "UML specification provides no notation specific to business needs.",
             "Business use cases were introduced in Rational Unified Process (RUP) to represent business function, process, or activity performed in the modeled business.",
             "A business actor represents a role played by some person or system external to the modeled business, and interacting with the business.",
             "A business use case should value to a business actor.",
