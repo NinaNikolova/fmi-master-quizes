@@ -7,8 +7,6 @@ export const mysql1 = [
         choices: [
             "To create a replica of the system",
             "To represent the structure and processes of a system",
-            "To provide exact simulation of the system",
-            "To display the final software product"
         ],
         correctAnswer: "To represent the structure and processes of a system",
         imageURL: null,
@@ -19,8 +17,6 @@ export const mysql1 = [
         choices: [
             "Using code to describe system behavior",
             "Using graphical representations to explain system components",
-            "Creating a mathematical model of the system",
-            "Using plain text to define system requirements"
         ],
         correctAnswer: "Using graphical representations to explain system components",
         imageURL: null,
@@ -30,21 +26,17 @@ export const mysql1 = [
         question: "What is an example of a dynamic model in software?",
         choices: [
             "Class diagram",
-            "Flowchart",
             "Petri nets",
-            "Database schema"
         ],
         correctAnswer: "Petri nets",
         imageURL: null,
     },
     {
         index: 4,
-        question: "What is 'encapsulation' in Object-Oriented Programming?",
+        question: "What is 'encapsulation' in OOP?",
         choices: [
             "Sharing all data across multiple classes",
             "Hiding the internal details of a class from other classes",
-            "Creating multiple objects from a single class",
-            "Extending the behavior of a class"
         ],
         correctAnswer: "Hiding the internal details of a class from other classes",
         imageURL: null,
@@ -66,21 +58,17 @@ export const mysql1 = [
         question: "Which is an example of 'inheritance' in Object-Oriented Programming?",
         choices: [
             "An object holding state and behavior",
-            "A class deriving /извличане/ properties from another class",
-            "A method accessing private data",
-            "A function modifying data globally"
+            "A class deriving /извличащ/ properties from another class",
         ],
-        correctAnswer: "A class deriving /извличане/ properties from another class",
+        correctAnswer: "A class deriving /извличащ/ properties from another class",
         imageURL: null,
     },
     {
         index: 7,
         question: "What is a scientific model?",
         choices: [
-            "A representation of a scientific theory",
-            "A detailed description of real objects or systems",
             "An exact replica of an object or system",
-            "A graphical chart of data trends"
+            "A representation of a scientific theory",
         ],
         correctAnswer: "A representation of a scientific theory",
         imageURL: null
@@ -90,11 +78,10 @@ export const mysql1 = [
         question: "In which disciplines are scientific models commonly used?",
         choices: [
             "Only in physics and chemistry",
-            "In a variety of scientific disciplines including ecology and Earth sciences",
-            "Exclusively in engineering fields",
-            "Only in social sciences"
+            "In a variety of scientific disciplines",
+
         ],
-        correctAnswer: "In a variety of scientific disciplines including ecology and Earth sciences",
+        correctAnswer: "In a variety of scientific disciplines",
         imageURL: null
     },
     {
@@ -102,7 +89,6 @@ export const mysql1 = [
         question: "What do scientific models represent?",
         choices: [
             "Exact replicas of systems",
-            "Irrelevant data about systems",
             "Approximations /приближения/ of the behavior of real objects or systems",
         ],
         correctAnswer: "Approximations /приближения/ of the behavior of real objects or systems",
@@ -135,11 +121,9 @@ export const mysql1 = [
         question: "What does a modeling method include?",
         choices: [
             "Only theoretical concepts",
-            "Patterns and conventions /установена практика/",
-            "Exact definitions of models",
-            "Historical examples"
+            "Patterns and conventions /установени практики/",
         ],
-        correctAnswer: "Patterns and conventions /установена практика/",
+        correctAnswer: "Patterns and conventions /установени практики/",
         imageURL: null
     },
     {
@@ -158,7 +142,6 @@ export const mysql1 = [
         choices: [
             "To simplify programming languages",
             "To organize, visualize, understand, and create complex information systems",
-            "To reduce the number of software developers needed",
         ],
         correctAnswer: "To organize, visualize, understand, and create complex information systems",
         imageURL: null
@@ -169,7 +152,6 @@ export const mysql1 = [
         choices: [
             "A specific instance of an object",
             "A blueprint for creating objects",
-            "A set of functions",
         ],
         correctAnswer: "A blueprint for creating objects",
         imageURL: null
@@ -180,7 +162,6 @@ export const mysql1 = [
         choices: [
             "Preventing access to class data",
             "Creating multiple classes from one base class",
-            "Defining global variables"
         ],
         correctAnswer: "Creating multiple classes from one base class",
         imageURL: null
@@ -259,8 +240,9 @@ export const mysql1 = [
         index: 24,
         question: "What is a class in Object-Oriented Programming?",
         choices: [
-            "A predefined library function",
             "A user-defined data type and blueprint for an object",
+            "A predefined library function",
+
         ],
         correctAnswer: "A user-defined data type and blueprint for an object",
         imageURL: null
@@ -279,9 +261,9 @@ export const mysql1 = [
         index: 27,
         question: "Which of the following describes delegation in Object-Oriented Programming?",
         choices: [
-
-            "Creating a new class B that generalizes class A through parameterization",
             "Creating a new class B that delegates operations to class A by having an instance of A",
+            "Creating a new class B that generalizes class A through parameterization",
+
         ],
         correctAnswer: "Creating a new class B that delegates operations to class A by having an instance of A",
         imageURL: null
@@ -438,7 +420,6 @@ export const mysql1 = [
         choices: [
             "Only the choice of programming language",
             "Structural elements, their interfaces, behavior, and architectural style",
-            "The number of lines of code in the system",
 
         ],
         correctAnswer: "Structural elements, their interfaces, behavior, and architectural style",
