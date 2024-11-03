@@ -528,7 +528,209 @@ export const mysql4 = [
 		],
 		correctAnswer: "Creating UI layouts for user interfaces",
 		imageURL: null
-	}
+	},
+	{
+		index: 43,
+		question: "Which of the following statements about CRC cards is NOT correct?",
+		choices: [
+			"CRC cards provide a card-like visualization of classes.",
+			"Each CRC card includes the class description, attributes, and responsibilities.",
+			"CRC stands for Class Responsibility Collaborations.",
+			"CRC cards are used to visualize detailed code implementations.",
+			"CRC cards help in organizing class information for design purposes."
+		],
+		correctAnswer: "CRC cards are used to visualize detailed code implementations.",
+		imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240415153758/What-are-CRC-Cards_1.webp"
+	},
+	{
+		index: 44,
+		question: "Which of the following is NOT true about analysis objects?",
+		choices: [
+			"Analysis objects represent user-level concepts rather than actual software classes and components.",
+			"The analysis model should avoid including system classes and components.",
+			"Analysis classes are detailed software representations ready for implementation.",
+			"Analyses classes make a natural transition from user requirements → through understanding the system → to system design",
+			"Analysis classes are high-level abstractions that will be further detailed later."
+		],
+		correctAnswer: "Analysis classes are detailed software representations ready for implementation.",
+		imageURL: null
+	},
+	{
+		index: 45,
+		question: "Which of the following statements about Object diagrams is INCORRECT?",
+		choices: [
+			"Object diagrams show a snapshot of instances of elements in class diagrams.",
+			"They provide real-life examples of classes and their relationships at a specific moment.",
+			"Object diagrams clarify classes and inheritance, especially for non-programming stakeholders.",
+			"Object diagrams illustrate abstract concepts only without any instances.",
+			"They can assist stakeholders who may find class diagrams too abstract."
+		],
+		correctAnswer: "Object diagrams illustrate abstract concepts only without any instances.",
+		imageURL: null
+	},
+	{
+		index: 46,
+		question: "The UML Profile is an extension mechanism to customize the models for specific domains or platforms?",
+		choices: [
+			"Yes",
+			"No",
+
+		],
+		correctAnswer: "Yes",
+		imageURL: null
+	},
+	{
+		index: 47,
+		question: "Which of the following statements about Profile Diagrams is INCORRECT?",
+		choices: [
+			"Stereotypes, tagged values, and constraints are applied to specific model elements like Classes and Attributes.",
+			"A Profile is a collection of extensions that customize UML for a particular domain area or software platform.",
+			"Profiles in UML 2.* cannot be combined dynamically on the same model.",
+			"Profile only allows adaptation or customization of an existing meta model.",
+			"Profiles allow UML customization for specific software platforms like J2EE and .NET."
+		],
+		correctAnswer: "Profiles in UML 2.* cannot be combined dynamically on the same model.",
+		imageURL: null
+	},
+	{
+		index: 48,
+		question: "Which of the following statements about stereotypes in Profile Diagrams is INCORRECT?",
+		choices: [
+			"Stereotypes increase the UML vocabulary to make it more suitable for specific problem domains.",
+			"Stereotypes can introduce new graphical symbols to represent model elements.",
+			"Stereotypes can only be represented graphically in UML diagrams.",
+			"Stereotypes may be represented either graphically or textually.",
+			"Stereotypes help extend UML to be more applicable to different domains."
+		],
+		correctAnswer: "Stereotypes can only be represented graphically in UML diagrams.",
+		imageURL: null
+	},
+	{
+		index: 49,
+		question: "Which of the following statements about tagged values in Profile Diagrams is INCORRECT?",
+		choices: [
+			"Tagged values allow adding additional information to the specification of a model element in UML.",
+			"Tagged values specify keyword-value pairs where keywords are attributes of the model.",
+			"Tagged values are only used for configuration management purposes.",
+			"Tagged values can be useful for code generation, version control and authorship.",
+			"Tagged values are graphically represented as strings enclosed in brackets."
+		],
+		correctAnswer: "Tagged values are only used for configuration management purposes.",
+		imageURL: null
+	},
+	{
+		index: 50,
+		question: "Which of the following statements about constraints in Profile Diagrams is INCORRECT?",
+		choices: [
+			"Constraints specify conditions that must always hold true.",
+			"Constraints allow extending the semantics of UML by adding new protocols.",
+			"Constraints are represented as strings enclosed in brackets or as OCL expressions.",
+			"Constraints are only applied to attributes of a model element.",
+		],
+		correctAnswer: "Constraints are only applied to attributes of a model element.",
+		imageURL: null
+	},
+	{
+		index: 51,
+		question: "A design class is a description of a set of objects that share the same responsibilities, relationships, operations, attributes, and semantics?",
+		choices: [
+			"Yes",
+			"No",
+		],
+		correctAnswer: "Yes",
+		imageURL: null
+	},
+	{
+		index: 51,
+		question: "Which of the following statements about Attribute Notation is INCORRECT?",
+		choices: [
+			"visibility / name : type multiplicity = default {property strings and constraints}",
+			"Visibility is represented by symbols such as +, -, #, and ~",
+			"Multiplicity /множество/ is denoted as [lower..upper].",
+			"Default values are mandatory in attribute notation.",
+		],
+		correctAnswer: "Default values are mandatory in attribute notation.",
+		imageURL: null
+	},
+	{
+		index: 52,
+		question: "Which of the following statements about attribute visibility is INCORRECT?",
+		choices: [
+			"Public - visible both inside and outside the package containing the class.",
+			"Private - only visible to the class itself and to its friends.",
+			"Protected - visible only to the class itself, its subclasses, or friends of the class.",
+			"Package -о nly classes within the same package as the container can see and use the classes.",
+			"None of the above"
+		],
+		correctAnswer: "None of the above",
+		imageURL: null
+	},
+	{
+		index: 53,
+		question: "Which of the following statements about UML attributes (properties) is INCORRECT?",
+		choices: [
+			"An attribute is a structural feature of a classifier: an attribute or a member end of association or a part of a structured classifier.",
+			"Attributes are used to define characteristics of classes, such as 'id' and 'name'.",
+			"None of the above",
+		],
+		correctAnswer: "None of the above",
+		imageURL: null
+	},
+	{
+		index: 54,
+		question: "Leading forward slash (/), can be used as an indicator to the implementer that the attribute may not be strictly necessary?",
+		choices: [
+			"Yes",
+			"No",
+		],
+		correctAnswer: "Yes",
+		imageURL: null
+	},
+	{
+		index: 55,
+		question: "Constraints represent restrictions placed on an element. They must evaluate to a Boolean expression . You typically show constraints between curly braces ( ({…}{…}) after the element they restrict, though they may be placed in a note and linked to the element using a dashed line.?",
+		choices: [
+			"Yes",
+			"No",
+		],
+		correctAnswer: "Yes",
+		imageURL: null
+	},
+	{
+		index: 56,
+		question: "Which of the following statements about operation parameter directions is INCORRECT?",
+		choices: [
+			"in - parameter is passed to the operation by the caller",
+			"inout - parameter is passed by the caller and may be modified by the operation by the operation and passed back out",
+			"out - parameter isn't set by the caller before being modified by the operation",
+			"return - indicates that the value set by the caller is passed back as a return value.",
+			"None of the above"
+		],
+		correctAnswer: "None of the above",
+		imageURL: null
+	},
+	{
+		index: 57,
+		question: "A Self Association means that one instance of the class has associations to other instances of the same class. Role names are essential to distinguish the purpose for the association?",
+		choices: [
+			"Yes",
+			"No",
+		],
+		correctAnswer: "Yes",
+		imageURL: null
+	},
+	{
+		index: 58,
+		question: "The subscribes association associates an object of any type with an entity object. The associating object will be informed when a particular event takes place in the associated entity object?",
+		choices: [
+			"Yes",
+			"No",
+		],
+		correctAnswer: "Yes",
+		imageURL: null
+	},
+
+
 
 
 
