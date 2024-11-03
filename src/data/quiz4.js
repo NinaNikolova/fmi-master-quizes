@@ -5,9 +5,7 @@ export const mysql4 = [
 		question: "Which of the following is basic UML 2.x diagrams?",
 		choices: [
 			"Behaviour and structure",
-			"Communication Plan",
-			"Flowchart Diagram",
-			"Relationship Model"
+			"Painting"
 		],
 		correctAnswer: "Behaviour and structure",
 		imageURL: null
@@ -106,13 +104,13 @@ export const mysql4 = [
 		index: 9,
 		question: "Which of the following statements isn't true regarding non-functional requirements?",
 		choices: [
-			"Constraints on the services or functions offered by the system such as timing constraints, constraints on the development process, standards, etc.",
+			"Constraints on the services or functions offered by the system: timing constraints, constraints on the development process, standards ...",
 			"Often apply to the system as a whole rather than individual features or services.",
-			"Statements of services the system should provide",
+			"Services the system should provide",
 			"Non-functional requirements may be more critical than functional requirements. If these are not met, the system may be useless.",
 			"Process requirements may also be specified mandating a particular IDE, programming language or development method."
 		],
-		correctAnswer: "Statements of services the system should provide",
+		correctAnswer: "Services the system should provide",
 		imageURL: null
 	},
 	{
@@ -131,7 +129,7 @@ export const mysql4 = [
 		imageURL: null
 	},
 	{
-		index: 10,
+		index: 10.1,
 		question: "What doesn't non-functional classfication include?",
 		choices: [
 			"Product requirements",
@@ -145,7 +143,7 @@ export const mysql4 = [
 	},
 	{
 		index: 11,
-		question: "Which of the following is NOT a focus of Object-Oriented Analysis (OOA)?",
+		question: "Which of the following is NOT a focus of OOA?",
 		choices: [
 			"Defining the problem in terms of real-world objects",
 			"Identifying candidate software objects",
@@ -157,7 +155,7 @@ export const mysql4 = [
 	},
 	{
 		index: 12,
-		question: "Which of the following is NOT a primary focus of Object-Oriented Design (OOD)?",
+		question: "Which of the following is NOT a primary focus of OOD?",
 		choices: [
 			"Defining the solution to the problem",
 			"Creating the system requirements",
@@ -169,7 +167,7 @@ export const mysql4 = [
 	},
 	{
 		index: 13,
-		question: "Which of the following correctly identifies the two scales of Object-Oriented Design (OOD)?",
+		question: "Which of the following correctly identifies the two scales of OOD?",
 		choices: [
 			"Architectural design and component design",
 			"System design and environment design",
@@ -345,7 +343,7 @@ export const mysql4 = [
 		choices: [
 			"Extracting the essential details about an item or group of items, while ignoring the unessential details.",
 			"Providing detailed implementation of items",
-			"The process of identifying common patterns that have systematic variationss; an abstraction represents the common pattern and provides a means for specifying which variation to use.",
+			"The process of identifying common patterns that have systematic variations; an abstraction represents the common pattern and provides a means for specifying which variation to use.",
 		],
 		correctAnswer: "Providing detailed implementation of items",
 		imageURL: null
@@ -392,8 +390,6 @@ export const mysql4 = [
 		choices: [
 			"To allow unrelated classes to share methods",
 			"To rank abstractions based on their rank or level",
-			"To limit the number of objects in a program",
-			"To hide implementation details from other classes"
 		],
 		correctAnswer: "To rank abstractions based on their rank or level",
 		imageURL: null
@@ -402,9 +398,7 @@ export const mysql4 = [
 		index: 32,
 		question: "In object-oriented programming, what is an object hierarchy?",
 		choices: [
-			"A sequence of objects based on their runtime states",
 			"An arrangement of objects organized by their relationships and interactions",
-			"A collection of unrelated objects",
 			"A list of object names used in a program"
 		],
 		correctAnswer: "An arrangement of objects organized by their relationships and interactions",
@@ -440,8 +434,6 @@ export const mysql4 = [
 		choices: [
 			"To simplify code structure by combining similar classes",
 			"To categorize classes into specific types based on their function",
-			"To allow classes to directly access each other's methods",
-			"To create identical objects in different locations"
 		],
 		correctAnswer: "To categorize classes into specific types based on their function",
 		imageURL: null
@@ -462,22 +454,18 @@ export const mysql4 = [
 		index: 37,
 		question: "What role do control classes play in an object model?",
 		choices: [
-			"They handle data storage and persistence",
 			"They facilitate interactions between boundary and entity classes",
-			"They serve as data entry points from external sources",
-			"They store static methods only"
+			"They handle data storage and persistence",
 		],
 		correctAnswer: "They facilitate interactions between boundary and entity classes",
 		imageURL: null
 	},
 	{
 		index: 38,
-		question: "How does stereotyping analysis classes contribute to a robust object model?",
+		question: "How does stereotyping analysis classes contribute to a object model?",
 		choices: [
 			"It eliminates the need for data encapsulation",
 			"It ensures that changes in one area of the model do not impact unrelated areas",
-			"It removes the dependency of boundary classes on the user interface",
-			"It allows control classes to bypass interactions with other classes"
 		],
 		correctAnswer: "It ensures that changes in one area of the model do not impact unrelated areas",
 		imageURL: null
@@ -488,36 +476,32 @@ export const mysql4 = [
 		choices: [
 			"Managing data storage within the system",
 			"Coordinating the actor's interactions with the system's internals",
-			"Calculating and deriving results based on system data",
-			"Handling communication solely between internal system components"
 		],
 		correctAnswer: "Coordinating the actor's interactions with the system's internals",
-		imageURL: "https://i.sstatic.net/rQPvd.gif"
+		imageURL: null
 	},
 	{
 		index: 40,
 		question: "Which of the following tasks is NOT a responsibility of a boundary class?",
 		choices: [
-			"coordinating the actor's behavior with the 'internals' of the system (primary windows)",
+			"Coordinating the actor's behavior with the 'internals' of the system (primary windows)",
 			"Receiving input from the actor to the system",
 			"Providing output from the system to the actor",
 			"Facilitating direct interactions between entity classes",
 			"Capturing UI requirements such as primary windows"
 		],
 		correctAnswer: "Facilitating direct interactions between entity classes",
-		imageURL: "https://i.sstatic.net/rQPvd.gif"
+		imageURL: null
 	},
 	{
 		index: 41,
 		question: "What is the primary function of a control class in a system?",
 		choices: [
-			"To store and manage system data",
 			"To model control behavior specific to one or a few use cases and encapsulate use-case specific behavior.",
-			"To handle all user interactions within the system",
-			"To encapsulate data for all system-wide use cases"
+			"To store and manage system data",
 		],
 		correctAnswer: "To model control behavior specific to one or a few use cases and encapsulate use-case specific behavior.",
-		imageURL: "https://i.sstatic.net/rQPvd.gif"
+		imageURL: null
 	},
 	{
 		index: 42,
@@ -525,11 +509,9 @@ export const mysql4 = [
 		choices: [
 			"A class used to manage user interface elements",
 			"A class that holds and updates information about specific phenomena- an event, a person...",
-			"A class that only manages temporary data",
-			"A class that handles use-case specific control behavior"
 		],
 		correctAnswer: "A class that holds and updates information about specific phenomena- an event, a person...",
-		imageURL: "https://i.sstatic.net/rQPvd.gif"
+		imageURL: null
 	},
 	{
 		index: 42,
