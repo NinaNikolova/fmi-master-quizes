@@ -728,11 +728,6 @@ export const mysql4 = [
 		],
 		correctAnswer: "Yes",
 		imageURL: null
-	},
-
-
-
-
-
+	}
 
 ];
