@@ -74,7 +74,7 @@ export const mysql5 = [
         question: "Which of the following is NOT true about association?",
         choices: [
             "It is the simplest form of relation between classes",
-            "It represents peer-to-peer/връстник кък връстник/ relations",
+            "It represents peer-to-peer/връстник към връстник/ relations",
             "One object is completely independent of another object",
             "One object is aware of the existence of another object",
             "It is implemented in objects as references"
@@ -154,12 +154,12 @@ export const mysql5 = [
         index: 12,
         question: "Which of the following statements is NOT true about shared aggregation?",
         choices: [
-            "Shared aggregation allows for a multiplicity /множество/ greater than one (e.g., 1..N)",
+            "Shared aggregation allows for a multiplicity /множество/ greater than one ( 1..N)",
             "Destroying the aggregate destroys its parts",
             "Shared aggregation forms a graph or a tree with many roots",
             "In shared aggregation, the parts can exist independently of the aggregate"
         ],
-        correctAnswer: "Destroying the aggregate necessarily /непремено/ destroys its parts",
+        correctAnswer: "Destroying the aggregate destroys its parts",
         imageURL: null
     },
     {
