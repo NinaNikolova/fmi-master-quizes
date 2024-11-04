@@ -36,7 +36,7 @@ export const mysql5 = [
             "Design should be traceable/проследим/ to the requirements model",
             "System architecture should be considered in the design",
             "Data design is as important as the design of processing functions",
-            "User interface design should prioritize ease of use/лекота на използване/",
+            "User interface design should prioritize ease of use",
             "Component-level design should be functionally independent",
             "Components should be loosely coupled to each other and the external environment",
             "Design models should be easily understandable",
@@ -200,7 +200,7 @@ export const mysql5 = [
         index: 16,
         question: "Which of the following statements about composition is NOT true?",
         choices: [
-            "Composition is a form of aggregation with strong ownership and coincident lifetime /съвпадащ живот на частта с агрегата/ of the part with the aggregate",
+            "Composition is a form of aggregation with strong ownership and coincident lifetime  of the part with the aggregate /съвпадащ живот на частта с агрегата/",
             "The multiplicity of the aggregate end may exceed one, allowing for shared parts",
             "Once established, the links in composition cannot be changed",
             "A composite aggregation forms a 'tree' of parts, with the root being the aggregate"
@@ -210,14 +210,14 @@ export const mysql5 = [
     },
     {
         index: 17,
-        question: "Which of the following statements about composition is NOT true?",
+        question: "Which of the following statements about composition is NOT correct?",
         choices: [
             "The lifespan of individual objects does not depend on the lifespan of the aggregate object",
             "Composition is a stricter form of aggregation",
             "Parts cannot exist on their own in composition",
             "There is a create-delete dependency of the parts to the whole",
             "Example - ClassPerson, ClassLeg, ClassHand",
-            "The c omposition is a NOT shared aggregation"
+            "The composition is a NOT shared aggregation"
         ],
         correctAnswer: "The lifespan of individual objects does not depend on the lifespan of the aggregate object",
         imageURL: null
