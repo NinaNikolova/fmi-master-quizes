@@ -1,4 +1,5 @@
 
+// формална система
 export const mysql1 = [
     {
         index: 1,
