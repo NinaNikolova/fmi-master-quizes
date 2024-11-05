@@ -84,7 +84,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 1,
+    index: 8,
     question: "Кой принцип за проектиране на софтуер е базиран на идеята, че модулите на високо ниво не трябва да зависят от модулите на ниско ниво, а и двата типа модули трябва да зависят от абстракции?",
     choices: [
 
@@ -97,7 +97,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 2,
+    index: 9,
     question: "Степента на кохезия (Cohesion) в един модел на софтуерната архитектура се измерва с:",
     choices: [
       "степента на функционалната свързаност между отделните модули",
@@ -110,7 +110,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 3,
+    index: 10,
     question: "Когато има само „слаба връзка“ между класовете, напр. ClassA има метод/и, които съдържат параметър на ClassB, но ClassA не поддържа референция към екземпляр на ClassB, то в диаграмата на класовете това може да се укаже чрез:",
     choices: [
       "зависимост",
@@ -124,7 +124,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 4,
+    index: 11,
     question: "UML моделът на поведението може да съдържа:",
     choices: [
       "диаграми на взаимодействието и на компонентите (components diagrams)",
@@ -137,7 +137,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 5,
+    index: 12,
     question: "За да отговаря на OCP (Open/Closed Principle), една софтуерна рамка трябва да бъде:",
     choices: [
       "отворена или затворена както за модификации, така и за разширения",
@@ -149,7 +149,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 6,
+    index: 13,
     question: "При описание на сценарий на случай на употреба (use case scenario) трябва да зададем входни и изходни условия (Entry and Exit conditions).",
     choices: [
       "Истина",
@@ -159,7 +159,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 7,
+    index: 14,
     question: "Подредете типа на свързаност от най-желан към най-нежелан с оглед на добър дизайн на софтуерната архитектура:",
     choices: [
       "Data Coupling - Control Coupling - Global Data Coupling - Internal Data Coupling",
@@ -171,7 +171,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 8,
+    index: 15,
     question: "Подредете видовете кохезия от най-желана към най-нежелана:",
     choices: [
       "Functional Cohesion, Sequential Cohesion, Communicational Cohesion, Procedural Cohesion, Temporal Cohesion, Logical Cohesion, Coincidental Cohesion",
@@ -183,7 +183,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 9,
+    index: 16,
     question: "Класове, които моделират взаимодействието между системата и нейното обкръжение (един или повече актьори), са със стереотип на:",
     choices: [
       "актьорски класове",
@@ -195,7 +195,7 @@ export const mysql12 = [
     imageURL: null
   },
   {
-    index: 10,
+    index: 17,
     question: "UML изгледът на потребителските случаи (Use Case view) може да съдържа:",
     choices: [
       "единствено диаграми на потребителските случаи (use case diagrams)",
@@ -227,7 +227,7 @@ export const mysql12 = [
   //   imageURL: null
   // },
   {
-    index: 12,
+    index: 18,
     question: "Един клас може да се ползва като върнат тип или като тип на параметър на операция на съставния клас, ако:",
     choices: [
       "може да се ползва като върнат тип или като тип на параметър на операция на съставния клас",

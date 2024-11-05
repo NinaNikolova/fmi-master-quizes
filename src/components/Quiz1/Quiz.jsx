@@ -28,7 +28,7 @@ const Quiz = () => {
   const [selectedQuiz, setSelectedQuiz] = useState("mysql1");
   const [wrongQuestions, setWrongQuestions] = useState([]);
 
-  const questions = getQuestions(selectedQuiz, { mysql1, mysql2, mysql3, mysql4, mysql5, mysql6,  mysql7, mysql8, mysql9, mysql10, mysql11, mysql12 });
+  const questions = getQuestions(selectedQuiz, { mysql1, mysql2, mysql3, mysql4, mysql5, mysql6, mysql7, mysql8, mysql9, mysql10, mysql11, mysql12 });
   const { question, choices, correctAnswer, imageURL } = questions[currentQuestion];
 
   const onAnwswerClick = (answer, index) => {
