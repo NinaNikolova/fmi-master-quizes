@@ -48,7 +48,7 @@ export const mysql5 = [
             "One object is aware of the existence of another object"
         ],
         correctAnswer: "One object is independent of another object",
-        imageURL: "https://i.sstatic.net/bfBSY.png"
+        imageURL: null
     },
     {
         index: 5,
@@ -84,7 +84,7 @@ export const mysql5 = [
             "Shared aggregation forms a graph with many roots"
         ],
         correctAnswer: "Destroying the aggregate destroys its parts",
-        imageURL: "https://i.sstatic.net/gYtss.png"
+        imageURL: null
     },
     {
         index: 8,
@@ -96,7 +96,7 @@ export const mysql5 = [
             "A composite aggregation forms a tree structure"
         ],
         correctAnswer: "Links in composition cannot be changed once established",
-        imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/uml-aggregation-vs-composition/02-uml-aggregation.png"
+        imageURL: null
     },
     {
         index: 9,
