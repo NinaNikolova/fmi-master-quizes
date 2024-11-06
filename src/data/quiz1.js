@@ -1,450 +1,183 @@
 // Object-Oriented Modelling with UML
 export const mysql1 = [
-
     {
         index: 1,
         question: "What is the purpose of a model in Object-Oriented Modeling?",
         choices: [
             "To create a replica of the system",
-            "To represent the structure and processes of a system",
+            "To represent the structure and processes of a system"
         ],
-        correctAnswer: "To represent the structure and processes of a system",
-        imageURL: null,
+        correctAnswer: "To represent the structure and processes of a system"
     },
     {
         index: 2,
         question: "Which of the following best describes 'visual modeling'?",
         choices: [
             "Using code to describe system behavior",
-            "Using graphical representations to explain system components",
+            "Using graphical representations to explain system components"
         ],
-        correctAnswer: "Using graphical representations to explain system components",
-        imageURL: null,
+        correctAnswer: "Using graphical representations to explain system components"
     },
     {
         index: 3,
-        question: "What is an example of a dynamic model in software?",
-        choices: [
-            "Class diagram",
-            "Petri nets",
-        ],
-        correctAnswer: "Petri nets",
-        imageURL: null,
-    },
-    {
-        index: 4,
         question: "What is 'encapsulation' in OOP?",
         choices: [
             "Sharing all data across multiple classes",
-            "Hiding the internal details of a class from other classes",
+            "Hiding the internal details of a class from other classes"
         ],
-        correctAnswer: "Hiding the internal details of a class from other classes",
-        imageURL: null,
+        correctAnswer: "Hiding the internal details of a class from other classes"
     },
     {
-        index: 5,
+        index: 4,
         question: "Which type of cohesion is most desirable in a software module?",
         choices: [
             "Functional cohesion",
-            "Temporal cohesion",
-            "Logical cohesion",
-            "Coincidental cohesion"
+            "Temporal cohesion"
         ],
-        correctAnswer: "Functional cohesion",
-        imageURL: null,
+        correctAnswer: "Functional cohesion"
     },
     {
-        index: 6,
+        index: 5,
         question: "Which is an example of 'inheritance' in Object-Oriented Programming?",
         choices: [
             "An object holding state and behavior",
-            "A class deriving /извличащ/ properties from another class",
+            "A class deriving properties from another class"
         ],
-        correctAnswer: "A class deriving /извличащ/ properties from another class",
-        imageURL: null,
+        correctAnswer: "A class deriving properties from another class"
     },
     {
-        index: 7,
-        question: "What is a scientific model?",
-        choices: [
-            "An exact replica of an object or system",
-            "A representation of a scientific theory",
-        ],
-        correctAnswer: "A representation of a scientific theory",
-        imageURL: null
-    },
-    {
-        index: 8,
-        question: "In which disciplines are scientific models commonly used?",
-        choices: [
-            "Only in physics and chemistry",
-            "In a variety of scientific disciplines",
-
-        ],
-        correctAnswer: "In a variety of scientific disciplines",
-        imageURL: null
-    },
-    {
-        index: 9,
-        question: "What do scientific models represent?",
-        choices: [
-            "Exact replicas of systems",
-            "Approximations /приближения/ of the behavior of real objects or systems",
-        ],
-        correctAnswer: "Approximations /приближения/ of the behavior of real objects or systems",
-        imageURL: null
-    },
-    {
-        index: 10,
+        index: 6,
         question: "What is a modeling method?",
         choices: [
             "A detailed analysis of a system",
-            "A generic guideline for realization of modeling",
+            "A generic guideline for realization of modeling"
         ],
-        correctAnswer: "A generic guideline for realization of modeling",
-        imageURL: null
+        correctAnswer: "A generic guideline for realization of modeling"
     },
     {
-        index: 11,
-        question: "Which of the following is NOT a component of a modeling method?",
-        choices: [
-            "Modeling concepts",
-            "Views and notations",
-            "Development process",
-            "None of the above"
-        ],
-        correctAnswer: "None of the above",
-        imageURL: null
-    },
-    {
-        index: 12,
-        question: "What does a modeling method include?",
-        choices: [
-            "Only theoretical concepts",
-            "Patterns and conventions /установени практики/",
-        ],
-        correctAnswer: "Patterns and conventions /установени практики/",
-        imageURL: null
-    },
-    {
-        index: 13,
-        question: "Who outlined /очерта/ the components of a modeling method in 1995?",
-        choices: [
-            "Dr. Alan Turing /Алън Тюринг/",
-            "Dr. James Roumbaugh /Джеймс Румбо/",
-        ],
-        correctAnswer: "Dr. James Roumbaugh /Джеймс Румбо/",
-        imageURL: null
-    },
-    {
-        index: 14,
+        index: 7,
         question: "Why do we model?",
         choices: [
             "To simplify programming languages",
-            "To organize, visualize, understand, and create complex information systems",
+            "To organize, visualize, understand, and create complex information systems"
         ],
-        correctAnswer: "To organize, visualize, understand, and create complex information systems",
-        imageURL: null
+        correctAnswer: "To organize, visualize, understand, and create complex information systems"
     },
     {
-        index: 15,
+        index: 8,
         question: "What is a class in Object-Oriented Programming?",
         choices: [
             "A specific instance of an object",
-            "A blueprint for creating objects",
+            "A blueprint for creating objects"
         ],
-        correctAnswer: "A blueprint for creating objects",
-        imageURL: null
+        correctAnswer: "A blueprint for creating objects"
     },
     {
-        index: 16,
+        index: 9,
         question: "What does inheritance allow in Object-Oriented Programming?",
         choices: [
             "Preventing access to class data",
-            "Creating multiple classes from one base class",
+            "Creating multiple classes from one base class"
         ],
-        correctAnswer: "Creating multiple classes from one base class",
-        imageURL: null
+        correctAnswer: "Creating multiple classes from one base class"
     },
     {
-        index: 17,
+        index: 10,
         question: "What is abstraction in Object-Oriented Programming?",
         choices: [
             "Creating multiple instances of a class",
-            "Hiding the implementation details from the user",
+            "Hiding the implementation details from the user"
         ],
-        correctAnswer: "Hiding the implementation details from the user",
-        imageURL: null
+        correctAnswer: "Hiding the implementation details from the user"
     },
     {
-        index: 18,
-        question: "What does encapsulation refer to in Object-Oriented Programming?",
-        choices: [
-            "Creating an interface for user interaction",
-            "Restricting access to certain components of an object",
-        ],
-        correctAnswer: "Restricting access to certain components of an object",
-        imageURL: null
-    },
-    {
-        index: 19,
-        question: "What is information hiding in Object-Oriented Programming?",
-        choices: [
-            "Making all class data public",
-            "Concealing /скриване/ the internal object details",
-        ],
-        correctAnswer: "Concealing /скриване/ the internal object details",
-        imageURL: null
-    },
-    {
-        index: 20,
-        question: "What does hierarchy /йерархия/ refer to in Object-Oriented Programming?",
+        index: 11,
+        question: "What does hierarchy refer to in Object-Oriented Programming?",
         choices: [
             "The organization of classes and subclasses",
             "The layout of a user interface"
         ],
-        correctAnswer: "The organization of classes and subclasses",
-        imageURL: null
+        correctAnswer: "The organization of classes and subclasses"
     },
     {
-        index: 21,
+        index: 12,
         question: "What are the key characteristics of an object in Object-Oriented Programming?",
         choices: [
             "Attributes, records, and collections",
-            "Identity, state, and behavior",
+            "Identity, state, and behavior"
         ],
-        correctAnswer: "Identity, state, and behavior",
-        imageURL: null
+        correctAnswer: "Identity, state, and behavior"
     },
     {
-        index: 22,
-        question: "What does each object contain in Object-Oriented Programming?",
-        choices: [
-            "Only code for execution",
-            "Data and code to manipulate the data",
-        ],
-        correctAnswer: "Data and code to manipulate the data",
-        imageURL: null
-    },
-    {
-        index: 23,
+        index: 13,
         question: "How do objects interact with each other in Object-Oriented Programming?",
         choices: [
             "By sharing the same memory space",
-            "By knowing the type of message accepted and the type of response returned",
+            "By knowing the type of message accepted and the type of response returned"
         ],
-        correctAnswer: "By knowing the type of message accepted and the type of response returned",
-        imageURL: null
+        correctAnswer: "By knowing the type of message accepted and the type of response returned"
     },
     {
-        index: 24,
-        question: "What is a class in Object-Oriented Programming?",
+        index: 14,
+        question: "What is the God Class Problem in Object-Oriented Programming?",
         choices: [
-            "A user-defined data type and blueprint for an object",
-            "A predefined library function",
-
+            "Classes being overloaded with multiple responsibilities",
+            "Classes inheriting from too many other classes"
         ],
-        correctAnswer: "A user-defined data type and blueprint for an object",
-        imageURL: null
+        correctAnswer: "Classes being overloaded with multiple responsibilities"
     },
     {
-        index: 25,
-        question: "What is a key issue to avoid in the God Class Problem?",
-        choices: [
-            "Naming classes based on specific roles and actions",
-            "Creating classes that handle too many responsibilities",
-        ],
-        correctAnswer: "Creating classes that handle too many responsibilities",
-        imageURL: null
-    },
-    {
-        index: 27,
+        index: 15,
         question: "Which of the following describes delegation in Object-Oriented Programming?",
         choices: [
             "Creating a new class B that delegates operations to class A by having an instance of A",
-            "Creating a new class B that generalizes class A through parameterization",
-
+            "Creating a new class B that generalizes class A through parameterization"
         ],
-        correctAnswer: "Creating a new class B that delegates operations to class A by having an instance of A",
-        imageURL: null
+        correctAnswer: "Creating a new class B that delegates operations to class A by having an instance of A"
     },
     {
-        index: 28,
-        question: "What is a design goal in Object-Oriented Design related to coupling /свързване/?",
+        index: 16,
+        question: "What is a design goal in Object-Oriented Design related to coupling?",
         choices: [
             "To minimize interaction between components at the same level of abstraction",
             "To ensure all components interact equally"
         ],
-        correctAnswer: "To minimize interaction between components at the same level of abstraction",
-        imageURL: null
+        correctAnswer: "To minimize interaction between components at the same level of abstraction"
     },
     {
-        index: 29,
+        index: 17,
         question: "What is the impact of unnecessary object coupling in Object-Oriented Design?",
         choices: [
-
-            "It improves system performance and reusability",
-            "It decreases reusability and increases the risk of system corruption when changes are made",
+            "Improves system performance and reusability",
+            "Decreases reusability and increases the risk of system corruption when changes are made"
         ],
-        correctAnswer: "It decreases reusability and increases the risk of system corruption when changes are made",
-        imageURL: null
+        correctAnswer: "Decreases reusability and increases the risk of system corruption when changes are made"
     },
     {
-        index: 30,
-        question: "What is the least desirable type of modular coupling?",
-        choices: [
-            "Data Coupling",
-            "Control Coupling",
-            "Internal Data Coupling",
-            "Content Coupling"
-        ],
-        correctAnswer: "Internal Data Coupling",
-        imageURL: null
-    },
-    {
-        index: 31,
-        question: "What describes high cohesion/свързаност/ in a software component?",
-        choices: [
-            "Elements within the module are unrelated",
-            "Elements are functionally related and essential for achieving the module's purpose",
-        ],
-        correctAnswer: "Elements are functionally related and essential for achieving the module's purpose",
-        imageURL: null
-    },
-    {
-        index: 32,
-        question: "Which type of cohesion is considered the worst?",
-        choices: [
-            "Functional Cohesion",
-            "Sequential Cohesion",
-            "Coincidental Cohesion",
-            "Communication Cohesion"
-        ],
-        correctAnswer: "Coincidental Cohesion",
-        imageURL: null
-    },
-    {
-        index: 33,
+        index: 18,
         question: "What is cohesion in software design?",
         choices: [
             "The method of testing module functionality",
-            "The degree to which tasks performed by a single module are functionally related",
+            "The degree to which tasks performed by a single module are functionally related"
         ],
-        correctAnswer: "The degree to which tasks performed by a single module are functionally related",
-        imageURL: null
+        correctAnswer: "The degree to which tasks performed by a single module are functionally related"
     },
     {
-        index: 34,
+        index: 19,
         question: "What characterizes Coincidental Module Cohesion?",
         choices: [
             "Little or no constructive relationship among the elements of the module",
-            "Elements are grouped by their time of processing",
+            "Elements are grouped by their time of processing"
         ],
-        correctAnswer: "Little or no constructive relationship among the elements of the module",
-        imageURL: null
+        correctAnswer: "Little or no constructive relationship among the elements of the module"
     },
     {
-        index: 35,
-        question: "What defines Logical Module Cohesion?",
-        choices: [
-
-            "All operations operate on the same data set",
-            "Module performs a set of related functions selected via a function parameter",
-        ],
-        correctAnswer: "Module performs a set of related functions selected via a function parameter",
-        imageURL: null
-    },
-    {
-        index: 36,
-        question: "What is the characteristic of Temporal Module Cohesion?",
-        choices: [
-            "Elements are grouped by being processed at the same time",
-            "The module has no relationship with other modules"
-        ],
-        correctAnswer: "Elements are grouped by being processed at the same time",
-        imageURL: null
-    },
-    {
-        index: 37,
-        question: "What describes Procedural Module Cohesion?",
-        choices: [
-            "Associates processing elements based on their procedural relationships",
-            "All operations operate on the same data set"
-        ],
-        correctAnswer: "Associates processing elements based on their procedural relationships",
-        imageURL: null
-    },
-    {
-        index: 38,
-        question: "What is Communication Module Cohesion?",
-        choices: [
-            "Elements are processed sequentially",
-            "All operations operate on the same input data set",
-        ],
-        correctAnswer: "All operations operate on the same input data set",
-        imageURL: null
-    },
-    {
-        index: 39,
-        question: "What is Sequential (Pipeline) Module Cohesion?",
-        choices: [
-            "Output data from one processing element serves as input for the next",
-            "Elements are processed at the same time",
-        ],
-        correctAnswer: "Output data from one processing element serves as input for the next",
-        imageURL: null
-    },
-    {
-        index: 40,
-        question: "What characterizes Functional Module Cohesion?",
-        choices: [
-            "Elements are grouped based on coincidental relationships",
-            "Operations can be collectively described as a single specific function",
-        ],
-        correctAnswer: "Operations can be collectively described as a single specific function",
-        imageURL: null
-    },
-    {
-        index: 41,
-        question: "How do conceptual diagrams assist in software development?",
-        choices: [
-            "They complicate the understanding of system architecture",
-            "They provide a visual representation of various software development issues",
-        ],
-        correctAnswer: "They provide a visual representation of various software development issues",
-        imageURL: null
-    },
-    {
-        index: 42,
-        question: "What factors determine the complexity of software architecture?",
-        choices: [
-            "Only the choice of programming language",
-            "Structural elements, their interfaces, behavior, and architectural style",
-
-        ],
-        correctAnswer: "Structural elements, their interfaces, behavior, and architectural style",
-        imageURL: null
-    },
-    {
-        index: 43,
-        question: "What key aspects does software architecture influence?",
-        choices: [
-            "The choice of programming language",
-            "Usability, functionality, performance, flexibility, reusability, and portability",
-        ],
-        correctAnswer: "Usability, functionality, performance, flexibility, reusability, and portability",
-        imageURL: null
-    },
-    {
-        index: 44,
+        index: 20,
         question: "What does architectural style define in system design?",
         choices: [
             "The visual appearance of the user interface",
-            "A family of systems through patterns for structural organization, component types, restrictions, and semantic models",
+            "A family of systems through patterns for structural organization, component types, restrictions, and semantic models"
         ],
-        correctAnswer: "A family of systems through patterns for structural organization, component types, restrictions, and semantic models",
-        imageURL: null
+        correctAnswer: "A family of systems through patterns for structural organization, component types, restrictions, and semantic models"
     }
-]
-
-
+];
