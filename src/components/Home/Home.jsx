@@ -20,6 +20,12 @@ export default function Home() {
                             <article className='changing-color'>  <img src="/sm.png" alt="Quiz Icon" className="nav-icon" /> Модели на софтуерни системи </article>
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/quiz3">
+
+                            <article className='changing-color'>  <img src="/arch.png" alt="Quiz Icon" className="nav-icon" /> Архитектури на софтуерни системи </article>
+                        </Link>
+                    </li>
                 </ul>
             </nav>
         </div>
