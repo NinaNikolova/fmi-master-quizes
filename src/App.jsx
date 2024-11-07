@@ -12,6 +12,7 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/quiz2" element={<Quiz2 />} />
         <Route path="/quiz3" element={<Quiz3 />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </Router>
   );
