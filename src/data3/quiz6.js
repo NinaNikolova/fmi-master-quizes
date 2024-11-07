@@ -15,20 +15,20 @@ export const mysql6 = [
     index: 2,
     question: "Which tactic is used to detect failures in a system?",
     choices: [
-      "Heartbeat/Keepalive",
       "Active redundancy",
       "Passive redundancy",
-      "All of the above"
+      "All of the above",
+      "Heartbeat/Keepalive",
     ],
     correctAnswer: "Heartbeat/Keepalive",
     imageURL: null
   },
   {
     index: 3,
-    question: "What is the main difference between active redundancy and passive redundancy?",
+    question: "What is the main difference between active redundancy and passive redundancy /излишък/?",
     choices: [
-      "Active redundancy has faster switchover time, passive redundancy has slower switchover time",
       "Active redundancy has slower switchover time, passive redundancy has faster switchover time",
+      "Active redundancy has faster switchover time, passive redundancy has slower switchover time",
       "Active redundancy uses primary and backup components, passive redundancy uses a single active component",
       "Active redundancy requires manual switchover, passive redundancy has automatic switchover"
     ],
@@ -39,9 +39,9 @@ export const mysql6 = [
     index: 4,
     question: "What is the purpose of the 'Voter' component in N-version programming?",
     choices: [
-      "To compare the outputs of the N versions and decide the final output",
       "To monitor the N versions and detect any failures",
       "To synchronize the execution of the N versions",
+      "To compare the outputs of the N versions and decide the final output",
       "To manage the resource allocation for the N versions"
     ],
     correctAnswer: "To compare the outputs of the N versions and decide the final output",
@@ -99,9 +99,9 @@ export const mysql6 = [
     index: 9,
     question: "What is the main idea behind the 'Checkpoint/Rollback' tactic?",
     choices: [
-      "Periodically saving the consistent state of the system and restoring it in case of failures",
       "Executing multiple versions of the system in parallel and comparing the outputs",
       "Monitoring the processes and restarting them in case of failures",
+      "Periodically saving the consistent state of the system and restoring it in case of failures",
       "Increasing the redundancy of hardware and software components"
     ],
     correctAnswer: "Periodically saving the consistent state of the system and restoring it in case of failures",
@@ -183,8 +183,8 @@ export const mysql6 = [
     index: 16,
     question: "What is the main difference between 'FIFO' and 'Fixed Priority' scheduling algorithms?",
     choices: [
-      "FIFO treats all tasks equally, while Fixed Priority assigns different priorities to tasks",
       "FIFO is more efficient, while Fixed Priority is more complex to implement",
+      "FIFO treats all tasks equally, while Fixed Priority assigns different priorities to tasks",
       "FIFO is more suitable for real-time systems, while Fixed Priority is more suitable for batch processing",
       "FIFO is more dynamic, while Fixed Priority is more static"
     ],
@@ -231,9 +231,9 @@ export const mysql6 = [
     index: 20,
     question: "What is the main difference between 'Dynamic Priority' and 'Static Scheduling' algorithms?",
     choices: [
-      "Dynamic Priority adjusts the priority of tasks based on their past execution history, while Static Scheduling uses a pre-defined schedule",
       "Dynamic Priority is more suitable for real-time systems, while Static Scheduling is more suitable for batch processing",
       "Dynamic Priority is more efficient, while Static Scheduling is more complex to implement",
+      "Dynamic Priority adjusts the priority of tasks based on their past execution history, while Static Scheduling uses a pre-defined schedule",
       "Dynamic Priority is more flexible, while Static Scheduling is more predictable"
     ],
     correctAnswer: "Dynamic Priority adjusts the priority of tasks based on their past execution history, while Static Scheduling uses a pre-defined schedule",
