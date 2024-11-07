@@ -16,10 +16,10 @@ export const mysql4 = [
     index: 2,
     question: "What is Sharding in cloud architecture?",
     choices: [
-      "A technique to divide data store into horizontal partitions",
       "A method to encrypt data",
       "A way to compress data",
-      "A backup strategy"
+      "A backup strategy",
+      "A technique to divide data store into horizontal partitions",
     ],
     correctAnswer: "A technique to divide data store into horizontal partitions",
     imageURL: null
@@ -28,8 +28,8 @@ export const mysql4 = [
     index: 3,
     question: "Which of these is NOT a basic strategy for implementing sharding logic?",
     choices: [
-      "Circular strategy",
       "Lookup strategy",
+      "Circular strategy",
       "Range strategy",
       "Hash strategy"
     ],
@@ -52,9 +52,9 @@ export const mysql4 = [
     index: 5,
     question: "What is REST an acronym for?",
     choices: [
-      "REpresentational State Transfer",
       "Remote Exchange State Transform",
       "Resource Exchange System Transfer",
+      "REpresentational State Transfer",
       "Remote Estate System Transform"
     ],
     correctAnswer: "REpresentational State Transfer",
@@ -64,9 +64,9 @@ export const mysql4 = [
     index: 6,
     question: "Which HTTP method is used to create a resource in RESTful services?",
     choices: [
-      "POST",
       "GET",
       "PUT",
+      "POST",
       "DELETE"
     ],
     correctAnswer: "POST",
@@ -88,9 +88,9 @@ export const mysql4 = [
     index: 8,
     question: "Which of these is a key component of SOAP web services?",
     choices: [
-      "WSDL",
       "JSON",
       "GraphQL",
+      "WSDL",
       "Redux"
     ],
     correctAnswer: "WSDL",
@@ -100,8 +100,8 @@ export const mysql4 = [
     index: 9,
     question: "What is the main purpose of a Queue pattern in cloud architecture?",
     choices: [
-      "To smooth heavy loads that may cause service failure",
       "To increase data storage capacity",
+      "To smooth heavy loads that may cause service failure",
       "To improve network security",
       "To manage user sessions"
     ],
@@ -124,9 +124,9 @@ export const mysql4 = [
     index: 11,
     question: "What is the primary purpose of Cache in service-oriented architectures?",
     choices: [
-      "To optimize repeated access to information",
       "To encrypt sensitive data",
       "To manage network connections",
+      "To optimize repeated access to information",
       "To handle user authentication"
     ],
     correctAnswer: "To optimize repeated access to information",
@@ -136,9 +136,9 @@ export const mysql4 = [
     index: 12,
     question: "Which type of queue sorts incoming requests according to their priority?",
     choices: [
-      "Priority queue",
       "Standard queue",
       "Fixed length queue",
+      "Priority queue",
       "Basic queue"
     ],
     correctAnswer: "Priority queue",
@@ -148,10 +148,10 @@ export const mysql4 = [
     index: 13,
     question: "What is the main advantage of microservices architecture?",
     choices: [
-      "Services are completely independent with their own database",
       "Services share a single database",
       "Services must be deployed together",
-      "Services require central management"
+      "Services require central management",
+      "Services are completely independent with their own database",
     ],
     correctAnswer: "Services are completely independent with their own database",
     imageURL: null
@@ -172,10 +172,10 @@ export const mysql4 = [
     index: 15,
     question: "Which protocol is used as the basis for SOAP web services?",
     choices: [
-      "XML",
       "JSON",
       "HTML",
-      "YAML"
+      "YAML",
+      "XML",
     ],
     correctAnswer: "XML",
     imageURL: null
@@ -184,10 +184,10 @@ export const mysql4 = [
     index: 16,
     question: "What is the purpose of WSDL?",
     choices: [
-      "To define the service interface and operations",
       "To encrypt data transmission",
       "To manage database connections",
-      "To handle user authentication"
+      "To define the service interface and operations",
+      "To handle user authentication",
     ],
     correctAnswer: "To define the service interface and operations",
     imageURL: null
@@ -196,9 +196,9 @@ export const mysql4 = [
     index: 17,
     question: "Which HTTP method is used to read a resource in RESTful services?",
     choices: [
-      "GET",
       "POST",
       "PUT",
+      "GET",
       "DELETE"
     ],
     correctAnswer: "GET",
@@ -208,8 +208,8 @@ export const mysql4 = [
     index: 18,
     question: "What is a key benefit of the Circuit Breaker pattern?",
     choices: [
-      "Helps to increase system dependability",
       "Improves data storage capacity",
+      "Helps to increase system dependability",
       "Enhances user interface",
       "Reduces development time"
     ],
@@ -232,13 +232,13 @@ export const mysql4 = [
     index: 20,
     question: "What distinguishes a service from a component?",
     choices: [
-      "Services are independent and don't have a 'requires' interface",
       "Services must be locally hosted",
       "Services require continuous connection",
+      "Services are independent and don't have a 'requires' interface",
       "Services must share databases"
     ],
     correctAnswer: "Services are independent and don't have a 'requires' interface",
     imageURL: null
   }
- 
+
 ];
