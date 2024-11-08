@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Quiz from './components/Quiz1/Quiz';
 import Quiz2 from './components/Quiz2/Quiz2';
@@ -12,7 +12,7 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/quiz2" element={<Quiz2 />} />
         <Route path="/quiz3" element={<Quiz3 />} />
-        <Route path="*" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
   );
