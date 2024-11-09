@@ -46,7 +46,7 @@ export const mysql4 = [
       "Множеството от елементи на X, свързани с елементи от Y"
     ],
     correctAnswer: "Множеството от елементи на X, свързани с елементи от Y",
-    imageURL: null
+    imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20210208111847/Screenshot20210208at111803AM-660x350.png"
   },
   {
     index: 5,
@@ -58,7 +58,7 @@ export const mysql4 = [
       "Комбиниране на релации чрез добавяне на нови двойки"
     ],
     correctAnswer: "Комбиниране на две релации, при което целта на едната е източник за другата",
-    imageURL: null
+    imageURL: "https://math.info/image/368/composition.jpg"
   },
   {
     index: 6,
@@ -70,11 +70,11 @@ export const mysql4 = [
       "Подмножество от дадено множество"
     ],
     correctAnswer: "Релация, при която един елемент от множество е свързан с един или нула елементи от друго множество",
-    imageURL: null
+    imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20230928183715/One-One-and-Onto.png"
   },
   {
     index: 7,
-    question: "Коя функция се нарича инекция?",
+    question: "Коя функция се нарича инекция /one-to-one X↣Y/?",
     choices: [
       "Функция, при която всеки елемент от обхвата се асоциира с поне един елемент от областта",
       "Функция, която свързва всеки елемент от домейна с единствен елемент от обхвата",
@@ -82,7 +82,7 @@ export const mysql4 = [
       "Функция, дефинирана само за крайни множества"
     ],
     correctAnswer: "Функция, която свързва всеки елемент от домейна с единствен елемент от обхвата",
-    imageURL: null
+    imageURL: "https://a0.anyrgb.com/pngimg/156/1536/surjective-function-bijection-injective-function-front-and-back-covers-inverse-function-domain-of-a-function-mathematical-analysis-finitary-relation-algebra-counting.png"
   },
   {
     index: 8,
@@ -110,19 +110,17 @@ export const mysql4 = [
   },
   {
     index: 10,
-    question: "Какво представлява частична функция?",
+    question: "Какво представлява частична функция A ⇸ B?",
     choices: [
-      "Функция, при която не всички елементи от обхвата са свързани",
-      "Функция, дефинирана само върху конкретен подмножество",
+      "Функция, при която за всяко x ∈ A съществува най-много едно y ∈ B т.е. в A има елементи не свързани с B",
       "Функция, която има само един елемент",
-      "Функция, която покрива целия обхват"
     ],
-    correctAnswer: "Функция, дефинирана само върху конкретен подмножество",
+    correctAnswer: "Функция, при която за всяко x ∈ A съществува най-много едно y ∈ B т.е. в A има елементи не свързани с B",
     imageURL: null
   },
   {
     index: 11,
-    question: "Какво означава 'сюрекция' в контекста на функциите?",
+    question: "Какво означава 'сюрекция' X ↠ Y в контекста на функциите?",
     choices: [
       "Функция, при която обхватът е покрит",
       "Функция, която има само уникални елементи",
@@ -130,7 +128,7 @@ export const mysql4 = [
       "Функция, която няма елементи в домейна"
     ],
     correctAnswer: "Функция, при която обхватът е покрит",
-    imageURL: null
+    imageURL: "https://a0.anyrgb.com/pngimg/156/1536/surjective-function-bijection-injective-function-front-and-back-covers-inverse-function-domain-of-a-function-mathematical-analysis-finitary-relation-algebra-counting.png"
   },
   {
     index: 12,
@@ -158,7 +156,7 @@ export const mysql4 = [
   },
   {
     index: 14,
-    question: "Какво означава 'главен елемент' (head) в редица?",
+    question: "Какво означава head в редица?",
     choices: [
       "Последният елемент на редицата",
       "Първият елемент на редицата",
@@ -170,7 +168,7 @@ export const mysql4 = [
   },
   {
     index: 15,
-    question: "Каква е функцията на 'хвост' (tail) в редица?",
+    question: "Каква е функцията на tail в редица?",
     choices: [
       "Връща първия елемент",
       "Връща последния елемент",
@@ -218,7 +216,7 @@ export const mysql4 = [
   },
   {
     index: 19,
-    question: "Какво представлява операцията „отменяне“ (overriding) на функция?",
+    question: "Какво представлява операцията „отменяне“ (overriding) f ⊕ g на функция f?",
     choices: [
       "Заместване на стойностите за конкретни елементи",
       "Смяна на всички стойности в обхвата",
@@ -232,13 +230,37 @@ export const mysql4 = [
     index: 20,
     question: "Каква е основната идея на структурната индукция?",
     choices: [
-      "Доказване чрез базов случай и индуктивна стъпка",
+      "Доказване чрез базов случай и индуктивна стъпка (подобектите)",
       "Извеждане на заключение за всеки елемент",
       "Изчисляване на стойности в обхвата",
       "Събиране на стойности без ред"
     ],
-    correctAnswer: "Доказване чрез базов случай и индуктивна стъпка",
+    correctAnswer: "Доказване чрез базов случай и индуктивна стъпка (подобектите)",
     imageURL: null
-  }
+  },
+  {
+    index: 21,
+    question: "Коя функция се нарича сюрекция /onto X ↠ Y/?",
+    choices: [
+
+      "Функция, която съдържа само уникални стойности",
+      "Функция, при която всеки елемент от обхвата се асоциира с поне един елемент от областта",
+      "Функция, дефинирана само за крайни множества"
+    ],
+    correctAnswer: "Функция, при която всеки елемент от обхвата се асоциира с поне един елемент от областта",
+    imageURL: "https://a0.anyrgb.com/pngimg/156/1536/surjective-function-bijection-injective-function-front-and-back-covers-inverse-function-domain-of-a-function-mathematical-analysis-finitary-relation-algebra-counting.png"
+  },
+  {
+    index: 22,
+    question: "Коя функция се нарича биекция /X ⤖ Y/?",
+    choices: [
+
+      "Функция, която e не onto и нито one-to-one",
+      "Функция, която e едновремено onto и one-to-one",
+    ],
+    correctAnswer: "Функция, която e едновремено onto и one-to-one",
+    imageURL: null
+  },
+
 
 ];
