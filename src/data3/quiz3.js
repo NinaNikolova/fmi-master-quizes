@@ -1,4 +1,3 @@
-// Множества. Запис и дефиниции в Z нотацията - to be corrected
 export const mysql3 = [
   {
     index: 1,

@@ -1,244 +1,242 @@
-// Релации, функции, редици и индукция...
 export const mysql4 = [
   {
     index: 1,
-    question: "What is the main purpose of the Circuit Breaker pattern?",
+    question: "Каква е целта на шаблона 'Circuit Breaker' в разпределени среди?",
     choices: [
-      "To prevent an application from performing operations likely to fail",
-      "To increase network speed",
-      "To manage database connections",
-      "To handle user authentication"
+      "Да предотврати излишно чакане за отказали услуги.",
+      "Да подобри сигурността на комуникациите.",
+      "Да ускори обработката на заявки.",
+      "Да увеличи капацитета за съхранение на данни."
     ],
-    correctAnswer: "To prevent an application from performing operations likely to fail",
+    correctAnswer: "Да предотврати излишно чакане за отказали услуги.",
     imageURL: null
   },
   {
     index: 2,
-    question: "What is Sharding in cloud architecture?",
+    question: "Коя от следните характеристики НЕ се отнася за архитектурния стил 'Sharding'?",
     choices: [
-      "A method to encrypt data",
-      "A way to compress data",
-      "A backup strategy",
-      "A technique to divide data store into horizontal partitions",
+      "Разделяне на базата данни на хоризонтални партиции.",
+      "Подобряване на скалируемостта и разпределението на данни.",
+      "Използване на партиции с променливи размери.",
+      "Повишаване на капацитета на съхранение и мрежова честотна лента."
     ],
-    correctAnswer: "A technique to divide data store into horizontal partitions",
+    correctAnswer: "Използване на партиции с променливи размери.",
     imageURL: null
   },
   {
     index: 3,
-    question: "Which of these is NOT a basic strategy for implementing sharding logic?",
+    question: "Какво представлява 'Queue' в облачните архитектури?",
     choices: [
-      "Lookup strategy",
-      "Circular strategy",
-      "Range strategy",
-      "Hash strategy"
+      "Буфер за заявки, който смекчава тежките натоварвания.",
+      "Протокол за сигурност на данни.",
+      "Архитектурен шаблон за криптиране.",
+      "Модул за управление на паметта."
     ],
-    correctAnswer: "Circular strategy",
+    correctAnswer: "Буфер за заявки, който смекчава тежките натоварвания.",
     imageURL: null
   },
   {
     index: 4,
-    question: "What is a key characteristic of software services?",
+    question: "Кое твърдение е вярно за 'Standard Queue'?",
     choices: [
-      "They do not maintain internal state",
-      "They always maintain internal state",
-      "They require local storage",
-      "They cannot be accessed remotely"
+      "Заявките се обработват според приоритета им.",
+      "Буферът съхранява съобщенията до тяхното извличане.",
+      "Заявките автоматично се разделят по шардове.",
+      "Съхранява само ограничен брой заявки."
     ],
-    correctAnswer: "They do not maintain internal state",
+    correctAnswer: "Буферът съхранява съобщенията до тяхното извличане.",
     imageURL: null
   },
   {
     index: 5,
-    question: "What is REST an acronym for?",
+    question: "Каква е целта на 'Priority Queue'?",
     choices: [
-      "Remote Exchange State Transform",
-      "Resource Exchange System Transfer",
-      "REpresentational State Transfer",
-      "Remote Estate System Transform"
+      "Да сортира входящите заявки по приоритет.",
+      "Да оптимизира скоростта на обработка.",
+      "Да намали броя на обработените заявки.",
+      "Да ограничи броя на шардовете в базата данни."
     ],
-    correctAnswer: "REpresentational State Transfer",
+    correctAnswer: "Да сортира входящите заявки по приоритет.",
     imageURL: null
   },
   {
     index: 6,
-    question: "Which HTTP method is used to create a resource in RESTful services?",
+    question: "Кое НЕ е характеристика на 'Fixed Length Queue'?",
+    choices: [
+      "Изпраща изключение при достигане на лимит.",
+      "Приема неограничен брой заявки.",
+      "Служи за защита от denial-of-service атаки.",
+      "Сигнализира, когато заявката няма да бъде обработена."
+    ],
+    correctAnswer: "Приема неограничен брой заявки.",
+    imageURL: null
+  },
+  {
+    index: 7,
+    question: "Каква е основната функция на 'Cache' в облачните архитектури?",
+    choices: [
+      "Оптимизира повторния достъп до информация.",
+      "Управлява задачите за приоритетно обработване.",
+      "Служи за защита на данни чрез криптиране.",
+      "Увеличава капацитета за съхранение."
+    ],
+    correctAnswer: "Оптимизира повторния достъп до информация.",
+    imageURL: null
+  },
+  {
+    index: 8,
+    question: "Какво представлява 'SOAP' в контекста на уеб услугите?",
+    choices: [
+      "Протокол за сигурност на мрежата.",
+      "Протокол за обмен на съобщения, базиран на XML.",
+      "Метод за кеширане на данни.",
+      "Метод за обработка на заявки с висока приоритетност."
+    ],
+    correctAnswer: "Протокол за обмен на съобщения, базиран на XML.",
+    imageURL: null
+  },
+  {
+    index: 9,
+    question: "Коя от следните характеристики е свързана с 'RESTful' уеб услугите?",
+    choices: [
+      "Ниско натоварване и по-бързо изпълнение.",
+      "Използване на SOAP и WSDL за комуникация.",
+      "Поддръжка на състоянието в сървъра.",
+      "Стандартизирани интерфейси за описание на услуги."
+    ],
+    correctAnswer: "Ниско натоварване и по-бързо изпълнение.",
+    imageURL: null
+  },
+  {
+    index: 10,
+    question: "Какво е 'WSDL'?",
+    choices: [
+      "Език за описание на уеб услуги.",
+      "Протокол за криптиране.",
+      "Метод за създаване на кеш.",
+      "Метод за шардване на база данни."
+    ],
+    correctAnswer: "Език за описание на уеб услуги.",
+    imageURL: null
+  },
+  {
+    index: 11,
+    question: "Кое е основно предимство на микросървисната архитектура?",
+    choices: [
+      "Предоставя независимост на отделните услуги.",
+      "Увеличава зависимостите между компонентите.",
+      "Намалява нуждата от кеширане.",
+      "Позволява само една услуга на сървър."
+    ],
+    correctAnswer: "Предоставя независимост на отделните услуги.",
+    imageURL: null
+  },
+  {
+    index: 12,
+    question: "Какво е 'Resource' в контекста на RESTful архитектурата?",
+    choices: [
+      "Системен ресурс за съхранение.",
+      "Данен елемент, който може да има множество представяния.",
+      "Протокол за свързване на уеб услуги.",
+      "Ключов елемент за приоритизация."
+    ],
+    correctAnswer: "Данен елемент, който може да има множество представяния.",
+    imageURL: null
+  },
+  {
+    index: 13,
+    question: "Коя операция в RESTful архитектурата се използва за създаване на ресурс?",
     choices: [
       "GET",
-      "PUT",
       "POST",
-      "DELETE"
+      "DELETE",
+      "PUT"
     ],
     correctAnswer: "POST",
     imageURL: null
   },
   {
-    index: 7,
-    question: "What is a microservice?",
-    choices: [
-      "A small-scale, stateless service with single responsibility",
-      "A large-scale service handling multiple responsibilities",
-      "A stateful service requiring constant connection",
-      "A service that must be part of a monolithic application"
-    ],
-    correctAnswer: "A small-scale, stateless service with single responsibility",
-    imageURL: null
-  },
-  {
-    index: 8,
-    question: "Which of these is a key component of SOAP web services?",
-    choices: [
-      "JSON",
-      "GraphQL",
-      "WSDL",
-      "Redux"
-    ],
-    correctAnswer: "WSDL",
-    imageURL: null
-  },
-  {
-    index: 9,
-    question: "What is the main purpose of a Queue pattern in cloud architecture?",
-    choices: [
-      "To increase data storage capacity",
-      "To smooth heavy loads that may cause service failure",
-      "To improve network security",
-      "To manage user sessions"
-    ],
-    correctAnswer: "To smooth heavy loads that may cause service failure",
-    imageURL: null
-  },
-  {
-    index: 10,
-    question: "What is a key disadvantage of the RESTful approach?",
-    choices: [
-      "Lack of standards for interface description",
-      "Unable to handle complex operations",
-      "Too expensive to implement",
-      "Requires special hardware"
-    ],
-    correctAnswer: "Lack of standards for interface description",
-    imageURL: null
-  },
-  {
-    index: 11,
-    question: "What is the primary purpose of Cache in service-oriented architectures?",
-    choices: [
-      "To encrypt sensitive data",
-      "To manage network connections",
-      "To optimize repeated access to information",
-      "To handle user authentication"
-    ],
-    correctAnswer: "To optimize repeated access to information",
-    imageURL: null
-  },
-  {
-    index: 12,
-    question: "Which type of queue sorts incoming requests according to their priority?",
-    choices: [
-      "Standard queue",
-      "Fixed length queue",
-      "Priority queue",
-      "Basic queue"
-    ],
-    correctAnswer: "Priority queue",
-    imageURL: null
-  },
-  {
-    index: 13,
-    question: "What is the main advantage of microservices architecture?",
-    choices: [
-      "Services share a single database",
-      "Services must be deployed together",
-      "Services require central management",
-      "Services are completely independent with their own database",
-    ],
-    correctAnswer: "Services are completely independent with their own database",
-    imageURL: null
-  },
-  {
     index: 14,
-    question: "What is the fundamental element in a RESTful architecture?",
+    question: "Какво означава операцията 'GET' в RESTful архитектурата?",
     choices: [
-      "Resource",
-      "Service",
-      "Protocol",
-      "Database"
+      "Чете стойността на ресурс.",
+      "Създава нов ресурс.",
+      "Изтрива съществуващ ресурс.",
+      "Актуализира ресурс."
     ],
-    correctAnswer: "Resource",
+    correctAnswer: "Чете стойността на ресурс.",
     imageURL: null
   },
   {
     index: 15,
-    question: "Which protocol is used as the basis for SOAP web services?",
+    question: "Какво представлява URL в RESTful уеб услугите?",
     choices: [
-      "JSON",
-      "HTML",
-      "YAML",
-      "XML",
+      "Идентификатор за местоположението на ресурс.",
+      "Протокол за защита на данни.",
+      "Модул за криптиране.",
+      "Система за управление на кеш."
     ],
-    correctAnswer: "XML",
+    correctAnswer: "Идентификатор за местоположението на ресурс.",
     imageURL: null
   },
   {
     index: 16,
-    question: "What is the purpose of WSDL?",
+    question: "Коя от следните операции в RESTful услугите изтрива ресурс?",
     choices: [
-      "To encrypt data transmission",
-      "To manage database connections",
-      "To define the service interface and operations",
-      "To handle user authentication",
+      "DELETE",
+      "GET",
+      "POST",
+      "PUT"
     ],
-    correctAnswer: "To define the service interface and operations",
+    correctAnswer: "DELETE",
     imageURL: null
   },
   {
     index: 17,
-    question: "Which HTTP method is used to read a resource in RESTful services?",
+    question: "Коя архитектурна стил е създадена за обработка на голям брой едновременни заявки?",
     choices: [
-      "POST",
-      "PUT",
-      "GET",
-      "DELETE"
+      "Priority Queue",
+      "Sharding",
+      "Circuit Breaker",
+      "Standard Queue"
     ],
-    correctAnswer: "GET",
+    correctAnswer: "Standard Queue",
     imageURL: null
   },
   {
     index: 18,
-    question: "What is a key benefit of the Circuit Breaker pattern?",
+    question: "Каква е целта на 'Cache' при запис на данни?",
     choices: [
-      "Improves data storage capacity",
-      "Helps to increase system dependability",
-      "Enhances user interface",
-      "Reduces development time"
+      "Изтриване на съответния елемент в кеша.",
+      "Увеличаване на капацитета за съхранение.",
+      "Засилване на сигурността на данните.",
+      "Повишаване на приоритет на кеширания елемент."
     ],
-    correctAnswer: "Helps to increase system dependability",
+    correctAnswer: "Изтриване на съответния елемент в кеша.",
     imageURL: null
   },
   {
     index: 19,
-    question: "What is the main purpose of sharding?",
+    question: "Какво е основната цел на 'Service-oriented Architecture'?",
     choices: [
-      "To increase scalability with big amounts of data",
-      "To improve security",
-      "To reduce network latency",
-      "To manage user sessions"
+      "Да използва самостоятелни услуги за изграждане на разпределени системи.",
+      "Да обедини всички компоненти в един монолитен блок.",
+      "Да повиши сигурността на комуникацията.",
+      "Да оптимизира производителността на хардуера."
     ],
-    correctAnswer: "To increase scalability with big amounts of data",
+    correctAnswer: "Да използва самостоятелни услуги за изграждане на разпределени системи.",
     imageURL: null
   },
   {
     index: 20,
-    question: "What distinguishes a service from a component?",
+    question: "Коя е основната цел на XML в контекста на уеб услугите?",
     choices: [
-      "Services must be locally hosted",
-      "Services require continuous connection",
-      "Services are independent and don't have a 'requires' interface",
-      "Services must share databases"
+      "Предоставяне на формат за обмен на данни между системи.",
+      "Повишаване на скоростта на мрежата.",
+      "Управление на паметта в бази данни.",
+      "Оптимизиране на заявките."
     ],
-    correctAnswer: "Services are independent and don't have a 'requires' interface",
+    correctAnswer: "Предоставяне на формат за обмен на данни между системи.",
     imageURL: null
   }
-
 ];

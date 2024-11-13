@@ -1,242 +1,242 @@
 export const mysql6 = [
   {
     index: 1,
-    question: "What are the main qualities of software dependability?",
+    question: "Какво е основната цел на архитектурните тактики?",
     choices: [
-      "Availability, reliability, safety, integrity, confidentiality, maintainability",
-      "Availability, reliability, performance, integrity, confidentiality, maintainability",
-      "Availability, reliability, safety, integrity, security, scalability",
-      "Availability, reliability, safety, integrity, confidentiality, reusability"
+      "Да подобрят функционалността на системата.",
+      "Да подпомогнат постигането на качествени изисквания.",
+      "Да оптимизират интерфейса на приложението.",
+      "Да намалят броя на потребителите."
     ],
-    correctAnswer: "Availability, reliability, safety, integrity, confidentiality, maintainability",
+    correctAnswer: "Да подпомогнат постигането на качествени изисквания.",
     imageURL: null
   },
   {
     index: 2,
-    question: "Which tactic is used to detect failures in a system?",
+    question: "Кое от следните НЕ е част от тактиките за изправност?",
     choices: [
-      "Active redundancy",
-      "Passive redundancy",
-      "All of the above",
-      "Heartbeat/Keepalive",
+      "Откриване на откази.",
+      "Повторно въвеждане в употреба.",
+      "Повишаване на производителността.",
+      "Предотвратяване на откази."
     ],
-    correctAnswer: "Heartbeat/Keepalive",
+    correctAnswer: "Повишаване на производителността.",
     imageURL: null
   },
   {
     index: 3,
-    question: "What is the main difference between active redundancy and passive redundancy /излишък/?",
+    question: "Каква е целта на техниката 'Пинг/ехо'?",
     choices: [
-      "Active redundancy has slower switchover time, passive redundancy has faster switchover time",
-      "Active redundancy has faster switchover time, passive redundancy has slower switchover time",
-      "Active redundancy uses primary and backup components, passive redundancy uses a single active component",
-      "Active redundancy requires manual switchover, passive redundancy has automatic switchover"
+      "Да осигури сигурност на комуникационните канали.",
+      "Да провери дали компонентът работи правилно.",
+      "Да увеличи скоростта на системата.",
+      "Да намали времето за изпълнение на задачи."
     ],
-    correctAnswer: "Active redundancy has faster switchover time, passive redundancy has slower switchover time",
+    correctAnswer: "Да провери дали компонентът работи правилно.",
     imageURL: null
   },
   {
     index: 4,
-    question: "What is the purpose of the 'Voter' component in N-version programming?",
+    question: "Какво представлява тактиката 'Активен излишък'?",
     choices: [
-      "To monitor the N versions and detect any failures",
-      "To synchronize the execution of the N versions",
-      "To compare the outputs of the N versions and decide the final output",
-      "To manage the resource allocation for the N versions"
+      "Компонентите се дублират и синхронизират за висока надеждност.",
+      "Системата използва минимален брой компоненти.",
+      "Компонентите се разпределят по различни процесори.",
+      "Системата запазва само един активен компонент."
     ],
-    correctAnswer: "To compare the outputs of the N versions and decide the final output",
+    correctAnswer: "Компонентите се дублират и синхронизират за висока надеждност.",
     imageURL: null
   },
   {
     index: 5,
-    question: "What is the main idea behind the Recovery Blocks technique?",
+    question: "Коя тактика за изправност е предназначена да предотврати очаквани сривове?",
     choices: [
-      "Developing multiple alternative modules and testing them to find the acceptable result",
-      "Executing the N versions in parallel and comparing the outputs",
-      "Periodically checkpointing the system state and rolling back to the last checkpoint",
-      "Monitoring the processes and restarting them in case of failures"
+      "Повторно въвеждане в употреба.",
+      "Извеждане от употреба.",
+      "Арбитраж на ресурсите.",
+      "Управление на ресурсите."
     ],
-    correctAnswer: "Developing multiple alternative modules and testing them to find the acceptable result",
+    correctAnswer: "Извеждане от употреба.",
     imageURL: null
   },
   {
     index: 6,
-    question: "What is the purpose of introducing design diversity in software systems?",
+    question: "Каква е основната цел на тактиките за производителност?",
     choices: [
-      "To increase the system's performance",
-      "To improve the system's maintainability",
-      "To reduce the risk of systematic design faults",
-      "To enhance the system's user interface"
+      "Да постигнат реакция на системата в рамките на зададени времеви изисквания.",
+      "Да увеличат сигурността на данните.",
+      "Да намалят броя на модулите в системата.",
+      "Да осигурят повече потребители."
     ],
-    correctAnswer: "To reduce the risk of systematic design faults",
+    correctAnswer: "Да постигнат реакция на системата в рамките на зададени времеви изисквания.",
     imageURL: null
   },
   {
     index: 7,
-    question: "Which tactic is used to reduce the resource requirements of a system?",
+    question: "Кое НЕ е част от тактиките за управление на ресурсите?",
     choices: [
-      "Increasing the processing power",
-      "Increasing the parallelism",
-      "Decreasing the event frequency",
-      "All of the above"
+      "Паралелна обработка.",
+      "Излишък на данни.",
+      "Използване на кеш.",
+      "Намаляване на изискванията."
     ],
-    correctAnswer: "Decreasing the event frequency",
+    correctAnswer: "Намаляване на изискванията.",
     imageURL: null
   },
   {
     index: 8,
-    question: "What is the purpose of the 'Process Monitoring' tactic?",
+    question: "Кое от следните е метод за арбитраж на ресурсите?",
     choices: [
-      "To detect and remove faulty processes",
-      "To manage the resource allocation for processes",
-      "To schedule the execution of processes",
-      "To checkpoint and restore the state of processes"
+      "Ограничаване на комуникацията между компонентите.",
+      "FIFO.",
+      "Конфиденциалност на данните.",
+      "Отлагане на свързването."
     ],
-    correctAnswer: "To detect and remove faulty processes",
+    correctAnswer: "FIFO.",
     imageURL: null
   },
   {
     index: 9,
-    question: "What is the main idea behind the 'Checkpoint/Rollback' tactic?",
+    question: "Каква е целта на тактиката 'Heartbeat'?",
     choices: [
-      "Executing multiple versions of the system in parallel and comparing the outputs",
-      "Monitoring the processes and restarting them in case of failures",
-      "Periodically saving the consistent state of the system and restoring it in case of failures",
-      "Increasing the redundancy of hardware and software components"
+      "Да провери дали компонентът е все още активен.",
+      "Да синхронизира данните между два процеса.",
+      "Да ограничи изчисленията в системата.",
+      "Да защити данните от външни атаки."
     ],
-    correctAnswer: "Periodically saving the consistent state of the system and restoring it in case of failures",
+    correctAnswer: "Да провери дали компонентът е все още активен.",
     imageURL: null
   },
   {
     index: 10,
-    question: "Which tactic is used to reduce the overhead (non-essential computations) in a system?",
+    question: "Какво представлява 'пасивен излишък' в контекста на архитектурните тактики?",
     choices: [
-      "Increasing the processing power",
-      "Decreasing the event frequency",
-      "Limiting the execution time",
-      "All of the above"
+      "Един компонент е основен, а останалите се активират при нужда.",
+      "Всички компоненти работят паралелно.",
+      "Компонентите се разпределят на различни сървъри.",
+      "Изпълнява се само основният компонент."
     ],
-    correctAnswer: "Decreasing the event frequency",
+    correctAnswer: "Един компонент е основен, а останалите се активират при нужда.",
     imageURL: null
   },
   {
     index: 11,
-    question: "What is the main purpose of the 'Parallel Processing' tactic?",
+    question: "Каква е целта на 'N-version programming'?",
     choices: [
-      "To increase the system's availability",
-      "To improve the system's reliability",
-      "To enhance the system's performance",
-      "To reduce the system's maintainability"
+      "Да използва една версия на софтуера за всички модули.",
+      "Да създаде резервни версии, които се използват при срив.",
+      "Да предостави различни потребителски интерфейси.",
+      "Да оптимизира производителността на базата данни."
     ],
-    correctAnswer: "To enhance the system's performance",
+    correctAnswer: "Да създаде резервни версии, които се използват при срив.",
     imageURL: null
   },
   {
     index: 12,
-    question: "What is the main idea behind the 'Fixed Priority' scheduling algorithm?",
+    question: "Коя техника за производителност позволява системата да реагира по-бързо?",
     choices: [
-      "Assigning a fixed priority to each task based on its semantic importance or timing requirements",
-      "Scheduling tasks in the order they arrive, without any priority consideration",
-      "Dynamically adjusting the priority of tasks based on their past execution history",
-      "Allocating resources to tasks based on a pre-defined static schedule"
+      "Увеличаване на времето за изпълнение.",
+      "Паралелна обработка.",
+      "Намаляване на броя на модулите.",
+      "Контрол на достъпа."
     ],
-    correctAnswer: "Assigning a fixed priority to each task based on its semantic importance or timing requirements",
+    correctAnswer: "Паралелна обработка.",
     imageURL: null
   },
   {
     index: 13,
-    question: "Which tactic is used to introduce diversity in the implementation of a software system?",
+    question: "Коя е основната характеристика на 'Recovery blocks'?",
     choices: [
-      "N-version programming",
-      "Recovery Blocks",
-      "Temporal diversity",
-      "All of the above"
+      "Използват се различни версии на компонентите.",
+      "Компонентите се изпълняват последователно.",
+      "Създава се единствено основен компонент.",
+      "Компонентите се изпълняват само при нужда."
     ],
-    correctAnswer: "All of the above",
+    correctAnswer: "Използват се различни версии на компонентите.",
     imageURL: null
   },
   {
     index: 14,
-    question: "What is the main purpose of the 'Shadow Mode' tactic?",
+    question: "Кое НЕ е техника за управление на производителността?",
     choices: [
-      "To detect and remove faulty components",
-      "To synchronize the state of redundant components",
-      "To test a repaired component before putting it back into service",
-      "To manage the resource allocation for different components"
+      "Намаляване на режийните разходи.",
+      "Ограничаване на времето за изпълнение.",
+      "Увеличаване на изискванията.",
+      "Използване на кеш."
     ],
-    correctAnswer: "To test a repaired component before putting it back into service",
+    correctAnswer: "Увеличаване на изискванията.",
     imageURL: null
   },
   {
     index: 15,
-    question: "Which tactic is used to deal with resource contention in a system?",
+    question: "Коя техника за откриване на откази се базира на излъчване на сигнали?",
     choices: [
-      "Increasing the processing power",
-      "Decreasing the event frequency",
-      "Scheduling the execution of tasks",
-      "All of the above"
+      "Heartbeat.",
+      "Контролни точки.",
+      "Пасивен излишък.",
+      "Отлагане на свързването."
     ],
-    correctAnswer: "Scheduling the execution of tasks",
+    correctAnswer: "Heartbeat.",
     imageURL: null
   },
   {
     index: 16,
-    question: "What is the main difference between 'FIFO' and 'Fixed Priority' scheduling algorithms?",
+    question: "Какво означава 'излишък в комуникациите'?",
     choices: [
-      "FIFO is more efficient, while Fixed Priority is more complex to implement",
-      "FIFO treats all tasks equally, while Fixed Priority assigns different priorities to tasks",
-      "FIFO is more suitable for real-time systems, while Fixed Priority is more suitable for batch processing",
-      "FIFO is more dynamic, while Fixed Priority is more static"
+      "Да има допълнителни комуникационни канали.",
+      "Да се ограничи достъпът до комуникациите.",
+      "Да се намали мрежовият трафик.",
+      "Да се използва единствено основен канал."
     ],
-    correctAnswer: "FIFO treats all tasks equally, while Fixed Priority assigns different priorities to tasks",
+    correctAnswer: "Да има допълнителни комуникационни канали.",
     imageURL: null
   },
   {
     index: 17,
-    question: "Which tactic is used to introduce diversity in the input data of a software system?",
+    question: "Кое от следните НЕ е характеристика на разнородността?",
     choices: [
-      "N-version programming",
-      "Recovery Blocks",
-      "Temporal diversity",
-      "Data diversity"
+      "Разнородност по време.",
+      "Разнородност по данни.",
+      "Разнородност по сигурност.",
+      "Разнородност в проектирането."
     ],
-    correctAnswer: "Data diversity",
+    correctAnswer: "Разнородност по сигурност.",
     imageURL: null
   },
   {
     index: 18,
-    question: "What is the main purpose of the 'Removal from Service' tactic?",
+    question: "Какво е основното предимство на 'контролни точки'?",
     choices: [
-      "To detect and remove faulty components",
-      "To synchronize the state of redundant components",
-      "To test a repaired component before putting it back into service",
-      "To proactively remove components from the system to avoid expected failures"
+      "Възможност за възстановяване след срив.",
+      "Повишаване на производителността.",
+      "Намаляване на броя на компонентите.",
+      "Увеличаване на броя на потребителите."
     ],
-    correctAnswer: "To proactively remove components from the system to avoid expected failures",
+    correctAnswer: "Възможност за възстановяване след срив.",
     imageURL: null
   },
   {
     index: 19,
-    question: "Which tactic is used to introduce diversity in the timing of a software system's execution?",
+    question: "Какво е основното предимство на 'shadow mode'?",
     choices: [
-      "N-version programming",
-      "Recovery Blocks",
-      "Temporal diversity",
-      "Data diversity"
+      "Позволява тестване на компонента преди въвеждане в употреба.",
+      "Намалява режийните разходи.",
+      "Извършва паралелна обработка на данни.",
+      "Повишава конфиденциалността."
     ],
-    correctAnswer: "Temporal diversity",
+    correctAnswer: "Позволява тестване на компонента преди въвеждане в употреба.",
     imageURL: null
   },
   {
     index: 20,
-    question: "What is the main difference between 'Dynamic Priority' and 'Static Scheduling' algorithms?",
+    question: "Кое е вярно за тактиката 'FIFO' при арбитраж на ресурсите?",
     choices: [
-      "Dynamic Priority is more suitable for real-time systems, while Static Scheduling is more suitable for batch processing",
-      "Dynamic Priority is more efficient, while Static Scheduling is more complex to implement",
-      "Dynamic Priority adjusts the priority of tasks based on their past execution history, while Static Scheduling uses a pre-defined schedule",
-      "Dynamic Priority is more flexible, while Static Scheduling is more predictable"
+      "Заявките се обработват в реда на тяхното постъпване.",
+      "Приоритет се дава на най-важните заявки.",
+      "Заявките се обработват по динамичен приоритет.",
+      "Изчакват се ресурси преди обработка."
     ],
-    correctAnswer: "Dynamic Priority adjusts the priority of tasks based on their past execution history, while Static Scheduling uses a pre-defined schedule",
+    correctAnswer: "Заявките се обработват в реда на тяхното постъпване.",
     imageURL: null
   }
 
