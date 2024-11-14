@@ -248,8 +248,20 @@ export const mysql4 = [
       "Queue",
       "Stack"
     ],
-    correctAnswer: "Stack",
+    corretAnswer: "Stack",
     imageURL: null
   },
+  {
+    index: 22,
+    question: "Коя от стратегиите не се отнася към основните стратегии за имплементация на логиката на sharding?",
+    choices: [
+      "Lookup strategy",
+      "Range strategy",
+      "Hash strategy",
+      "Replication strategy"
+    ],
+    correctAnswer: "Replication strategy",
+    imageURL: null
+  }
 
 ];
