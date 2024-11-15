@@ -248,7 +248,7 @@ export const mysql4 = [
       "Queue",
       "Stack"
     ],
-    corretAnswer: "Stack",
+    correctAnswer: "Stack",
     imageURL: null
   },
   {
