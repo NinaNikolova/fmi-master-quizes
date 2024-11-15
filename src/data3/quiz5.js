@@ -55,7 +55,7 @@ export const mysql5 = [
       "Количествени параметри",
     ],
     correctAnswer: "Дизайн",
-    imageURL: null
+    imageURL: "https://mperry.github.io/img/general_availability_scenario.png"
   },
   {
     index: 6,
