@@ -1,7 +1,7 @@
 export const mysql4 = [
   {
     index: 1,
-    question: "Каква е целта на шаблона 'Circuit Breaker' в разпределени среди?",
+    question: "Каква е целта на шаблона 'Circuit Breaker' /aвтоматичен прекъсвач/ в разпределени среди?",
     choices: [
       "Да предотврати излишно чакане за отказали услуги.",
       "Да подобри сигурността на комуникациите.",
@@ -9,7 +9,7 @@ export const mysql4 = [
       "Да увеличи капацитета за съхранение на данни."
     ],
     correctAnswer: "Да предотврати излишно чакане за отказали услуги.",
-    imageURL: null
+    imageURL: "https://anarsolutions.com/wp-content/uploads/2023/08/Circuit-Breaker-Design-Pattern-1.png"
   },
   {
     index: 2,
@@ -21,7 +21,7 @@ export const mysql4 = [
       "Повишаване на капацитета на съхранение и мрежова честотна лента"
     ],
     correctAnswer: "Използване на части с променливи размери",
-    imageURL: null
+    imageURL: "https://miro.medium.com/v2/resize:fit:1024/1*eQcV0ufXU4CzzqCltZbIYA.png"
   },
   {
     index: 3,
@@ -33,7 +33,7 @@ export const mysql4 = [
       "Модул за управление на паметта"
     ],
     correctAnswer: "Буфер за заявки, който смекчава тежките натоварвания",
-    imageURL: null
+    imageURL: "https://achindrabhatnagar.wordpress.com/wp-content/uploads/2017/07/message-queue-example.png"
   },
   {
     index: 4,
@@ -45,7 +45,7 @@ export const mysql4 = [
       "Съхранява само ограничен брой заявки."
     ],
     correctAnswer: "Буферът съхранява съобщенията до тяхното извличане.",
-    imageURL: null
+    imageURL: "https://fourtheorem.com/wp-content/uploads/2022/09/SQS-Blog-Diagram-6.webp"
   },
   {
     index: 5,
@@ -57,7 +57,7 @@ export const mysql4 = [
       "Да ограничи броя на шардовете в базата данни."
     ],
     correctAnswer: "Да сортира входящите заявки по приоритет.",
-    imageURL: null
+    imageURL: "https://dotnettrickscloud.blob.core.windows.net/article/data%20structures/3720240402230348.com-png-to-webp-converter"
   },
   {
     index: 6,
@@ -85,7 +85,7 @@ export const mysql4 = [
   },
   {
     index: 8,
-    question: "Какво представлява 'SOAP' в контекста на уеб услугите?",
+    question: "Какво представлява 'SOAP' (Simple Object Access Protocol) в контекста на уеб услугите?",
     choices: [
       "Протокол за сигурност на мрежата",
       "Протокол за обмен на съобщения, базиран на XML",
@@ -109,7 +109,7 @@ export const mysql4 = [
   },
   {
     index: 10,
-    question: "Какво е 'WSDL'?",
+    question: "Какво е 'WSDL' (Web Services Description Language)?",
     choices: [
       "Език за описание на уеб услуги",
       "Протокол за криптиране",
@@ -129,7 +129,7 @@ export const mysql4 = [
       "Позволява само една услуга на сървър."
     ],
     correctAnswer: "Предоставя независимост на отделните услуги.",
-    imageURL: null
+    imageURL: "https://admin.wac.co/uploads/Microservices_Architecture_detail_d1f13729e7.jpg"
   },
   {
     index: 12,
@@ -177,7 +177,7 @@ export const mysql4 = [
       "Система за управление на кеш"
     ],
     correctAnswer: "Идентификатор за местоположението на ресурс",
-    imageURL: null
+    imageURL: "https://www.infotex.uk/app/uploads/2024/03/Anatomy-of-a-URL-Feature-Image-Lightv2.jpeg"
   },
   {
     index: 16,
@@ -237,7 +237,7 @@ export const mysql4 = [
       "Оптимизиране на заявките."
     ],
     correctAnswer: "Предоставяне на формат за обмен на данни между системи.",
-    imageURL: null
+    imageURL: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220418000449/WEB-xml-is-missing-and-failOnMissingWebXml-is-set-to-true-3.png"
   },
   {
     index: 21,
