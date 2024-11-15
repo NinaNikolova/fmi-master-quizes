@@ -133,7 +133,7 @@ export const mysql4 = [
   },
   {
     index: 12,
-    question: "Какво е 'Resource' в контекста на RESTful архитектурата?",
+    question: "Какво е 'Resource' в контекста на RESTful (REpresentationalState Transfer) архитектурата?",
     choices: [
       "Системен ресурс за съхранение",
       "Данен елемент, който може да има множество представяния",
