@@ -9,7 +9,7 @@ export const mysql3 = [
       "Layered"
     ],
     correctAnswer: "Pipe-and-Filter",
-    imageURL: null
+    imageURL: "https://miro.medium.com/v2/resize:fit:1181/1*Gjh13t_2zy2Vo5OnAwHyaQ.png"
   },
   {
     index: 2,
@@ -30,7 +30,7 @@ export const mysql3 = [
       "Batch-sequential",
       "Pipeline/stream",
       "Loopback",
-      "Parallelism"
+      "Parallelism/redundancy"
     ],
     correctAnswer: "Pipeline/stream",
     imageURL: null
@@ -45,7 +45,7 @@ export const mysql3 = [
       "Blackboard работи само с определен тип данни"
     ],
     correctAnswer: "Blackboard е активен агент и изпраща нотификации при промени",
-    imageURL: null
+    imageURL: "https://d24nhiikxn5jns.cloudfront.net/optimized/res.cloudinary.com%252Fvendia%252Fimage%252Fupload%252Ff_auto%252Cq_auto%252Fc_fill%252Cw_1200%252Fv1669746822%252FBlog%252520images%252FBlog___Shared_data_architecture_patterns___202211_1_miaoac.png"
   },
   {
     index: 5,
@@ -69,7 +69,7 @@ export const mysql3 = [
       "Клиент без графичен интерфейс"
     ],
     correctAnswer: "Клиент, който имплементира само потребителския интерфейс",
-    imageURL: null
+    imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/1200px-Client-server-model.svg.png"
   },
   {
     index: 7,
@@ -81,7 +81,7 @@ export const mysql3 = [
       "Липса на абстракция"
     ],
     correctAnswer: "Строгите ограничения в комуникацията между слоевете влияят на производителността",
-    imageURL: null
+    imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20221024124537/Screenshot20221024at124501PM-290x300.png"
   },
   {
     index: 8,
@@ -93,7 +93,7 @@ export const mysql3 = [
       "Лесна замяна на компоненти"
     ],
     correctAnswer: "Ясна структура на системата",
-    imageURL: null
+    imageURL: "https://i.ytimg.com/vi/Y6Tnf1N_O2s/maxresdefault.jpg"
   },
   {
     index: 9,
@@ -153,7 +153,7 @@ export const mysql3 = [
       "Проследяване на последователността на изпълнение",
     ],
     correctAnswer: "Проследяване на последователността на изпълнение",
-    imageURL: null
+    imageURL: "https://i.ytimg.com/vi/Y6Tnf1N_O2s/maxresdefault.jpg"
   },
   {
     index: 14,
@@ -201,7 +201,7 @@ export const mysql3 = [
       "По-малко изисквания към клиента"
     ],
     correctAnswer: "По-добра производителност и сигурност",
-    imageURL: null
+    imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20231108115918/Three-Tier-architecture.png"
   },
   {
     index: 18,
@@ -233,10 +233,21 @@ export const mysql3 = [
     choices: [
       "Самостоятелно, един стил за цялата система",
       "В комбинация от различни стилове според изискванията",
-      "Само в теоретичен аспект",
-      "Само за малки системи"
     ],
     correctAnswer: "В комбинация от различни стилове според изискванията",
+    imageURL: null
+  },
+  {
+    index: 21,
+    question: "Кое от следните НЕ е ниво на абстракция в логическия изглед на софт.архитектура?",
+    choices: [
+      "Компоненти и конектори",
+      "Техните интерфейси.",
+      "Тестови сценарии",
+      "Архитектурни конфигурации",
+      "Архитектурни стилове"
+    ],
+    correctAnswer: "Тестови сценарии",
     imageURL: null
   }
 
