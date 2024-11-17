@@ -248,7 +248,7 @@ export const mysql7 = [
   },
   {
     index: 23,
-    question: "Is this ok state transition naming: event (arguments) [condition] /action ^target.sendEvent (args); Example: addStudent(id)[count<10]/incrCount^CourseList.addStudent(id)?",
+    question: "Is this ok state transition naming: event (arguments) [condition] /action ^target. sendEvent (args); Example: addStudent (id) [count<10]/ incrCount^ CourseList. addStudent (id)?",
     choices: [
       "Yes",
       "No",
