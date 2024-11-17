@@ -126,6 +126,9 @@ export const mysql7 = [
       "initial state",
       "final state",
       "buffer",
+      "interruptible activity region",
+      "input and output pins",
+      "send and receive signals",
       "decision node",
       "slimline",
       "activity state"
@@ -242,6 +245,41 @@ export const mysql7 = [
     ],
     correctAnswer: "None of the above",
     imageURL: "https://drawio-app.com/wp-content/uploads/2018/09/UML-state-diagram-notation.png"
+  },
+  {
+    index: 23,
+    question: "Is this ok state transition naming: event (arguments) [condition] /action ^target.sendEvent (args); Example: addStudent(id)[count<10]/incrCount^CourseList.addStudent(id)?",
+    choices: [
+      "Yes",
+      "No",
+    ],
+    correctAnswer: "Yes",
+    imageURL: null
+  },
+  {
+    index: 24,
+    question: "What is NOT true about submashine state?",
+    choices: [
+      "hides the decomposition of a composite state",
+      "useful in cases of a large number of states nested inside a composite state not fitting in its graphical space",
+      "represented by a simple state graphic with a special 'composite' icon",
+      "the contents of the composite state are shown in a separate diagram",
+      "none of the above"
+    ],
+    correctAnswer: "none of the above",
+    imageURL: "https://sparxsystems.com/images/screenshots/uml2_tutorial/sm07.GIF"
+  },
+  {
+    index: 25,
+    question: "What is NOT true about Interaction Overview Diagram?",
+    choices: [
+      "variants on UML activity diagrams which overview control flow",
+      "the nodes within the diagram are frames, not activities ",
+      "two types of frame shown: interaction frames depicting any type of UML interaction diagram (sequence diagram: sd); interaction occurrence frames (ref) which indicate an activity or operation to invoke",
+      "none of the above"
+    ],
+    correctAnswer: "none of the above",
+    imageURL: "https://images.edrawmax.com/images/knowledge/Interaction%20Overview%20Diagram/interaction-overview-diagram-example-3.jpg"
   },
 
 
