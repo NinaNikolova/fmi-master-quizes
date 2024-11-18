@@ -1,67 +1,72 @@
 export const mysql8 = [
   {
     index: 1,
-    question: "Какво представлява Object Constraint Language (OCL)?",
+    question: "What is Object Constraint Language (OCL)?",
     choices: [
-      "Програмен език с възможности за управление на потока на изпълнение.",
-      "Език за спецификация без странични ефекти.",
+      "A specification language without side effects.",
+      "A tool for automatic code generation.",
     ],
-    correctAnswer: "Език за спецификация без странични ефекти.",
+    correctAnswer: "A specification language without side effects.",
     imageURL: "https://slideplayer.com/slide/7285518/24/images/21/Basic+constructs+Let%2C+If-then-else+Standard+Library.jpg"
   },
   {
     index: 2,
-    question: "Каква е основната цел на OCL?",
+    question: "What is the primary purpose of OCL?",
     choices: [
-      "Да осигури формални ограничения върху UML моделите.",
-      "Да създава UML диаграми автоматично.",
+      "To generate UML diagrams automatically.",
+      "To provide formal constraints on UML models.",
+
     ],
-    correctAnswer: "Да осигури формални ограничения върху UML моделите.",
+    correctAnswer: "To provide formal constraints on UML models.",
     imageURL: null
   },
   {
     index: 3,
-    question: "Какви типове ограничения могат да се зададат чрез OCL?",
+    question: "What types of constraints can be specified using OCL?",
     choices: [
-      "Ограничения само върху класове.",
-      "Инварианти, предусловия и последващи условия.",
+      "Invariants, preconditions, and postconditions.",
+      "Only timing dependencies.",
     ],
-    correctAnswer: "Инварианти, предусловия и последващи условия.",
+    correctAnswer: "Invariants, preconditions, and postconditions.",
     imageURL: null
   },
   {
     index: 4,
-    question: "Какво е предимството на използването на инварианти в OCL?",
+    question: "What is NOT invariant in OCL?",
     choices: [
-      "Подобряват документацията и намаляват неяснотата.",
-      "Генерират код автоматично.",
+      "The OCL expression can be part of an Invariant which is a constraint stereotyped as an «invariant»",
+      "An OCL expression is an invariant of the type and must be true for all instances of that type at any time.",
+      "All OCL expressions that express invariants are of type Boolean.",
+      "None of the above"
     ],
-    correctAnswer: "Подобряват документацията и намаляват неяснотата.",
+    correctAnswer: "None of the above",
     imageURL: null
   },
   {
     index: 5,
-    question: "Какво означава инвариант в контекста на OCL?",
+    question: "What is NOT true about `in the context of the Company type, the following expression would specify an invariant that the number of employees must always exceed 50`?",
     choices: [
-      "Метод за валидиране на потребителски вход.",
-      "Ограничение, което винаги е вярно за всички обекти от даден клас.",
+      "context Company inv: self.numberOfEmployees > 50",
+      "context c : Company inv: c.numberOfEmployees > 50",
+      "context c : Company inv enoughEmployees : c.numberOfEmployees > 50",
+      "context Company inv: self.numberOfEmployees < 50"
     ],
-    correctAnswer: "Ограничение, което винаги е вярно за всички обекти от даден клас.",
+    correctAnswer: "context Company inv: self.numberOfEmployees < 50",
     imageURL: null
   },
   {
     index: 6,
-    question: "Как се задават ограничения върху атрибутите в OCL?",
+    question: "How are constraints on attributes specified in OCL?",
     choices: [
-      "Чрез контекста на класа, към който принадлежи атрибутът.",
-      "Чрез директно присвояване в UML диаграмата.",
+      "Using the context of the class the attribute belongs to.",
+      "By direct assignment in the UML diagram.",
     ],
-    correctAnswer: "Чрез контекста на класа, към който принадлежи атрибутът.",
+    correctAnswer: "Using the context of the class the attribute belongs to.",
     imageURL: null
   },
   {
     index: 7,
-    question: "Коя организация подкрепя развитието на OCL?",
+    question: "Which organization supports the development of OCL?",
     choices: [
       "OMG (Object Management Group)",
       "W3C",
@@ -73,99 +78,99 @@ export const mysql8 = [
   },
   {
     index: 8,
-    question: "Каква е ролята на времевите диаграми в UML?",
+    question: "What is the purpose of timing diagrams in UML?",
     choices: [
-      "Показват връзките между класовете.",
-      "Изобразяват времевата информация за събития и състояния.",
+      "To illustrate timing information for events and states.",
+      "To show the relationships between classes.",
     ],
-    correctAnswer: "Изобразяват времевата информация за събития и състояния.",
+    correctAnswer: "To illustrate timing information for events and states.",
     imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/what-is-timing-diagram/02-timing-diagram-example.png"
   },
   {
     index: 9,
-    question: "Какви типове времеви ограничения могат да се дефинират в времеви диаграми?",
+    question: "What types of timing constraints can be defined in timing diagrams?",
     choices: [
-      "{t..t+5s}, {<5s}, {>5s, <10s}.",
-      "Само абсолютни времеви стойности.",
+      "{t..t+5s}, {<5s}, {>5s, <10s}",
+      "Only absolute time values.",
     ],
-    correctAnswer: "{t..t+5s}, {<5s}, {>5s, <10s}.",
+    correctAnswer: "{t..t+5s}, {<5s}, {>5s, <10s}",
     imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/what-is-timing-diagram/02-timing-diagram-example.png"
   },
   {
     index: 10,
-    question: "Как се описват състоянията в времеви диаграми?",
+    question: "How are states described in timing diagrams?",
     choices: [
-      "Вертикално, с помощта на връзки.",
-      "Хоризонтално, до участниците, с които са свързани.",
+      "Vertically, using connections.",
+      "Horizontally, next to the participants they are associated with.",
     ],
-    correctAnswer: "Хоризонтално, до участниците, с които са свързани.",
+    correctAnswer: "Horizontally, next to the participants they are associated with.",
     imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/what-is-timing-diagram/02-timing-diagram-example.png"
   },
   {
     index: 11,
-    question: "Каква е основната цел на Model Driven Architecture (MDA)?",
+    question: "What is the primary purpose of Model Driven Architecture (MDA)?",
     choices: [
-      "Да разделя спецификацията на функционалностите от спецификацията на имплементацията.",
-      "Да автоматизира процеса на тестване на софтуер.",
+      "To separate the specification of functionalities from implementation.",
+      "To automate software testing processes.",
     ],
-    correctAnswer: "Да разделя спецификацията на функционалностите от спецификацията на имплементацията.",
+    correctAnswer: "To separate the specification of functionalities from implementation.",
     imageURL: "https://www.omg.org/mda/images/mda_diagram.gif"
   },
   {
     index: 12,
-    question: "Кой модел в MDA описва бизнес логиката на системата?",
+    question: "Which model in MDA describes the business logic of the system?",
     choices: [
-      "PIM (Platform Independent Model).",
       "CIM (Computation Independent Model).",
+      "PIM (Platform Independent Model).",
       "PSM (Platform Specific Model).",
-      "UML модел."
+      "Code"
     ],
     correctAnswer: "PIM (Platform Independent Model).",
-    imageURL: null
+    imageURL: "https://www.modeliosoft.com/images/mda_technology.png"
   },
   {
     index: 13,
-    question: "Каква е основната разлика между CIM и PIM в MDA?",
+    question: "What is the main difference between CIM and PIM in MDA?",
     choices: [
-      "CIM дефинира детайли за платформи, докато PIM не включва такива.",
-      "CIM описва изискванията, докато PIM описва логиката на системата.",
+      "CIM describes requirements, while PIM describes the system logic.",
+      "CIM and PIM are identical models."
     ],
-    correctAnswer: "CIM описва изискванията, докато PIM описва логиката на системата.",
-    imageURL: null
+    correctAnswer: "CIM describes requirements, while PIM describes the system logic.",
+    imageURL: "https://www.modeliosoft.com/images/mda_technology.png"
   },
   {
     index: 14,
-    question: "Какви са предимствата на използването на PIM моделите в MDA?",
+    question: "What are the benefits of using PIM models in MDA?",
     choices: [
-      "Намаляват сложността на кодовете на платформи.",
-      "Подобряват преносимостта, продуктивността и поддръжката.",
+      "Reduced complexity of platform code.",
+      "Improved portability, productivity, and maintainability.",
     ],
-    correctAnswer: "Подобряват преносимостта, продуктивността и поддръжката.",
-    imageURL: null
+    correctAnswer: "Improved portability, productivity, and maintainability.",
+    imageURL: "https://www.modeliosoft.com/images/mda_technology.png"
   },
   {
     index: 15,
-    question: "Какво представлява инвариантът 'self.numberOfEmployees > 50' в OCL?",
+    question: "What does the OCL constraint 'self.numberOfEmployees > 50' represent?",
     choices: [
-      "Ограничение, което изисква броят на служителите да е повече от 50.",
-      "Израз, който връща логическа стойност false.",
+      "An expression that always returns false.",
+      "A constraint requiring the number of employees to exceed 50.",
     ],
-    correctAnswer: "Ограничение, което изисква броят на служителите да е повече от 50.",
+    correctAnswer: "A constraint requiring the number of employees to exceed 50.",
     imageURL: null
   },
   {
     index: 16,
-    question: "Какво означава 'context CustomerCard invariant correctDates' в OCL?",
+    question: "What does 'context CustomerCard invariant correctDates' represent in OCL?",
     choices: [
-      "Описание на методи на класа CustomerCard.",
-      "Ограничение за атрибути с дата в класа CustomerCard.",
+      "A constraint on date attributes in the CustomerCard class.",
+      "A description of methods for CustomerCard.",
     ],
-    correctAnswer: "Ограничение за атрибути с дата в класа CustomerCard.",
+    correctAnswer: "A constraint on date attributes in the CustomerCard class.",
     imageURL: null
   },
   {
     index: 17,
-    question: "Какви операции могат да се прилагат върху колекции в OCL?",
+    question: "What operations can be performed on collections in OCL?",
     choices: [
       "->includes, ->select, ->size",
       "->add, ->remove, ->update",
@@ -175,34 +180,68 @@ export const mysql8 = [
   },
   {
     index: 18,
-    question: "Какво изразява OCL ограничението 'context Module invariant: taken_by -> size > 7'?",
+    question: "What does the OCL constraint 'context Module invariant: taken_by -> size > 7' mean?",
     choices: [
-      "Един модул може да бъде записан от повече от 7 студенти.",
-      "Модулът е задължителен за всички студенти.",
+      "A module must be taken by more than 7 students.",
+      "The module is mandatory for all students.",
     ],
-    correctAnswer: "Един модул може да бъде записан от повече от 7 студенти.",
+    correctAnswer: "A module must be taken by more than 7 students.",
     imageURL: null
   },
   {
     index: 19,
-    question: "Какво представляват времевите ограничения в времевите диаграми?",
+    question: "What do timing constraints in timing diagrams specify?",
     choices: [
-      "Ограничения за продължителността на събития и състояния",
-      "Описание на методи за взаимодействие",
-
+      "Methods of interaction.",
+      "The duration of events and states.",
     ],
-    correctAnswer: "Ограничения за продължителността на събития и състояния",
+    correctAnswer: "The duration of events and states.",
     imageURL: null
   },
   {
     index: 20,
-    question: "Кое е вярно за контекст 'context Mortgage inv: startDate < endDate'?",
+    question: "What is true about the context 'context Mortgage inv: startDate < endDate'?",
     choices: [
-      "Началната дата на ипотеката трябва да е преди крайната дата.",
-      "Ипотеката е валидна само при дефиниран размер на кредита.",
+      "The start date must be before the end date.",
+      "The mortgage is valid only with a defined loan amount.",
     ],
-    correctAnswer: "Началната дата на ипотеката трябва да е преди крайната дата.",
+    correctAnswer: "The start date must be before the end date.",
     imageURL: null
+  },
+  {
+    index: 21,
+    question: "Combining UML and OCL is necessary to construct models - precise enough to enable automatic model-to-code transformation?",
+    choices: [
+      "Yes",
+      "No",
+    ],
+    correctAnswer: "Yes",
+    imageURL: null
+  },
+  {
+    index: 21,
+    question: "What is NOT true about OCL?",
+    choices: [
+      "OCL - a formal language that remains easy to read and write",
+      "OCL is a pure specification language",
+      "OCL is not a programming but modeling language",
+      "The evaluation of an OCL expression is instantaneous. This means that the states of objects OOAD in a model cannot change during evaluation",
+      "None of the above"
+    ],
+    correctAnswer: "None of the above",
+    imageURL: null
+  },
+  {
+    index: 22,
+    question: "What is NOT OCL Collection Types?",
+    choices: [
+      "Set (no duplicate)",
+      "Bag (duplicates allowed)",
+      "Sequence (ordered Bag)",
+      "Array"
+    ],
+    correctAnswer: "Array",
+    imageURL: "https://www.researchgate.net/publication/220054058/figure/fig7/AS:661891756081152@1534818700201/OCL-23-Collection-Hierarchy.png"
   },
 
 ];
