@@ -32,11 +32,11 @@ export const mysql8 = [
   },
   {
     index: 4,
-    question: "What is NOT invariant in OCL?",
+    question: "What is NOT true about invariant in OCL?",
     choices: [
-      "The OCL expression can be part of an Invariant which is a constraint stereotyped as an «invariant»",
+      "It is a constraint stereotyped as an «invariant»",
       "An OCL expression is an invariant of the type and must be true for all instances of that type at any time.",
-      "All OCL expressions that express invariants are of type Boolean.",
+      "It is of type Boolean.",
       "None of the above"
     ],
     correctAnswer: "None of the above",
@@ -44,7 +44,7 @@ export const mysql8 = [
   },
   {
     index: 5,
-    question: "What is NOT true about `in the context of the Company type, the following expression would specify an invariant that the number of employees must always exceed 50`?",
+    question: "Which is NOT true expression of `in the context of the Company type, the following expression would specify an invariant that the number of employees must always exceed 50`?",
     choices: [
       "context Company inv: self.numberOfEmployees > 50",
       "context c : Company inv: c.numberOfEmployees > 50",
@@ -149,45 +149,28 @@ export const mysql8 = [
     imageURL: "https://www.modeliosoft.com/images/mda_technology.png"
   },
   {
-    index: 15,
-    question: "What does the OCL constraint 'self.numberOfEmployees > 50' represent?",
-    choices: [
-      "An expression that always returns false.",
-      "A constraint requiring the number of employees to exceed 50.",
-    ],
-    correctAnswer: "A constraint requiring the number of employees to exceed 50.",
-    imageURL: null
-  },
-  {
-    index: 16,
-    question: "What does 'context CustomerCard invariant correctDates' represent in OCL?",
-    choices: [
-      "A constraint on date attributes in the CustomerCard class.",
-      "A description of methods for CustomerCard.",
-    ],
-    correctAnswer: "A constraint on date attributes in the CustomerCard class.",
-    imageURL: null
-  },
-  {
     index: 17,
-    question: "What operations can be performed on collections in OCL?",
+    question: "What operations can NOT be performed on collections in OCL?",
     choices: [
-      "->includes, ->select, ->size",
-      "->add, ->remove, ->update",
+      "->includes(object)",
+      "->includesAll(collection)",
+      "->size",
+      "->isEmpty",
+      "->notEmpty",
+      "->sum()",
+      "->count(object)",
+      "->add",
+      "->select",
+      "->reject()",
+      "->collect()",
+      "->forAll()",
+      "->exists()",
+      "->iterate()",
     ],
-    correctAnswer: "->includes, ->select, ->size",
+    correctAnswer: "->add",
     imageURL: null
   },
-  {
-    index: 18,
-    question: "What does the OCL constraint 'context Module invariant: taken_by -> size > 7' mean?",
-    choices: [
-      "A module must be taken by more than 7 students.",
-      "The module is mandatory for all students.",
-    ],
-    correctAnswer: "A module must be taken by more than 7 students.",
-    imageURL: null
-  },
+
   {
     index: 19,
     question: "What do timing constraints in timing diagrams specify?",
@@ -198,16 +181,7 @@ export const mysql8 = [
     correctAnswer: "The duration of events and states.",
     imageURL: null
   },
-  {
-    index: 20,
-    question: "What is true about the context 'context Mortgage inv: startDate < endDate'?",
-    choices: [
-      "The start date must be before the end date.",
-      "The mortgage is valid only with a defined loan amount.",
-    ],
-    correctAnswer: "The start date must be before the end date.",
-    imageURL: null
-  },
+
   {
     index: 21,
     question: "Combining UML and OCL is necessary to construct models - precise enough to enable automatic model-to-code transformation?",
@@ -219,20 +193,20 @@ export const mysql8 = [
     imageURL: null
   },
   {
-    index: 21,
+    index: 22,
     question: "What is NOT true about OCL?",
     choices: [
-      "OCL - a formal language that remains easy to read and write",
+      "OCL is a formal language that remains easy to read and write",
       "OCL is a pure specification language",
       "OCL is not a programming but modeling language",
-      "The evaluation of an OCL expression is instantaneous. This means that the states of objects OOAD in a model cannot change during evaluation",
-      "None of the above"
+      "The evaluation of an OCL expression is instantaneous - the states of objects in a model cannot change during evaluation",
+      "OCL is a programming language"
     ],
-    correctAnswer: "None of the above",
+    correctAnswer: "OCL is a programming language",
     imageURL: null
   },
   {
-    index: 22,
+    index: 23,
     question: "What is NOT OCL Collection Types?",
     choices: [
       "Set (no duplicate)",
