@@ -32,26 +32,14 @@ export const mysql8 = [
   },
   {
     index: 4,
-    question: "What is NOT true about invariant in OCL?",
+    question: "What is NOT true about an invariant in OCL?",
     choices: [
-      "It is a constraint stereotyped as an «invariant»",
+      "It is a constraint stereotyped as an «invariant» or inv",
       "An OCL expression is an invariant of the type and must be true for all instances of that type at any time.",
       "It is of type Boolean.",
       "None of the above"
     ],
     correctAnswer: "None of the above",
-    imageURL: null
-  },
-  {
-    index: 5,
-    question: "Which is NOT true expression of `in the context of the Company type, the following expression would specify an invariant that the number of employees must always exceed 50`?",
-    choices: [
-      "context Company inv: self.numberOfEmployees > 50",
-      "context c : Company inv: c.numberOfEmployees > 50",
-      "context c : Company inv enoughEmployees : c.numberOfEmployees > 50",
-      "context Company inv: self.numberOfEmployees < 50"
-    ],
-    correctAnswer: "context Company inv: self.numberOfEmployees < 50",
     imageURL: null
   },
   {
