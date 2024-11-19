@@ -88,13 +88,17 @@ export const mysql8 = [
   },
   {
     index: 9,
-    question: "What types of timing constraints can be defined in timing diagrams?",
+    question: "What timing constraints are NOT correct in timing diagrams?",
     choices: [
-      "{t..t+5s}, {<5s}, {>5s, <10s}",
-      "Only absolute time values.",
+      "{t..t+5s} } The duration of the event or state should be 5 seconds or less.",
+      "{<5s} The duration of the event or state should be less than 5 seconds.",
+      "{>5s, <10s} The duration of the event or state should be greater than 5 seconds, but less than 10 seconds.",
+      "{t} The duration of the event or state should be equal to the value of t - could be any value of time.",
+      "{t..t*5} The duration of the event or state should be the value of t multiplied 5 times.",
+      "None of the above"
     ],
-    correctAnswer: "{t..t+5s}, {<5s}, {>5s, <10s}",
-    imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/what-is-timing-diagram/02-timing-diagram-example.png"
+    correctAnswer: "None of the above",
+    imageURL: null
   },
   {
     index: 10,
@@ -200,7 +204,9 @@ export const mysql8 = [
       "OCL is a pure specification language",
       "OCL is not a programming but modeling language",
       "The evaluation of an OCL expression is instantaneous - the states of objects in a model cannot change during evaluation",
-      "OCL is a programming language"
+      "OCL is a programming language",
+      "OCL can be used to write not only constraints, but any query expression",
+      "OCL is a declarative language - what should be done, but not how"
     ],
     correctAnswer: "OCL is a programming language",
     imageURL: null
@@ -216,6 +222,28 @@ export const mysql8 = [
     ],
     correctAnswer: "Array",
     imageURL: "https://www.researchgate.net/publication/220054058/figure/fig7/AS:661891756081152@1534818700201/OCL-23-Collection-Hierarchy.png"
+  },
+  {
+    index: 24,
+    question: "What is NOT true about Interaction diagrams?",
+    choices: [
+      "sequence diagrams focus on message order",
+      "communication diagrams show the links between participants",
+      "timing diagrams focus on message order",
+      "in timing diagrams each event has timing information associated with it"
+    ],
+    correctAnswer: "timing diagrams focus on message order",
+    imageURL: null
+  },
+  {
+    index: 25,
+    question: "In a timing diagram, each event has timing information associated with it that accurately describes: 1/when the event is invoked; 2/how long it takes for another participant to receive the event; 3/how long the receiving participant is expected to be in a particular state. Is this true?  ",
+    choices: [
+      "Yes",
+      "No",
+    ],
+    correctAnswer: "Yes",
+    imageURL: null
   },
 
 ];
