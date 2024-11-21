@@ -9,7 +9,7 @@ export const mysql3 = [
       "Layered"
     ],
     correctAnswer: "Pipe-and-Filter",
-    imageURL: "https://miro.medium.com/v2/resize:fit:1181/1*Gjh13t_2zy2Vo5OnAwHyaQ.png"
+    imageURL: null
   },
   {
     index: 2,
