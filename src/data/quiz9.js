@@ -30,20 +30,8 @@ export const mysql9 = [
     imageURL: "https://online.visual-paradigm.com/images/tutorials/deployment-diagram-tutorial/04-deployment-diagram-node-and-artifacts.png"
   },
   {
-    index: 4,
-    question: "Which of the following is NOT a typical element in a deployment diagram?",
-    choices: [
-      "Nodes",
-      "Artifacts",
-      "Interfaces",
-      "Components"
-    ],
-    correctAnswer: "Interfaces",
-    imageURL: null
-  },
-  {
     index: 5,
-    question: "In UML, what does a port represent in component diagrams?",
+    question: "What does a port represent in component diagrams?",
     choices: [
       "A physical connection between two nodes.",
       "A bi-directional interface for communication.",
@@ -56,7 +44,7 @@ export const mysql9 = [
     question: "What is NOT true about a node represent in deployment diagrams?",
     choices: [
       "It is a logical grouping of object classes.",
-      "A software or hardware resource capable of hosting software.",
+      "It is a software or hardware resource capable of hosting software.",
       "Its symbol - 3D boxes",
       "It provides context for deployment, showing where components reside and execute within the system’s infrastructure."
     ],
@@ -162,18 +150,7 @@ export const mysql9 = [
     correctAnswer: "To indicate its type or role in the model.",
     imageURL: null
   },
-  {
-    index: 16,
-    question: "In component diagrams, what is an example of a stereotype?",
-    choices: [
-      "<<component>>",
-      "<<interface>>",
-      "<<port>>",
-      "All of the above"
-    ],
-    correctAnswer: "<<component>>",
-    imageURL: null
-  },
+
   {
     index: 17,
     question: "What is a hardware node in deployment diagrams?",
@@ -246,7 +223,8 @@ export const mysql9 = [
       "Interface",
       "Node",
       "Component",
-      "Artifact"
+      "Artifact",
+      "Class"
     ],
     correctAnswer: "Class",
     imageURL: "https://support.content.office.net/en-us/media/257901c1-24a3-41f5-bca4-7b9f8fe95364.png"
