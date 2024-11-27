@@ -9,6 +9,9 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql5">Качест.х-ки на софт.с-ми</option>
                 <option value="mysql6">Проектиране АСС-тактики 1</option>
                 <option value="mysql7">Проектиране АСС-тактики 2</option>
+                <option value="mysql8">Процес за проектиране на CA</option>
+                <option value="mysql9">Документиране на СА</option>
+                <option value="mysql10">Оценка на СА</option>
             </select>
         </div>
     )
