@@ -198,6 +198,28 @@ body {
   margin-right: 8px; /* Add space between image and text */
   vertical-align: middle; /* Align the image vertically */
 }
+.quiz-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adds space between the dropdown and the button */
+}
+
+.download-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.download-btn:hover {
+  background-color: darkgreen;
+}
+
+
 /* For mobile phones (screen width below 768px) */
 @media only screen and (max-width: 768px) {
   .quiz-container {
