@@ -1,4 +1,45 @@
+import { useState, useEffect } from 'react';
+import { FaDownload } from 'react-icons/fa';
 export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
+    const [quizFile, setQuizFile] = useState("/mysql21.pdf");
+
+    // Use an effect to update quizFile when selectedQuiz changes
+    useEffect(() => {
+      switch (selectedQuiz) {
+        case 'mysql1':
+          setQuizFile("/mysql31.pdf");
+          break;
+        case 'mysql2':
+          setQuizFile("/mysql32.pdf");
+          break;
+        case 'mysql3':
+          setQuizFile("/mysql33.pdf");
+          break;
+        case 'mysql4':
+          setQuizFile("/mysql34.pdf");
+          break;
+        case 'mysql5':
+          setQuizFile("/mysql35.pdf");
+          break;
+        case 'mysql6':
+          setQuizFile("/mysql36.pdf"); // Fixed typo
+          break;
+        case 'mysql7':
+          setQuizFile("/mysql37.pdf");
+          break;
+          case 'mysql8':
+            setQuizFile("/mysql38.pdf");
+            break;
+          case 'mysql9':
+            setQuizFile("/mysql39.pdf"); // Fixed typo
+            break;
+          case 'mysql10':
+            setQuizFile("/mysql310.pdf");
+            break;
+        default:
+          setQuizFile("/mysql31.pdf");
+      }
+    }, [selectedQuiz]);
     return (
         <div className="quiz-selector">
             <select id="quiz-select" value={selectedQuiz} onChange={handleQuizChange}>
@@ -13,6 +54,13 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql9">Документиране на СА</option>
                 <option value="mysql10">Оценка на СА</option>
             </select>
+            <a 
+          href={quizFile} 
+          download={quizFile.split('/').pop()} // Extracts the file name from the path
+          className="download-btn"
+        >
+          <FaDownload /> 
+        </a>
         </div>
     )
 }
