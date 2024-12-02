@@ -59,7 +59,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql8">UML 2.*.OCL. MDA. Timing diagrams </option>
                 <option value="mysql9">Диаграми на комп. и на внедряването </option>
                 <option value="mysql10">Проектиране на софт. архитектура</option>
-                <option value="mysql11">Построяване на итерациите. </option>
+                <option value="mysql11">Engineering Process</option>
                 <option value="mysql12">ExamPreparation</option>
 
             </select>
