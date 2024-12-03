@@ -29,7 +29,7 @@ export default function Home() {
                     <li className="nav-item">
                         <Link className="nav-link" to="/quiz4">
 
-                            <article className='changing-color'>  <img src="/vite1.png" alt="Quiz Icon" className="nav-icon" /> Софтуерни технологии- напреднали</article>
+                            <article className='changing-color'>  <img src="/vite1.png" alt="Quiz Icon" className="nav-icon" /> Софт.техн.advance</article>
                         </Link>
                     </li>
                 </ul>
