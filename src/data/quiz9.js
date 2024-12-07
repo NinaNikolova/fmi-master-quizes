@@ -1,71 +1,59 @@
 export const mysql9 = [
   {
     index: 1,
-    question: "What is the primary purpose of a component diagram in UML?",
+    question: "Каква е основната цел на диаграмата на компонентите в UML?",
     choices: [
-      "To show the dynamic behavior of objects.",
-      "To represent the logical organization and relationships of components.",
+      "Да покаже динамичното поведение на обектите.",
+      "Да представи логическата организация и връзките между компонентите.",
     ],
-    correctAnswer: "To represent the logical organization and relationships of components.",
-    imageURL: null
+    correctAnswer: "Да представи логическата организация и връзките между компонентите.",
+    imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/what-is-component-diagram/02-component-diagram-overview.png"
   },
   {
     index: 2,
-    question: "What does an assembly connector in a component diagram represent?",
+    question: "Какво представлява  assembly connector /съединителят за сглобяване/ в диаграмата на компонентите?",
     choices: [
-      "A connection between hardware nodes.",
-      "A bridge between a required interface and a provided interface of components. The assembly connector allows one component to provide the services (the boll) that another component requires (the socket).",
+      "Връзка между хардуерни възли.",
+      "Мост между изискван интерфейс и предоставен интерфейс на компонентите. Съединителят за сглобяване позволява на един компонент да предоставя услугите (топката), които друг компонент изисква (гнездото).",
     ],
-    correctAnswer: "A bridge between a required interface and a provided interface of components. The assembly connector allows one component to provide the services (the boll) that another component requires (the socket).",
-    imageURL: null
+    correctAnswer: "Мост между изискван интерфейс и предоставен интерфейс на компонентите. Съединителят за сглобяване позволява на един компонент да предоставя услугите (топката), които друг компонент изисква (гнездото).",
+    imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/what-is-component-diagram/02-component-diagram-overview.png"
   },
   {
     index: 3,
-    question: "What is a deployment diagram primarily used for?",
+    question: "За какво основно се използва deployment диаграмата?",
     choices: [
-      "To represent the physical deployment of software components on hardware nodes.",
-      "To define interfaces for classes and objects.",
+      "Да представи физическото разгръщане на софтуерни компоненти върху хардуерни възли.",
+      "Да дефинира интерфейси за класове и обекти.",
     ],
-    correctAnswer: "To represent the physical deployment of software components on hardware nodes.",
+    correctAnswer: "Да представи физическото разгръщане на софтуерни компоненти върху хардуерни възли.",
     imageURL: "https://online.visual-paradigm.com/images/tutorials/deployment-diagram-tutorial/04-deployment-diagram-node-and-artifacts.png"
   },
   {
     index: 5,
-    question: "What does a port represent in component diagrams?",
+    question: "Какво представлява портът в диаграмите на компонентите?",
     choices: [
-      "A physical connection between two nodes.",
-      "A bi-directional interface for communication.",
+      "Физическа връзка между два възела.",
+      "Двунасочен интерфейс за комуникация.",
     ],
-    correctAnswer: "A bi-directional interface for communication.",
+    correctAnswer: "Двунасочен интерфейс за комуникация.",
     imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240531161233/4.png"
   },
   {
     index: 6,
-    question: "What is NOT true about a node represent in deployment diagrams?",
+    question: "Какво НЕ е вярно за възел в диаграмите на разгръщане?",
     choices: [
-      "It is a logical grouping of object classes.",
-      "It is a software or hardware resource capable of hosting software.",
-      "Its symbol - 3D boxes",
-      "It provides context for deployment, showing where components reside and execute within the system’s infrastructure."
+      "Това е логическа групировка на класове обекти.",
+      "Това е софтуерен или хардуерен ресурс, способен да хоства софтуер.",
+      "Неговият символ - 3D кутии",
+      "Той предоставя контекст за разгръщане, показвайки къде компонентите се намират и изпълняват в инфраструктурата на системата."
     ],
-    correctAnswer: "It is a logical grouping of object classes.",
+    correctAnswer: "Това е логическа групировка на класове обекти.",
     imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240531154417/nodes.png"
   },
   {
-    index: 7,
-    question: "What is an example of a deliverable component / delivered to customers/?",
-    choices: [
-      "Source code files",
-      "Executables",
-      "Database tables",
-      "All of the above"
-    ],
-    correctAnswer: "Executables",
-    imageURL: null
-  },
-  {
     index: 8,
-    question: "Which stereotype is commonly associated with components?",
+    question: "Кой стереотип е често свързан с компонентите?",
     choices: [
       "<<node>>",
       "<<component>>",
@@ -77,124 +65,109 @@ export const mysql9 = [
   },
   {
     index: 9,
-    question: "What is the focus of component diagrams in UML?",
+    question: "Какъв е фокусът на диаграмите на компонентите в UML?",
     choices: [
-      "Logical relationships between components.",
-      "Dynamic behavior of the system.",
-
+      "Логически връзки между компонентите.",
+      "Динамично поведение на системата.",
     ],
-    correctAnswer: "Logical relationships between components.",
+    correctAnswer: "Логически връзки между компонентите.",
     imageURL: null
   },
   {
     index: 10,
-    question: "What does a dependency in a component diagram indicate?",
+    question: "Какво показва зависимостта в диаграмата на компонентите?",
     choices: [
-      "A hierarchical structure among components.",
-      "A component requires another for compilation or execution.",
+      "Йерархична структура между компонентите.",
+      "Компонентът изисква друг за компилация или изпълнение.",
     ],
-    correctAnswer: "A component requires another for compilation or execution.",
+    correctAnswer: "Компонентът изисква друг за компилация или изпълнение.",
     imageURL: null
   },
   {
     index: 11,
-    question: "What is a key distinction between component and deployment diagrams?",
+    question: "Каква е ключовата разлика между диаграмите на компонентите и deployment-диаграмите?",
     choices: [
-      "Component diagrams are used during the design phase, while deployment diagrams are used for physical deployment.",
-      "There is no distinction; they serve the same purpose."
+      "Диаграмите на компонентите се използват по време на фазата на проектиране, докато deployment-диаграмите се използват за физическо разгръщане.",
+      "Няма разлика; те служат за една и съща цел."
     ],
-    correctAnswer: "Component diagrams are used during the design phase, while deployment diagrams are used for physical deployment.",
+    correctAnswer: "Диаграмите на компонентите се използват по време на фазата на проектиране, докато deployment-диаграмите се използват за физическо разгръщане.",
     imageURL: null
   },
   {
     index: 12,
-    question: "What does a provided interface signify in UML component diagrams?",
+    question: "Какво означава предоставен интерфейс в диаграмите на компонентите в UML?",
     choices: [
-      "An interface that a component offers.",
-      "An interface that a component requires.",
+      "Интерфейс, който компонентът предлага.",
+      "Интерфейс, който компонентът изисква.",
     ],
-    correctAnswer: "An interface that a component offers.",
+    correctAnswer: "Интерфейс, който компонентът предлага.",
     imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240531160749/2.png"
   },
   {
     index: 13,
-    question: "What is NOT true about deployment diagram's artifact?",
+    question: "Какво НЕ е вярно за артефактите в deployment-диаграмите?",
     choices: [
-      "Rectangles with the artifact stereotype («artifact»)",
-      "They represent a physical piece of software or data deployed to a node.",
-      "Show how software artifacts, like executables or data files, relate to the components",
-      "To define the logical grouping of object classes."
+      "Правоъгълници със стереотип артефакт («artifact»)",
+      "Те представляват физическо парче софтуер или данни, разположени на възел.",
+      "Показват как софтуерните артефакти, като изпълними файлове или файлове с данни, се отнасят към компонентите",
+      "Да дефинират логическата групировка на класове обекти."
     ],
-    correctAnswer: "To define the logical grouping of object classes.",
+    correctAnswer: "Да дефинират логическата групировка на класове обекти.",
     imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240531161438/5.png"
   },
   {
-    index: 14,
-    question: "What type of process scheduling can a processor specify in deployment diagrams?",
-    choices: [
-      "Preemptive",
-      "Non-preemptive",
-      "Cyclic",
-      "All of the above"
-    ],
-    correctAnswer: "All of the above",
-    imageURL: null
-  },
-  {
     index: 15,
-    question: "What is the purpose of a component's stereotype?",
+    question: "Каква е целта на стереотипа на компонент?",
     choices: [
-      "To specify its physical location.",
-      "To indicate its type or role in the model.",
+      "Да определи физическото му местоположение.",
+      "Да посочи неговия тип или роля в модела.",
     ],
-    correctAnswer: "To indicate its type or role in the model.",
+    correctAnswer: "Да посочи неговия тип или роля в модела.",
     imageURL: null
   },
-
   {
     index: 17,
-    question: "What is a hardware node in deployment diagrams?",
+    question: "Какво представлява хардуерният възел в диаграмите на разгръщане?",
     choices: [
-      "A representation of system functionality.",
-      "A physical entity hosting software components.",
+      "Представяне на функционалността на системата.",
+      "Физическо устройство, хостващо софтуерни компоненти.",
     ],
-    correctAnswer: "A physical entity hosting software components.",
+    correctAnswer: "Физическо устройство, хостващо софтуерни компоненти.",
     imageURL: null
   },
   {
     index: 18,
-    question: "Which of the following is true for component packages?",
+    question: "Кое от следните е вярно за пакетите компоненти?",
     choices: [
-      "They represent hardware dependencies.",
-      "They group logically related components.",
-
+      "Те представляват хардуерни зависимости.",
+      "Те групират логически свързани компоненти.",
     ],
-    correctAnswer: "They group logically related components.",
+    correctAnswer: "Те групират логически свързани компоненти.",
     imageURL: null
   },
   {
     index: 19,
-    question: "What does a state diagram in UML describe?",
+    question: "Какво описва диаграмата на състоянията в UML?",
     choices: [
-      "Physical deployment of nodes.",
-      "Dynamic transitions between states of an object.",
+      "Физическо разгръщане на възли.",
+      "Динамични преходи между състоянията на обект.",
     ],
-    correctAnswer: "Dynamic transitions between states of an object.",
+    correctAnswer: "Динамични преходи между състоянията на обект.",
     imageURL: null
   },
   {
     index: 20,
-    question: "What is a key focus of deployment diagrams?",
+    question: "Какъв е ключовият фокус на deployment-диаграмите?",
     choices: [
-      "Logical organization of software modules.",
-      "Physical allocation of software to hardware nodes.",
+      "Логическа организация на софтуерните модули.",
+      "Физическо разпределение на софтуера върху хардуерни възли.",
     ],
-    correctAnswer: "Physical allocation of software to hardware nodes.",
+    correctAnswer: "Физическо разпределение на софтуера върху хардуерни възли.",
     imageURL: null
   },
   {
     index: 21,
-    question: "A component diagram has a higher level of abstraction than a Class Diagram - usually a component is implemented by one or more classes. Is this true?",
+    question: "Диаграмата на компонентите има по-високо ниво на абстракция от диаграмата на класовете - обикновено компонентът се реализира от един или повече класове. Вярно ли е това?",
     choices: [
       "Yes",
       "No",
@@ -204,11 +177,11 @@ export const mysql9 = [
   },
   {
     index: 22,
-    question: "Which is not a relationship between components and interfaces?",
+    question: "Кое не е връзка между компонентите и интерфейсите?",
     choices: [
-      "Dependency (dashed arrow) -  Indicates that one component relies on another",
-      "Association (solid line) - Shows a more permanent relationship between components",
-      "Assembly connector - Connects a required interface of one component to a provided interface of another",
+      "Dependency (dashed arrow) -  Показва, че един компонент разчита на друг",
+      "Association (solid line) - Показва по-постоянна връзка между компонентите",
+      "Assembly connector - Свързва изискван интерфейс на един компонент с предоставен интерфейс на друг",
       "Nodes"
     ],
     correctAnswer: "Nodes",
@@ -216,7 +189,7 @@ export const mysql9 = [
   },
   {
     index: 23,
-    question: "Which is NOT a key concept of deplpyment diagram?",
+    question: "Кое НЕ е ключова концепция на deployment-диаграмите?",
     choices: [
       "Dependency",
       "Association",
