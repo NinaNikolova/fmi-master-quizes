@@ -1,60 +1,59 @@
 export const mysql8 = [
   {
     index: 1,
-    question: "What is Object Constraint Language (OCL)?",
+    question: "Какво е Object Constraint Language (OCL)?",
     choices: [
-      "A specification language without side effects.",
-      "A tool for automatic code generation.",
+      "Език за спецификации без странични ефекти.",
+      "Инструмент за автоматично генериране на код.",
     ],
-    correctAnswer: "A specification language without side effects.",
-    imageURL: "https://slideplayer.com/slide/7285518/24/images/21/Basic+constructs+Let%2C+If-then-else+Standard+Library.jpg"
+    correctAnswer: "Език за спецификации без странични ефекти.",
+    imageURL: null
   },
   {
     index: 2,
-    question: "What is the primary purpose of OCL?",
+    question: "Каква е основната цел на OCL?",
     choices: [
-      "To generate UML diagrams automatically.",
-      "To provide formal constraints on UML models.",
-
+      "Да генерира автоматично UML диаграми.",
+      "Да осигури формални ограничения върху UML модели.",
     ],
-    correctAnswer: "To provide formal constraints on UML models.",
+    correctAnswer: "Да осигури формални ограничения върху UML модели.",
     imageURL: null
   },
   {
     index: 3,
-    question: "What types of constraints can be specified using OCL?",
+    question: "Какви типове ограничения могат да бъдат определени с помощта на OCL?",
     choices: [
-      "Invariants, preconditions, and postconditions.",
-      "Only timing dependencies.",
+      "Инварианти, предусловия и постусловия.",
+      "Само времеви зависимости.",
     ],
-    correctAnswer: "Invariants, preconditions, and postconditions.",
+    correctAnswer: "Инварианти, предусловия и постусловия.",
     imageURL: null
   },
   {
     index: 4,
-    question: "What is NOT true about an invariant in OCL?",
+    question: "Какво НЕ е вярно за инвариантите в OCL?",
     choices: [
-      "It is a constraint stereotyped as an «invariant» or inv",
-      "An OCL expression is an invariant of the type and must be true for all instances of that type at any time.",
-      "It is of type Boolean.",
-      "None of the above"
+      "Това е ограничение от тип «invariant» или inv.",
+      "Трябва да е верен за всички инстанции на типа.",
+      "От тип Boolean.",
+      "Нищо от изброеното."
     ],
-    correctAnswer: "None of the above",
+    correctAnswer: "Нищо от изброеното",
     imageURL: null
   },
   {
     index: 6,
-    question: "How are constraints on attributes specified in OCL?",
+    question: "Как се определят ограниченията върху атрибутите в OCL?",
     choices: [
-      "Using the context of the class the attribute belongs to.",
-      "By direct assignment in the UML diagram.",
+      "Чрез контекста на класа, към който принадлежи атрибутът.",
+      "Чрез директно задаване в UML диаграмата.",
     ],
-    correctAnswer: "Using the context of the class the attribute belongs to.",
+    correctAnswer: "Чрез контекста на класа, към който принадлежи атрибутът.",
     imageURL: null
   },
   {
     index: 7,
-    question: "Which organization supports the development of OCL?",
+    question: "Коя организация подкрепя развитието на OCL?",
     choices: [
       "OMG (Object Management Group)",
       "W3C",
@@ -66,83 +65,83 @@ export const mysql8 = [
   },
   {
     index: 8,
-    question: "What is the purpose of timing diagrams in UML?",
+    question: "Каква е целта на времевите диаграми в UML?",
     choices: [
-      "To illustrate timing information for events and states.",
-      "To show the relationships between classes.",
+      "Да илюстрират времевата информация за събития и състояния.",
+      "Да покажат връзките между класове.",
     ],
-    correctAnswer: "To illustrate timing information for events and states.",
+    correctAnswer: "Да илюстрират времевата информация за събития и състояния.",
     imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/what-is-timing-diagram/02-timing-diagram-example.png"
   },
   {
     index: 9,
-    question: "What timing constraints are NOT correct in timing diagrams?",
+    question: "Кои времеви ограничения НЕ са верни в диаграмите на времето?",
     choices: [
-      "{t..t+5s} } The duration of the event or state should be 5 seconds or less.",
-      "{<5s} The duration of the event or state should be less than 5 seconds.",
-      "{>5s, <10s} The duration of the event or state should be greater than 5 seconds, but less than 10 seconds.",
-      "{t} The duration of the event or state should be equal to the value of t - could be any value of time.",
-      "{t..t*5} The duration of the event or state should be the value of t multiplied 5 times.",
-      "None of the above"
+      "{t..t+5s} } Продължителността на събитието или състоянието трябва да бъде 5 секунди или по-малко.",
+      "{<5s} Продължителността на събитието или състоянието трябва да бъде по-малка от 5 секунди.",
+      "{>5s, <10s} Продължителността на събитието или състоянието трябва да бъде по-голяма от 5 секунди, но по-малка от 10 секунди.",
+      "{t} Продължителността на събитието или състоянието трябва да бъде равна на стойността на t - може да бъде всяка стойност на времето.",
+      "{t..t*5} Продължителността на събитието или състоянието трябва да бъде стойността на t, умножена по 5.",
+      "Нищо от изброеното"
     ],
-    correctAnswer: "None of the above",
+    correctAnswer: "Нищо от изброеното",
     imageURL: null
   },
   {
     index: 10,
-    question: "How are states described in timing diagrams?",
+    question: "Как се описват състоянията в диаграмите на времето?",
     choices: [
-      "Vertically, using connections.",
-      "Horizontally, next to the participants they are associated with.",
+      "Вертикално, използвайки връзки.",
+      "Хоризонтално, до участниците, с които са свързани.",
     ],
-    correctAnswer: "Horizontally, next to the participants they are associated with.",
+    correctAnswer: "Хоризонтално, до участниците, с които са свързани.",
     imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/what-is-timing-diagram/02-timing-diagram-example.png"
   },
   {
     index: 11,
-    question: "What is the primary purpose of Model Driven Architecture (MDA)?",
+    question: "Каква е основната цел на Model Driven Architecture (MDA)?",
     choices: [
-      "To separate the specification of functionalities from implementation.",
-      "To automate software testing processes.",
+      "Да отдели спецификацията на функционалностите от имплементацията.",
+      "Да автоматизира процесите на тестване на софтуер.",
     ],
-    correctAnswer: "To separate the specification of functionalities from implementation.",
+    correctAnswer: "Да отдели спецификацията на функционалностите от имплементацията.",
     imageURL: "https://www.omg.org/mda/images/mda_diagram.gif"
   },
   {
     index: 12,
-    question: "Which model in MDA describes the business logic of the system?",
+    question: "Кой модел в MDA описва бизнес логиката на системата?",
     choices: [
       "CIM (Computation Independent Model).",
       "PIM (Platform Independent Model).",
       "PSM (Platform Specific Model).",
-      "Code"
+      "Код"
     ],
     correctAnswer: "PIM (Platform Independent Model).",
     imageURL: "https://www.modeliosoft.com/images/mda_technology.png"
   },
   {
     index: 13,
-    question: "What is the main difference between CIM and PIM in MDA?",
+    question: "Каква е основната разлика между CIM и PIM в MDA?",
     choices: [
-      "CIM describes requirements, while PIM describes the system logic.",
-      "CIM and PIM are identical models."
+      "CIM описва изискванията, докато PIM описва системната логика.",
+      "CIM и PIM са идентични модели."
     ],
-    correctAnswer: "CIM describes requirements, while PIM describes the system logic.",
+    correctAnswer: "CIM описва изискванията, докато PIM описва системната логика.",
     imageURL: "https://www.modeliosoft.com/images/mda_technology.png"
   },
   {
     index: 14,
-    question: "What are the benefits of using PIM models in MDA?",
+    question: "Какви са ползите от използването на PIM модели в MDA?",
     choices: [
-      "Reduced complexity of platform code.",
-      "Improved portability, productivity, and maintainability.",
+      "Намалена сложност на платформения код.",
+      "Подобрена преносимост, продуктивност и поддръжка.",
     ],
-    correctAnswer: "Improved portability, productivity, and maintainability.",
+    correctAnswer: "Подобрена преносимост, продуктивност и поддръжка.",
     imageURL: "https://www.modeliosoft.com/images/mda_technology.png"
   },
   {
     index: 17,
-    question: "What operations can NOT be performed on collections in OCL?",
+    question: "Какви операции НЕ могат да се извършват върху колекции в OCL?",
     choices: [
       "->includes(object)",
       "->includesAll(collection)",
@@ -165,73 +164,38 @@ export const mysql8 = [
 
   {
     index: 19,
-    question: "What do timing constraints in timing diagrams specify?",
+    question: "Какво задават времевите ограничения в диаграмите на времето?",
     choices: [
-      "Methods of interaction.",
-      "The duration of events and states.",
+      "Методи за взаимодействие.",
+      "Продължителността на събитията и състоянията.",
     ],
-    correctAnswer: "The duration of events and states.",
+    correctAnswer: "Продължителността на събитията и състоянията.",
     imageURL: null
   },
 
   {
     index: 21,
-    question: "Combining UML and OCL is necessary to construct models - precise enough to enable automatic model-to-code transformation?",
+    question: "Необходимо ли е комбинирането на UML и OCL за изграждане на модели - достатъчно точни, за да позволят автоматично преобразуване на модел в код?",
     choices: [
-      "Yes",
-      "No",
+      "Да",
+      "Не",
     ],
-    correctAnswer: "Yes",
+    correctAnswer: "Да",
     imageURL: null
   },
   {
     index: 22,
-    question: "What is NOT true about OCL?",
+    question: "Какво НЕ е вярно относно OCL?",
     choices: [
-      "OCL is a formal language that remains easy to read and write",
-      "OCL is a pure specification language",
-      "OCL is not a programming but modeling language",
-      "The evaluation of an OCL expression is instantaneous - the states of objects in a model cannot change during evaluation",
-      "OCL is a programming language",
-      "OCL can be used to write not only constraints, but any query expression",
-      "OCL is a declarative language - what should be done, but not how"
+      "OCL е формален език, който остава лесен за четене и писане",
+      "OCL е чист език за спецификации",
+      "OCL не е език за програмиране, а за моделиране",
+      "Оценката на OCL израз е мигновена - състоянията на обектите в модела не могат да се променят по време на оценката",
+      "OCL е език за програмиране",
+      "OCL може да се използва не само за писане на ограничения, но и за всякакви изрази за запитвания",
+      "OCL е декларативен език - какво трябва да се направи, но не и как"
     ],
-    correctAnswer: "OCL is a programming language",
+    correctAnswer: "OCL е език за програмиране",
     imageURL: null
-  },
-  {
-    index: 23,
-    question: "What is NOT OCL Collection Types?",
-    choices: [
-      "Set (no duplicate)",
-      "Bag (duplicates allowed)",
-      "Sequence (ordered Bag)",
-      "Array"
-    ],
-    correctAnswer: "Array",
-    imageURL: "https://www.researchgate.net/publication/220054058/figure/fig7/AS:661891756081152@1534818700201/OCL-23-Collection-Hierarchy.png"
-  },
-  {
-    index: 24,
-    question: "What is NOT true about Interaction diagrams?",
-    choices: [
-      "sequence diagrams focus on message order",
-      "communication diagrams show the links between participants",
-      "timing diagrams focus on message order",
-      "in timing diagrams each event has timing information associated with it"
-    ],
-    correctAnswer: "timing diagrams focus on message order",
-    imageURL: null
-  },
-  {
-    index: 25,
-    question: "In a timing diagram, each event has timing information associated with it that accurately describes: 1/when the event is invoked; 2/how long it takes for another participant to receive the event; 3/how long the receiving participant is expected to be in a particular state. Is this true?  ",
-    choices: [
-      "Yes",
-      "No",
-    ],
-    correctAnswer: "Yes",
-    imageURL: null
-  },
-
+  }
 ];
