@@ -1,286 +1,203 @@
 export const mysql7 = [
   {
     index: 1,
-    question: "What is the purpose of a state diagram in UML?",
+    question: "Какво моделира диаграмата на състояния (Statechart Diagram)?",
     choices: [
-      "It shows the sequences of states that an object goes through, the events that cause a transition from one state to another, and the actions that result from a state change.",
-      "To describe the flow of control among activities.",
+      "Моделира поведението на един обект, като показва последователността от състояния, през които обектът преминава по време на своя живот.",
+      "Моделира взаимодействията между обектите в системата.",
     ],
-    correctAnswer: "It shows the sequences of states that an object goes through, the events that cause a transition from one state to another, and the actions that result from a state change.",
-    imageURL: "https://www.microtool.de/wp-content/uploads/2023/08/what-is-a-state-diagram.png"
+    correctAnswer: "Моделира поведението на един обект, като показва последователността от състояния, през които обектът преминава по време на своя живот.",
+    imageURL: ""
   },
   {
     index: 2,
-    question: "What differentiates activity diagrams from state diagrams?",
+    question: "Какво представлява началното състояние в диаграмата на състояния?",
     choices: [
-      "Activity diagrams are state-centric, while state diagrams are activity-centric.",
-      "Activity diagrams are activity-centric, while state diagrams are state-centric.",
+      "Показва завършването на процеса.",
+      "Показва началото на работния поток или началото на събитията, които причиняват преход.",
     ],
-    correctAnswer: "Activity diagrams are activity-centric, while state diagrams are state-centric.",
-    imageURL: null
+    correctAnswer: "Показва началото на работния поток или началото на събитията, които причиняват преход.",
+    imageURL: ""
   },
   {
     index: 3,
-    question: "What does a start pseudostate represent in a state diagram?",
+    question: "Какво представлява крайното състояние в диаграмата на състояния?",
     choices: [
-      "The end of a workflow.",
-      "The beginning of a workflow or event sequence.",
+      "Показва началото на работния поток.",
+      "Показва завършването на процеса.",
     ],
-    correctAnswer: "The beginning of a workflow or event sequence.",
-    imageURL: null
+    correctAnswer: "Показва завършването на процеса.",
+    imageURL: ""
   },
   {
     index: 4,
-    question: "What is a deep history pseudostate used for?",
+    question: "Какво представлява терминалното състояние в диаграмата на състояния?",
     choices: [
-      "To model entry and exit points of a composite state.",
-      "To remember the most recent active configuration of a composite state.",
+      "Показва началото на работния поток.",
+       "Показва прекратяване на машината на състояния чрез унищожаване на контекстния обект.",
     ],
-    correctAnswer: "To remember the most recent active configuration of a composite state.",
-    imageURL: null
+    correctAnswer: "Показва прекратяване на машината на състояния чрез унищожаване на контекстния обект.",
+    imageURL: ""
   },
   {
     index: 5,
-    question: "Which state activity type is triggered when an object enters a state?",
+    question: "Какво представлява 'State Transition' в диаграмата на състояния?",
     choices: [
-      "On Exit",
-      "Do",
-      "On Entry",
-      "On Event"
+      "Обект в изходно състояние ще изпълни определени действия и ще влезе в целево състояние при настъпване на определено събитие или при изпълнение на определени условия.",
+      "Показва връзките между обектите и съобщенията, които те си изпращат.",
     ],
-    correctAnswer: "On Entry",
-    imageURL: null
+    correctAnswer: "Обект в изходно състояние ще изпълни определени действия и ще влезе в целево състояние при настъпване на определено събитие или при изпълнение на определени условия.",
+    imageURL: ""
   },
   {
     index: 6,
-    question: "What is the purpose of a composite state in UML?",
-    choices: [
-      "To model parallel workflows.",
-      "To organize nested states within a single state.",
+    question: "Какво представлява действието в диаграмата на състояния?",
+    choices: [ 
+      "По-сложна колекция от поведения, която може да продължи дълго време и може да бъде прекъсната от събития.",
+        "Отнема нулево време и не може да бъде прекъснато.",
     ],
-    correctAnswer: "To organize nested states within a single state.",
-    imageURL: null
+    correctAnswer: "Отнема нулево време и не може да бъде прекъснато.",
+    imageURL: ""
   },
   {
     index: 7,
-    question: "What type of behavior does an activity diagram model?",
+    question: "Какво представлява активността в диаграмата на състояния?",
     choices: [
-      "The sequence of activities in a workflow.",
-      "The interaction between objects.",
+      "По-сложна колекция от поведения, която може да продължи дълго време и може да бъде прекъсната от събития.",
+      "Отнема нулево време и не може да бъде прекъснато.",
     ],
-    correctAnswer: "The sequence of activities in a workflow.",
-    imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/what-is-activity-diagram/04-activity-diagram-example-process-order.png"
+    correctAnswer: "По-сложна колекция от поведения, която може да продължи дълго време и може да бъде прекъсната от събития.",
+    imageURL: ""
   },
   {
     index: 8,
-    question: "What is the main function of a swimlane in an activity diagram?",
+    question: "Какво представляват вложените състояния (Composite/Nested States) в диаграмата на състояния?",
     choices: [
-      "To represent the duration of an activity.",
-      "To indicate responsibility for specific activities.",
+      "Показват връзките между обектите и съобщенията, които те си изпращат.",
+      "Състоянията могат да бъдат вложени на всякаква дълбочина.",
     ],
-    correctAnswer: "To indicate responsibility for specific activities.",
-    imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240112151723/Activity-Diagram-Notations.jpg"
+    correctAnswer: "Състоянията могат да бъдат вложени на всякаква дълбочина.",
+    imageURL: ""
   },
   {
     index: 9,
-    question: "What is an expansion region in an activity diagram?",
+    question: "Какво представлява 'Shallow History Pseudostate' в диаграмата на състояния?",
     choices: [
-      "A way to model tasks repeated for each item in a collection.",
-      "A method to specify decision nodes.",
+      "Показва най-скорошната активна конфигурация на състоянието в композитно състояние.",
+       "Показва най-скорошното активно подсъстояние на състоянието, в което се намира.",
     ],
-    correctAnswer: "A way to model tasks repeated for each item in a collection.",
-    imageURL: null
+    correctAnswer: "Показва най-скорошното активно подсъстояние на състоянието, в което се намира.",
+    imageURL: ""
   },
   {
     index: 10,
-    question: "What distinguishes actions from activities in UML?",
+    question: "Какво представлява 'Deep History Pseudostate' в диаграмата на състояния?",
     choices: [
-      "Actions represent atomic tasks, while activities represent sequences of tasks.",
-      "Actions are long-duration processes, while activities are instantaneous.",
+      "Показва най-скорошната активна конфигурация на състоянието в композитно състояние.",
+      "Показва най-скорошното активно подсъстояние на състоянието, в което се намира.",
     ],
-    correctAnswer: "Actions represent atomic tasks, while activities represent sequences of tasks.",
-    imageURL: null
+    correctAnswer: "Показва най-скорошната активна конфигурация на състоянието в композитно състояние.",
+    imageURL: ""
   },
   {
     index: 11,
-    question: "What is the purpose of a decision node in an activity diagram?",
+    question: "Какво представлява 'Junction Pseudo-State' в диаграмата на състояния?",
     choices: [
-      "To indicate the end of all control flows.",
-      "To merge multiple workflows into one.",
-      "To indicate simultaneous workflows.",
-      "To branch workflow based on guard conditions.",
+      "Показва най-скорошното активно подсъстояние на състоянието, в което се намира.",
+       "За свързване на множество преходи.",
     ],
-    correctAnswer: "To branch workflow based on guard conditions.",
-    imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240112151723/Activity-Diagram-Notations.jpg"
+    correctAnswer: "За свързване на множество преходи.",
+    imageURL: ""
   },
   {
     index: 12,
-    question: "Which is NOT included in Activity Diagram Notations?",
+    question: "Какво моделират диаграмите на активности?",
     choices: [
-      "guard",
-      "fork",
-      "join",
-      "merge",
-      "time event",
-      "control flow",
-      "initial state",
-      "final state",
-      "buffer",
-      "interruptible activity region",
-      "input and output pins",
-      "send and receive signals",
-      "decision node",
-      "slimline",
-      "activity state"
+      "Моделират работния процес или код.",
+      "Моделират взаимодействията между обектите в системата.",
     ],
-    correctAnswer: "buffer",
-    imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240112151723/Activity-Diagram-Notations.jpg"
+    correctAnswer: "Моделират работния процес или код.",
+    imageURL: "https://circle.visual-paradigm.com/wp-content/uploads/2017/06/Activity-Diagram-ATM.png"
   },
   {
     index: 13,
-    question: "What does a history pseudostate allow in state diagrams?",
+    question: "Какво представлява активността в диаграмата на активности?",
     choices: [
-      "Merging multiple states into a single composite state.",
-      "Remembering the previous state when interrupted.",
+      "Представлява изпълнение на задача или задължение в работния поток.",
+      "Показва връзките между обектите и съобщенията, които те си изпращат.",
     ],
-    correctAnswer: "Remembering the previous state when interrupted.",
-    imageURL: null
+    correctAnswer: "Представлява изпълнение на задача или задължение в работния поток.",
+    imageURL: ""
   },
   {
     index: 14,
-    question: "What is a junction pseudostate used for?",
+    question: "Какво представляват преходите (Transitions) в диаграмата на активности?",
     choices: [
-      "To chain multiple transitions together.",
-      "To remember the active state of a composite state.",
+      "Показват завършването на действие или под-активност и последователността на действията/под-активностите.",
+      "Показват връзките между обектите и съобщенията, които те си изпращат.",
     ],
-    correctAnswer: "To chain multiple transitions together.",
-    imageURL: null
+    correctAnswer: "Показват завършването на действие или под-активност и последователността на действията/под-активностите.",
+    imageURL: ""
   },
   {
     index: 15,
-    question: "What is modeled by object flows in an activity diagram?",
+    question: "Какво представляват 'Swimlanes' в диаграмата на активности?",
     choices: [
-      "The duration of an activity.",
-      "The relationship between activities and objects.",
+      "Показват връзките между обектите и съобщенията, които те си изпращат.",
+      "Показват кой е отговорен за изпълнението на активност.",
     ],
-    correctAnswer: "The relationship between activities and objects.",
-    imageURL: null
+    correctAnswer: "Показват кой е отговорен за изпълнението на активност.",
+    imageURL: "https://circle.visual-paradigm.com/wp-content/uploads/2017/06/Activity-Diagram-ATM.png"
   },
   {
     index: 16,
-    question: "What is the purpose of an interruptible activity region?",
+    question: "Какво представляват възлите за решения (Decision nodes) в диаграмата на активности?",
     choices: [
-      "To allow a group of actions to be interrupted.",
-      "To define constraints on activity transitions."
+      "Място, където работният поток може да се разклони въз основа на условия.",
+      "Показват връзките между обектите и съобщенията, които те си изпращат.",
     ],
-    correctAnswer: "To allow a group of actions to be interrupted.",
-    imageURL: null
+    correctAnswer: "Място, където работният поток може да се разклони въз основа на условия.",
+    imageURL: "https://www.visual-paradigm.com/servlet/editor-content/guide/uml-unified-modeling-language/about-state-diagrams/sites/7/2019/12/state-machine-diagram-explained.png"
   },
   {
     index: 17,
-    question: "What do send and receive signals represent in activity diagrams?",
+    question: "Какво представляват синхронизациите в диаграмата на активности?",
     choices: [
-      "Interactions with external participants.",
-      "The completion of an activity's task.",
+      "Показват паралелен работен поток чрез визуално дефиниране на разклонения (fork) и съединения (join).",
+      "Показват връзките между обектите и съобщенията, които те си изпращат.",
     ],
-    correctAnswer: "Interactions with external participants.",
-    imageURL: null
-  },
-  {
-    index: 18,
-    question: "What does an activity final node represent?",
-    choices: [
-      "The termination of a specific control flow.",
-      "The end of all control flows within the activity.",
-    ],
-    correctAnswer: "The end of all control flows within the activity.",
-    imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240112151723/Activity-Diagram-Notations.jpg"
-  },
-  {
-    index: 19,
-    question: "What is the purpose of an entry point in a submachine state?",
-    choices: [
-      "To define a guard condition for transitions.",
-      "To allow entry into a submachine at a non-initial state.",
-    ],
-    correctAnswer: "To allow entry into a submachine at a non-initial state.",
-    imageURL: null
-  },
-  {
-    index: 20,
-    question: "What does a synchronization construct model in an activity diagram?",
-    choices: [
-      "The termination of all control flows.",
-      "Parallel workflows with forks and joins.",
-    ],
-    correctAnswer: "Parallel workflows with forks and joins.",
-    imageURL: null
+    correctAnswer: "Показват паралелен работен поток чрез визуално дефиниране на разклонения (fork) и съединения (join).",
+    imageURL: "https://www.uml-diagrams.org/activity-diagrams/control-nodes-overview.png"
   },
   {
     index: 21,
-    question: "What is NOT true about state in State Diagrams?",
+    question: "Какво представлява диаграмата на преглед на взаимодействието (Interaction Overview Diagram)?",
     choices: [
-      "Represents a condition or situation during the life of an object during which it: satisfies some condition; performs some action; waits for some event",
-      "May be of type: simple or composite state; real or pseudo-state",
-      "None of the above"
+      "Диаграма, която показва последователността от състояния, през които обектът преминава.",
+      "Диаграма на дейности, която предоставя преглед на потока на управление.",
     ],
-    correctAnswer: "None of the above",
-    imageURL: null
+    correctAnswer: "Диаграма на дейности, която предоставя преглед на потока на управление.",
+    imageURL: "https://svg.template.creately.com/j634oa3j4"
   },
   {
     index: 22,
-    question: "What is NOT included in Pseudostates in State Diagrams?",
+    question: "Какво представляват рамките за взаимодействие в диаграмата на преглед на взаимодействието?",
     choices: [
-      "initial pseudostate",
-      "terminate pseudostate",
-      "entry point",
-      "exit point",
-      "choice",
-      "join",
-      "fork",
-      "junction",
-      "shallow history pseudostate",
-      "deep history pseudostate",
-      "None of the above"
+      "Представят всякакъв тип диаграма на взаимодействие като sd (sequence), cd (communication), td (timing), iod.",
+      "Показват връзките между обектите и съобщенията, които те си изпращат.",
     ],
-    correctAnswer: "None of the above",
-    imageURL: "https://drawio-app.com/wp-content/uploads/2018/09/UML-state-diagram-notation.png"
+    correctAnswer: "Представят всякакъв тип диаграма на взаимодействие като sd (sequence), cd (communication), td (timing), iod.",
+    imageURL: "https://svg.template.creately.com/j634oa3j4"
   },
   {
     index: 23,
-    question: "Is this ok state transition naming: event (arguments) [condition] /action ^target. sendEvent (args); Example: addStudent (id) [count<10]/ incrCount^ CourseList. addStudent (id)?",
+    question: "Какво представляват рамките за възникване на взаимодействие в диаграмата на преглед на взаимодействието?",
     choices: [
-      "Yes",
-      "No",
+      "Показват най-скорошното активно подсъстояние на състоянието, в което се намира.",
+      "Обозначават дейност или операция за извикване.",
     ],
-    correctAnswer: "Yes",
-    imageURL: null
-  },
-  {
-    index: 24,
-    question: "What is NOT true about submashine state?",
-    choices: [
-      "hides the decomposition of a composite state",
-      "useful in cases of a large number of states nested inside a composite state not fitting in its graphical space",
-      "represented by a simple state graphic with a special 'composite' icon",
-      "the contents of the composite state are shown in a separate diagram",
-      "none of the above"
-    ],
-    correctAnswer: "none of the above",
-    imageURL: "https://sparxsystems.com/images/screenshots/uml2_tutorial/sm07.GIF"
-  },
-  {
-    index: 25,
-    question: "What is NOT true about Interaction Overview Diagram?",
-    choices: [
-      "variants on UML activity diagrams which overview control flow",
-      "the nodes within the diagram are frames, not activities ",
-      "two types of frame shown: interaction frames depicting any type of UML interaction diagram (sequence diagram: sd); interaction occurrence frames (ref) which indicate an activity or operation to invoke",
-      "none of the above"
-    ],
-    correctAnswer: "none of the above",
-    imageURL: "https://images.edrawmax.com/images/knowledge/Interaction%20Overview%20Diagram/interaction-overview-diagram-example-3.jpg"
-  },
-
+    correctAnswer: "Обозначават дейност или операция за извикване.",
+    imageURL: ""
+  }
 
 ];
