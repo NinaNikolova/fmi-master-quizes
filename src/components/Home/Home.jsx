@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import './Home.module.css';
+import './Home.module.scss';
+import { IoGameController } from "react-icons/io5";
 
 export default function Home() {
     return (
@@ -33,10 +34,12 @@ export default function Home() {
                         </Link>
                     </li>
                 </ul>
-                <Link to="https://hangman-software-technologies.vercel.app/">
+                <div className="container-hang">
+                <Link  to="https://hangman-software-technologies.vercel.app/">
 
- <img className="hangman" src="/hangman.png" alt="Quiz Icon"  />
-</Link>
+                <IoGameController className='hangman'/>
+                </Link>
+                </div>
             </nav>
         </div>
     )
