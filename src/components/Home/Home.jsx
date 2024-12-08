@@ -33,6 +33,10 @@ export default function Home() {
                         </Link>
                     </li>
                 </ul>
+                <Link to="https://hangman-software-technologies.vercel.app/">
+
+ <img className="hangman" src="/hangman.png" alt="Quiz Icon"  />
+</Link>
             </nav>
         </div>
     )
