@@ -40,7 +40,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql4">Релации, функции, редици и индукция...</option>
                 <option value="mysql5">Z нотация – схеми.</option>
                 <option value="mysql6">Машини на състоянието</option>
-                <option value="mysql7">Машини на състоянието - варианти</option>
+                <option value="mysql7">Машини на съст.- варианти</option>
             </select>
    
         <a 
