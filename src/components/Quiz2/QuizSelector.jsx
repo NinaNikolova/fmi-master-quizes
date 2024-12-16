@@ -27,6 +27,9 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
         case 'mysql7':
           setQuizFile("/mysql27.pdf");
           break;
+          case 'mysql8':
+            setQuizFile("/mysql28.pdf");
+            break;
         default:
           setQuizFile("/mysql28.pdf");
       }
@@ -41,6 +44,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql5">Z нотация – схеми.</option>
                 <option value="mysql6">Машини на състоянието</option>
                 <option value="mysql7">Машини на съст.- варианти</option>
+                <option value="mysql8">Паралелни софт.с-ми</option>
             </select>
    
         <a 
