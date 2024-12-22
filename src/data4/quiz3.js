@@ -1,187 +1,203 @@
 export const mysql3 = [
   {
     index: 1,
-    question: "Кой доклад показва, че 94% от организациите използват Agile методологии?",
-    choices: ["State of Agile Report", "Scrum Guide", "Lean Report", "Kanban Analysis"],
-    correctAnswer: "State of Agile Report",
-    imageURL: null
+    question: "Какво представлява Agile методологията?",
+    choices: [
+      "Методология за бързо разработване на софтуер.",
+      "Методология за съхранение на данни."
+    ],
+    correctAnswer: "Методология за бързо разработване на софтуер.",
+    imageURL: ""
   },
   {
     index: 2,
-    question: "Кое твърдение е вярно за Lean Software Development?",
+    question: "Кое от следните е основен принцип на Agile?",
     choices: [
-      "Фокусира се върху предвиждане на бъдещи нужди",
-      "Фокусира се върху елиминиране на загуби",
+      "Фокус върху документацията.",
+      "Фокус върху работещия софтуер."
     ],
-    correctAnswer: "Фокусира се върху елиминиране на загуби",
-    imageURL: null
+    correctAnswer: "Фокус върху работещия софтуер.",
+    imageURL: ""
   },
   {
     index: 3,
-    question: "Кой Agile метод комбинира елементи от Scrum и XP?",
-    choices: ["Scrumban", "Scrum of Scrums", "ScrumXP hybrid", "Kanban"],
-    correctAnswer: "ScrumXP hybrid",
-    imageURL: null
+    question: "Какво е основното предимство на Agile методите?",
+    choices: [
+      "Бърза адаптация към променящи се изисквания.",
+      "Подробна предварителна спецификация."
+    ],
+    correctAnswer: "Бърза адаптация към променящи се изисквания.",
+    imageURL: ""
   },
   {
     index: 4,
-    question: "Коя е първата стъпка в Lean Startup подхода?",
-    choices: ["Създаване на MVP", "Извършване на тестове", "Планиране на голям проект", "Оценка на жизнеспособността"],
-    correctAnswer: "Създаване на MVP",
-    imageURL: null
+    question: "Какво представлява Scrum?",
+    choices: [
+      "Метод за управление на проекти.",
+      "Език за програмиране."
+    ],
+    correctAnswer: "Метод за управление на проекти.",
+    imageURL: ""
   },
   {
     index: 5,
-    question: "Кое е основно предимство на Kanban метода?",
+    question: "Какво е 'Sprint' в Scrum?",
     choices: [
-      "Изисква подробни предварителни планове",
-      "Подобрява видимостта на процеса",
+      "Фаза на планиране.",
+      "Фиксиран период за разработка."
     ],
-    correctAnswer: "Подобрява видимостта на процеса",
-    imageURL: null
+    correctAnswer: "Фиксиран период за разработка.",
+    imageURL: ""
   },
   {
     index: 6,
-    question: "Какво представлява SAFe (Scaled Agile Framework)?",
+    question: "Каква е ролята на Scrum Master?",
     choices: [
-      "Метод за управление на екипи",
-      "Рамка за мащабиране на Agile на ниво предприятие",
+      "Да защитава екипа от външни смущения.",
+      "Да пише код."
     ],
-    correctAnswer: "Рамка за мащабиране на Agile на ниво предприятие",
-    imageURL: null
+    correctAnswer: "Да защитава екипа от външни смущения.",
+    imageURL: ""
   },
   {
     index: 7,
-    question: "Кое твърдение е вярно за Scrum of Scrums?",
+    question: "Какво е 'Product Backlog'?",
     choices: [
-      "Включва само един Scrum Master",
-      "Използва ролеви специализации",
-      "Подобрява координацията между екипи",
-      "Ограничен е до малки екипи"
+      "Списък със задачи за изпълнение.",
+      "Документация за проекта."
     ],
-    correctAnswer: "Подобрява координацията между екипи",
-    imageURL: null
+    correctAnswer: "Списък със задачи за изпълнение.",
+    imageURL: ""
   },
   {
     index: 8,
-    question: "Кой принцип на Lean Software Development препоръчва вземане на решения в последния възможен момент?",
+    question: "Какво е 'Pair Programming'?",
     choices: [
-      "Елиминиране на загуби",
-      "Усилване на ученето",
-      "Действие в последния отговорен момент",
-      "Вграждане на цялост"
+      "Двама програмисти работят заедно на един компютър.",
+      "Програмиране на два различни езика."
     ],
-    correctAnswer: "Действие в последния отговорен момент",
-    imageURL: null
+    correctAnswer: "Двама програмисти работят заедно на един компютър.",
+    imageURL: ""
   },
   {
     index: 9,
-    question: "Каква е основната цел на Agile Release Train (ART)?",
+    question: "Какво е 'Continuous Integration'?",
     choices: [
-      "Да осигури централизирано управление",
-       "Да организира значими стойностни потоци",
+      "Постоянно интегриране на нов код в системата.",
+      "Постоянно писане на документация."
     ],
-    correctAnswer: "Да организира значими стойностни потоци",
-    imageURL: null
+    correctAnswer: "Постоянно интегриране на нов код в системата.",
+    imageURL: ""
   },
   {
     index: 10,
-    question: "Коя от следните характеристики не е част от Kanban?",
+    question: "Какво е 'Refactoring'?",
     choices: [
-      "Визуализация на работния поток",
-      "Ограничение на текущата работа",
-      "Управление на поток",
-      "Използване на sprint backlog"
+      "Подобряване на съществуващия код без промяна на функционалността.",
+      "Добавяне на нови функции към кода."
     ],
-    correctAnswer: "Използване на sprint backlog",
-    imageURL: null
+    correctAnswer: "Подобряване на съществуващия код без промяна на функционалността.",
+    imageURL: ""
   },
   {
     index: 11,
-    question: "Кой е основен принцип в Lean Manufacturing?",
-    choices: ["Push системи", "Pull системи", "Големи инвентаризации", "Предвиждане на бъдещи нужди"],
-    correctAnswer: "Pull системи",
-    imageURL: null
+    question: "Какво е 'Test-Driven Development'?",
+    choices: [
+      "Писане на тестове преди кода.",
+      "Писане на документация преди кода."
+    ],
+    correctAnswer: "Писане на тестове преди кода.",
+    imageURL: ""
   },
   {
     index: 12,
-    question: "Коя е ключова практика в Scrumban?",
-    choices: ["Прогресивно усъвършенстване", "Фиксирани времеви итерации", "Използване на бурндаун диаграми", "Създаване на големи инвентаризации"],
-    correctAnswer: "Прогресивно усъвършенстване",
-    imageURL: null
+    question: "Какво е 'Incremental Delivery'?",
+    choices: [
+      "Разработка на софтуера на малки части.",
+      "Еднократна доставка на целия софтуер."
+    ],
+    correctAnswer: "Разработка на софтуера на малки части.",
+    imageURL: ""
   },
   {
     index: 13,
-    question: "Какво е основно предназначение на System Demo в SAFe?",
+    question: "Какво е 'Customer Involvement' в Agile?",
     choices: [
-      "Да събира обратна връзка от заинтересованите страни",
-      "Да координира ежедневни задачи",
+      "Клиентът участва активно в процеса на разработка.",
+      "Клиентът получава софтуера след завършване."
     ],
-    correctAnswer: "Да събира обратна връзка от заинтересованите страни",
-    imageURL: null
+    correctAnswer: "Клиентът участва активно в процеса на разработка.",
+    imageURL: ""
   },
   {
     index: 14,
-    question: "Кой Agile метод подчертава минималния жизнеспособен продукт (MVP)?",
-    choices: ["Scrum", "Kanban", "Lean Startup", "SAFe"],
-    correctAnswer: "Lean Startup",
-    imageURL: null
+    question: "Какво е 'Extreme Programming' (XP)?",
+    choices: [
+      "Агилен метод за разработка на софтуер.",
+      "Метод за тестване на софтуер."
+    ],
+    correctAnswer: "Агилен метод за разработка на софтуер.",
+    imageURL: ""
   },
   {
     index: 15,
-    question: "Коя концепция от Lean включва управление на закъснения?",
-    choices: ["Value Stream Mapping", "Cost of Delay", "Pull Systems", "Feedback Loops"],
-    correctAnswer: "Cost of Delay",
-    imageURL: null
+    question: "Какво е 'Sustainable Pace' в XP?",
+    choices: [
+      "Избягване на прекомерни извънредни часове.",
+      "Постоянно увеличаване на работното време."
+    ],
+    correctAnswer: "Избягване на прекомерни извънредни часове.",
+    imageURL: ""
   },
   {
     index: 16,
-    question: "Коя практика в SAFe насърчава иновациите?",
+    question: "Какво е 'On-site Customer' в XP?",
     choices: [
-      "Increment Planning",
-      "Innovation and Planning Iteration",
-      "System Demo",
-      "Scrum of Scrums"
+      "Клиентът е част от екипа и присъства на място.",
+      "Клиентът получава софтуера дистанционно."
     ],
-    correctAnswer: "Innovation and Planning Iteration",
-    imageURL: null
+    correctAnswer: "Клиентът е част от екипа и присъства на място.",
+    imageURL: ""
   },
   {
     index: 17,
-    question: "Какъв е основният фокус на Lean Software Development?",
-    choices: ["Детайлно планиране", "Оптимизиране на стойност", "Минимизиране на комуникацията", "Намаляване на тестовете"],
-    correctAnswer: "Оптимизиране на стойност",
-    imageURL: null
+    question: "Какво е 'Automated Testing'?",
+    choices: [
+      "Тестовете се изпълняват автоматично.",
+      "Тестовете се пишат ръчно."
+    ],
+    correctAnswer: "Тестовете се изпълняват автоматично.",
+    imageURL: ""
   },
   {
     index: 18,
-    question: "Каква е разликата между Scrum и Kanban?",
+    question: "Какво е 'User Story' в XP?",
     choices: [
-      "Kanban използва спринтове, а Scrum не",
-      "Scrum е с фиксирана структура, а Kanban е гъвкав",
-      "Scrum използва task board, а Kanban не",
-      "Kanban използва фиксирани роли, а Scrum не"
+      "Кратко описание на потребителско изискване.",
+      "Подробна техническа спецификация."
     ],
-    correctAnswer: "Scrum е с фиксирана структура, а Kanban е гъвкав",
-    imageURL: null
+    correctAnswer: "Кратко описание на потребителско изискване.",
+    imageURL: ""
   },
   {
     index: 19,
-    question: "Кой е основен принцип в Lean Software Development?",
-    choices: ["Намаляване на итерациите", "Вграждане на цялост", "Фокус върху управление", "Създаване на backlog"],
-    correctAnswer: "Вграждане на цялост",
-    imageURL: null
+    question: "Какво е 'Incremental Planning' в XP?",
+    choices: [
+      "Планиране на малки части от проекта.",
+      "Планиране на целия проект наведнъж."
+    ],
+    correctAnswer: "Планиране на малки части от проекта.",
+    imageURL: ""
   },
   {
     index: 20,
-    question: "Коя е основна цел на PI Planning в SAFe?",
+    question: "Какво е 'Collective Ownership' в XP?",
     choices: [
-      "Да изготви план за следващия период",
-      "Да измери скоростта на екипа",
+      "Всички разработчици споделят отговорността за кода.",
+      "Само един разработчик е отговорен за кода."
     ],
-    correctAnswer: "Да изготви план за следващия период",
-    imageURL: null
+    correctAnswer: "Всички разработчици споделят отговорността за кода.",
+    imageURL: ""
   }
  
-
 ];
