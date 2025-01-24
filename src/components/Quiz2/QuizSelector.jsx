@@ -30,8 +30,20 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
           case 'mysql8':
             setQuizFile("/mysql28.pdf");
             break;
+            case 'mysql9':
+              setQuizFile("/mysql29.pdf");
+              break;
+            case 'mysql10':
+              setQuizFile("/mysql210.pdf"); // Fixed typo
+              break;
+            case 'mysql11':
+              setQuizFile("/mysql211.pdf");
+              break;
+              case 'mysql12':
+                setQuizFile("/mysql212.pdf");
+                break;
         default:
-          setQuizFile("/mysql28.pdf");
+          setQuizFile("/mysql21.pdf");
       }
     }, [selectedQuiz]);
     return (
@@ -45,6 +57,10 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql6">Машини на състоянието</option>
                 <option value="mysql7">Машини на съст.- варианти</option>
                 <option value="mysql8">Паралелни софт.с-ми</option>
+                <option value="mysql9">Гл.1</option>
+                <option value="mysql10">Гл.2</option>
+                <option value="mysql11">Гл.3</option>
+                <option value="mysql12">Гл.4</option>
             </select>
    
         <a 
