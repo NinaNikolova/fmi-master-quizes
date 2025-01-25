@@ -216,7 +216,7 @@ export const mysql2 = [
     },
     {
         index: 37,
-        question: "Какво гласи правилото на Modus Ponens s (Latin: mode that affirms /твърдя/)?",
+        question: "Какво гласи правилото на Modus Ponens (Latin: mode - affirms /твърдя/)?",
         choices: [
             "Ако p е вярно и p => q е вярно, то q е вярно",
             "Ако q е вярно, то p е вярно",

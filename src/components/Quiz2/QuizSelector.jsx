@@ -49,9 +49,9 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
     return (
         <div className="quiz-selector">
             <select id="quiz-select" value={selectedQuiz} onChange={handleQuizChange}>
-                <option value="mysql1">Формални методи/ форм. с-ма</option>
+                <option value="mysql1">Формални м-ди/форм.с-ма</option>
                 <option value="mysql2">Z нотация.Логики и доказ.</option>
-                <option value="mysql3">Множества в Z нотацията.</option>
+                <option value="mysql3">Множества в Z-нотацията</option>
                 <option value="mysql4">Релации,ф-и,редици,индукция</option>
                 <option value="mysql5">Z нотация – схеми.</option>
                 <option value="mysql6">Машини на състоянието</option>

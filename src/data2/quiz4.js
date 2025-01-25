@@ -82,7 +82,7 @@ export const mysql4 = [
       "Функция, дефинирана само за крайни множества"
     ],
     correctAnswer: "Функция, която свързва ВСЕКИ елемент от домейна с единствен елемент от обхвата",
-    imageURL: null
+    imageURL: "https://ds055uzetaobb.cloudfront.net/brioche/uploads/EkswlzPrzb-examp.svg?width=300"
   },
   {
     index: 8,
@@ -116,7 +116,7 @@ export const mysql4 = [
       "Функция, която има само един елемент",
     ],
     correctAnswer: "Функция, при която за всяко x ∈ A съществува най-много едно y ∈ B т.е. в A има елементи не свързани с B",
-    imageURL: null
+    imageURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWW0IjIuOYNhpW78j-XgyNt6P1JVV6s7ESNA&s"
   },
   {
     index: 11,
@@ -128,7 +128,7 @@ export const mysql4 = [
       "Функция, която няма елементи в домейна"
     ],
     correctAnswer: "Функция, при която обхватът (range, target) е покрит",
-    imageURL: null
+    imageURL: "https://ds055uzetaobb.cloudfront.net/brioche/uploads/EkswlzPrzb-examp.svg?width=300"
   },
   {
     index: 12,
@@ -246,7 +246,7 @@ export const mysql4 = [
       "Функция, която e едновремено onto и one-to-one",
     ],
     correctAnswer: "Функция, която e едновремено onto и one-to-one",
-    imageURL: null
+    imageURL: "https://ds055uzetaobb.cloudfront.net/brioche/uploads/EkswlzPrzb-examp.svg?width=300"
   },
 
 
