@@ -36,6 +36,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
             case 'mysql10':
               setQuizFile("/mysql410.pdf"); // Fixed typo
               break;
+       
         default:
           setQuizFile("/mysql41.pdf");
       }
@@ -53,6 +54,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql8">Разраб.Data Intensive с-ми</option>
                  <option value="mysql9">Усъвършенстване софт.процес</option>
                  <option value="mysql10">Scrum</option>
+                 <option value="mysql11">Test</option>
             </select>
             <a 
           href={quizFile} 

@@ -15,7 +15,6 @@ import { mysql7 } from "../../data4/quiz7";
 import { mysql8 } from "../../data4/quiz8";
 import { mysql9 } from "../../data4/quiz9";
 import { mysql10 } from "../../data4/quiz10";
-
 import HomeLink from "../HomeLink/HomeLink";
 
 const Quiz = () => {
