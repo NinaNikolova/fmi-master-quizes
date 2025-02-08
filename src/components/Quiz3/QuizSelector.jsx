@@ -36,6 +36,9 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
           case 'mysql10':
             setQuizFile("/mysql310.pdf");
             break;
+            case 'mysql11':
+              setQuizFile("/mysql311.pdf");
+              break;
         default:
           setQuizFile("/mysql31.pdf");
       }
@@ -53,6 +56,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql8">Процес за проектиране на CA</option>
                 <option value="mysql9">Документиране на СА</option>
                 <option value="mysql10">Оценка на СА</option>
+                <option value="mysql11">Форм.модели и ДСА</option>
             </select>
             <a 
           href={quizFile} 
