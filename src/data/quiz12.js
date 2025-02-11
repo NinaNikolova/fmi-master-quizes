@@ -160,14 +160,14 @@ export const mysql12 = [
   },
   {
     index: 15,
-    question: "Подредете видовете кохезия от най-желана към най-нежелана:",
+    question: "Подредете видовете кохезия от най-нежелана към най-желана:",
     choices: [
-      "Functional Cohesion, Sequential Cohesion, Communicational Cohesion, Procedural Cohesion, Temporal Cohesion, Logical Cohesion, Coincidental Cohesion",
-      "Coincidental Cohesion, Logical Cohesion, Temporal Cohesion, Procedural Cohesion, Communicational Cohesion, Sequential Cohesion, Functional Cohesion",
-      "Logical Cohesion, Functional Cohesion, Sequential Cohesion, Procedural Cohesion, Communicational Cohesion, Temporal Cohesion, Coincidental Cohesion",
-      "Procedural Cohesion, Sequential Cohesion, Functional Cohesion, Communicational Cohesion, Temporal Cohesion, Logical Cohesion, Coincidental Cohesion"
+      "Функционална кохезия, Последователна кохезия, Комуникационна кохезия, Процедурна кохезия, Темпорална кохезия, Логическа кохезия, Случайна кохезия",
+      "Случайна кохезия, Логическа кохезия, Темпорална кохезия, Процедурна кохезия, Комуникационна кохезия, Последователна кохезия, Функционална кохезия",
+      "Логическа кохезия, Функционална кохезия, Последователна кохезия, Процедурна кохезия, Комуникационна кохезия, Темпорална кохезия, Случайна кохезия",
+      "Процедурна кохезия, Последователна кохезия, Функционална кохезия, Комуникационна кохезия, Темпорална кохезия, Логическа кохезия, Случайна кохезия"
     ],
-    correctAnswer: "Functional Cohesion, Sequential Cohesion, Communicational Cohesion, Procedural Cohesion, Temporal Cohesion, Logical Cohesion, Coincidental Cohesion",
+    correctAnswer: "Случайна кохезия, Логическа кохезия, Темпорална кохезия, Процедурна кохезия, Комуникационна кохезия, Последователна кохезия, Функционална кохезия",
     imageURL: null
   },
   {
@@ -226,8 +226,69 @@ export const mysql12 = [
     ],
     correctAnswer: "може да се ползва като върнат тип или като тип на параметър на операция на съставния клас",
     imageURL: null
+  },
+  {
+    index: 19,
+    question: "Свойството Direction за параметър на операция в UML клас може да има една от стойностите:",
+    choices: [
+      "in, out, или return",
+      "in или return",
+      "in, inout или out",
+      "in или inout",
+      "in, inout, out, или return"
+    ],
+    correctAnswer: "in, inout, out, или return",
+    imageURL: null
+  },
+  {
+    "index": 20,
+    "question": "Фрагментът seq на фигурата по-долу задава:",
+    "choices": [
+      "строго последователно изпълнение на operationA(), operationB() и operationC()",
+      "нито един от останалите отговори не е верен",
+      "последователно изпълнение на operationA() заедно с конкурентно изпълнение на operationB() и operationC()",
+      "конкурентно изпълнение на operationA(), operationB() и operationC()",
+      "конкурентно изпълнение на operationA() заедно с последователно изпълнение на operationB() и operationC()"
+    ],
+    "correctAnswer": "последователно изпълнение на operationA() заедно с конкурентно изпълнение на operationB() и operationC()",
+    "imageURL": "/quiz12-1.png"
+  },
+  {
+    "index": 21,
+    "question": "В UML2.* има следните диаграми на взаимодействие (interaction diagrams): Освен тях, има и следните други диаграми на поведението:",
+    "choices": [
+      "диаграми на комуникация, на последователност, на времето, и на случаи на употреба",
+      "диаграми на дейност, на състояние, и на преглед на взаимодействието (interaction overview diagrams)",
+      "диаграми на дейност, на състояние, и на конкурентност (concurrency diagrams)",
+      "диаграми на дейност, на състояние, и на случаи на употреба",
+      "диаграми на комуникация, на последователност, на времето, и на преглед на взаимодействието (interaction overview diagrams)"
+    ],
+    "correctAnswer": "диаграми на дейност, на състояние, и на преглед на взаимодействието (interaction overview diagrams)",
+    "imageURL": ""
+  },
+  {
+    "index": 22,
+    "question": "На показаната диаграма на състоянията на миялна машина, състоянието обозначено с H представлява:",
+    "choices": [
+      "Псевдо-състояние на дълбока хистерезис (Deep hysteresis pseudostate)",
+      "Псевдо-състояние на плитка история (Shallow history pseudostate)",
+      "Псевдо-състояние на дълбока история (Deep history pseudostate)",
+      "Едно от възможните реални състояния на миялната машина.",
+      "Псевдо-състояние на дълбок хистерезис (Deep hysteresis pseudostate)"
+    ],
+    "correctAnswer": "Псевдо-състояние на дълбока история (Deep history pseudostate)",
+    "imageURL": "/quiz12-2.png"
+  },
+  {
+    "index": 23,
+    "question": "Всеки един OCL израз може да има зададено максимално време на продължителност на изпълнението му.",
+    "choices": [
+      "вярно",
+      "невярно"
+    ],
+    "correctAnswer": "невярно",
+    "imageURL": ""
   }
-
 
 
 ];
