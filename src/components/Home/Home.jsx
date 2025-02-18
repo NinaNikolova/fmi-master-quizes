@@ -33,6 +33,18 @@ export default function Home() {
                             <article className='changing-color'>  <img src="/sp.png" alt="Quiz Icon" className="nav-icon" /> Софт.техн.advance</article>
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/quiz5">
+
+                            <article className='changing-color'>  <img src="/upp.png" alt="Quiz Icon" className="nav-icon" /> Управление на проекти</article>
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/quiz6">
+
+                            <article className='changing-color'>  <img src="/dm.png" alt="Quiz Icon" className="nav-icon" /> Data mining</article>
+                        </Link>
+                    </li>
                 </ul>
                 <div className="container-hang">
                 <Link  to="https://hangman-software-technologies.vercel.app/">
