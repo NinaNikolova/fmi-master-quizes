@@ -1,58 +1,33 @@
 import { Link } from 'react-router-dom';
-import './Home.module.scss';
 import { IoGameController } from "react-icons/io5";
+import './Home.module.scss';
+import {quizLinks} from './Links.js'
+
 
 export default function Home() {
     return (
-        <div className="home-container">
-            <h1 className="home-title"><div>Welcome</div> to the Software Technologies Quiz App</h1>
+        <div className="home-ontainer">
+            <h1 className="home-title">
+                <div>Welcome</div> to the Software Technologies Quiz App
+            </h1>
             <nav className="home-nav">
-                <ul className="nav-list">
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/quiz">
-
-                            <article className='changing-color'> <img src="/uml.png" alt="uml" className="nav-icon" /> OO Modeling and Software</article>
-
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/quiz2">
-
-                            <article className='changing-color'>  <img src="/sm.png" alt="Quiz Icon" className="nav-icon" /> Модели на софт.системи </article>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/quiz3">
-
-                            <article className='changing-color'>  <img src="/arch.png" alt="Quiz Icon" className="nav-icon" /> Архитектури на софт.с-ми </article>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/quiz4">
-
-                            <article className='changing-color'>  <img src="/sp.png" alt="Quiz Icon" className="nav-icon" /> Софт.техн.advance</article>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/quiz5">
-
-                            <article className='changing-color'>  <img src="/upp.png" alt="Quiz Icon" className="nav-icon" /> Управление на проекти</article>
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/quiz6">
-
-                            <article className='changing-color'>  <img src="/dm.png" alt="Quiz Icon" className="nav-icon" /> Data mining</article>
-                        </Link>
-                    </li>
+                <ul className="navList">
+                    {quizLinks.map(({ path, imgSrc, alt, text }) => (
+                        <li key={path} className="nav-item">
+                            <Link className="nav-link" to={path}>
+                                <article className="changing-color">
+                                    <img src={imgSrc} alt={alt} className="nav-icon" /> {text}
+                                </article>
+                            </Link>
+                        </li>
+                    ))}
                 </ul>
                 <div className="container-hang">
-                <Link  to="https://hangman-software-technologies.vercel.app/">
-
-                <IoGameController className='hangman'/>
-                </Link>
+                    <Link to="https://hangman-software-technologies.vercel.app/">
+                        <IoGameController className="hangman" />
+                    </Link>
                 </div>
             </nav>
         </div>
-    )
+    );
 }
