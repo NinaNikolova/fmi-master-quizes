@@ -1,15 +1,139 @@
-// Object-Oriented Modelling with UML - part 2
 export const mysql2 = [
 	{
-		index: 1,
-		question: "What is an object in Object-Oriented Modeling?",
-		choices: [
-
-			"A collection of data without behavior",
-			"An atomic unit formed from the union of an identity, state and behavior",
-		],
-		correctAnswer: "An atomic unit formed from the union of an identity, state and behavior",
-		imageURL: null
-	},
+        index: 1,
+        question: "Какво е concept (концепция) в Data Mining?",
+        choices: [
+            "Модел или правило, което алгоритъмът се опитва да научи",
+            "Процес на предварителна обработка на данните"
+        ],
+        correctAnswer: "Модел или правило, което алгоритъмът се опитва да научи"
+    },
+    {
+        index: 2,
+        question: "Кой от следните видове обучение е supervised (контролирано)?",
+        choices: [
+             "Clustering (Клъстериране)",
+            "Classification Learning (Класификационно обучение)"
+           
+        ],
+        correctAnswer: "Classification Learning (Класификационно обучение)"
+    },
+    {
+        index: 3,
+        question: "Какво представлява instance (екземпляр) в набора от данни?",
+        choices: [
+            "Индивидуална наблюдавана стойност",
+            "Обобщение на всички наблюдения"
+        ],
+        correctAnswer: "Индивидуална наблюдавана стойност"
+    },
+    {
+        index: 4,
+        question: "Каква е основната цел на Clustering (Клъстериране)?",
+        choices: [
+            "Групиране на сходни елементи без предварително зададени категории",
+            "Предсказване на числова стойност"
+        ],
+        correctAnswer: "Групиране на сходни елементи без предварително зададени категории"
+    },
+    {
+        index: 5,
+        question: "Какво представлява Numeric Prediction (Числова прогноза)?",
+        choices: [
+            "Групиране на сходни обекти",
+             "Предсказване на числова стойност",
+        ],
+        correctAnswer: "Предсказване на числова стойност"
+    },
+    {
+        index: 6,
+        question: "Какъв формат използва WEKA за представяне на данни?",
+        choices: [
+            "ARFF (Attribute-Relation File Format)",
+            "JSON (JavaScript Object Notation)"
+        ],
+        correctAnswer: "ARFF (Attribute-Relation File Format)"
+    },
+    {
+        index: 7,
+        question: "Какво измерва един attribute (атрибут)?",
+        choices: [
+            "Връзки между различни примери",
+             "Характеристики на един пример",
+        ],
+        correctAnswer: "Характеристики на един пример"
+    },
+    {
+        index: 8,
+        question: "Кой от следните атрибути има смислена разлика между стойностите, но няма абсолютна нулева точка?",
+        choices: [
+            "Interval (Интервален)",
+            "Ratio (Отношение)"
+        ],
+        correctAnswer: "Interval (Интервален)"
+    },
+    {
+        index: 9,
+        question: "Какво означава Unbalanced Data (Небалансирани данни)?",
+        choices: [
+            "Когато някои класове са представени с много повече примери от други",
+            "Когато всички класове имат еднакъв брой примери"
+        ],
+        correctAnswer: "Когато някои класове са представени с много повече примери от други"
+    },
+    {
+        index: 10,
+        question: "Какво представлява Association Learning (Асоциативно обучение)?",
+        choices: [
+            "Класифициране на примери в предварително дефинирани категории",
+             "Търсене на връзки между атрибути и предсказване на стойности",
+        ],
+        correctAnswer: "Търсене на връзки между атрибути и предсказване на стойности"
+    },
+    {
+        index: 11,
+        question: "Какво е основното ограничение на Flat Files (Плоски файлове)?",
+        choices: [
+            "Липса на връзки между обектите",
+            "Прекалено сложна структура"
+        ],
+        correctAnswer: "Липса на връзки между обектите"
+    },
+    {
+        index: 12,
+        question: "Каква е разликата между nominal (номинален) и ordinal (ординален) атрибут?",
+        choices: [
+            "Номиналният има подредба, ординалният няма",
+             "Ординалният има подредба, номиналният няма",
+        ],
+        correctAnswer: "Ординалният има подредба, номиналният няма"
+    },
+    {
+        index: 13,
+        question: "Какво описва Metadata (Метаданни)?",
+        choices: [
+            "Информация за самите данни",
+            "Самите данни"
+        ],
+        correctAnswer: "Информация за самите данни"
+    },
+    {
+        index: 14,
+        question: "Кой от изброените методи работи с множество екземпляри в един пример?",
+        choices: [
+            "Single-Instance Learning (Обучение с единични екземпляри)",
+             "Multi-Instance Concepts (Концепции с множество екземпляри)",
+        ],
+        correctAnswer: "Multi-Instance Concepts (Концепции с множество екземпляри)"
+    },
+    {
+        index: 15,
+        question: "Какво представлява Recursive (Рекурсивен) модел в Data Mining?",
+        choices: [
+            "Модел, при който примери са свързани в йерархична структура",
+            "Модел без връзки между примерите"
+        ],
+        correctAnswer: "Модел, при който примери са свързани в йерархична структура"
+    }
 
 ];
