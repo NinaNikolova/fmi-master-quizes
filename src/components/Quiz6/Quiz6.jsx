@@ -9,7 +9,7 @@ import { mysql1 } from "../../data6/quiz1";
 import { mysql2 } from "../../data6/quiz2";
 import { mysql3 } from "../../data6/quiz3";
 import { mysql4 } from "../../data6/quiz4";
-// import { mysql5 } from "../../data6/quiz5";
+import { mysql5 } from "../../data6/quiz5";
 // import { mysql6 } from "../../data6/quiz6";
 // import { mysql7 } from "../../data6/quiz7";
 // import { mysql8 } from "../../data6/quiz8";
@@ -26,8 +26,8 @@ const Quiz = () => {
   const [selectedQuiz, setSelectedQuiz] = useState("mysql1");
   const [wrongQuestions, setWrongQuestions] = useState([]);
 
-  const questions = getQuestions(selectedQuiz, { mysql1, mysql2, mysql3, mysql4,
-    //    mysql5, mysql6, mysql7,  mysql8, mysql9, mysql10
+  const questions = getQuestions(selectedQuiz, { mysql1, mysql2, mysql3, mysql4,mysql5,
+    //     mysql6, mysql7,  mysql8, mysql9, mysql10
      });
   const { question, choices, correctAnswer, imageURL } = questions[currentQuestion];
 
