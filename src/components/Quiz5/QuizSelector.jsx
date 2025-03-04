@@ -9,9 +9,9 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
         case 'mysql1':
           setQuizFile("/mysql51.pdf");
           break;
-        // case 'mysql2':
-        //   setQuizFile("/mysql52.pdf");
-        //   break;
+        case 'mysql2':
+          setQuizFile("/mysql52.pdf");
+          break;
         // case 'mysql3':
         //   setQuizFile("/mysql53.pdf");
         //   break;
@@ -45,7 +45,8 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
         <div className="quiz-selector">
             <select id="quiz-select" value={selectedQuiz} onChange={handleQuizChange}>
                 <option value="mysql1">Увод</option>
-                 {/*  <option value="mysql2">Софт.процес, Модели</option>
+                <option value="mysql2">Цикъл на П и ролята на р-ля</option>
+                 {/*  
                 <option value="mysql3">Гъвкави м-ди разраб.CC</option>
                <option value="mysql4">Извличане на изисквания</option>
                 <option value="mysql5">Управление на качеството</option>
