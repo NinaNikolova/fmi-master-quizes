@@ -15,12 +15,12 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
         case 'mysql3':
           setQuizFile("/mysql53.pdf");
           break;
-        // case 'mysql4':
-        //   setQuizFile("/mysql54.pdf");
-        //   break;
-        // case 'mysql5':
-        //   setQuizFile("/mysql55.pdf");
-        //   break;
+        case 'mysql4':
+          setQuizFile("/mysql54.pdf");
+          break;
+        case 'mysql5':
+          setQuizFile("/mysql55.pdf");
+          break;
         // case 'mysql6':
         //   setQuizFile("/mysql56.pdf"); // Fixed typo
         //   break;
@@ -46,11 +46,11 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
             <select id="quiz-select" value={selectedQuiz} onChange={handleQuizChange}>
                 <option value="mysql1">Увод</option>
                 <option value="mysql2">Цикъл на П и ролята на р-ля</option>
-                 <option value="mysql3">Осн.п-си и осн.ел.</option>
+                 <option value="mysql3">Осн.п-си и осн.ел.</option>  
+               <option value="mysql4">Организ.сруктури в УП</option>
+                <option value="mysql5">Дефиниция и инициализ.П</option>
                  {/*  
-               
-               <option value="mysql4">Извличане на изисквания</option>
-                <option value="mysql5">Управление на качеството</option>
+      
                 <option value="mysql6">Гъвкави м-ди разраб.CC-2</option>
                <option value="mysql7">Управление на конфигурациите</option>
                 <option value="mysql8">Разраб.Data Intensive с-ми</option>
