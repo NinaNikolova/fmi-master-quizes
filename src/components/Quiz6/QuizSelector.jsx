@@ -21,9 +21,9 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
         case 'mysql5':
           setQuizFile("/mysql65.pdf");
           break;
-        // case 'mysql6':
-        //   setQuizFile("/mysql66.pdf"); // Fixed typo
-        //   break;
+        case 'mysql6':
+          setQuizFile("/mysql66.pdf"); // Fixed typo
+          break;
         // case 'mysql7':
         //   setQuizFile("/mysql67.pdf");
         //   break;
@@ -49,8 +49,9 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
                 <option value="mysql3">Изход</option>
                 <option value="mysql4">Алгоритми</option>
                  <option value="mysql5">Оценяване модели</option>
+                              <option value="mysql6">Алгоритми-обуч.дървета/правила</option>   
                  {/*             
-                <option value="mysql6">Гъвкави м-ди разраб.CC-2</option>
+
                <option value="mysql7">Управление на конфигурациите</option>
                 <option value="mysql8">Разраб.Data Intensive с-ми</option>
                  <option value="mysql9">Усъвършенстване софт.процес</option>
