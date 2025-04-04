@@ -1,183 +1,182 @@
-// Object-Oriented Modelling with UML
 export const mysql1 = [
     {
         index: 1,
-        question: "What is the purpose of a model in Object-Oriented Modeling?",
+        question: "Какво представлява електронното изявление?",
         choices: [
-            "To create a replica of the system",
-            "To represent the structure and processes of a system"
+            "Схема или скица, представена в цифров формат",
+            "Словесно изявление в цифрова форма, преобразувано чрез общоприет стандарт"
         ],
-        correctAnswer: "To represent the structure and processes of a system"
+        correctAnswer: "Словесно изявление в цифрова форма, преобразувано чрез общоприет стандарт"
     },
     {
         index: 2,
-        question: "Which of the following best describes 'visual modeling'?",
+        question: "Каква е основната характеристика на електронния документ?",
         choices: [
-            "Using code to describe system behavior",
-            "Using graphical representations to explain system components"
+            "Той има неограничен брой оригинали",
+            "Той трябва да бъде записан на хартиен носител"
         ],
-        correctAnswer: "Using graphical representations to explain system components"
+        correctAnswer: "Той има неограничен брой оригинали"
     },
     {
         index: 3,
-        question: "What is 'encapsulation' in OOP?",
+        question: "Каква е основната разлика между електронно изявление и електронен документ?",
         choices: [
-            "Sharing all data across multiple classes",
-            "Hiding the internal details of a class from other classes"
+            "Електронният документ може да съдържа не само словесни изявления, но и изображения, звук и видео",
+            "Електронното изявление има материален носител, а електронният документ – не"
         ],
-        correctAnswer: "Hiding the internal details of a class from other classes"
+        correctAnswer: "Електронният документ може да съдържа не само словесни изявления, но и изображения, звук и видео"
     },
     {
         index: 4,
-        question: "Which type of cohesion is most desirable in a software module?",
+        question: "Какво се изисква, за да се счита писмената форма за спазена при електронен документ?",
         choices: [
-            "Functional cohesion",
-            "Temporal cohesion"
+            "Документът трябва да съдържа електронно изявление",
+            "Документът трябва да бъде подписан на ръка"
         ],
-        correctAnswer: "Functional cohesion"
+        correctAnswer: "Документът трябва да съдържа електронно изявление"
     },
     {
         index: 5,
-        question: "Which is an example of 'inheritance' in Object-Oriented Programming?",
+        question: "Кой може да бъде автор на електронно изявление?",
         choices: [
-            "An object holding state and behavior",
-            "A class deriving properties from another class"
+            "Само физическо лице",
+            "Физическо или юридическо лице"
         ],
-        correctAnswer: "A class deriving properties from another class"
+        correctAnswer: "Само физическо лице"
     },
     {
         index: 6,
-        question: "What is a modeling method?",
+        question: "Какво представлява титулярът на електронното изявление?",
         choices: [
-            "A detailed analysis of a system",
-            "A generic guideline for realization of modeling"
+            "Лицето, което е написало електронното изявление",
+            "Лицето, от името на което е направено електронното изявление"
         ],
-        correctAnswer: "A generic guideline for realization of modeling"
+        correctAnswer: "Лицето, от името на което е направено електронното изявление"
     },
     {
         index: 7,
-        question: "Why do we model?",
+        question: "Как се смята, че електронното изявление е изпратено?",
         choices: [
-            "To simplify programming languages",
-            "To organize, visualize, understand, and create complex information systems"
+            "Когато бъде напечатано на хартиен носител",
+            "Когато постъпи в информационна система, която не е под контрола на автора"
         ],
-        correctAnswer: "To organize, visualize, understand, and create complex information systems"
+        correctAnswer: "Когато постъпи в информационна система, която не е под контрола на автора"
     },
     {
         index: 8,
-        question: "What is a class in Object-Oriented Programming?",
+        question: "Кога електронното изявление се смята за получено?",
         choices: [
-            "A specific instance of an object",
-            "A blueprint for creating objects"
+            "Когато адресатът го прочете",
+            "Когато постъпи в посочената от адресата информационна система"
         ],
-        correctAnswer: "A blueprint for creating objects"
+        correctAnswer: "Когато постъпи в посочената от адресата информационна система"
     },
     {
         index: 9,
-        question: "What does inheritance allow in Object-Oriented Programming?",
+        question: "Какво се изисква, за да се гарантира правната сигурност на електронния обмен?",
         choices: [
-            "Preventing access to class data",
-            "Creating multiple classes from one base class"
+            "Използване на хартиени документи",
+            "Регулиране на електронните изявления и документи"
         ],
-        correctAnswer: "Creating multiple classes from one base class"
+        correctAnswer: "Регулиране на електронните изявления и документи"
     },
     {
         index: 10,
-        question: "What is abstraction in Object-Oriented Programming?",
+        question: "Какво е основното изискване към посредниците при електронните изявления?",
         choices: [
-            "Creating multiple instances of a class",
-            "Hiding the implementation details from the user"
+            "Да поддържат надеждни системи за съхраняване на информация",
+            "Да разпечатват всички изявления на хартия"
         ],
-        correctAnswer: "Hiding the implementation details from the user"
+        correctAnswer: "Да поддържат надеждни системи за съхраняване на информация"
     },
     {
         index: 11,
-        question: "What does hierarchy refer to in Object-Oriented Programming?",
+        question: "Какво представлява Регламент (ЕС) 910/2014?",
         choices: [
-            "The organization of classes and subclasses",
-            "The layout of a user interface"
+            "Закон, регулиращ използването на хартиени документи",
+            "Регламент, регулиращ електронните документи и удостоверителните услуги"
         ],
-        correctAnswer: "The organization of classes and subclasses"
+        correctAnswer: "Регламент, регулиращ електронните документи и удостоверителните услуги"
     },
     {
         index: 12,
-        question: "What are the key characteristics of an object in Object-Oriented Programming?",
+        question: "Кое НЕ е пример за електронен документ?",
         choices: [
-            "Attributes, records, and collections",
-            "Identity, state, and behavior"
+            "Видео файл",
+            "Скица, направена на ръка"
         ],
-        correctAnswer: "Identity, state, and behavior"
+        correctAnswer: "Скица, направена на ръка"
     },
     {
         index: 13,
-        question: "How do objects interact with each other in Object-Oriented Programming?",
+        question: "Как се нарича лицето, което изпраща, получава или съхранява електронно изявление по поръчка на титуляр, автор или адресат?",
         choices: [
-            "By sharing the same memory space",
-            "By knowing the type of message accepted and the type of response returned"
+            "Посредник",
+            "Адресат"
         ],
-        correctAnswer: "By knowing the type of message accepted and the type of response returned"
+        correctAnswer: "Посредник"
     },
     {
         index: 14,
-        question: "What is the God Class Problem in Object-Oriented Programming?",
+        question: "Защо електронните документи не могат да се използват за сделки, изискващи нотариална заверка?",
         choices: [
-            "Classes being overloaded with multiple responsibilities",
-            "Classes inheriting from too many other classes"
+            "Защото законът не съдържа правила за гарантиране на такива действия във виртуална среда",
+            "Защото електронният подпис не съществува"
         ],
-        correctAnswer: "Classes being overloaded with multiple responsibilities"
+        correctAnswer: "Защото законът не съдържа правила за гарантиране на такива действия във виртуална среда"
     },
     {
         index: 15,
-        question: "Which of the following describes delegation in Object-Oriented Programming?",
+        question: "Каква е ролята на технологичните стандарти в електронните изявления?",
         choices: [
-            "Creating a new class B that delegates operations to class A by having an instance of A",
-            "Creating a new class B that generalizes class A through parameterization"
+            "Гарантират съвместимост и разчитане на информацията",
+            "Определят езика, на който трябва да бъдат написани"
         ],
-        correctAnswer: "Creating a new class B that delegates operations to class A by having an instance of A"
+        correctAnswer: "Гарантират съвместимост и разчитане на информацията"
     },
     {
         index: 16,
-        question: "What is a design goal in Object-Oriented Design related to coupling?",
+        question: "Как се удостоверява авторството на електронно изявление?",
         choices: [
-            "To minimize interaction between components at the same level of abstraction",
-            "To ensure all components interact equally"
+            "Чрез електронен подпис",
+            "Чрез нотариална заверка"
         ],
-        correctAnswer: "To minimize interaction between components at the same level of abstraction"
+        correctAnswer: "Чрез електронен подпис"
     },
     {
         index: 17,
-        question: "What is the impact of unnecessary object coupling in Object-Oriented Design?",
+        question: "Как се смята, че адресатът е узнал съдържанието на електронното изявление?",
         choices: [
-            "Improves system performance and reusability",
-            "Decreases reusability and increases the risk of system corruption when changes are made"
+            "В разумен срок след неговото получаване",
+            "Само ако го потвърди писмено"
         ],
-        correctAnswer: "Decreases reusability and increases the risk of system corruption when changes are made"
+        correctAnswer: "В разумен срок след неговото получаване"
     },
     {
         index: 18,
-        question: "What is cohesion in software design?",
+        question: "Какво трябва да направи страната, ако поиска електронният документ да бъде представен на електронен носител?",
         choices: [
-            "The method of testing module functionality",
-            "The degree to which tasks performed by a single module are functionally related"
+            "Да подаде писмено искане",
+            "Да го изиска устно по телефона"
         ],
-        correctAnswer: "The degree to which tasks performed by a single module are functionally related"
+        correctAnswer: "Да подаде писмено искане"
     },
     {
         index: 19,
-        question: "What characterizes Coincidental Module Cohesion?",
+        question: "Какво е основното предимство на електронните документи?",
         choices: [
-            "Little or no constructive relationship among the elements of the module",
-            "Elements are grouped by their time of processing"
+            "Могат да бъдат разпространявани и съхранявани по-ефективно",
+            "Не се нуждаят от електронен подпис"
         ],
-        correctAnswer: "Little or no constructive relationship among the elements of the module"
+        correctAnswer: "Могат да бъдат разпространявани и съхранявани по-ефективно"
     },
     {
         index: 20,
-        question: "What does architectural style define in system design?",
+        question: "Кога електронният документ може да се приравни на писмен хартиен документ?",
         choices: [
-            "The visual appearance of the user interface",
-            "A family of systems through patterns for structural organization, component types, restrictions, and semantic models"
+            "Когато съдържа електронно изявление",
+            "Когато е разпечатан и подписан"
         ],
-        correctAnswer: "A family of systems through patterns for structural organization, component types, restrictions, and semantic models"
+        correctAnswer: "Когато съдържа електронно изявление"
     }
 ];
