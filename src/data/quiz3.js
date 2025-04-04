@@ -1,286 +1,203 @@
-// Requirement analysis. Use Case Diagrams. Relationships
 export const mysql3 = [
     {
         index: 1,
-        question: "Which of the following is NOT a domain depicted in requirements models (also called analysis models)?",
+        question: "Какво представлява нелоялна търговска практика според законите за защита на потребителите в България?",
         choices: [
-            "The information domain",
-            "The functional domain",
-            "The behavioral domain",
-            "The architectural domain"
+            "Сключване на договори чрез лична среща",
+            "Сключване на договори от разстояние, например чрез телефонно обаждане, в определени случаи",
         ],
-        correctAnswer: "The architectural domain"
+        correctAnswer: "Сключване на договори от разстояние, например чрез телефонно обаждане, в определени случаи",
+        imageURL: null
     },
     {
         index: 2,
-        question: "What do design models in software engineering represent?",
+        question: "Коя компания е обвинена в прилагане на нелоялни търговски практики към възрастни хора над 75 години?",
         choices: [
-            "The software architecture, the user interface, and component-level details that help practitioners construct the software effectively.",
-            "Customer requirements across the information, functional, and behavioral domains."
+            "Български телеком",
+            "Мобилтел",
         ],
-        correctAnswer: "The software architecture, the user interface, and component-level details that help practitioners construct the software effectively."
+        correctAnswer: "Български телеком",
+        imageURL: null
     },
     {
         index: 3,
-        question: "Which of the following is NOT one of the principles of requirements modeling?",
+        question: "Какво е характерно за възрастните потребители над 75 години според текста?",
         choices: [
-            "The information domain of a problem must be represented and understood.",
-            "The functions that the software performs must be ignored.",
-            "The functions that the software performs must be defined.",
-            "The behavior of the software consequence of external events.",
-            "The models that describe information, function, and behavior must be partitioned in a manner that shows detail in a layered (or hierarchical) fashion.",
-            "The analysis task should move from essential information toward implementation detail."
+            "Те са добре информирани за условията на договорите",
+            "Те имат различна преценка за качество и трудно свързват телефонен разговор с подписване на договор",
         ],
-        correctAnswer: "The functions that the software performs must be ignored."
+        correctAnswer: "Те имат различна преценка за качество и трудно свързват телефонен разговор с подписване на договор",
+        imageURL: null
     },
     {
         index: 4,
-        question: "Which of the following statements about non-functional requirements is NOT accurate?",
+        question: "Какво представлява електронният печат според Регламент 910/2014?",
         choices: [
-            "Non-functional requirements impose constraints on the services offered by the system.",
-            "Non-functional requirements often apply to the system as a whole rather than individual features.",
-            "Non-functional requirements may include timing constraints and standards.",
-            "Non-functional requirements are focused only on what the system should do."
+            "Документ в електронна форма, удостоверяващ самоличността на физическо лице",
+            "Данни в електронна форма, гарантиращи произхода и целостта на други данни",
         ],
-        correctAnswer: "Non-functional requirements are focused only on what the system should do."
+        correctAnswer: "Данни в електронна форма, гарантиращи произхода и целостта на други данни",
+        imageURL: null
     },
     {
         index: 5,
-        question: "Which of the following is NOT a non-functional requirement classification?",
+        question: "Какви видове електронни печати съществуват?",
         choices: [
-            "Product requirements, which specify how the delivered product must behave (execution speed, reliability).",
-            "Organisational requirements, which arise from organisational policies and procedures (process standards, implementation requirements).",
-            "External requirements, which arise from external factors (legislative requirements).",
-            "Design requirements, which specify the visual and aesthetic aspects of the system."
+            "Обикновени, усъвършенствани и квалифицирани",
+            "Само обикновени и квалифицирани",
         ],
-        correctAnswer: "Design requirements, which specify the visual and aesthetic aspects of the system."
+        correctAnswer: "Обикновени, усъвършенствани и квалифицирани",
+        imageURL: null
     },
     {
         index: 6,
-        question: "Which of the following is NOT typically a part of a requirements document structure?",
+        question: "Каква е правната сила на квалифицирания електронен печат?",
         choices: [
-            "Preface",
-            "Introduction",
-            "Glossary",
-            "User requirements definition",
-            "Implementation code",
-            "System architecture",
-            "System requirements specification",
-            "System models",
-            "System evolution",
-            "Appendices",
-            "Index"
+            "Не може да бъде доказателство в съда",
+            "Ползва се от презумпция за цялост на данните и точност на произхода",
         ],
-        correctAnswer: "Implementation code"
+        correctAnswer: "Ползва се от презумпция за цялост на данните и точност на произхода",
+        imageURL: null
     },
     {
         index: 7,
-        question: "Which of the following is NOT true about Use cases in UML?",
+        question: "Какво представлява електронният времеви печат?",
         choices: [
-            "Use cases are a scenario-based technique that identifies the actors in an interaction and interaction itself.",
-            "A set of use cases should describe all possible interactions with the system.",
-            "Use cases only provide textual descriptions without any graphical representation.",
-            "High-level graphical models may be supplemented by sequence diagrams to add detail to use-cases."
+            "Данни, които удостоверяват момента на създаване на документ",
+            "Данни, които свързват други данни с конкретен момент във времето като доказателство за тяхното съществуване",
         ],
-        correctAnswer: "Use cases only provide textual descriptions without any graphical representation."
+        correctAnswer: "Данни, които свързват други данни с конкретен момент във времето като доказателство за тяхното съществуване",
+        imageURL: null
     },
     {
         index: 8,
-        question: "Which of the following is NOT true about UML use case diagrams?",
+        question: "Какво изискване има към квалифицирания електронен времеви печат?",
         choices: [
-            "Use case diagrams provide an overview of usage requirements for a system.",
-            "Use case diagrams are paintings.",
-            "They describe actual system/software requirements.",
-            "Use case diagrams are useful for simple presentations to management and project stakeholders."
+            "Да бъде подписан с обикновен електронен подпис",
+            "Да се основава на източник на точно време, свързан с координираното универсално време",
         ],
-        correctAnswer: "Use case diagrams are paintings."
+        correctAnswer: "Да се основава на източник на точно време, свързан с координираното универсално време",
+        imageURL: null
     },
     {
         index: 9,
-        question: "Which of the following is NOT typically considered an element of use case diagrams?",
+        question: "Какво е услугата за електронна препоръчана поща?",
         choices: [
-            "Actors, which are individuals or systems that interact with the system.",
-            "Use cases, which describe a sequence of actions that provide value to an actor.",
-            "Data models, which define the database structure for the system.",
-            "Associations, which represent the interactions between actors and use cases.",
-            "Other relations – include, extend, generalize and depend",
-            "System boundary boxes (optional) - rectangles around the use cases to indicates the scope of your system",
-            "Packages (optional) - UML constructs that enable you to organize model elements (such as use cases) into groups."
+            "Услуга за изпращане на физическа кореспонденция",
+            "Услуга за предаване на данни между трети страни по електронен път с доказателство за изпращане и получаване",
         ],
-        correctAnswer: "Data models, which define the database structure for the system."
+        correctAnswer: "Услуга за предаване на данни между трети страни по електронен път с доказателство за изпращане и получаване",
+        imageURL: null
     },
     {
         index: 10,
-        question: "Which of the following is NOT a question to consider when finding use cases?",
+        question: "Какво гарантира квалифицираната услуга за електронна препоръчана поща?",
         choices: [
-            "What are the system tasks for each actor you have identified?",
-            "Will the actor need to inform the system about sudden, external changes?",
-            "What is the programming language used to develop the system?",
-            "What use cases will support and maintain the system?",
-            "Does the actor need to be informed about certain occurrences in the system?",
-            "Can all features be performed by the use cases you have identified?"
+            "Идентификация на изпращача и получателя с високо ниво на доверие",
+            "Само бърза доставка на данните",
         ],
-        correctAnswer: "What is the programming language used to develop the system?"
+        correctAnswer: "Идентификация на изпращача и получателя с високо ниво на доверие",
+        imageURL: null
     },
     {
         index: 11,
-        question: "Which of the following is NOT a guideline for documenting the flow of events in a use case?",
+        question: "Какво е удостоверение за автентичност на уебсайт?",
         choices: [
-            "Describe how the use case starts and ends.",
-            "Detail the user interface design for clarity.",
-            "Describe what data is exchanged between the actor and the use case",
-            "Describe only the events that belong to the use case.",
-            "Describe the flow of events , not only the functionality. To enforce this, start every action with 'When the actor ... '",
-            "Avoid vague terminology such as 'for example', 'etc.' and 'information' - description stile",
-            "Detail the flow of events - all 'whats' should be answered"
+            "Документ, удостоверяващ сигурността на сървъра",
+            "Удостоверение, което свързва уебсайта с физическо или юридическо лице",
         ],
-        correctAnswer: "Detail the user interface design for clarity."
+        correctAnswer: "Удостоверение, което свързва уебсайта с физическо или юридическо лице",
+        imageURL: null
     },
     {
         index: 12,
-        question: "Which of the following is NOT a component of the flow of events in a use case?",
+        question: "Задължителен ли е електронният формат на трудовото досие според Кодекса на труда?",
         choices: [
-            "Basic flows represented by a straight arrow.",
-            "Alternative flows represented by curves.",
-            "Pre-condition, which is the required state of the system before starting the use case.",
-            "Post-condition, which indicates the user interface design after the use case has ended."
+            "Да, задължителен е",
+            "Не, това е опция за работодателя",
         ],
-        correctAnswer: "Post-condition, which indicates the user interface design after the use case has ended."
+        correctAnswer: "Не, това е опция за работодателя",
+        imageURL: null
     },
     {
         index: 13,
-        question: "Which of the following is NOT a field in the template for describing a use case?",
+        question: "Кои документи могат да се съхраняват в трудовото досие?",
         choices: [
-            "Name – unambiguous and unique across the system.",
-            "Actors",
-            "Flow of events – a sequence of numbered interactions for the use case; accomplished either by the actor (left column) or by the system (right);",
-            "Exit conditions – need to be TRUE after use case completion.",
-            "Entry conditions – need to be TRUE before use case initiation",
-            "Quality conditions – non-functional requirements",
-            "Testing conditions"
+            "Само трудови договори",
+            "Документи, свързани с възникването, съществуването, изменението и прекратяването на трудовото правоотношение",
         ],
-        correctAnswer: "Testing conditions"
+        correctAnswer: "Документи, свързани с възникването, съществуването, изменението и прекратяването на трудовото правоотношение",
+        imageURL: null
     },
     {
         index: 14,
-        question: "Which of the following statements about concrete and abstract use cases is NOT true?",
+        question: "Кой носи разходите за изграждане на информационна система за електронни трудови досиета?",
         choices: [
-            "A concrete use case is initiated by an actor and constitutes a complete flow of events.",
-            "An abstract use case is instantiated and performs operations on its own.",
-            "Abstract use cases are included in, extended into, or generalize other use cases.",
-            "No separate instances are created from abstract use cases.",
-            "When a concrete use case is initiated, an instance of the use case is created."
+            "Служителите",
+            "Работодателят",
         ],
-        correctAnswer: "An abstract use case is instantiated and performs operations on its own."
+        correctAnswer: "Работодателят",
+        imageURL: null
     },
     {
         index: 15,
-        question: "Which of the following is NOT an attribute of a use case?",
+        question: "Какъв вид електронен подпис е задължителен за работодателя при подписване на документи в трудовото досие?",
         choices: [
-            "ID – a unique value for identifying the use case.",
-            "Rank – describes the importance of the use case.",
-            "Leaf – indicates whether it is possible to further specialize a use case. If the value is true, then it is not possible to further specialize the use case.",
-            "Node - indicates the data type of the use case.",
-            "Root - indicates whether the use case has no ancestors (true for no ancestors)"
+            "Обикновен електронен подпис",
+            "Квалифициран електронен подпис (КЕП)",
         ],
-        correctAnswer: "Node - indicates the data type of the use case."
+        correctAnswer: "Квалифициран електронен подпис (КЕП)",
+        imageURL: null
     },
     {
         index: 16,
-        question: "Which of the following statements about associations in use case diagrams is NOT true?",
+        question: "Какво право има служителят спрямо документите в трудовото му досие?",
         choices: [
-            "Associations are indicated by solid lines between actors and use cases.",
-            "An association exists whenever an actor is involved with an interaction described by a use case.",
-            "Associations are modeled as dotted lines connecting use cases and actors.",
-            "Arrowheads are often used to indicate the direction of the initial invocation of the relationship (but not the direction of information exchange)."
+            "Да получава заверени копия от тях",
+            "Да ги редактира самостоятелно",
         ],
-        correctAnswer: "Associations are modeled as dotted lines connecting use cases and actors."
+        correctAnswer: "Да получава заверени копия от тях",
+        imageURL: null
     },
     {
         index: 17,
-        question: "Which of the following statements about the <<Include>> relationship is NOT true?",
+        question: "Как се връчват електронни изявления между страните по трудовото правоотношение?",
         choices: [
-            "Including use case includes the 'addition' and owns the include relationship.",
-            "Addition is use case that is to be included.",
-            "The including use case can depend on the input parameters of the included use case.",
-            "The including use case may depend only on the result of the included use case.",
-            "This value is obtained as a result of the execution of the included use case."
+            "Чрез обикновен имейл",
+            "Чрез услуга за електронна препоръчана поща",
         ],
-        correctAnswer: "The including use case can depend on the input parameters of the included use case."
+        correctAnswer: "Чрез услуга за електронна препоръчана поща",
+        imageURL: null
     },
     {
         index: 18,
-        question: "Which of the following statements about the relationship between base use cases and inclusion use cases is NOT true?",
+        question: "Може ли работодателят да откаже получаването на документ на хартиен носител от служител?",
         choices: [
-            "The base use case has control of the relationship to the inclusion use case and can depend on the result of performing the inclusion",
-            "The base use case can access the attributes of the inclusion use case.",
-            "The inclusion use case encapsulated and represents behavior that can be reused in different base use cases.",
-            "Neither the base nor the inclusion use case may access each other's attributes."
+            "Да, може",
+            "Не, няма право",
         ],
-        correctAnswer: "The base use case can access the attributes of the inclusion use case."
+        correctAnswer: "Не, няма право",
+        imageURL: null
     },
     {
         index: 19,
-        question: "Which of the following statements about the extend-relationship in use cases is NOT true?",
+        question: "Каква е правната сила на неквалифицираните удостоверителни услуги в съда?",
         choices: [
-            "The extend-relationship specifies how the behavior of the extension use case can be inserted into the base use case.",
-            "The execution of a use-case instance follows the base use case and its extension.",
-            "The extension behavior is shown in the base use case.",
-            "The extension use case does not alter the primary flow of the base use case."
+            "Не са допустими като доказателство",
+            "Допустими са, но не се ползват от презумпция за цялост и точност",
         ],
-        correctAnswer: "The extension behavior is shown in the base use case."
+        correctAnswer: "Допустими са, но не се ползват от презумпция за цялост и точност",
+        imageURL: null
     },
     {
         index: 20,
-        question: "Which of the following statements about dependency relationships in modeling is NOT true?",
+        question: "Кой определя процедурата за уведомяване на служителите за електронни трудови досиета?",
         choices: [
-            "A dependency signifies that a single element requires other model elements for its specification.",
-            "Changes in one model element will affect the elements it depends on.",
-            "The complete semantics of the depending element is independent of the supplier elements.",
-            "The client element is dependent on the definition of the supplier element(s)."
+            "Правилникът за вътрешния трудов ред",
+            "Министерският съвет",
         ],
-        correctAnswer: "The complete semantics of the depending element is independent of the supplier elements."
-    },
-    {
-        index: 21,
-        question: "Which of the following statements about use-case generalization is NOT true?",
-        choices: [
-            "Defines a relationship from a child use case to a parent use case.",
-            "The child use case can specialize all behavior and characteristics described for the parent use case.",
-            "Allows for hierarchical organization of use cases.",
-            "General- References the general classifier in the Generalization relationship.",
-            "Specific - References the specializing classifier in the Generalization relationship.",
-            "The use-case model - describes a system's requirements in terms of use cases.",
-            "Substitu table- Indicates whether the specific classifier can be used wherever the general classifier can be used. If true, the execution traces of the specific classifier will be a superset of the execution traces of the general classifier.",
-            "Nothing of above is true"
-        ],
-        correctAnswer: "Nothing of above is true"
-    },
-    {
-        index: 22,
-        question: "Which of the following statements about use-case packages is NOT true?",
-        choices: [
-            "A use-case package is used to structure the use-case model by dividing it into smaller parts.",
-            "A use-case package can include use cases, actors, relationships, diagrams, and other packages.",
-            "Use-case packages cannot contain relationships between use cases and actors.",
-            "A graph can show the hierarchy of use-case packages, with arrows indicating possible ownership."
-        ],
-        correctAnswer: "Use-case packages cannot contain relationships between use cases and actors."
-    },
-    {
-        index: 23,
-        question: "Which of the following is NOT a requirement capturing activity?",
-        choices: [
-            "Identifying Actors",
-            "Identifying Scenarios",
-            "Identifying Use Cases",
-            "Refining Use Cases",
-            "Identifying Relationships among Use Cases and Diagrams",
-            "Identifying Non-functional Requirements",
-            "Identifying Relationships among Actors and Use Cases",
-            "Identifying Initial Analyses Objects"
-        ],
-        correctAnswer: "Identifying Relationships among Use Cases and Diagrams"
+        correctAnswer: "Правилникът за вътрешния трудов ред",
+        imageURL: null
     }
 
 ];
