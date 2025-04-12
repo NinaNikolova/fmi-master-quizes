@@ -24,12 +24,12 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
       case 'mysql6':
         setQuizFile("/mysql56.pdf");
         break;
-      // case 'mysql7':
-      //   setQuizFile("/mysql57.pdf");
-      //   break;
-      //   case 'mysql8':
-      //     setQuizFile("/mysql58.pdf");
-      //     break;
+      case 'mysql7':
+        setQuizFile("/mysql57.pdf");
+        break;
+      case 'mysql8':
+        setQuizFile("/mysql58.pdf");
+        break;
       //   case 'mysql9':
       //     setQuizFile("/mysql59.pdf"); // Fixed typo
       //     break;
@@ -50,6 +50,8 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
         <option value="mysql4">Организ.сруктури в УП</option>
         <option value="mysql5">Дефиниция и инициализ.П</option>
         <option value="mysql6">Изгражд.екип/ план р-си</option>
+        <option value="mysql7">Планиране проекта-I</option>
+        <option value="mysql8">Планиране проекта-II</option>
         {/*  
       
              
