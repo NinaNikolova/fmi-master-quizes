@@ -1,310 +1,482 @@
-// Object, Class, and Profile Diagrams. Class Stereotypes and Associations.
 export const mysql4 = [
 	{
 		index: 1,
-		question: "Which of the following is a basic UML 2.x diagram?",
+		question: "Какво представлява електронната търговия?",
 		choices: [
-			"Behaviour and structure",
-			"Painting"
+			"Само покупко-продажба чрез Интернет",
+			"Използване на ИКТ за размяна на стоки и услуги",
+			"Търговия, извършвана от банки",
+			"Приложение на закона за потребителите"
 		],
-		correctAnswer: "Behaviour and structure",
+		correctAnswer: "Използване на ИКТ за размяна на стоки и услуги",
 		imageURL: null
 	},
 	{
 		index: 2,
-		question: "Which of the following is NOT a behaviour diagram?",
+		question: "Какви са двете основни насоки на понятието 'електронна' в електронната търговия?",
 		choices: [
-			"Activity",
-			"Interaction",
-			"Class",
-			"State machine",
-			"Use case"
+			"Банкова и счетоводна",
+			"Мобилна и кабелна",
+			"ИКТ като средство и като предмет",
+			"Образователна и развлекателна"
 		],
-		correctAnswer: "Class",
+		correctAnswer: "ИКТ като средство и като предмет",
 		imageURL: null
 	},
 	{
 		index: 3,
-		question: "Who aren’t user requirements important for?",
+		question: "Кой от изброените НЕ е вид е-търговия според страните по сделката?",
 		choices: [
-			"Client managers",
-			"System end-users",
-			"Client engineers",
-			"Contractor managers",
-			"System architects",
-			"Software developers"
+			"B2B (business-to-business)",
+			"B2C (business-to-consumer)",
+			"B2A (business-to-administration)",
+			"C2C (citizen-to-citizen, също consumer-to-consumer)"
 		],
-		correctAnswer: "Software developers",
+		correctAnswer: "C2C (citizen-to-citizen, също consumer-to-consumer)",
 		imageURL: null
 	},
 	{
 		index: 4,
-		question: "What don’t functional requirements include?",
+		question: "Какво отличава директната е-търговия?",
 		choices: [
-			"Statements of services the system should provide",
-			"Domain requirements",
-			"Timing constraints",
-			"Describe functionality or system services",
-			"High-level statements of what the system should do"
+			"Използва само компютри",
+			"Всички елементи на сделката се осъществяват по електронен път",
+			"Използва мобилни приложения",
+			"Изисква хартиен договор"
 		],
-		correctAnswer: "Timing constraints",
+		correctAnswer: "Всички елементи на сделката се осъществяват по електронен път",
 		imageURL: null
 	},
 	{
 		index: 5,
-		question: "Which of the following is NOT a focus of Object-Oriented Analysis (OOA)?",
+		question: "Какво урежда Законът за електронната търговия (ЗЕТ)?",
 		choices: [
-			"Defining the problem in terms of real-world objects",
-			"Identifying candidate software objects",
-			"Designing the system architecture",
-			"Exploring solution alternatives"
+			"Данъчните правила за онлайн магазини",
+			"Търговските сделки с недвижими имоти",
+			"Услугите на информационното общество",
+			"Банковото посредничество"
 		],
-		correctAnswer: "Designing the system architecture",
+		correctAnswer: "Услугите на информационното общество",
 		imageURL: null
 	},
 	{
 		index: 6,
-		question: "Which of the following is NOT a primary focus of Object-Oriented Design (OOD)?",
+		question: "Коя от следните услуги НЕ попада в обхвата на ЗЕТ?",
 		choices: [
-			"Defining the solution to the problem",
-			"Creating the system requirements",
-			"Defining components, classes, and interfaces",
-			"Refining candidate objects from analysis"
+			"Електронно банкиране",
+			"Хазартни игри",
+			"Онлайн реклама",
+			"Хостинг услуги"
 		],
-		correctAnswer: "Creating the system requirements",
+		correctAnswer: "Хазартни игри",
 		imageURL: null
 	},
 	{
 		index: 7,
-		question: "Which of the following statements is NOT true about objects?",
+		question: "Кой е 'доставчик на услуги на информационното общество' според ЗЕТ?",
 		choices: [
-			"An object represents an entity, either real-world or conceptual.",
-			"Identity: Each object has a unique identity.",
-			"State: An object's state includes its properties and relationships.",
-			"Behavior: An object cannot have behavior or operations."
+			"Всеки търговец",
+			"Физическо или юридическо лице, което предлага УИО",
+			"Банка или финансова институция",
+			"Само лица с лиценз"
 		],
-		correctAnswer: "Behavior: An object cannot have behavior or operations.",
+		correctAnswer: "Физическо или юридическо лице, което предлага УИО",
 		imageURL: null
 	},
 	{
 		index: 8,
-		question: "Which of the following is NOT true about classes?",
+		question: "Какъв е максималният срок на изключителен лиценз според ЗАПСП - Закон за авторското право и сродните му права?",
 		choices: [
-			"A class is a description of a set of objects with common properties, behavior, and responsibilities.",
-			"Classes are mainly used by designers, implementers, and testers.",
-			"Using stereotypes like «entity», «boundary», and «control» is mandatory for all classes.",
-			"A class can have reports containing information regarding a specific class within the design model."
+			"3 години",
+			"5 години",
+			"10 години",
+			"Ограничението е отменено"
 		],
-		correctAnswer: "Using stereotypes like «entity», «boundary», and «control» is mandatory for all classes.",
+		correctAnswer: "Ограничението е отменено",
 		imageURL: null
 	},
 	{
 		index: 9,
-		question: "Which of the following is NOT a typical part of defining a class?",
+		question: "Кога потребителят трябва да даде съгласие за използване на „бисквитки“?",
 		choices: [
-			"Name",
-			"Brief description",
-			"Responsibility",
-			"The number of instances the class can create"
+			"Само при регистрация",
+			"При всяка визита",
+			"Получателят е информиран по чл. 13 GDPR",
+			"Не се изисква съгласие"
 		],
-		correctAnswer: "The number of instances the class can create",
-		imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240118123645/Class-Notation.webp"
+		correctAnswer: "Получателят е информиран по чл. 13 GDPR",
+		imageURL: null
 	},
 	{
 		index: 10,
-		question: "Which of these is NOT a property of a class?",
+		question: "Какво може да прави лицето, придобило законно правото да използва компютърна програма?",
 		choices: [
-			"Attributes",
-			"Operations",
-			"Relationships",
-			"Object instances"
+			"Само да я стартира",
+			"Да я ползва само онлайн",
+			"Да зарежда, изпълнява и съхранява програмата",
+			"Да я продава свободно"
 		],
-		correctAnswer: "Object instances",
-		imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240118123645/Class-Notation.webp"
+		correctAnswer: "Да зарежда, изпълнява и съхранява програмата",
+		imageURL: null
 	},
 	{
 		index: 11,
-		question: "Which type of inheritance is known as 'interface inheritance'?",
+		question: "Какъв е основният признак на B2C е-търговията?",
 		choices: [
-			"Sub-typing",
-			"Implementation inheritance",
-			"Polymorphism",
-			"Encapsulation"
+			"Сключване на договор между институции",
+			"Продажба на стоки от търговец към потребител",
+			"Само лицензионни сделки",
+			"Финансови трансфери"
 		],
-		correctAnswer: "Sub-typing",
-		imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/16-realization.png"
+		correctAnswer: "Продажба на стоки от търговец към потребител",
+		imageURL: null
 	},
 	{
 		index: 12,
-		question: "What is the main purpose of encapsulation?",
+		question: "Кое определение е вярно за 'индииректна' е-търговия?",
 		choices: [
-			"To enclose all parts of an abstraction within a class",
-			"To allow direct access to an object's internal state",
-			"To improve code modularity",
-			"To hide implementation details from other classes"
+			"Цялата сделка се осъществява дистанционно",
+			"Част от сделката се изпълнява извън електронна среда",
+			"Сделката се извършва само чрез мобилно приложение",
+			"Включва криптовалути"
 		],
-		correctAnswer: "To allow direct access to an object's internal state",
+		correctAnswer: "Част от сделката се изпълнява извън електронна среда",
 		imageURL: null
 	},
 	{
 		index: 13,
-		question: "Which of these is NOT a benefit of information hiding?",
+		question: "Какво е юридическото значение на ЗЕТ?",
 		choices: [
-			"Hiding implementation details to reduce interdependencies",
-			"Allowing classes to be modified directly by external entities",
-			"Increasing modularity in code",
-			"Enhancing security by restricting access to data"
+			"Регулира само хостинг услуги",
+			"Регулира създаването на нови ИКТ",
+			"Регулира УИО и информационни услуги от разстояние",
+			"Регулира онлайн банкиране"
 		],
-		correctAnswer: "Allowing classes to be modified directly by external entities",
+		correctAnswer: "Регулира УИО и информационни услуги от разстояние",
 		imageURL: null
 	},
 	{
 		index: 14,
-		question: "Which of the following statements about CRC cards is NOT correct?",
+		question: "Какво включва задължителната информация по чл. 4 от ЗЕТ?",
 		choices: [
-			"CRC cards provide a card-like visualization of classes.",
-			"Each CRC card includes the class description, attributes, and responsibilities.",
-			"CRC stands for Class Responsibility Collaborations.",
-			"CRC cards are used to visualize detailed code implementations."
+			"Само име и телефон",
+			"Само адрес и e-mail",
+			"Име, адрес, регистрация, контролен орган, контакти и др.",
+			"Няма такива изисквания"
 		],
-		correctAnswer: "CRC cards are used to visualize detailed code implementations.",
-		imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240415153758/What-are-CRC-Cards_1.webp"
+		correctAnswer: "Име, адрес, регистрация, контролен орган, контакти и др.",
+		imageURL: null
 	},
 	{
 		index: 15,
-		question: "Which of the following is NOT true about analysis objects?",
+		question: "Кога УИО може да се предоставят без лиценз?",
 		choices: [
-			"Analysis objects represent user-level concepts rather than actual software classes and components.",
-			"The analysis model should avoid including system classes and components.",
-			"Analysis classes are detailed software representations ready for implementation.",
-			"Analyses classes make a natural transition from user requirements → system design."
+			"Само при сключване на договор с доставчик",
+			"Когато няма специален закон, който изисква такъв",
+			"Винаги",
+			"Само чрез платформа"
 		],
-		correctAnswer: "Analysis classes are detailed software representations ready for implementation.",
+		correctAnswer: "Когато няма специален закон, който изисква такъв",
 		imageURL: null
 	},
 	{
 		index: 16,
-		question: "Which of the following is NOT a purpose of encapsulation in OOP?",
+		question: "Какво трябва да съдържат търговските съобщения по чл. 5 от ЗЕТ?",
 		choices: [
-			"To enclose all parts of an abstraction within a class",
-			"To allow direct access to an object's internal state",
-			"To improve code modularity",
-			"To hide implementation details from other classes"
+			"Само име и телефон на фирмата",
+			"Данъчна информация",
+			"Ясна идентификация на подателя и условия за участие",
+			"Достъп до клиентски профил"
 		],
-		correctAnswer: "To allow direct access to an object's internal state",
+		correctAnswer: "Ясна идентификация на подателя и условия за участие",
 		imageURL: null
 	},
 	{
 		index: 17,
-		question: "Which of the following statements about UML attributes is INCORRECT?",
+		question: "Какво НЕ се счита за търговско съобщение?",
 		choices: [
-			"Attributes are structural features of a classifier.",
-			"Attributes are used to define characteristics like 'id' and 'name'.",
-			"Attributes are only used for configuration management."
+			"Имейл с рекламна информация",
+			"Домейн адрес с фирмено име",
+			"Платен рекламен банер",
+			"SMS с промоция"
 		],
-		correctAnswer: "Attributes are only used for configuration management.",
-		imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20240118123645/Class-Notation.webp"
+		correctAnswer: "Домейн адрес с фирмено име",
+		imageURL: null
 	},
 	{
 		index: 18,
-		question: "What is the main role of boundary classes in a system?",
+		question: "Коя правна норма позволява превод на програмен код за съвместимост?",
 		choices: [
-			"Managing data storage within the system",
-			"Coordinating the actor's interactions with the system's internals"
+			"Чл. 70 от ЗАПСП",
+			"Чл. 36 от ЗАПСП",
+			"Чл. 71 от ЗАПСП",
+			"Чл. 4а от ЗЕТ"
 		],
-		correctAnswer: "Coordinating the actor's interactions with the system's internals",
-		imageURL: "https://sparxsystems.com/enterprise_architect_user_guide/17.0/images/mvc-pattern.png"
+		correctAnswer: "Чл. 71 от ЗАПСП",
+		imageURL: null
 	},
 	{
 		index: 19,
-		question: "Which type of analysis class manages interactions between the user and the system?",
+		question: "Какво е задължително за изключителен лиценз?",
 		choices: [
-			"Boundary class",
-			"Control class",
-			"Entity class"
+			"Нотариално заверен договор",
+			"Електронна форма",
+			"Писмена форма с изрично формулиране",
+			"Декларация по GDPR"
 		],
-		correctAnswer: "Boundary class",
-		imageURL: "https://sparxsystems.com/enterprise_architect_user_guide/17.0/images/mvc-pattern.png"
+		correctAnswer: "Писмена форма с изрично формулиране",
+		imageURL: null
 	},
 	{
 		index: 20,
-		question: "What is the primary purpose of stereotypes in analysis classes?",
+		question: "Какво е C2C е-търговия?",
 		choices: [
-			"To simplify code structure by combining similar classes",
-			"To categorize classes based on their function"
+			"Търговия между потребители",
+			"Търговия между фирма и администрация",
+			"Продажба на акции",
+			"Обмен на електронни пари"
 		],
-		correctAnswer: "To categorize classes based on their function",
-		imageURL: "https://www.uml-diagrams.org/notation/profile-stereotype-actor.png"
-	},
-	{
-		index: 21,
-		question: "What do entity classes represent in a system?",
-		choices: [
-			"Classes managing user interactions",
-			"Classes holding and updating information about specific phenomena",
-			"Classes controlling behavior"
-		],
-		correctAnswer: "Classes holding and updating information about specific phenomena",
+		correctAnswer: "Търговия между потребители",
 		imageURL: null
 	},
 	{
-		index: 22,
-		question: "What does a class diagram typically NOT include?",
+		index: 1,
+		question: "Какво изискване има при изпращане на непоискани търговски съобщения по електронна поща?",
 		choices: [
-			"Object states",
-			"Attributes",
-			"Operations",
-			"Relationships"
+			"Да се използва защитена платформа",
+			"Да се включва линк към профила на подателя",
+			"Да се разпознава ясно съобщението като непоискано",
+			"Да се изпраща само от юридически лица"
 		],
-		correctAnswer: "Object states",
+		correctAnswer: "Да се разпознава ясно съобщението като непоискано",
 		imageURL: null
 	},
 	{
-		index: 23,
-		question: "In UML, which element represents restrictions or conditions that must be true?",
+		index: 2,
+		question: "Кой води регистър на адреси, които не желаят да получават непоискани съобщения?",
 		choices: [
-			"Stereotype",
-			"Constraint",
-			"Association",
-			"Tagged value"
+			"КЗЛД",
+			"Комисията за защита на потребителите",
+			"НАП",
+			"Министерството на икономиката"
 		],
-		correctAnswer: "Constraint",
-		imageURL: "https://www.visual-paradigm.com/servlet/editor-content/guide/uml-unified-modeling-language/how-to-model-constraints-in-uml/sites/7/2019/09/class-diagram-constraint-example.png"
-	},
-	{
-		index: 24,
-		question: "Which of the following defines a relationship between classes in a UML diagram?",
-		choices: [
-			"Aggregation",
-			"Abstraction",
-			"Tagged value",
-			"Constraint"
-		],
-		correctAnswer: "Aggregation",
-		imageURL: "https://cdn-images.visual-paradigm.com/guide/uml/uml-class-diagram-tutorial/07-relationships-between-classes.png"
-	},
-	{
-		index: 25,
-		question: "What is NOT an activity typically involved in analysis?",
-		choices: [
-			"Finding entity, boundary, and control objects",
-			"Creating UI layouts for user interfaces",
-			"Mapping use cases to objects",
-			"Modeling state-dependent behavior"
-		],
-		correctAnswer: "Creating UI layouts for user interfaces",
+		correctAnswer: "Комисията за защита на потребителите",
 		imageURL: null
 	},
 	{
-		index: 26,
-		question: "What is the primary purpose of encapsulation in OOP?",
+		index: 3,
+		question: "Какво е условието за изпращане на търговски съобщения с директен маркетинг според ЗЕС?",
 		choices: [
-			"To bundle data and methods that operate on that data",
-			"To expose all internal details of an object",
-			"To directly manipulate an object's state"
+			"Да са изпратени чрез криптирана връзка",
+			"Да се използва посредник",
+			"Да има предварително съгласие от потребителя",
+			"Да са изпратени чрез мобилно приложение"
 		],
-		correctAnswer: "To bundle data and methods that operate on that data",
+		correctAnswer: "Да има предварително съгласие от потребителя",
+		imageURL: null
+	},
+	{
+		index: 4,
+		question: "Какво задължение има доставчик при предложение за сключване на договор онлайн?",
+		choices: [
+			"Да изпрати хартия с подпис",
+			"Да не съхранява договора",
+			"Да информира ясно за техническите стъпки",
+			"Да използва посредник"
+		],
+		correctAnswer: "Да информира ясно за техническите стъпки",
+		imageURL: null
+	},
+	{
+		index: 5,
+		question: "Кои договори НЕ попадат под задълженията по чл. 8–12 от ЗЕТ?",
+		choices: [
+			"Договори чрез електронна поща",
+			"Договори чрез електронна платформа",
+			"Онлайн поръчки на услуги",
+			"Лицензионни договори"
+		],
+		correctAnswer: "Договори чрез електронна поща",
+		imageURL: null
+	},
+	{
+		index: 6,
+		question: "Какво се счита за незаконно съдържание?",
+		choices: [
+			"Информация, за която няма автор",
+			"Съдържание, което нарушава права или закон",
+			"Рекламни съобщения",
+			"Новини без източник"
+		],
+		correctAnswer: "Съдържание, което нарушава права или закон",
+		imageURL: null
+	},
+	{
+		index: 7,
+		question: "Какво е 'mere conduit' според DSA?",
+		choices: [
+			"Съхраняване на потребителски профили",
+			"Обработка на лични данни",
+			"Пренос на информация без намеса",
+			"Споделяне на мултимедия"
+		],
+		correctAnswer: "Пренос на информация без намеса",
+		imageURL: null
+	},
+	{
+		index: 8,
+		question: "Какво е 'hosting' в контекста на DSA?",
+		choices: [
+			"Продаване на дигитални услуги",
+			"Създаване на уебсайтове",
+			"Съхраняване на потребителска информация",
+			"Маркетинг чрез платформи"
+		],
+		correctAnswer: "Съхраняване на потребителска информация",
+		imageURL: null
+	},
+	{
+		index: 9,
+		question: "Какво задължение имат доставчиците при модериране на съдържание?",
+		choices: [
+			"Да одобряват всяко съобщение",
+			"Да разкриват практиките за модериране",
+			"Да ограничат рекламата",
+			"Да използват само лицензирана платформа"
+		],
+		correctAnswer: "Да разкриват практиките за модериране",
+		imageURL: null
+	},
+	{
+		index: 10,
+		question: "Какви санкции предвижда DSA за неспазване?",
+		choices: [
+			"До 100 000 евро",
+			"До 1% от оборота",
+			"До 6% от световния годишен оборот",
+			"Само административни глоби"
+		],
+		correctAnswer: "До 6% от световния годишен оборот",
+		imageURL: null
+	},
+	{
+		index: 11,
+		question: "Кога доставчик на УИО НЕ носи отговорност за незаконно съдържание?",
+		choices: [
+			"Когато не инициира предаването",
+			"Когато няма сървър в ЕС",
+			"Когато информацията не е споделена чрез мобилно приложение",
+			"Когато е получено изрично съгласие от трети страни"
+		],
+		correctAnswer: "Когато не инициира предаването",
+		imageURL: null
+	},
+	{
+		index: 12,
+		question: "Какво се изисква при качване на защитено съдържание от потребители?",
+		choices: [
+			"Да бъде подписано от доставчика",
+			"Да има разрешение от правоносителите",
+			"Да бъде създаден профил",
+			"Да се качи само в работно време"
+		],
+		correctAnswer: "Да има разрешение от правоносителите",
+		imageURL: null
+	},
+	{
+		index: 13,
+		question: "Кои платформи НЕ се считат за доставчици на услуга за споделяне на съдържание?",
+		choices: [
+			"Форуми с реклами",
+			"Платформи с отворен код",
+			"Онлайн видеоплатформи",
+			"Социални мрежи"
+		],
+		correctAnswer: "Платформи с отворен код",
+		imageURL: null
+	},
+	{
+		index: 14,
+		question: "Какво задължение има всеки доставчик при отказ на потребителя да получава реклами?",
+		choices: [
+			"Да го премахне от платформата",
+			"Да таксува по-високо",
+			"Да уважи отказа",
+			"Да го информира чрез SMS"
+		],
+		correctAnswer: "Да уважи отказа",
+		imageURL: null
+	},
+	{
+		index: 15,
+		question: "Какво е задължен да предостави доставчикът при сключване на договор онлайн?",
+		choices: [
+			"Сертификат от КЗП",
+			"Код за отстъпка",
+			"Общите условия и съдържанието на договора",
+			"Пощенски адрес"
+		],
+		correctAnswer: "Общите условия и съдържанието на договора",
+		imageURL: null
+	},
+	{
+		index: 16,
+		question: "Какво означава съобщение да се счита за получено?",
+		choices: [
+			"Когато е изпратено",
+			"Когато има потвърждение по пощата",
+			"Когато получателят има възможност за достъп до него",
+			"Когато е записано в лог файла"
+		],
+		correctAnswer: "Когато получателят има възможност за достъп до него",
+		imageURL: null
+	},
+	{
+		index: 17,
+		question: "Какво е 'сигурен пристан' според ЗЕТ и DSA( Digital Services Act)?",
+		choices: [
+			"Механизъм за сигурност",
+			"Изключение от отговорност за съдържание при определени условия",
+			"Платформа за продажби",
+			"Вътрешна проверка на данните"
+		],
+		correctAnswer: "Изключение от отговорност за съдържание при определени условия",
+		imageURL: null
+	},
+	{
+		index: 18,
+		question: "Какво задължение имат ВЛОП (VLOPs - Very Large Online Platforms) според DSA?",
+		choices: [
+			"Да ограничат достъпа до чуждестранни потребители",
+			"Да публикуват дневни отчети",
+			"Да вземат адекватни мерки за защита на непълнолетни",
+			"Да използват само кеширане"
+		],
+		correctAnswer: "Да вземат адекватни мерки за защита на непълнолетни",
+		imageURL: null
+	},
+	{
+		index: 19,
+		question: "Кога ДУИО губи защитата на 'сигурния пристан'?",
+		choices: [
+			"Когато получи уведомление за противоправно съдържание",
+			"Когато не публикува новини",
+			"Когато използва чат ботове",
+			"Когато работи с криптовалута"
+		],
+		correctAnswer: "Когато получи уведомление за противоправно съдържание",
+		imageURL: null
+	},
+	{
+		index: 20,
+		question: "Кой следи за спазването на ЗЕТ в България?",
+		choices: [
+			"КРС",
+			"КЗЛД",
+			"КЗП",
+			"НАП"
+		],
+		correctAnswer: "КЗП",
 		imageURL: null
 	}
-
 ];
