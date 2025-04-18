@@ -36,9 +36,14 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
       case 'mysql10':
         setQuizFile("/mysql510.pdf");
         break;
-
-      default:
+      case 'mysql11':
         setQuizFile("/mysql511.pdf");
+        break;
+      case 'mysql12':
+        setQuizFile("/mysql512.pdf");
+        break;
+      default:
+        setQuizFile("/mysql51.pdf");
     }
   }, [selectedQuiz]);
   return (
