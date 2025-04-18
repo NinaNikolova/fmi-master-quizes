@@ -38,7 +38,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
         break;
 
       default:
-        setQuizFile("/mysql51.pdf");
+        setQuizFile("/mysql511.pdf");
     }
   }, [selectedQuiz]);
   return (
@@ -54,14 +54,8 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
         <option value="mysql8">Планиране проекта-II</option>
         <option value="mysql9">Несигурност и риск</option>
         <option value="mysql10">Изпълнение и контрол П</option>
-        {/*  
-      
-             
-  
-                <option value="mysql8">Разраб.Data Intensive с-ми</option>
-                 <option value="mysql9">Усъвършенстване софт.процес</option>
-                 <option value="mysql10">Scrum</option>
-                 <option value="mysql11">Test</option> */}
+        <option value="mysql11">Agile подход</option>
+        <option value="mysql12">УП корп.бизнес с-ми</option>
       </select>
       <a
         href={quizFile}

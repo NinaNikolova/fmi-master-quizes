@@ -234,7 +234,8 @@ body {
 /* For mobile phones (screen width below 768px) */
 @media only screen and (max-width: 768px) {
   .quiz-container {
-    width: 90%; /* Make it almost full width for small screens */
+width: 90%; /* Make it almost full width for small screens */
+min-width: 380px;
   }
 }
 
