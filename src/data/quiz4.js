@@ -445,7 +445,7 @@ export const mysql4 = [
 	},
 	{
 		index: 18,
-		question: "Какво задължение имат ВЛОП (VLOPs - Very Large Online Platforms) според DSA?",
+		question: "Какво задължение имат VLOPs - Very Large Online Platforms според DSA?",
 		choices: [
 			"Да ограничат достъпа до чуждестранни потребители",
 			"Да публикуват дневни отчети",
