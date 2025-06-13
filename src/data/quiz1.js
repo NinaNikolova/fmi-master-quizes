@@ -178,5 +178,30 @@ export const mysql1 = [
             "Изискват указване на тип и размер"
         ],
         correctAnswer: "Изискват указване на тип и размер"
+    },
+    {
+        index: 21,
+        question: "Кое от изброените не е дъщерен елемент на SOAP fault?",
+        choices: [
+            "faultCode",
+            "faultString",
+            "faultActor",
+            "detail",
+            "SOAP Body"
+        ],
+        correctAnswer: "SOAP Body"
+    },
+    {
+        index: 22,
+        question: "Кое от изброените не е код на SOAP грешки?",
+        choices: [
+            "SOAP-ENV: VersionMismatch",
+            "SOAP-ENV: MustUnderstand",
+            "SOAP-ENV:Client",
+            "SOAP Body",
+            "SOAP-ENV:Server",
+
+        ],
+        correctAnswer: "SOAP Body"
     }
 ]
