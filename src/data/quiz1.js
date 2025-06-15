@@ -40,9 +40,9 @@ export const mysql1 = [
         question: "Кой атрибут в SOAP Header указва задължителна обработка от получателя?",
         choices: [
             "Actor",
-            "MustUnderstand"
+            "MustUnderstand=1"
         ],
-        correctAnswer: "MustUnderstand"
+        correctAnswer: "MustUnderstand=1"
     },
     {
         index: 6,
@@ -136,10 +136,12 @@ export const mysql1 = [
     },
     {
         index: 16,
-        question: "Какъв тип протокол е SOAP в сравнение с CORBA и DCOM?",
+        question: "Какъв тип протокол е SOAP в сравнение с CORBA/IIOP и DCOM?",
         choices: [
             "Силно свързан",
-            "Слабо свързан"
+            "Слабо свързан",
+            "Решение на един доставчик",
+            "Двоичен протокол, ограничен от защитна стена (firewall)"
         ],
         correctAnswer: "Слабо свързан"
     },
@@ -183,25 +185,75 @@ export const mysql1 = [
         index: 21,
         question: "Кое от изброените не е дъщерен елемент на SOAP fault?",
         choices: [
-            "faultCode",
-            "faultString",
-            "faultActor",
-            "detail",
-            "SOAP Body"
+            "faultCode - клас на грешката",
+            "faultString -  описание на грешката",
+            "faultActor - източник на грешката",
+            "detail - съобщения за грешка",
+            "SOAP Body - специфични за приложението данни"
         ],
-        correctAnswer: "SOAP Body"
+        correctAnswer: "SOAP Body - специфични за приложението данни"
     },
     {
         index: 22,
         question: "Кое от изброените не е код на SOAP грешки?",
         choices: [
-            "SOAP-ENV: VersionMismatch",
+            "SOAP-ENV: VersionMismatch - невалидно пространство с имена",
             "SOAP-ENV: MustUnderstand",
-            "SOAP-ENV:Client",
-            "SOAP Body",
-            "SOAP-ENV:Server",
+            "SOAP-ENV:Client - грешка в клиентската заявка",
+            "SOAP Body - специфични за приложението данни",
+            "SOAP-ENV:Server - сървърна грешка",
 
         ],
-        correctAnswer: "SOAP Body"
-    }
+        correctAnswer: "SOAP Body - специфични за приложението данни"
+    },
+    {
+        index: 23,
+        question: "Кое не е начин за декларираме на пространства имена- xmlns?",
+        choices: [
+            "Default (Custom) - xlmns=“SomeURI”",
+            "Explicit (Public) - xmlns:SOAP-ENV=http://schemas.xmlsoap.org/soap/envelope/",
+            "SOAP-ENV:encodingStyle=”http://mysite.com",
+
+        ],
+        correctAnswer: "SOAP-ENV:encodingStyle=”http://mysite.com"
+    },
+    {
+        index: 24,
+        question: "Кое не е SOAP примитивни типове - Вградени XML Schema типове данни ?",
+        choices: [
+            "string, Boolean, float, double, decimal",
+            "binary, integer, nonPositiveInteger, negativeInteger, long, int",
+            "nonduration, nondate",
+            "short, byte, nonNegativeInteger",
+            "unsignedLong, unsignedInt, unsignedShort, unsignedByte",
+            "positiveInteger, duration, date, time"
+        ],
+        correctAnswer: "nonduration, nondate"
+    },
+    {
+        index: 25,
+        question: "Кое не е начин за специфициране на тип данни?",
+        choices: [
+            "Атрибут xsi:type (Apache SOAP)",
+            "Външна XML Schema (Microsoft SOAP)",
+            "SOAP-ENV:Envelope",
+            "xsi:type='xsd:double'",
+            "xsi:type='ns2:Array' ns2:arrayType='xsd:double[2]'"
+        ],
+        correctAnswer: "SOAP-ENV:Envelope"
+    },
+    {
+        index: 26,
+        question: "Кое не е реализации на SOAP спецификацията?",
+        choices: [
+            "SOAPWare.org",
+            "Apache SOAP",
+            "Cassandra SOAP",
+            "Microsoft SOAP ToolKit 2.0",
+            "SOAP::Lite for Perl",
+            "GLUE на Mind Electric"
+        ],
+        correctAnswer: "Cassandra SOAP"
+    },
+
 ]
