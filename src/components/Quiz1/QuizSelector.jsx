@@ -21,6 +21,9 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
       case 'mysql5':
         setQuizFile("/mysql15.pdf");
         break;
+      case 'mysql6':
+        setQuizFile("/mysql16.pdf");
+        break;
       default:
         setQuizFile("/mysql11.pdf");
     }
@@ -33,6 +36,7 @@ export default function QuizSelector({ selectedQuiz, handleQuizChange }) {
         <option value="mysql3">UDDI</option>
         <option value="mysql4">RESTful Web Services</option>
         <option value="mysql5">SOA, Web Services</option>
+        <option value="mysql6">Cloud computing</option>
       </select>
       <a
         href={quizFile}
