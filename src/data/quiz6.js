@@ -198,6 +198,33 @@ export const mysql6 = [
 		],
 		correctAnswer: "Подобрява разпределението на ресурсите",
 		imageURL: null
+	},
+	{
+		index: 21,
+		question: "Кoй не е тип cloud?",
+		choices: [
+			"private",
+			"public",
+			"hybrid",
+			"community",
+			"SOAP"
+		],
+		correctAnswer: "SOAP",
+		imageURL: "https://media.bizj.us/view/img/10085654/different-types-of-cloud*900xx1404-790-95-0.jpg"
+	},
+	{
+		index: 22,
+		question: "Cloud computing e естествено продължение цледните предшестващи платформи. Коя не е от тях?",
+		choices: [
+			"Mainframe – централни изчисления",
+			"PC computing– персонални компютри",
+			"Network computing – мрежови изчисления",
+			"Iternet computing– интернет изчисления",
+			"Grid computing– разпределени ресурси",
+			"frontend"
+		],
+		correctAnswer: "frontend",
+		imageURL: null
 	}
 ];
 
