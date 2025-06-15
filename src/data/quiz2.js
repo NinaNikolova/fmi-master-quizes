@@ -132,7 +132,8 @@ export const mysql2 = [
 			"Изпращане на съобщение от услугата към клиента без очакване на отговор",
 			"Изпращане на съобщение от клиента към услугата"
 		],
-		correctAnswer: "Изпращане на съобщение от услугата към клиента без очакване на отговор"
+		correctAnswer: "Изпращане на съобщение от услугата към клиента без очакване на отговор",
+		imageURL: "https://slideplayer.com/slide/5243761/16/images/29/WSDL+%E2%80%93+Patterns+of+Operation.jpg"
 	},
 	{
 		index: 16,
@@ -150,7 +151,8 @@ export const mysql2 = [
 			"Клиентът изпраща съобщение и получава отговор",
 			"Услугата изпраща съобщение и получава отговор"
 		],
-		correctAnswer: "Услугата изпраща съобщение и получава отговор"
+		correctAnswer: "Услугата изпраща съобщение и получава отговор",
+		imageURL: "https://slideplayer.com/slide/5243761/16/images/29/WSDL+%E2%80%93+Patterns+of+Operation.jpg"
 	},
 	{
 		index: 18,
@@ -159,7 +161,8 @@ export const mysql2 = [
 			"One-way",
 			"Request/Response"
 		],
-		correctAnswer: "One-way"
+		correctAnswer: "One-way",
+		imageURL: "https://slideplayer.com/slide/5243761/16/images/29/WSDL+%E2%80%93+Patterns+of+Operation.jpg"
 	},
 	{
 		index: 19,
@@ -177,6 +180,52 @@ export const mysql2 = [
 			"Клиентът получава съобщение без да е изпратил",
 			"Клиентът изпраща съобщение и получава отговор"
 		],
-		correctAnswer: "Клиентът изпраща съобщение и получава отговор"
+		correctAnswer: "Клиентът изпраща съобщение и получава отговор",
+		imageURL: "https://slideplayer.com/slide/5243761/16/images/29/WSDL+%E2%80%93+Patterns+of+Operation.jpg"
+	},
+	{
+		index: 21,
+		question: "Кой не е от основните елементи на WSDL спецификацията?",
+		choices: [
+			"definitions",
+			"types",
+			"message",
+			"operation",
+			"portType",
+			"binding",
+			"service",
+			"export",
+			"documentation",
+			"import"
+		],
+		correctAnswer: "export",
+		imageURL: "https://www.researchgate.net/publication/329017186/figure/fig1/AS:693968564146184@1542466407560/The-WSDL-Document-Structure.ppm"
+	},
+	{
+		index: 22,
+		question: "Кой не е от атрибути на елемента definitions?",
+		choices: [
+			"name",
+			"targetNamespace",
+			"xmlns:tns",
+			"xmlns",
+			"xmlns:soap",
+			"xmlns:xsd",
+			"service",
+
+		],
+		correctAnswer: "service",
+		imageURL: null
+	},
+	{
+		index: 23,
+		question: "Кой не е част от елемента types - дефинира XML схеми или съдържа референции към външни XML схеми?",
+		choices: [
+			"sequence - последователност от елементи",
+			"all - дефинира всички дефинирани в комплексния тип елементи са задължителни",
+			"xmlns",
+		],
+		correctAnswer: "xmlns",
+		imageURL: null
 	}
 ]
