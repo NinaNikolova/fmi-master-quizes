@@ -40,9 +40,9 @@ export const mysql1 = [
         question: "Кой атрибут в SOAP Header указва задължителна обработка от получателя?",
         choices: [
             "Actor",
-            "MustUnderstand=1"
+            "MustUnderstand='1'"
         ],
-        correctAnswer: "MustUnderstand=1"
+        correctAnswer: "MustUnderstand='1'"
     },
     {
         index: 6,
