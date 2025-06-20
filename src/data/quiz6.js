@@ -214,7 +214,7 @@ export const mysql6 = [
 	},
 	{
 		index: 22,
-		question: "Cloud computing e естествено продължение цледните предшестващи платформи. Коя не е от тях?",
+		question: "Cloud computing e естествено продължение следните предшестващи платформи. Коя не е от тях?",
 		choices: [
 			"Mainframe – централни изчисления",
 			"PC computing– персонални компютри",
@@ -225,6 +225,121 @@ export const mysql6 = [
 		],
 		correctAnswer: "frontend",
 		imageURL: null
+	},
+	{
+		index: 23,
+		question: "Кой от следните не е пример за SaaS (Software as a Service) - email, web CRM, games, communications?",
+		choices: [
+			"Google Workspace (Gmail, Docs, Drive)",
+			"Dropbox",
+			"Salesforce",
+			"Microsoft Word (инсталирана версия)",
+			"Zoom"
+		],
+		correctAnswer: "Microsoft Word (инсталирана версия)",
+		imageURL: "https://miro.medium.com/v2/resize:fit:800/1*fFuVBSQL0oscSzheUu5z5Q.png"
+	},
+	{
+		index: 24,
+		question: "Кой от следните не е пример за PaaS (Platform as a Service) - web servers, db, development tools?",
+		choices: [
+			"Heroku",
+			"Google App Engine",
+			"Microsoft Azure App Service",
+			"Slack",
+			"Firebase"
+		],
+		correctAnswer: "Slack",
+		imageURL: "https://miro.medium.com/v2/resize:fit:800/1*fFuVBSQL0oscSzheUu5z5Q.png"
+	},
+	{
+		index: 25,
+		question: "Кой от следните не е пример за IaaS (Infrastructure as a Service) - памет, load balancers, virtual machines?",
+		choices: [
+			"Amazon EC2",
+			"Microsoft Azure Virtual Machines",
+			"Google Compute Engine",
+			"GitHub",
+			"IBM Cloud Infrastructure"
+		],
+		correctAnswer: "GitHub",
+		imageURL: "https://miro.medium.com/v2/resize:fit:800/1*fFuVBSQL0oscSzheUu5z5Q.png"
+	},
+	{
+		index: 26,
+		question: "Кой от следните не е пример за FaaS (Function as a Service)?",
+		choices: [
+			"AWS Lambda",
+			"Google Cloud Functions",
+			"Azure Functions",
+			"DigitalOcean Droplets",
+			"IBM Cloud Functions"
+		],
+		correctAnswer: "DigitalOcean Droplets",
+		imageURL: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*ht8ELVgErhIA_KUo4zNSSg.png"
+	},
+	{
+		index: 26,
+		question: "От какво не зависи изпорът на cloud модел?",
+		choices: [
+			"размер на организацията",
+			"скорост на имплементираните услуги",
+			"Azure Functions",
+			"security изисквания",
+			"IT-ресурси"
+		],
+		correctAnswer: "Azure Functions",
+		imageURL: null
+	},
+	{
+		index: 30,
+		question: "Кое най-точно описва виртуализацията?",
+		choices: [
+			"Техника, чрез която се управлява пул от ресурсите без да се вижда физическата им имплементация",
+			"Процес на архивиране на файлове в облака",
+		],
+		correctAnswer: "Техника, чрез която се управлява пул от ресурсите без да се вижда физическата им имплементация",
+		imageURL: "https://www.dnsstuff.com/wp-content/uploads/2019/12/Types-of-Virtualization.jpg"
+	},
+	{
+		index: 31,
+		question: "Кое от следните не е тип виртуализация?",
+		choices: [
+			"Виртуализация на мрежата (network virtualization)",
+			"Виртуализация на честотната лента (bandwidth splitting)",
+			"Виртуализация на сървъри (server virtualization)",
+			"Клъстериране (clustering) - един клиент ползва няколко сървъра, няколко сървъра или компютри се свързват в една система (клъстър), за да работят заедно като едно цяло",
+			"Виртуализация на съхранение (storage virtualization)",
+			"Нито едно от горните"
+		],
+		correctAnswer: "Нито едно от горните",
+		imageURL: "https://media.geeksforgeeks.org/wp-content/uploads/20230324174741/Types-of-Virtualizaton.png"
+	},
+	{
+		index: 32,
+		question: "Кой от следните не е подход за виртуализация?",
+		choices: [
+			"Hosted архитектура – хипервайзор върху съществуваща ОС",
+			"Hypervisor – директно върху хардуера (bare-metal)",
+			"Multitenancy/Multiplexing – споделяне на ресурси между множество потребители",
+			"GPU rendering – визуализиране чрез графична карта",
+			"Платформено-базирана виртуализация"
+		],
+		correctAnswer: "GPU rendering – визуализиране чрез графична карта",
+		imageURL: "https://www.testingdocs.com/wp-content/uploads/Different-Virtualization-Approaches.png"
+	},
+	{
+		index: 33,
+		question: "Какво не е вярно за хипервайзор?",
+		choices: [
+			"Създава и управлява виртуални машини, като посредничи между хардуера и виртуалните ОС",
+			"Type 1 хипервайзор се инсталира директно върху хардуера и е по-надежден",
+			"Type 2 хипервайзор работи върху съществуваща операционна система и е по-бавен",
+			"Хипервайзорът е специален вид графичен процесор",
+			"Позволява няколко операционни системи да работят едновременно на една физическа машина"
+		],
+		correctAnswer: "Хипервайзорът е специален вид графичен процесор",
+		imageURL: "https://www.dnsstuff.com/wp-content/uploads/2019/10/what-is-hypervisor-1024x536.jpg"
 	}
 ];
 

@@ -198,5 +198,33 @@ export const mysql3 = [
         ],
         correctAnswer: "UDDI 2.0",
         imageURL: null
+    },
+    {
+        index: 21,
+        question: "Кое не е UDDI API?",
+        choices: [
+            "UDDI Inquiry API",
+            "UDDI Publishers API",
+            "UDDI Security API",
+            "UDDI Custody and Ownership Transfer API",
+            "UDDI Subscription API",
+            "UDDI Replication API",
+            "UDDI Maintenacy API"
+        ],
+        correctAnswer: "UDDI Maintenacy API",
+        imageURL: null
+    },
+    {
+        index: 21,
+        question: "Кое не е реализация на UDDI?",
+        choices: [
+            "UDDI4J - Java реализация с отворен код на IBM",
+            "jUDDI - Java реализация с отворен код на Apache",
+            "Microsoft UDDI - Microsoft UDDI Software Development Kit",
+            "UDDI Subscription API",
+            "SOAP::Lite - Реализация на Perl"
+        ],
+        correctAnswer: "UDDI Subscription API",
+        imageURL: null
     }
 ];
